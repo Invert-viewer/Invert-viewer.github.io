@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>倒置的观察者 • Posts by &#34;测试&#34; tag</title>
+        <link>https://invert-viewer.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 25 Aug 2021 11:10:00 +0800</pubDate>
+        <lastBuildDate>Wed, 25 Aug 2021 11:10:00 +0800</lastBuildDate>
+        <category>测试</category>
+        <category>杂谈</category>
+        <category>教程</category>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/Third/</guid>
+            <title>博客功能测试</title>
+            <link>https://invert-viewer.github.io/Third/</link>
+            <category>测试</category>
+            <pubDate>Wed, 25 Aug 2021 11:10:00 +0800</pubDate>
+            <description><![CDATA[  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h1 id=&#34;centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;#&lt;/a&gt; &lt;center&gt;&lt;font color=blue size=72&gt; 一、文本测试 &lt;/center&gt;&lt;/font&gt;&lt;/h1&gt;
+&lt;img data-src=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;/&gt;
+（小图标与背景测试）
+&lt;ul&gt;
+&lt;li&gt;这是一个互联网图标。&lt;img data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34;/&gt;&lt;/li&gt;
+&lt;li&gt;无序列表测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;粗体文本&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;br&gt;
+&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
+&lt;h3 id=&#34;代码测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码测试&#34;&gt;#&lt;/a&gt; 代码测试&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Hello，world！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;引用测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引用测试&#34;&gt;#&lt;/a&gt; 引用测试&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;更多资料稍后放出&lt;br&gt;
+这是引用测试&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;center二-格式测试center&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#center二-格式测试center&#34;&gt;#&lt;/a&gt; &lt;center&gt;二、格式测试&lt;/center&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;汇总一下吧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#汇总一下吧&#34;&gt;#&lt;/a&gt; 汇总一下吧&lt;/h2&gt;
+&lt;p&gt;1. 问题&lt;br&gt;
+好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄&lt;br&gt;
+还有改变语言文件，只有标题栏会改，但是列表不会改，这就很神奇😶&lt;br&gt;
+如果我现在切换主题，主页会不会炸？&lt;br&gt;
+我的 markdown 语法是真的差页面排版都不会……&lt;br&gt;
+ 新创建的那几个栏目为什么上面有个那么明显的 English (´･ω･`)?&lt;br&gt;
+ 计算公式、化学方程式好像不能输入。。。。。。&lt;br&gt;
+搜索栏炸了 (⊙o⊙)…&lt;/p&gt;
+&lt;p&gt;2. 可用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;emoji, 颜文字都能用。&lt;/li&gt;
+&lt;li&gt;粗体，斜体，删除线，下划线啥的基本能用&lt;/li&gt;
+&lt;li&gt;还有栏目也加载了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;还有一件事！(。_。)&lt;br&gt;
+ 测试失败了，标题刚刚变成了 “[object,Object]”，现在变成了 “未命名”……༼ つ ◕_◕ ༽つ&lt;br&gt;
+&lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
+&lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
+&lt;h1 id=&#34;center三-功能测试center&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#center三-功能测试center&#34;&gt;#&lt;/a&gt; &lt;center&gt;三、功能测试&lt;/center&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能：&lt;/h2&gt;
+&lt;p&gt;1. 设置博文内链接为蓝色&lt;br&gt;
+测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;br&gt;
+2. 显示站点文章总字数&lt;br&gt;
+不过在页面底部，只有一行小字……&lt;br&gt;
+3. 为文章添加 tags&lt;br&gt;
+ 成功，不过需要点击进入文章才能看见……&lt;br&gt;
+4. 添加 tags 页面 (标签)&lt;br&gt;
+ 5. 简化四级链接&lt;br&gt;
+ 6. 设置预览概要&lt;/p&gt;
+&lt;h2 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能：&lt;/h2&gt;
+&lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;&lt;br&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;br&gt;
+b.&lt;s&gt; 添加社交链接&lt;/s&gt;&lt;br&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无意义&lt;br&gt;
+ c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;&lt;br&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。&lt;br&gt;
+d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 崩溃原因不明。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;后续：博客因为此原因 3 天内都打不开 o_o …&lt;br&gt;
+ 直到 2021-8-30 19:50:46 才修复成功，可以重新访问🤣&lt;br&gt;
+无法访问期间博客一直显示未找到主机，浏览器上面显示空白，标题栏部分只有网站的英文名称……&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/Text/</guid>
+            <title>开放API测试</title>
+            <link>https://invert-viewer.github.io/Text/</link>
+            <category>测试</category>
+            <pubDate>Tue, 24 Aug 2021 16:37:33 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
+ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;p&gt;注脚：api.imlazy.ink/img&lt;br&gt;
+&lt;img data-src=&#34;https://api.imlazy.ink/img&#34;/&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
