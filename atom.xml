@@ -24,11 +24,11 @@
         <title>博客功能测试</title>
         <link rel="alternate" href="https://invert-viewer.github.io/Third/"/>
         <content type="html"> &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;h1 id=&#34;centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;#&lt;/a&gt; &lt;center&gt;&lt;font color=blue size=72&gt; 一、文本测试 &lt;/center&gt;&lt;/font&gt;&lt;/h1&gt;
-&lt;img data-src=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;/&gt;
-（小图标与背景测试）
+&lt;p&gt;一、文本测试&lt;/p&gt;
+&lt;p&gt;\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;”/&amp;gt;&lt;br&gt;
+（小图标与背景测试）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;这是一个互联网图标。&lt;img data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34;/&gt;&lt;/li&gt;
+&lt;li&gt;这是一个互联网图标。\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9kb3R0eS84MC8wMDAwMDAvaW50ZXJuZXQtZXhwbG9yZXIucG5n&#34;&gt;https://img.icons8.com/dotty/80/000000/internet-explorer.png&lt;/span&gt;”/&amp;gt;&lt;/li&gt;
 &lt;li&gt;无序列表测试&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;&lt;br&gt;
@@ -36,16 +36,16 @@
 &lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;br&gt;
-&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
-&lt;h3 id=&#34;代码测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码测试&#34;&gt;#&lt;/a&gt; 代码测试&lt;/h3&gt;
+ \&amp;lt;u&amp;gt; 带下划线文本&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;代码测试&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Hello，world！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&#34;引用测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#引用测试&#34;&gt;#&lt;/a&gt; 引用测试&lt;/h3&gt;
+&lt;p&gt;引用测试&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;更多资料稍后放出&lt;br&gt;
 这是引用测试&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;center二-格式测试center&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#center二-格式测试center&#34;&gt;#&lt;/a&gt; &lt;center&gt;二、格式测试&lt;/center&gt;&lt;/h1&gt;
-&lt;h2 id=&#34;汇总一下吧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#汇总一下吧&#34;&gt;#&lt;/a&gt; 汇总一下吧&lt;/h2&gt;
+&lt;p&gt;\# 二、格式测试&lt;/p&gt;
+&lt;p&gt;汇总一下吧&lt;/p&gt;
 &lt;p&gt;1. 问题&lt;br&gt;
 好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄&lt;br&gt;
 还有改变语言文件，只有标题栏会改，但是列表不会改，这就很神奇😶&lt;br&gt;
@@ -65,8 +65,8 @@
 &lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
 &lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
-&lt;h1 id=&#34;center三-功能测试center&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#center三-功能测试center&#34;&gt;#&lt;/a&gt; &lt;center&gt;三、功能测试&lt;/center&gt;&lt;/h1&gt;
-&lt;h2 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能：&lt;/h2&gt;
+&lt;p&gt;\# 三、功能测试&lt;/p&gt;
+&lt;p&gt;可用功能&lt;/p&gt;
 &lt;p&gt;1. 设置博文内链接为蓝色&lt;br&gt;
 测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;br&gt;
 2. 显示站点文章总字数&lt;br&gt;
@@ -76,7 +76,7 @@
 4. 添加 tags 页面 (标签)&lt;br&gt;
  5. 简化四级链接&lt;br&gt;
  6. 设置预览概要&lt;/p&gt;
-&lt;h2 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能：&lt;/h2&gt;
+&lt;p&gt;失败功能&lt;/p&gt;
 &lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;&lt;br&gt;
 &lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;br&gt;
 b.&lt;s&gt; 添加社交链接&lt;/s&gt;&lt;br&gt;
@@ -101,7 +101,7 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
         <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;注脚：api.imlazy.ink/img&lt;br&gt;
-&lt;img data-src=&#34;https://api.imlazy.ink/img&#34;/&gt;&lt;/p&gt;
+\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcGkuaW1sYXp5Lmluay9pbWc=&#34;&gt;https://api.imlazy.ink/img&lt;/span&gt;”/&amp;gt;&lt;/p&gt;
 </content>
         <category term="测试" />
         <updated>2021-08-24T08:37:33.869Z</updated>
@@ -110,16 +110,15 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
         <id>https://invert-viewer.github.io/hello-world/</id>
         <title>写在前面的一些话</title>
         <link rel="alternate" href="https://invert-viewer.github.io/hello-world/"/>
-        <content type="html">&lt;p&gt;时间：2021 年 8 月 24 日 9:00~20:30:26&lt;/p&gt;
-&lt;h2 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;搭建了快10个小时终于整好了(ToT)/~~~,期间真的遇到无数故障,查了好多资料,真的就像原教程说的搭完后“仿佛踏入仙境”(•_•)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;那些遇到的奇葩问题记不太清了&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#那些遇到的奇葩问题记不太清了&#34;&gt;#&lt;/a&gt; 那些遇到的奇葩问题（记不太清了）&lt;/h3&gt;
-&lt;p&gt;1. 上传文件总是失败（改了无数遍 hosts 文件……）&lt;br&gt;
+        <content type="html">&lt;p&gt;时间：2021 年 8 月 24 日 9:00~20:30:26&lt;br&gt;
+ 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;br&gt;
+搭建了快 10 个小时终于整好了 (ToT)/~~~, 期间真的遇到无数故障，查了好多资料，真的就像原教程说的搭完后 “仿佛踏入仙境”(・_・)&lt;/p&gt;
+&lt;p&gt;那些遇到的奇葩问题（记不太清了）&lt;br&gt;
+1. 上传文件总是失败（改了无数遍 hosts 文件……）&lt;br&gt;
 2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）&lt;br&gt;
 3. 终于能访问后网页却是蓝底白字（这个困扰最久，可是解决方案太傻瓜)&lt;/p&gt;
-&lt;h3 id=&#34;已知问题或者说是待办事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#已知问题或者说是待办事项&#34;&gt;#&lt;/a&gt; 已知问题（或者说是待办事项）&lt;/h3&gt;
-&lt;p&gt;待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
+&lt;p&gt;已知问题（或者说是待办事项）&lt;br&gt;
+待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
 &lt;p&gt;欢迎来到我的网站！ˋ(° ▽、°)&lt;br&gt;
  今天就开学了，以后肯定疏于管理了 (+_+)，都高二了，还到了新的班级（10 班），加油吧！！！ ^o^/&lt;/p&gt;
 &lt;p&gt;next 版本：7.7.2&lt;br&gt;
