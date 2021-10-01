@@ -7,8 +7,8 @@
         <language>zh-CN</language>
         <pubDate>Sat, 28 Aug 2021 19:50:54 +0800</pubDate>
         <lastBuildDate>Sat, 28 Aug 2021 19:50:54 +0800</lastBuildDate>
-        <category>杂谈</category>
         <category>测试</category>
+        <category>杂谈</category>
         <category>教程</category>
         <item>
             <guid isPermalink="true">https://invert-viewer.github.io/new-function/</guid>
@@ -17,8 +17,8 @@
             <category>教程</category>
             <pubDate>Sat, 28 Aug 2021 19:50:54 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Markdown 教程：&lt;br&gt;
-&lt;a href=&#34;https://markdown.com.cn/basic-syntax/&#34;&gt;https://markdown.com.cn/basic-syntax/&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://mcbar.club/d/31-markdown&#34;&gt;https://mcbar.club/d/31-markdown&lt;/a&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==&#34;&gt;https://markdown.com.cn/basic-syntax/&lt;/span&gt;&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=&#34;&gt;https://mcbar.club/d/31-markdown&lt;/span&gt;&lt;br&gt;
 &lt;s&gt; 为什么刚刚发了两个一模一样的🤣&lt;/s&gt;&lt;/p&gt;
  ]]></description>
         </item>
@@ -30,10 +30,10 @@
             <pubDate>Wed, 25 Aug 2021 11:10:00 +0800</pubDate>
             <description><![CDATA[  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h1 id=&#34;centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#centerfont-colorblue-size72-一-文本测试-centerfont&#34;&gt;#&lt;/a&gt; &lt;center&gt;&lt;font color=blue size=72&gt; 一、文本测试 &lt;/center&gt;&lt;/font&gt;&lt;/h1&gt;
-&lt;img src=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;/&gt;
+&lt;img data-src=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;/&gt;
 （小图标与背景测试）
 &lt;ul&gt;
-&lt;li&gt;这是一个互联网图标。&lt;img src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34;/&gt;&lt;/li&gt;
+&lt;li&gt;这是一个互联网图标。&lt;img data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34;/&gt;&lt;/li&gt;
 &lt;li&gt;无序列表测试&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;&lt;br&gt;
@@ -67,7 +67,7 @@
 &lt;/ul&gt;
 &lt;p&gt;还有一件事！(。_。)&lt;br&gt;
  测试失败了，标题刚刚变成了 “[object,Object]”，现在变成了 “未命名”……༼ つ ◕_◕ ༽つ&lt;br&gt;
-&lt;img src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
+&lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
 &lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
 &lt;h1 id=&#34;center三-功能测试center&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#center三-功能测试center&#34;&gt;#&lt;/a&gt; &lt;center&gt;三、功能测试&lt;/center&gt;&lt;/h1&gt;
@@ -106,7 +106,7 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
             <description><![CDATA[ &lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;p&gt;注脚：api.imlazy.ink/img&lt;br&gt;
-&lt;img src=&#34;https://api.imlazy.ink/img&#34;/&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://api.imlazy.ink/img&#34;/&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
