@@ -12,11 +12,12 @@
         <title>博客功能测试</title>
         <link rel="alternate" href="https://invert-viewer.github.io/Third/"/>
         <content type="html"> &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;一、文本测试&lt;/p&gt;
-&lt;p&gt;\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;”/&amp;gt;&lt;br&gt;
-（小图标与背景测试）&lt;/p&gt;
+&lt;h1 id=&#34;一-文本测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-文本测试&#34;&gt;#&lt;/a&gt; 一、文本测试&lt;/h1&gt;
+&lt;img data-src=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;/&gt;
+（小图标与背景测试）
 &lt;ul&gt;
-&lt;li&gt;这是一个互联网图标。\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9kb3R0eS84MC8wMDAwMDAvaW50ZXJuZXQtZXhwbG9yZXIucG5n&#34;&gt;https://img.icons8.com/dotty/80/000000/internet-explorer.png&lt;/span&gt;”/&amp;gt;&lt;/li&gt;
+&lt;li&gt;这是一个互联网图标。&lt;br&gt;
+&lt;img data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34;/&gt;&lt;/li&gt;
 &lt;li&gt;无序列表测试&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;&lt;br&gt;
@@ -24,7 +25,7 @@
 &lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;br&gt;
- \&amp;lt;u&amp;gt; 带下划线文本&lt;/u&gt;&lt;/p&gt;
+&lt;u&gt;带下划线文本&lt;/u&gt;&lt;/p&gt;
 &lt;p&gt;代码测试&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Hello，world！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;引用测试&lt;/p&gt;
@@ -32,7 +33,7 @@
 &lt;p&gt;更多资料稍后放出&lt;br&gt;
 这是引用测试&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;\# 二、格式测试&lt;/p&gt;
+&lt;h1 id=&#34;二-格式测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二-格式测试&#34;&gt;#&lt;/a&gt; 二、格式测试&lt;/h1&gt;
 &lt;p&gt;汇总一下吧&lt;/p&gt;
 &lt;p&gt;1. 问题&lt;br&gt;
 好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄&lt;br&gt;
@@ -53,7 +54,7 @@
 &lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
 &lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;\# 三、功能测试&lt;/p&gt;
+&lt;h1 id=&#34;三-功能测试&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#三-功能测试&#34;&gt;#&lt;/a&gt; 三、功能测试&lt;/h1&gt;
 &lt;p&gt;可用功能&lt;/p&gt;
 &lt;p&gt;1. 设置博文内链接为蓝色&lt;br&gt;
 测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;br&gt;
@@ -64,7 +65,7 @@
 4. 添加 tags 页面 (标签)&lt;br&gt;
  5. 简化四级链接&lt;br&gt;
  6. 设置预览概要&lt;/p&gt;
-&lt;p&gt;失败功能&lt;/p&gt;
+&lt;h2 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能&lt;/h2&gt;
 &lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;&lt;br&gt;
 &lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;br&gt;
 b.&lt;s&gt; 添加社交链接&lt;/s&gt;&lt;br&gt;
@@ -88,8 +89,8 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
         <link rel="alternate" href="https://invert-viewer.github.io/Text/"/>
         <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;注脚：api.imlazy.ink/img&lt;br&gt;
-\&amp;lt;img src=“&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcGkuaW1sYXp5Lmluay9pbWc=&#34;&gt;https://api.imlazy.ink/img&lt;/span&gt;”/&amp;gt;&lt;/p&gt;
+&lt;p&gt;注脚：api.imlazy.ink/img&lt;/p&gt;
+&lt;img data-src=&#34;https://api.imlazy.ink/img&#34;/&gt;
 </content>
         <category term="测试" />
         <updated>2021-08-24T08:37:33.869Z</updated>

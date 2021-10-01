@@ -16,15 +16,16 @@
             <link>https://invert-viewer.github.io/hello-world/</link>
             <category>杂谈</category>
             <pubDate>Tue, 24 Aug 2021 15:32:25 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;时间：2021 年 8 月 24 日 9:00~20:30:26&lt;br&gt;
- 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;br&gt;
-搭建了快 10 个小时终于整好了 (ToT)/~~~, 期间真的遇到无数故障，查了好多资料，真的就像原教程说的搭完后 “仿佛踏入仙境”(・_・)&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;时间：2021 年 8 月 24 日 9:00~20:30:26&lt;/p&gt;
+&lt;h2 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;搭建了快10个小时终于整好了(ToT)/~~~,期间真的遇到无数故障,查了好多资料,真的就像原教程说的搭完后“仿佛踏入仙境”(•_•)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;那些遇到的奇葩问题（记不太清了）&lt;br&gt;
 1. 上传文件总是失败（改了无数遍 hosts 文件……）&lt;br&gt;
 2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）&lt;br&gt;
 3. 终于能访问后网页却是蓝底白字（这个困扰最久，可是解决方案太傻瓜)&lt;/p&gt;
-&lt;p&gt;已知问题（或者说是待办事项）&lt;br&gt;
-待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
+&lt;h3 id=&#34;已知问题或者说是待办事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#已知问题或者说是待办事项&#34;&gt;#&lt;/a&gt; 已知问题（或者说是待办事项）&lt;/h3&gt;
+&lt;p&gt;待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
 &lt;p&gt;欢迎来到我的网站！ˋ(° ▽、°)&lt;br&gt;
  今天就开学了，以后肯定疏于管理了 (+_+)，都高二了，还到了新的班级（10 班），加油吧！！！ ^o^/&lt;/p&gt;
 &lt;p&gt;next 版本：7.7.2&lt;br&gt;
@@ -44,6 +45,9 @@
 好耶ヾ (✿ﾟ▽ﾟ) ノ&lt;/p&gt;
 &lt;p&gt;时间：2021 年 9 月 27 日&lt;br&gt;
 打算充实一下博客的内容，就每周写一点周记吧！ &lt;s&gt;我知道这些周记肯定很水&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;时间：2021 年 10 月 1 日 22:37:46&lt;br&gt;
+ 今天更换了新的主题，虽然好看但是 bug 也太多了吧……&lt;br&gt;
+ 光是修这些玩意儿就又耗了一天的时间……&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
