@@ -3,14 +3,23 @@
     <id>https://invert-viewer.github.io</id>
     <title></title>
     <link href="https://invert-viewer.github.io" />
-    <updated>2021-08-28T11:50:54.000Z</updated>
-    <category term="测试" />
+    <updated>2021-10-02T14:27:49.000Z</updated>
     <category term="杂谈" />
+    <category term="测试" />
     <category term="教程" />
     <entry>
-        <id>https://invert-viewer.github.io/new-function/</id>
+        <id>https://invert-viewer.github.io/CSP-J-S-on-cloud/</id>
+        <title>CSP-J/S-on_cloud</title>
+        <link rel="alternate" href="https://invert-viewer.github.io/CSP-J-S-on-cloud/"/>
+        <content type="html">&lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
+</content>
+        <category term="杂谈" />
+        <updated>2021-10-02T14:27:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://invert-viewer.github.io/markdown-tutorial/</id>
         <title>Markdown教程</title>
-        <link rel="alternate" href="https://invert-viewer.github.io/new-function/"/>
+        <link rel="alternate" href="https://invert-viewer.github.io/markdown-tutorial/"/>
         <content type="html">&lt;p&gt;Markdown 教程：
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==&#34;&gt;https://markdown.com.cn/basic-syntax/&lt;/span&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=&#34;&gt;https://mcbar.club/d/31-markdown&lt;/span&gt;
@@ -94,18 +103,6 @@
 </content>
         <category term="测试" />
         <updated>2021-08-25T03:10:00.615Z</updated>
-    </entry>
-    <entry>
-        <id>https://invert-viewer.github.io/Text/</id>
-        <title>开放API测试</title>
-        <link rel="alternate" href="https://invert-viewer.github.io/Text/"/>
-        <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
- &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;注脚：api.imlazy.ink/img&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://api.imlazy.ink/img&#34; alt=&#34;测试图片&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="测试" />
-        <updated>2021-08-24T08:37:33.869Z</updated>
     </entry>
     <entry>
         <id>https://invert-viewer.github.io/hello-world/</id>

@@ -4,8 +4,8 @@
     <title> • Posts by &#34;测试&#34; tag</title>
     <link href="https://invert-viewer.github.io" />
     <updated>2021-08-25T03:10:00.615Z</updated>
-    <category term="测试" />
     <category term="杂谈" />
+    <category term="测试" />
     <category term="教程" />
     <entry>
         <id>https://invert-viewer.github.io/Third/</id>
@@ -82,17 +82,5 @@
 </content>
         <category term="测试" />
         <updated>2021-08-25T03:10:00.615Z</updated>
-    </entry>
-    <entry>
-        <id>https://invert-viewer.github.io/Text/</id>
-        <title>开放API测试</title>
-        <link rel="alternate" href="https://invert-viewer.github.io/Text/"/>
-        <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
- &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;注脚：api.imlazy.ink/img&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://api.imlazy.ink/img&#34; alt=&#34;测试图片&#34;&gt;&lt;/p&gt;
-</content>
-        <category term="测试" />
-        <updated>2021-08-24T08:37:33.869Z</updated>
     </entry>
 </feed>

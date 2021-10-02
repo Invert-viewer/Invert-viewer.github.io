@@ -5,6 +5,16 @@
     "home_page_url": "https://invert-viewer.github.io",
     "items": [
         {
+            "id": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
+            "url": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
+            "title": "CSP-J/S-on_cloud",
+            "date_published": "2021-10-02T14:27:49.000Z",
+            "content_html": "<h2 id=\"我是怎么了解到的\"><a class=\"anchor\" href=\"#我是怎么了解到的\">#</a> 我是怎么了解到的？</h2>\n",
+            "tags": [
+                "杂谈"
+            ]
+        },
+        {
             "id": "https://invert-viewer.github.io/hello-world/",
             "url": "https://invert-viewer.github.io/hello-world/",
             "title": "写在前面的一些话",

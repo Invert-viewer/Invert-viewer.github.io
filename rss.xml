@@ -5,15 +5,24 @@
         <link>https://invert-viewer.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Sat, 28 Aug 2021 19:50:54 +0800</pubDate>
-        <lastBuildDate>Sat, 28 Aug 2021 19:50:54 +0800</lastBuildDate>
-        <category>测试</category>
+        <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
+        <lastBuildDate>Sat, 02 Oct 2021 22:27:49 +0800</lastBuildDate>
         <category>杂谈</category>
+        <category>测试</category>
         <category>教程</category>
         <item>
-            <guid isPermalink="true">https://invert-viewer.github.io/new-function/</guid>
+            <guid isPermalink="true">https://invert-viewer.github.io/CSP-J-S-on-cloud/</guid>
+            <title>CSP-J/S-on_cloud</title>
+            <link>https://invert-viewer.github.io/CSP-J-S-on-cloud/</link>
+            <category>杂谈</category>
+            <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/markdown-tutorial/</guid>
             <title>Markdown教程</title>
-            <link>https://invert-viewer.github.io/new-function/</link>
+            <link>https://invert-viewer.github.io/markdown-tutorial/</link>
             <category>教程</category>
             <pubDate>Sat, 28 Aug 2021 19:50:54 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Markdown 教程：
@@ -96,18 +105,6 @@
  直到 2021-8-30 19:50:46 才修复成功，可以重新访问🤣
 无法访问期间博客一直显示未找到主机，浏览器上面显示空白，标题栏部分只有网站的英文名称……&lt;/p&gt;
 &lt;/blockquote&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://invert-viewer.github.io/Text/</guid>
-            <title>开放API测试</title>
-            <link>https://invert-viewer.github.io/Text/</link>
-            <category>测试</category>
-            <pubDate>Tue, 24 Aug 2021 16:37:33 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
- &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
-&lt;p&gt;注脚：api.imlazy.ink/img&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://api.imlazy.ink/img&#34; alt=&#34;测试图片&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
