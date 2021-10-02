@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://invert-viewer.github.io</id>
-    <title>创想之地</title>
+    <title></title>
     <link href="https://invert-viewer.github.io" />
     <updated>2021-08-28T11:50:54.000Z</updated>
     <category term="测试" />
