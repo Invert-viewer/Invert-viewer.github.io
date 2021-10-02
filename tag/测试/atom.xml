@@ -57,22 +57,22 @@
 &lt;h2 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h2&gt;
 &lt;h3 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能&lt;/h3&gt;
 &lt;p&gt;1. 设置博文内链接为蓝色
-测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;
-2. 显示站点文章总字数
-不过在页面底部，只有一行小字……
-3. 为文章添加 tags
- 成功，不过需要点击进入文章才能看见……
-4. 添加 tags 页面 (标签)
- 5. 简化四级链接
- 6. 设置预览概要&lt;/p&gt;
+测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. 显示站点文章总字数
+不过在页面底部，只有一行小字……&lt;/p&gt;
+&lt;p&gt;3. 为文章添加 tags
+ 成功，不过需要点击进入文章才能看见……&lt;/p&gt;
+&lt;p&gt;4. 添加 tags 页面 (标签)&lt;/p&gt;
+&lt;p&gt;5. 简化四级链接&lt;/p&gt;
+&lt;p&gt;6. 设置预览概要&lt;/p&gt;
 &lt;h3 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能&lt;/h3&gt;
 &lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。
-b.&lt;s&gt; 添加社交链接&lt;/s&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 无意义
- c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。
-d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;/p&gt;
+&lt;p&gt;b.&lt;s&gt; 添加社交链接&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无意义&lt;/p&gt;
+&lt;p&gt;c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。&lt;/p&gt;
+&lt;p&gt;d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;
 &lt;em&gt;放弃原因:&lt;/em&gt; 崩溃原因不明。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;后续：博客因为此原因 3 天内都打不开 o_o ....
