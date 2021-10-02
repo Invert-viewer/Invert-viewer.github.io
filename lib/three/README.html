@@ -89,11 +89,11 @@
       <div id="imgs" class="pjax">
         <ul>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/d3066b3e069235f3.png"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/0be61709d8c38b20.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/1de54cc6d36fb7c9.jpg"></li>
-          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/a78e6ad44efcf47a.png"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/4ea171574667f29a.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/a055cf2c604ea7ba.png"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/1de54cc6d36fb7c9.jpg"></li>
           <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/54c42c6af53bba54.jpg"></li>
+          <li class="item" data-background-image="https://s3.bmp.ovh/imgs/2021/10/0be61709d8c38b20.jpg"></li>
         </ul>
       </div>
     </header>
@@ -131,22 +131,26 @@
   <div class="body md" itemprop="articleBody">
     
 
-    <h1 align="center"><span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21yZG9vYi90aHJlZS5qcw==">JavaScript 3D library</span> for <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ=">NexT</span></h1>
-<h1 align="center">Installation</h1>
-<h2>If you want to use the CDN instead of clone this repo, please jump to the Step 3.</h2>
-<h2 align="center">Step 1 &rarr; Go to NexT dir</h2>
+    <p>&lt;h1 align=&quot;center&quot;&gt;&lt;a href=&quot;<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL21yZG9vYi90aHJlZS5qcw==">https://github.com/mrdoob/three.js</span>&quot;&gt;JavaScript 3D library&lt;/a&gt; for &lt;a href=&quot;<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ=">https://github.com/theme-next</span>&quot;&gt;NexT&lt;/a&gt;&lt;/h1&gt;</p>
+<p>&lt;h1 align=&quot;center&quot;&gt;Installation&lt;/h1&gt;</p>
+<p>&lt;h2&gt;If you want to use the CDN instead of clone this repo, please jump to the Step 3.&lt;/h2&gt;</p>
+<p>&lt;h2 align=&quot;center&quot;&gt;Step 1 → Go to NexT dir&lt;/h2&gt;</p>
 <p>Change dir to <strong>NexT</strong> directory. There must be  <code>layout</code> ,  <code>source</code> ,  <code>languages</code>  and other directories:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ ls</span><br><span class="line">_config.yml  crowdin.yml  docs  gulpfile.js  languages  layout  LICENSE.md  package.json  README.md  scripts  <span class="built_in">source</span></span><br></pre></td></tr></table></figure>
-<h2 align="center">Step 2 &rarr; Get module</h2>
+<pre><code class="language-sh">$ cd themes/next
+$ ls
+_config.yml  crowdin.yml  docs  gulpfile.js  languages  layout  LICENSE.md  package.json  README.md  scripts  source
+</code></pre>
+<p>&lt;h2 align=&quot;center&quot;&gt;Step 2 → Get module&lt;/h2&gt;</p>
 <p>Install module to  <code>source/lib</code>  directory:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-three <span class="built_in">source</span>/lib/three</span><br></pre></td></tr></table></figure>
-<h2 align="center">Step 3 &rarr; Set it up</h2>
+<pre><code class="language-sh">$ git clone https://github.com/theme-next/theme-next-three source/lib/three
+</code></pre>
+<p>&lt;h2 align=&quot;center&quot;&gt;Step 3 → Set it up&lt;/h2&gt;</p>
 <p>Enable module in <strong>NexT</strong>  <code>_config.yml</code>  file:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">three_waves:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">OR</span></span><br><span class="line"><span class="attr">canvas_lines:</span> <span class="literal">true</span></span><br><span class="line"><span class="string">OR</span></span><br><span class="line"><span class="attr">canvas_sphere:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-<p><strong>And, if you wants to use the CDN, then need to set:</strong></p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="string">...</span></span><br><span class="line">  <span class="attr">three:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-three@1/three.min.js</span></span><br><span class="line">  <span class="attr">three_waves:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-three@latest/three-waves.min.js</span></span><br><span class="line">  <span class="attr">canvas_lines:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-three@latest/canvas_lines.min.js</span></span><br><span class="line">  <span class="attr">canvas_sphere:</span> <span class="string">//cdn.jsdelivr.net/gh/theme-next/theme-next-three@latest/canvas_sphere.min.js</span></span><br></pre></td></tr></table></figure>
-<h1 align="center">Update</h1>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next/<span class="built_in">source</span>/lib/three</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">three_waves</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="2"></td><td><pre>OR</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token key atrule">canvas_lines</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr><tr><td data-num="4"></td><td><pre>OR</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token key atrule">canvas_sphere</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></pre></td></tr></table></figure><p><strong>And, if you wants to use the CDN, then need to set:</strong></p>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">vendors</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token punctuation">...</span></pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">three</span><span class="token punctuation">:</span> //cdn.jsdelivr.net/gh/theme<span class="token punctuation">-</span>next/theme<span class="token punctuation">-</span>next<span class="token punctuation">-</span>three@1/three.min.js</pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">three_waves</span><span class="token punctuation">:</span> //cdn.jsdelivr.net/gh/theme<span class="token punctuation">-</span>next/theme<span class="token punctuation">-</span>next<span class="token punctuation">-</span>three@latest/three<span class="token punctuation">-</span>waves.min.js</pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">canvas_lines</span><span class="token punctuation">:</span> //cdn.jsdelivr.net/gh/theme<span class="token punctuation">-</span>next/theme<span class="token punctuation">-</span>next<span class="token punctuation">-</span>three@latest/canvas_lines.min.js</pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token key atrule">canvas_sphere</span><span class="token punctuation">:</span> //cdn.jsdelivr.net/gh/theme<span class="token punctuation">-</span>next/theme<span class="token punctuation">-</span>next<span class="token punctuation">-</span>three@latest/canvas_sphere.min.js</pre></td></tr></table></figure><p>&lt;h1 align=&quot;center&quot;&gt;Update&lt;/h1&gt;</p>
+<pre><code class="language-sh">$ cd themes/next/source/lib/three
+$ git pull
+</code></pre>
 
   </div>
 
@@ -190,7 +194,6 @@
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
-          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">JavaScript 3D library for NexT</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">Installation</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">2.1.</span> <span class="toc-text">If you want to use the CDN instead of clone this repo, please jump to the Step 3.</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">2.2.</span> <span class="toc-text">Step 1 → Go to NexT dir</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">2.3.</span> <span class="toc-text">Step 2 → Get module</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-number">2.4.</span> <span class="toc-text">Step 3 → Set it up</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">Update</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -285,15 +288,6 @@
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/hello-world/" title="写在前面的一些话">写在前面的一些话</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
     <span><a href="/Text/" title="开放API测试">开放API测试</a></span>
   </li>
 
@@ -313,6 +307,15 @@
 </div>
 
     <span><a href="/Third/" title="博客功能测试">博客功能测试</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/hello-world/" title="写在前面的一些话">写在前面的一些话</a></span>
   </li>
 
   </ul>
@@ -339,7 +342,7 @@
     <span class="post-meta-item-icon">
       <i class="ic i-coffee"></i>
     </span>
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">2 分钟</span>
   </div>
   <div class="powered-by">
     基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
