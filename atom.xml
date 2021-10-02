@@ -11,9 +11,9 @@
         <id>https://invert-viewer.github.io/new-function/</id>
         <title>Markdown教程</title>
         <link rel="alternate" href="https://invert-viewer.github.io/new-function/"/>
-        <content type="html">&lt;p&gt;Markdown 教程：&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==&#34;&gt;https://markdown.com.cn/basic-syntax/&lt;/span&gt;&lt;br&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=&#34;&gt;https://mcbar.club/d/31-markdown&lt;/span&gt;&lt;br&gt;
+        <content type="html">&lt;p&gt;Markdown 教程：
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==&#34;&gt;https://markdown.com.cn/basic-syntax/&lt;/span&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=&#34;&gt;https://mcbar.club/d/31-markdown&lt;/span&gt;
 &lt;s&gt; 为什么刚刚发了两个一模一样的🤣&lt;/s&gt;&lt;/p&gt;
 </content>
         <category term="教程" />
@@ -23,36 +23,37 @@
         <id>https://invert-viewer.github.io/Third/</id>
         <title>博客功能测试</title>
         <link rel="alternate" href="https://invert-viewer.github.io/Third/"/>
-        <content type="html">&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;h1 id=&#34;一-文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-文本测试&#34;&gt;#&lt;/a&gt; 一、文本测试&lt;/h1&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;&amp;quot;/&amp;gt;&lt;br&gt;
-（小图标与背景测试）&lt;/p&gt;
+        <content type="html"> &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;h2 id=&#34;文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本测试&#34;&gt;#&lt;/a&gt; 文本测试&lt;/h2&gt;
+&lt;p&gt;![图标](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;）&lt;/p&gt;
+&lt;p&gt;（小图标与背景测试）&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;这是一个互联网图标。&lt;br&gt;
-&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9kb3R0eS84MC8wMDAwMDAvaW50ZXJuZXQtZXhwbG9yZXIucG5n&#34;&gt;https://img.icons8.com/dotty/80/000000/internet-explorer.png&lt;/span&gt;&amp;quot;/&amp;gt;&lt;/li&gt;
+&lt;li&gt;这是一个互联网图标。
+&lt;img data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34; alt=&#34;图标&#34;&gt;&lt;/li&gt;
 &lt;li&gt;无序列表测试&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;&lt;br&gt;
-&lt;strong&gt;粗体文本&lt;/strong&gt;&lt;br&gt;
+&lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;
+&lt;strong&gt;粗体文本&lt;/strong&gt;
 &lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;br&gt;
- &amp;lt;u&amp;gt; 带下划线文本 &amp;lt;/u&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;
+&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder accentunder=&#34;true&#34;&gt;&lt;mtext&gt;带下划线文本&lt;/mtext&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\underline{\text{带下划线文本}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8833300000000001em;vertical-align:-0.20000000000000007em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord underline&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.68333em;&#34;&gt;&lt;span style=&#34;top:-2.84em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;underline-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;带下划线文本&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.20000000000000007em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mtext&gt;带上划线文本&lt;/mtext&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\overline{\text{带上划线文本}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8833300000000001em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord overline&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8833300000000001em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;带上划线文本&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.80333em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;代码测试&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Hello，world！&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;引用测试&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;更多资料稍后放出&lt;br&gt;
+&lt;p&gt;更多资料稍后放出
 这是引用测试&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;二-格式测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-格式测试&#34;&gt;#&lt;/a&gt; 二、格式测试&lt;/h1&gt;
+&lt;h2 id=&#34;格式测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#格式测试&#34;&gt;#&lt;/a&gt; 格式测试&lt;/h2&gt;
 &lt;p&gt;汇总一下吧&lt;/p&gt;
-&lt;p&gt;1. 问题&lt;br&gt;
-好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄&lt;br&gt;
-还有改变语言文件，只有标题栏会改，但是列表不会改，这就很神奇😶&lt;br&gt;
-如果我现在切换主题，主页会不会炸？&lt;br&gt;
-我的 markdown 语法是真的差页面排版都不会……&lt;br&gt;
- 新创建的那几个栏目为什么上面有个那么明显的 English (´･ω･`)?&lt;br&gt;
- 计算公式、化学方程式好像不能输入。。。。。。&lt;br&gt;
+&lt;p&gt;1. 问题
+好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄
+还有改变语言文件，只有标题栏会改，但是列表不会改，这就很神奇😶
+如果我现在切换主题，主页会不会炸？
+我的 markdown 语法是真的差页面排版都不会……
+ 新创建的那几个栏目为什么上面有个那么明显的 English (´･ω･`)?
+ 计算公式、化学方程式好像不能输入。。。。。。
 搜索栏炸了 (⊙o⊙)…&lt;/p&gt;
 &lt;p&gt;2. 可用&lt;/p&gt;
 &lt;ul&gt;
@@ -60,34 +61,34 @@
 &lt;li&gt;粗体，斜体，删除线，下划线啥的基本能用&lt;/li&gt;
 &lt;li&gt;还有栏目也加载了。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;还有一件事！(。_。)&lt;br&gt;
- 测试失败了，标题刚刚变成了 “[object,Object]”，现在变成了 “未命名”……༼ つ ◕_◕ ༽つ&lt;br&gt;
-&lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;&lt;br&gt;
+&lt;p&gt;还有一件事！(。_。)
+ 测试失败了，标题刚刚变成了 “[object,Object]”，现在变成了 “未命名”……༼ つ ◕_◕ ༽つ
+&lt;img data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;
 &lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
-&lt;h1 id=&#34;三-功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-功能测试&#34;&gt;#&lt;/a&gt; 三、功能测试&lt;/h1&gt;
-&lt;p&gt;可用功能&lt;/p&gt;
-&lt;p&gt;1. 设置博文内链接为蓝色&lt;br&gt;
-测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;br&gt;
-2. 显示站点文章总字数&lt;br&gt;
-不过在页面底部，只有一行小字……&lt;br&gt;
-3. 为文章添加 tags&lt;br&gt;
- 成功，不过需要点击进入文章才能看见……&lt;br&gt;
-4. 添加 tags 页面 (标签)&lt;br&gt;
- 5. 简化四级链接&lt;br&gt;
+&lt;h2 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h2&gt;
+&lt;h3 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能&lt;/h3&gt;
+&lt;p&gt;1. 设置博文内链接为蓝色
+测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;
+2. 显示站点文章总字数
+不过在页面底部，只有一行小字……
+3. 为文章添加 tags
+ 成功，不过需要点击进入文章才能看见……
+4. 添加 tags 页面 (标签)
+ 5. 简化四级链接
  6. 设置预览概要&lt;/p&gt;
-&lt;h2 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能&lt;/h2&gt;
-&lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;&lt;br&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;br&gt;
-b.&lt;s&gt; 添加社交链接&lt;/s&gt;&lt;br&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 无意义&lt;br&gt;
- c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;&lt;br&gt;
-&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。&lt;br&gt;
-d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
+&lt;h3 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能&lt;/h3&gt;
+&lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。
+b.&lt;s&gt; 添加社交链接&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无意义
+ c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。
+d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;
 &lt;em&gt;放弃原因:&lt;/em&gt; 崩溃原因不明。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;后续：博客因为此原因 3 天内都打不开 o_o ....&lt;br&gt;
- 直到 2021-8-30 19:50:46 才修复成功，可以重新访问🤣&lt;br&gt;
+&lt;p&gt;后续：博客因为此原因 3 天内都打不开 o_o ....
+ 直到 2021-8-30 19:50:46 才修复成功，可以重新访问🤣
 无法访问期间博客一直显示未找到主机，浏览器上面显示空白，标题栏部分只有网站的英文名称……&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
@@ -98,10 +99,10 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
         <id>https://invert-viewer.github.io/Text/</id>
         <title>开放API测试</title>
         <link rel="alternate" href="https://invert-viewer.github.io/Text/"/>
-        <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;br&gt;
-&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br&gt;
- 注脚：api.imlazy.ink/img&lt;/p&gt;
-&lt;p&gt;&amp;lt;img src=&amp;quot;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hcGkuaW1sYXp5Lmluay9pbWc=&#34;&gt;https://api.imlazy.ink/img&lt;/span&gt;&amp;quot;/&amp;gt;&lt;/p&gt;
+        <content type="html">&lt;p&gt;这里啥么都没有╰(￣ω￣ｏ)&lt;/p&gt;
+ &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
+&lt;p&gt;注脚：api.imlazy.ink/img&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://api.imlazy.ink/img&#34; alt=&#34;测试图片&#34;&gt;&lt;/p&gt;
 </content>
         <category term="测试" />
         <updated>2021-08-24T08:37:33.869Z</updated>
@@ -114,13 +115,13 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
 &lt;h2 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;搭建了快10个小时终于整好了(ToT)/~~~,期间真的遇到无数故障,查了好多资料,真的就像原教程说的搭完后“仿佛踏入仙境”(•_•)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;那些遇到的奇葩问题（记不太清了）&lt;br&gt;
-1. 上传文件总是失败（改了无数遍 hosts 文件……）&lt;br&gt;
-2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）&lt;br&gt;
+&lt;p&gt;那些遇到的奇葩问题（记不太清了）
+1. 上传文件总是失败（改了无数遍 hosts 文件……）
+2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）
 3. 终于能访问后网页却是蓝底白字（这个困扰最久，可是解决方案太傻瓜)&lt;/p&gt;
 &lt;h3 id=&#34;已知问题或者说是待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#已知问题或者说是待办事项&#34;&gt;#&lt;/a&gt; 已知问题（或者说是待办事项）&lt;/h3&gt;
 &lt;p&gt;待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
-&lt;p&gt;欢迎来到我的网站！ˋ(° ▽、°)&lt;br&gt;
+&lt;p&gt;欢迎来到我的网站！ˋ(° ▽、°)
  今天就开学了，以后肯定疏于管理了 (+_+)，都高二了，还到了新的班级（10 班），加油吧！！！ ^o^/&lt;/p&gt;
 &lt;p&gt;next 版本：7.7.2&lt;/p&gt;
 &lt;h4 id=&#34;时间2021年9月21日195915&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月21日195915&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 21 日 19:59:15&lt;/h4&gt;
@@ -131,16 +132,16 @@ d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;&lt;br&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;时间2021年9月22日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月22日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 22 日&lt;/h4&gt;
-&lt;p&gt;网站又有新的 bug 了，但在高中不放假真的没时间去修，而且还有那些测试文档没有整理……(￣^￣)&lt;br&gt;
- 今天提交了入团申请书，还不知道能不能通过……&lt;br&gt;
+&lt;p&gt;网站又有新的 bug 了，但在高中不放假真的没时间去修，而且还有那些测试文档没有整理……(￣^￣)
+ 今天提交了入团申请书，还不知道能不能通过……
  还有那神奇的综合素质评价表，真的让我无言以对。(¬_¬)&lt;/p&gt;
 &lt;h4 id=&#34;时间2021年9月26日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月26日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 26 日&lt;/h4&gt;
-&lt;p&gt;距离博客网页创建已经过了整整一个月，其现在还是保持正常运行。&lt;s&gt;虽然有点 bug 还没修&lt;/s&gt;&lt;br&gt;
+&lt;p&gt;距离博客网页创建已经过了整整一个月，其现在还是保持正常运行。&lt;s&gt;虽然有点 bug 还没修&lt;/s&gt;
 好耶ヾ (✿ﾟ▽ﾟ) ノ&lt;/p&gt;
 &lt;h4 id=&#34;时间2021年9月27日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月27日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 27 日&lt;/h4&gt;
 &lt;p&gt;打算充实一下博客的内容，就每周写一点周记吧！ &lt;s&gt;我知道这些周记肯定很水&lt;/s&gt;&lt;/p&gt;
 &lt;h4 id=&#34;时间2021年10月1日223746&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年10月1日223746&#34;&gt;#&lt;/a&gt; 时间：2021 年 10 月 1 日 22:37:46&lt;/h4&gt;
-&lt;p&gt;今天更换了新的主题，虽然好看但是 bug 也太多了吧……&lt;br&gt;
+&lt;p&gt;今天更换了新的主题，虽然好看但是 bug 也太多了吧……
  光是修这些玩意儿就又耗了一天的时间……&lt;/p&gt;
 </content>
         <category term="杂谈" />
