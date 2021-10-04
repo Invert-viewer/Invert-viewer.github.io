@@ -16,13 +16,68 @@
             <link>https://invert-viewer.github.io/CSP-J-S-on-cloud/</link>
             <category>杂谈</category>
             <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;这应该算是我的博客的第一篇正式文章了。
-&lt;s&gt;之前的测试文章都不知道是个什么玩意儿&lt;/s&gt;
-希望这个是一个好的开端吧。(´。＿。｀)&lt;/p&gt;
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;没有人天生被定义为失败者！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;这应该算是我的博客的第一篇正式文章了。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;之前的测试文章都不知道是个什么玩意儿&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;希望这个是一个好的开端吧。(´。＿。｀)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;CSP-J/S 的成绩对升学有好处吗？&lt;/p&gt;
+&lt;p&gt;答：CSP-J/S 是业余自愿的科学活动，不建议将认证成绩简单地作为选拔学生的依据，也不建议和升学挂钩。若任何机构将 CSP-J/S 成绩作为职业晋升和升学的依据，CCF 不承担任何责任。&lt;/p&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
-&lt;h2 id=&#34;云上面参加流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#云上面参加流程&#34;&gt;#&lt;/a&gt; “云” 上面参加流程&lt;/h2&gt;
+&lt;p&gt;这还要从一个动态说起：（见图下）&lt;/p&gt;
+&lt;p&gt;（图片中通过普及组的才三年级…… 再看看我自己🙄）
+&lt;img data-src=&#34;https://i0.hdslb.com/bfs/album/a0762c479474508225f663fa080cd1e274a21a95.png&#34; alt=&#34;图标&#34;&gt;
+当然还有 &lt;em&gt;羟基计划&lt;/em&gt; 和这个有关 (+_+)&lt;/p&gt;
+&lt;p&gt;一看我居然撞上了信息学奥赛 (¬‿¬)&lt;/p&gt;
+&lt;p&gt;震惊之余，迎着好奇便顺藤摸瓜地摸到了这个网站：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNu&#34;&gt;https://www.noi.cn&lt;/span&gt;，便开启了我的云上奥赛之旅。&lt;/p&gt;
+&lt;h2 id=&#34;云上流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#云上流程&#34;&gt;#&lt;/a&gt; “云” 上流程&lt;/h2&gt;
+&lt;h3 id=&#34;报名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报名&#34;&gt;#&lt;/a&gt; 报名&lt;/h3&gt;
+&lt;p&gt;1. 报名时间&lt;/p&gt;
+&lt;p&gt;首先我应该参加 CSP-J 也就是普及组，无意间发现报名时间已经截止了……&lt;/p&gt;
+&lt;p&gt;算了，明年还可以再报名！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2. 报名方式&lt;/p&gt;
+&lt;p&gt;信息学竞赛，很明显是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2NzcHNqLm5vaS5jbi8=&#34;&gt;网络报名&lt;/span&gt; ，但必须要通过教师认证，可我在的这个苏北小县城哪来有资格的教师😓，接着找办法报名，发现只可以 “各省认证负责人将帮助认证者完成报名并进行认证安排”，也就是说我还要单线去联系本省负责人……&lt;/p&gt;
+&lt;p&gt;这报名中的不确定因素有点多啊（我也好好感受了一下 “地域差异”）&lt;/p&gt;
+&lt;p&gt;算了，地域差异还是可以想办法克服的！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;认证前&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证前&#34;&gt;#&lt;/a&gt; 认证前&lt;/h3&gt;
+&lt;p&gt;1. 内容了解&lt;/p&gt;
+&lt;p&gt;大概看了看普及组的认证内容，官网上面很浅显地提了一句：“涉及算法和编程”，第一眼看到时感觉不是太难嘛，毕竟《信息技术》选择性必修一里面还是有数据结构的内容的，然后当我具体去找那个 “编程 “代表什么的时候直接把我劝退，好家伙，居然是 C++！&lt;/p&gt;
+&lt;p&gt;！！其实还有 C 语言，但反正我都没学过😥！！&lt;/p&gt;
+&lt;p&gt;倍感无言之余，想起我第一个接触的编程语言可是 Python 啊，又很难沾上边……&lt;/p&gt;
+&lt;p&gt;算了，反正 C++ 还可以再学！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2.“到达” 考场&lt;/p&gt;
+&lt;p&gt;“第一轮认证以笔试为主 “，当我看到这句话时就知道我肯定不能在自己家认证了。&lt;/p&gt;
+&lt;p&gt;！！好吧其实想想也不可能允许你开卷的😞……！！&lt;/p&gt;
+&lt;p&gt;接着便是找找认证地点安排，找到本市中的地点，发现认证地点距我家实在是太长了！&lt;/p&gt;
+&lt;p&gt;查高德地图发现三个路线都超过 100 公里，就算驾车也要两个小时，但要真当天早上参加的话其实还好 (毕竟时间在下午 2 点)。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;好吧其实这还算友好。&lt;/p&gt;
+&lt;h3 id=&#34;认证时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证时&#34;&gt;#&lt;/a&gt; 认证时&lt;/h3&gt;
+&lt;p&gt;答题方式其实这和平常考试也没什么区别，也是填涂答题卡。&lt;/p&gt;
+&lt;p&gt;但认证内容嘛……&lt;/p&gt;
+&lt;p&gt;这里有个&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmhhbnMzNjIuY24vcG9zdC8yMDIxLWNzcC1zLTEv&#34;&gt;提高组的试题链接&lt;/span&gt; 。
+虽然没找到普及组的，应该更简单一点，里面的题目意思懂得都懂。😎&lt;/p&gt;
+&lt;p&gt;比如这里提高组的试题中有两道排列组合的数学题，难度嘛，自行体会 🤐&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/hans362/image-hosting@master/2021/09/30/5283768.jpg&#34; alt=&#34;图标&#34;&gt;&lt;/p&gt;
+&lt;p&gt;（全国试卷应该是通用的，找个河南的应该与江苏相同）&lt;/p&gt;
+&lt;h3 id=&#34;认证后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证后&#34;&gt;#&lt;/a&gt; 认证后&lt;/h3&gt;
+&lt;p&gt;这里有即时的与历史的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNuL2dzL3h3L2pzLw==&#34;&gt;认证通知消息&lt;/span&gt;，
+ 反正已经与我无关了╯︿╰，看看就行&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 2&lt;sup&gt;1024&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#感受&#34;&gt;#&lt;/a&gt; 感受&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;到网络上去搜索关于信息学竞赛的相关事宜时，看到当下实行的政策，这真的给我泼了一盆冷水，“&lt;em&gt;CSP-J/S 认证成绩优异者，可参加 NOI 省级选拔，省级选拔成绩优异者可参加 NOI。&lt;/em&gt;” 这告诉我好像有好几级台阶需要攀爬，而对于既没有教育资源又是竞赛强省的我来说属实…… 不太可能😑&lt;/li&gt;
+&lt;li&gt;算是彻底体验了一会 “地域差异” 为何物，感觉这好像就是天生给你设定好的，难道这是注定的吗？
+不！没有人天生被定义为失败者！相信一定可以打破这困局！&lt;/li&gt;
+&lt;/ul&gt;
  ]]></description>
         </item>
         <item>
@@ -45,7 +100,7 @@
             <pubDate>Wed, 25 Aug 2021 11:10:00 +0800</pubDate>
             <description><![CDATA[  &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h2 id=&#34;文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本测试&#34;&gt;#&lt;/a&gt; 文本测试&lt;/h2&gt;
-&lt;p&gt;![图标](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;）&lt;/p&gt;
+&lt;p&gt;![图标](https://img.icons8.com/material-outlined/24/000000/search.png）&lt;/p&gt;
 &lt;p&gt;（小图标与背景测试）&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;这是一个互联网图标。
@@ -88,7 +143,8 @@
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
 &lt;h2 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h2&gt;
 &lt;h3 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能&lt;/h3&gt;
-&lt;p&gt;1. 设置博文内链接为蓝色
+&lt;p&gt;1.&lt;s&gt; 设置博文内链接为蓝色&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;都换新主题了哪来的蓝色？
 测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2. 显示站点文章总字数
 不过在页面底部，只有一行小字……&lt;/p&gt;

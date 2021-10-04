@@ -13,7 +13,7 @@
         <link rel="alternate" href="https://invert-viewer.github.io/Third/"/>
         <content type="html"> &lt;span id=&#34;more&#34;&gt;&lt;/span&gt;
 &lt;h2 id=&#34;文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本测试&#34;&gt;#&lt;/a&gt; 文本测试&lt;/h2&gt;
-&lt;p&gt;![图标](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9tYXRlcmlhbC1vdXRsaW5lZC8yNC8wMDAwMDAvc2VhcmNoLnBuZw==&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/span&gt;）&lt;/p&gt;
+&lt;p&gt;![图标](https://img.icons8.com/material-outlined/24/000000/search.png）&lt;/p&gt;
 &lt;p&gt;（小图标与背景测试）&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;这是一个互联网图标。
@@ -56,7 +56,8 @@
 &lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
 &lt;h2 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h2&gt;
 &lt;h3 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能&lt;/h3&gt;
-&lt;p&gt;1. 设置博文内链接为蓝色
+&lt;p&gt;1.&lt;s&gt; 设置博文内链接为蓝色&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;都换新主题了哪来的蓝色？
 测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2. 显示站点文章总字数
 不过在页面底部，只有一行小字……&lt;/p&gt;
