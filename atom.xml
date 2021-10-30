@@ -4,17 +4,42 @@
     <title></title>
     <link href="https://invert-viewer.github.io" />
     <updated>2021-10-30T09:53:55.000Z</updated>
-    <category term="测试" />
     <category term="杂谈" />
+    <category term="测试" />
     <category term="教程" />
     <entry>
         <id>https://invert-viewer.github.io/vvboard-experience/</id>
         <title>虚谷号使用体验</title>
         <link rel="alternate" href="https://invert-viewer.github.io/vvboard-experience/"/>
         <content type="html">&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;声明：本人所用的虚谷号为 1G+8G 的配置，大部分原因是由配置不足导致的，存在极强的主观臆断色彩。&lt;/p&gt;
+&lt;p&gt;声明：本人所用的虚谷号 (创客板) 为 1G+8G 的配置，大部分原因是由配置不足导致的，因此存在极强的主观臆断色彩。&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;s&gt;现在终于轮到我来批判这块开发板了&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;现在终于轮到我来批判这块开发板了&lt;/s&gt;
+ (͡・͜ʖ ͡・)&lt;/p&gt;
+&lt;h2 id=&#34;缘起&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#缘起&#34;&gt;#&lt;/a&gt; 缘起&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;故事还要从那本 &lt;em&gt;《普通高中教科书  信息技术  选择性必修 6  开源硬件项目设计》&lt;/em&gt; 说起……&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自从我高一下学期分过班之后，我从网上买到了 6 本人教版的信息技术，粗略地翻了翻目录，发现其他的课本还有点印象，唯独这 “开源硬件 项目设计” 看完后有点懵，感觉一点印象都没有……&lt;/p&gt;
+&lt;p&gt;几乎整本书都是围绕着 “虚谷号” 这块开发板展开的，(很好奇地感到居然不是树莓派) 于是我抱着 ++“工欲善其事，必先利其器”++{.wavy} 的态度购回了一块&lt;span class=&#34;red&#34;&gt;虚谷号&lt;/span&gt;。&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;六本《信息技术》的书名与主要内容&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;目录啥的就先鸽了吧&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 1  数据与数据结构》&lt;/p&gt;
+&lt;p&gt;(数据结构、数组与链表、线性表、栈、队列、字符串、二叉树、算法基本概念、迭代法、递归法)
+《普通高中教科书  信息技术  选择性必修 2  网络基础》&lt;/p&gt;
+&lt;p&gt;(计算机网络基本概念、网络的类型、数据交换技术、TCP/IP 协议、IP 地址、域名、网络设备与操作系统、加密技术与安全、网络资源分享、物联网、创新网络服务与隐私保护)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 3  数据管理与分析》&lt;/p&gt;
+&lt;p&gt;(业务需求与解决方案、数据采集途径、CSV 数据文件创建 / 导入 / 导出、数据库与数据管理、设计逻辑结构与建立数据库、结构化查询与提取、备份和还原数据库、数据分析的工具与方法、数据可视化与数据报告)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 4  人工智能初步》&lt;/p&gt;
+&lt;p&gt;(人工智能：概念 / 基本特征 / 发展历程 / 发展现状 / 研究内容与应用、知识表示与专家系统、回归算法、使用决策树进行分离、使用 K - 均值算法进行聚类、神经网络与深度学习、人工智能领域应用：计算机视觉 / 自然语言处理 / 机器理解与推理 / 博弈决策 / 智能机器人、人工智能发展：价值和未来发展 / 伦理及安全挑战 / 法规与应用规范)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 5  三维设计与创意》&lt;/p&gt;
+&lt;p&gt;(初识三维设计、三维设计相关技术：三维建模技术 / 三维重建技术 / 三维渲染技术 / 三维显示技术 / 虚拟现实技术 / 三维打印技术、三维设计在各领域的应用、三维建模基础、设计与新建三维模型、装配和发布三维模型、三维创意设计原则、三维作品赏析、规划设计三维动画、设计三维动画模型的外观、三维动画实现和作品发布)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 6  开源硬件项目设计》&lt;/p&gt;
+&lt;p&gt;(设计工具与编程语言、开源硬件开发基础、通信模块与拓展版、项目开发流程剖析、分析事物特征、项目设计方案、选择硬件方案、审查并优化方案、开源硬件项目制作：实现功能 / 调控测试 / 开源与知识产权保护)&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;体验&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#体验&#34;&gt;#&lt;/a&gt; 体验&lt;/h2&gt;
+&lt;p&gt;在实际使用了一段时间后，我很想大声地喊出一句话：&lt;span class=&#34;rainbow&#34;&gt;&lt;em&gt;&lt;ruby&gt;日内瓦&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;RNM&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;，退钱！！！&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;目前仍在施工中……&lt;/p&gt;
 </content>
         <category term="杂谈" />
         <updated>2021-10-30T09:53:55.000Z</updated>
@@ -33,13 +58,13 @@
 &lt;/div&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;CSP-J/S 的成绩对升学有好处吗？&lt;/p&gt;
-&lt;p&gt;答：CSP-J/S 是业余自愿的科学活动，不建议将认证成绩简单地作为选拔学生的依据，也不建议和升学挂钩。若任何机构将 CSP-J/S 成绩作为职业晋升和升学的依据，CCF 不承担任何责任。&lt;/p&gt;
+&lt;!-- 答：CSP-J/S是业余自愿的科学活动，不建议将认证成绩简单地作为选拔学生的依据，也不建议和升学挂钩。若任何机构将CSP-J/S成绩作为职业晋升和升学的依据，CCF不承担任何责任。 --&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
 &lt;p&gt;这还要从一个动态说起：（见下面的动态链接）&lt;/p&gt;
 &lt;p&gt;原动态图片居然设置了防盗链🙄，请点击 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90LmJpbGliaWxpLmNvbS80NDgxNjA1NjE1Mjk2MTI5MTU/c3BtX2lkX2Zyb209MzMzLjk5OS4wLjA=&#34;&gt;这里&lt;/span&gt;
 查看&lt;/p&gt;
-&lt;p&gt;（图片中通过普及组的才三年级…… 再看看我自己😣）&lt;/p&gt;
+&lt;p&gt;（图片中通过普及组的那个人才三年级…… 再看看我自己🙃，感觉有点滑稽。）&lt;/p&gt;
 &lt;p&gt;当然还有 &lt;em&gt;羟基计划&lt;/em&gt; 和这个有关 (+_+)&lt;/p&gt;
 &lt;p&gt;一看我居然撞上了信息学奥赛 (¬‿¬)&lt;/p&gt;
 &lt;p&gt;震惊之余，迎着好奇便顺藤摸瓜地摸到了这个网站：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNu&#34;&gt;https://www.noi.cn&lt;/span&gt;，便开启了我的云上奥赛之旅。&lt;/p&gt;
@@ -62,17 +87,17 @@
 &lt;p&gt;算了，反正 C++ 还可以再学！&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;2.“到达” 考场&lt;/p&gt;
-&lt;p&gt;“第一轮认证以笔试为主 “，当我看到这句话时就知道我肯定不能在自己家认证了。&lt;/p&gt;
+&lt;p&gt;“第一轮认证以笔试为主”，当我看到这句话时就知道我肯定不能在自己家认证了。&lt;/p&gt;
 &lt;p&gt;😞&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;好吧其实想想也不可能允许你开卷的……&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;接着便是找找认证地点安排，找到本市中的地点，发现认证地点距我家实在是太长了！&lt;/p&gt;
-&lt;p&gt;查高德地图发现三个路线都超过 100 公里，就算驾车也要两个小时，但要真当天早上参加的话其实还好 (毕竟时间在下午 2 点)。&lt;/p&gt;
+&lt;p&gt;接着便是找找认证地点安排，找到本市中的地点，发现认证地点距我家实在是太远了！&lt;/p&gt;
+&lt;p&gt;查高德地图发现即使是三个路线都超过 100 公里，就算驾车也要两个小时，但要真当天早上参加的话其实还好 (毕竟时间在下午 2 点)。&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;好吧其实这还算友好。&lt;/p&gt;
+&lt;p&gt;好吧其实这比起其他的不利因素还算友好。&lt;/p&gt;
 &lt;h3 id=&#34;认证时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证时&#34;&gt;#&lt;/a&gt; 认证时&lt;/h3&gt;
-&lt;p&gt;答题方式其实这和平常考试也没什么区别，也是填涂答题卡。&lt;/p&gt;
+&lt;p&gt;答题方式其实这和平常考试也没什么区别，也是试卷笔试 + 填涂答题卡。&lt;/p&gt;
 &lt;p&gt;但认证内容嘛……&lt;/p&gt;
 &lt;p&gt;这里有个&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmhhbnMzNjIuY24vcG9zdC8yMDIxLWNzcC1zLTEv&#34;&gt;提高组的试题链接&lt;/span&gt; 。
-虽然没找到普及组的，应该更简单一点，里面的题目意思懂得都懂。😎&lt;/p&gt;
+虽然没找到普及组的，应该更简单一点，里面的题目意思相信懂得都懂。😎&lt;/p&gt;
 &lt;p&gt;比如这里提高组的试题中有两道排列组合的数学题，难度嘛，自行体会 🤐&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/hans362/image-hosting@master/2021/09/30/5283768.jpg&#34; alt=&#34;图标&#34;&gt;&lt;/p&gt;
 &lt;p&gt;（全国试卷应该是通用的，这河南的题应该与江苏相同）&lt;/p&gt;
