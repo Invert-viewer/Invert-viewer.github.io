@@ -5,6 +5,16 @@
     "home_page_url": "https://invert-viewer.github.io",
     "items": [
         {
+            "id": "https://invert-viewer.github.io/vvboard-experience/",
+            "url": "https://invert-viewer.github.io/vvboard-experience/",
+            "title": "vvboard-experience",
+            "date_published": "2021-10-30T09:53:55.000Z",
+            "content_html": "<p><s>现在终于轮到我来批判这块开发板了</s></p>\n",
+            "tags": [
+                "杂谈"
+            ]
+        },
+        {
             "id": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
             "url": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
             "title": "CSP-J/S 云上游记",
@@ -19,7 +29,7 @@
             "url": "https://invert-viewer.github.io/markdown-tutorial/",
             "title": "Markdown教程",
             "date_published": "2021-08-28T11:50:54.000Z",
-            "content_html": "<p>Markdown 教程：\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==\">https://markdown.com.cn/basic-syntax/</span>\n<span class=\"exturl\" data-url=\"aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=\">https://mcbar.club/d/31-markdown</span>\n<s> 为什么刚刚发了两个一模一样的🤣</s></p>\n<p>Minecraft Live 2021\n 目前有闪过两段中国玩家的，看着实在是尴尬啊……\n 页面加载动画又是熟悉的 BugJump 动态图标哈哈哈哈哈哈哈\n同声传译声音的差别有点大……\n 新技术：存档版本转换效果优化更好（在原来的世界上加上新的东西）\nJava 和基岩版地图生成同步推出（种子号基本同步）\n大约 1~2 个月后 1.18 正式版推出\n宣布 Java 版本准备与基岩版正式结合（名称已经起好了）\n投票阶段：\nJeb_突然出镜！\nBlockbench 作者居然来啦！\n居然有官方的基岩版行为包制作教材 (͡・͜ʖ ͡・)\n 突发事件：0：37 左右突发卡顿……\n2 分钟左右后恢复\n介绍了很多社区创作的纹理包、行为包\n之后来 旧 事 重 提了\n历史片段中有化学实验（大象牙膏）就很生草……\n 投票第一轮结果：GLARE  ALLAY  COPPER GOLEM\n 出现了！旁白！！！（mojang 官方整活频道）\n地下城再增新内容！新动作、皮肤、宠物、披风、DLC！新单人内容：30 层怪物高塔，有怪物，机关，BOSS。每两周刷新一次。12 月份新版本地下城面世。\n元素动画来啦！\n投票阶段第一阶段结果：\nGLARE 怒目怪资格取消（意料之中……）\nMinecraft 教育版（我们不配ヽ (*。&gt;Д&lt;) o ゜）\n重量内容：新版本更新透露\n 1.The wild update 荒野更新\n 2. 深邃洞穴遗迹（新的音效！像是失落城市一样，真的相当恐怖，气氛代入感很强！）\n3. 潜声催化方块（根据生物死亡来发送信号，使得潜声地毯向外蔓延，挖掉掉落基岩）\n4. 潜声传感器能识别潜行玩家，识别后会使得周围光源逐渐暗下来后再缓缓亮起，新的状态效果 DARKNESS，还有心跳声真的吓人）\n5.WARDEN 守卫在接收到信号时会从地底之中出来，根据声音定位，下界合金套玩家被打两三下就没了，预测伤害是忽略装甲的）\n6. 船上可以带箱子啦！\n7. 红树林树种加入，种在水下和地上，长得很高，树叶上有很多藤蔓和繁殖芽体，之后掉落重新再生，根部纵横交错。\n8. 红树林木板等一系列方块\n 9. 新的生物群系：红树林沼泽\n 10. 泥块（水瓶放在泥土块上面），泥砖等一系列方块。\n11. 新的生物青蛙，会跳跃，会鼓起嘴。\n12. 萤火虫！！！（青蛙的食物……）\n13. 小蝌蚪也来了！（根据温度发育成不同内的青蛙）\n14. 沼泽青蛙，雪域青蛙，热带青蛙（跟狐狸那一套差不多）\n第二年生物投票结果：\nALLAY 成为赢家！！！将在明年荒野更新中推出\n完结撒花！！！！</p>\n",
+            "content_html": "<p>Markdown 教程：</p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9tYXJrZG93bi5jb20uY24vYmFzaWMtc3ludGF4Lw==\">https://markdown.com.cn/basic-syntax/</span></p>\n<p><span class=\"exturl\" data-url=\"aHR0cHM6Ly9tY2Jhci5jbHViL2QvMzEtbWFya2Rvd24=\">https://mcbar.club/d/31-markdown</span></p>\n<p><s>为什么刚刚发了两个一模一样的🤣</s></p>\n",
             "tags": [
                 "教程"
             ]

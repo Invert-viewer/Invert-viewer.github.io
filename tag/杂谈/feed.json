@@ -5,6 +5,16 @@
     "home_page_url": "https://invert-viewer.github.io",
     "items": [
         {
+            "id": "https://invert-viewer.github.io/vvboard-experience/",
+            "url": "https://invert-viewer.github.io/vvboard-experience/",
+            "title": "vvboard-experience",
+            "date_published": "2021-10-30T09:53:55.000Z",
+            "content_html": "<p><s>现在终于轮到我来批判这块开发板了</s></p>\n",
+            "tags": [
+                "杂谈"
+            ]
+        },
+        {
             "id": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
             "url": "https://invert-viewer.github.io/CSP-J-S-on-cloud/",
             "title": "CSP-J/S 云上游记",
