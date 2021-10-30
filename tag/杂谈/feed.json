@@ -7,9 +7,9 @@
         {
             "id": "https://invert-viewer.github.io/vvboard-experience/",
             "url": "https://invert-viewer.github.io/vvboard-experience/",
-            "title": "vvboard-experience",
+            "title": "虚谷号使用体验",
             "date_published": "2021-10-30T09:53:55.000Z",
-            "content_html": "<p><s>现在终于轮到我来批判这块开发板了</s></p>\n",
+            "content_html": "<div class=\"note warning\">\n<p>声明：本人所用的虚谷号为 1G+8G 的配置，大部分原因是由配置不足导致的，存在极强的主观臆断色彩。</p>\n</div>\n<p><s>现在终于轮到我来批判这块开发板了</s></p>\n",
             "tags": [
                 "杂谈"
             ]
