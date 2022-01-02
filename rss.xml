@@ -17,20 +17,68 @@
             <pubDate>Sat, 01 Jan 2022 00:12:09 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;时光如白驹过隙，转眼又是一年的年末，不知不觉竟然就要步入 2022 了。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;s&gt;同时意味着地球再一次绕着太阳公转了一圈&lt;/s&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;学习生活&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习生活&#34;&gt;#&lt;/a&gt; 学习 &amp;amp; 生活&lt;/h2&gt;
-&lt;p&gt;&lt;s&gt;时候不早了，几个小时后再写吧。😏&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;好了，然而现在已经是晚上 11 点了，我才来起来去写这个......&lt;/p&gt;
-&lt;p&gt;2022 就这么来了，天高云淡。&lt;/p&gt;
-&lt;p&gt;首先重要的是 4 月份的分班，学校给出的方案是纯文或物理搭上 1/2 门文科。&lt;/p&gt;
-&lt;p&gt;轮到我自己选的时候便犯了难，看成绩的话我的物理、政治都是年级六百多名，地理、历史、生物、化学都是年级前五十至甚至更高。而校校有没有物化地的班型。跑班是肯定不可能的。又去纠结了下下自己的兴趣，还听说到大学时可以转系，最后论出结论：去文科班…&lt;/p&gt;
-&lt;p&gt;但很快就生生了转折。最后还是在 8 月 30 号到校管委会去字了字 --- 调班了。调整后就到了物化政班，这肯定不是最好的选择，但对于我自己来说的未来，这种选择稍微更理理一些。。。&lt;/p&gt;
-&lt;p&gt;还有很多事啊…… 几个小时后再摸吧！&lt;/p&gt;
-&lt;h2 id=&#34;博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客&#34;&gt;#&lt;/a&gt; 博客&lt;/h2&gt;
-&lt;p&gt;还是有很多要说的，可惜无法打开互联网档案馆……&lt;/p&gt;
+&lt;h2 id=&#34;学习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习&#34;&gt;#&lt;/a&gt; 学习&lt;/h2&gt;
+&lt;h3 id=&#34;四月的分班&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四月的分班&#34;&gt;#&lt;/a&gt; 四月的分班&lt;/h3&gt;
+&lt;p&gt;首先是开了个毫无意义的选科指导大会，就算在会上做了很多笔记，最后挑选时仍然感到云里雾里，轮到我自己选的时候便犯了难……&lt;/p&gt;
+&lt;p&gt;学校给出的方案是纯文或物理搭上 1~2 个文科。&lt;em&gt;(最后不知道是什么原因学校还开了一个纯理班。)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;首先看成绩，我的物理、政治都是年级六百多名，地理、历史、生物、化学都是年级前五十至甚至更高。
+而学校又没有物化地的班型，再加上跑班是肯定不可能的。&lt;/p&gt;
+&lt;p&gt;然后看了看自己的兴趣，首先政治是不可能摸的。还顺带听说到大学时可以转系。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;最后还是被学校打了脸 (￣﹃￣)&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;最后得出的结论是：去文科班🤣&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;虽然现在看来感觉是个多么好笑的决定&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;八月的调班&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#八月的调班&#34;&gt;#&lt;/a&gt; 八月的调班&lt;/h3&gt;
+&lt;p&gt;本以为已经是万无一失了，但很快就出现了转折。&lt;/p&gt;
+&lt;p&gt;最后还是在 8 月 30 号到校管委会去字了字 --- 调班了。还是到了物化政班，这肯定不是最好的选择，但对于我自己来说的未来，这种选择稍微好一些。。。&lt;/p&gt;
+&lt;h3 id=&#34;十月的信息学竞赛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十月的信息学竞赛&#34;&gt;#&lt;/a&gt; 十月的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNuLw==&#34;&gt;信息学竞赛&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;首先当然是探查了情况，结果还是被泼了盆冷水。🙄&lt;/p&gt;
+&lt;p&gt;最后除了学了点相当浅显的 C++，就稍微看了一下这些东西：&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;一点点基础而已，虽然现在已经基本忘了……&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;变量、赋值语句、数据类型转换、变量的读入和输出、if 语句及其嵌套语句、逻辑和条件表达式、switch 语句、for/while/do-while 语句、多重循环。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;以上均来自《CCF 中学生计算机程序设计入门篇》&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;p&gt;最后我参加信息学竞赛的想法还是如肥皂泡般破灭了……&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;figcaption data-lang=&#34;C++&#34;&gt;&lt;span&gt;一些历史遗留下来的&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuLw==&#34;&gt;参考链接 &lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;iostream&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token macro property&#34;&gt;&lt;span class=&#34;token directive-hash&#34;&gt;#&lt;/span&gt;&lt;span class=&#34;token directive keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&amp;lt;cmath&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;namespace&lt;/span&gt; std&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;double&lt;/span&gt; num_1&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;num_2&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;ans&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	num_1&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	n&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	num_2&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;n&lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	ans&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;num_1&lt;span class=&#34;token operator&#34;&gt;*&lt;/span&gt;num_2&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token comment&#34;&gt;// 具体什么意义其实我自己也忘了&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;cout&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;ans&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;endl&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;最后不但没有取得多少成果，而且还被我们班的数学老师说教了一遍。&lt;/p&gt;
+&lt;p&gt;最后因为 11 月 11 号那场滑稽的期中考试而被迫取消。&lt;/p&gt;
+&lt;p&gt;我也成了一个了 “中途退出” 的 OIer (ಥ _ ಥ))&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;h2 id=&#34;博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;随着暑假接近了尾声，我也顺着教程搭建了自己的独立博客。(8 月 24 日)&lt;/p&gt;
+&lt;p&gt;但直到 11 月之前，仍然没有多少实质性的技术内容涌现出。(｀-_ゝ -)&lt;/p&gt;
+&lt;p&gt;11~12 月还是太忙了，首先是学校放假天数一次比一次少啊＞﹏＜&lt;/p&gt;
+&lt;p&gt;(一周只有 SAT15:30~SUN13:50 放假时间)&lt;/p&gt;
+&lt;p&gt;这也导致了博客的一片荒芜……&lt;/p&gt;
+&lt;p&gt;直到元旦才有时间去修改这个……&lt;/p&gt;
 &lt;h2 id=&#34;普通高中学业水平测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#普通高中学业水平测试&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuanNlZWEuY24vd2ViZmlsZS9leGFtaW5hdGlvbi9zZW5pb3JoaWdoc2Nob29sbGV2ZWwv&#34;&gt;普通高中学业水平测试&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;最重要的还是两个日期：&lt;/p&gt;
-&lt;p&gt;2021 年 1 月 9 日～2021 年 1 月 11 日  &lt;strong&gt;普通高中学业水平合格性考试 (信息技术)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;2021 年 1 月 16 日～2021 年 1 月 18 日  &lt;strong&gt;普通高中学业水平合格性考试&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;最重要的还是这两个日期&lt;/p&gt;
+&lt;p&gt;2022 年 1 月 9 日～2022 年 1 月 11 日  &lt;strong&gt;普通高中学业水平合格性考试 (信息技术)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2022 年 1 月 16 日～2022 年 1 月 18 日  &lt;strong&gt;普通高中学业水平合格性考试&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;这就是传说中的小高考。。。&lt;/p&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;物化生政史地&#34;&gt;
+&lt;p&gt;首先学校肯定是宣布它的重要性啥的，然后迎接而来的便是 4 次模拟，每次都有几门拿了班级第一，弄得我实在是无聊极了，唯一开心点的是最后一次模拟时生物摸了个 94 分。(我也不知道为什么第二名和我分差有近 10 分)
+ 至少我已经处于了安全区域，接下来都是考着玩的……&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;信息技术&#34;&gt;
+&lt;p&gt;在我们年级，相当一部分人遇到感觉信息技术就像洪水猛兽一般……&lt;/p&gt;
+&lt;p&gt;我既然之前摸过一点点 Python 和 C++、还有闲的没事干看的 6 本《信息技术 选择性必修》，这场考试对我来说简直是小菜一碟。&lt;/p&gt;
+&lt;p&gt;学校为了备考发了一本《备考指南》，这里面与其说是指南倒不如说是题库，只是选择题、Python 编程操作题、综合题的堆砌罢了，还是有不少漏洞的。&lt;/p&gt;
+&lt;p&gt;#### 漏洞
+先不说没有一点解析这件事……&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择题连老师自己都说自己来做其中的一份 (20 道) 都不可能全对，话说这本书难道不是你自己编的吗？？？&lt;/li&gt;
+&lt;li&gt;操作题有许多程序定义变量整的奇奇怪怪，例如年龄 (age) 不知道为什么要用 float，难道会有人年龄带小数？自定义函数 (def) 的名称一会儿英文一会儿拼音，甚至还有个拼音缩写这种奇葩。o (￣┰￣*) ゞ&lt;/li&gt;
+&lt;li&gt;综合题质量真的是不敢维恭，倒不如说这是常识题……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总的来说还是学校信息课没有办法去教授我们如何去编写这些程序，这些语句为什么要放在这，即没能告诉这些东西的底层逻辑是什么，最后只有在临近小高考时赶鸭子上架。试想一下我自己若是没有提前接触过这些，说不定我现在也 “谈信息技术色变” 了 (・_・)&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;尾声&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#尾声&#34;&gt;#&lt;/a&gt; 尾声&lt;/h2&gt;
+&lt;p&gt;2022 就这么来了，眺望未来，我的高中生活已经过去一半，道阻且长。&lt;/p&gt;
+&lt;p&gt;最后留下一段《意林》上看到的话，与君共勉：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;去找到能让你骄傲的事，去把眼光放得更加长远，不要让大多数人的价值标准成为你自己的价值标准，永远不是别人说了算，是你自己说了算，你一定有比你周围人都更擅长的东西，去找到他，总有一天会找到的。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
  ]]></description>
         </item>
         <item>
