@@ -5,8 +5,8 @@
     <link href="https://invert-viewer.github.io" />
     <updated>2022-01-06T15:49:43.000Z</updated>
     <category term="杂谈" />
-    <category term="教程" />
     <category term="测试" />
+    <category term="教程" />
     <entry>
         <id>https://invert-viewer.github.io/senior-high-school-level/</id>
         <title>学业水平测试总结</title>
@@ -96,7 +96,7 @@
 &lt;p&gt;探查过其他班级的教师与自己的成绩水平后，最后还是决定去物化政班。&lt;/p&gt;
 &lt;p&gt;接着，在 8 月 30 号到校管委会去字了字，随之而来的便是调班，从政史地班到了物化政班，当然在选科自由的条件下这肯定不是最好的选择，但对于我自己来说的未来，这种选择&lt;em&gt;稍微&lt;/em&gt; 好一些。。。&lt;/p&gt;
 &lt;h3 id=&#34;十月的信息学竞赛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十月的信息学竞赛&#34;&gt;#&lt;/a&gt; 十月的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNuLw==&#34;&gt;信息学竞赛&lt;/span&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;起步便是低沉的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起步便是低沉的&#34;&gt;#&lt;/a&gt; 起步便是低沉的……&lt;/h4&gt;
+&lt;h4 id=&#34;起步是低沉的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起步是低沉的&#34;&gt;#&lt;/a&gt; 起步是低沉的……&lt;/h4&gt;
 &lt;p&gt;首先当然是探查了情况，结果就是当头一棒。🙄&lt;/p&gt;
 &lt;p&gt;竞赛的具体的内容请看&lt;a href=&#34;https://invert-viewer.github.io/CSP-J-S-on-cloud/&#34;&gt; CSP-J/S 云上游记&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;为了竞赛，考虑到我大多数时间在学校没时间去上网查找资料，便把目光转向书本，我便借助&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vaS13aWtpLm9yZy9jb250ZXN0L3Jlc291cmNlcy8jXzU=&#34;&gt; OIwiki&lt;/span&gt; 买了 9 本书。最后只仔细读了《CCF 中学生计算机程序设计 - 入门篇》的 70%（截止到 “数组” 前，已读了 180 页，共计 260 页）就放弃了……&lt;/p&gt;
@@ -113,15 +113,14 @@
 &lt;h4 id=&#34;回首有望到了一些其他的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回首有望到了一些其他的&#34;&gt;#&lt;/a&gt; 回首有望到了一些其他的&lt;/h4&gt;
 &lt;p&gt;这一短暂的 OIer 历程带来的仅仅是坏处吗？&lt;/p&gt;
 &lt;p&gt;矛盾具有普遍性，我想并不是的。&lt;/p&gt;
-&lt;p&gt;抛开功利层面来说，至少这回经历让我认识到了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNu&#34;&gt;洛谷&lt;/span&gt;以及上面的许多大佬，接触到了许多可能要延后不知道多长时间才能看到的东西！&lt;/p&gt;
 &lt;p&gt;在这里引用一段话：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;有的学校可能会想：既然如此吃力不讨好，那我们还搞竞赛干嘛？&lt;/em&gt;
 事实上大错特错。竞赛的收益，并不仅仅在一张奖状。开阔的视野，发散的思维，都是我们从竞赛中能学到的东西。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;参考链接:&lt;/strong&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL2Jsb2cva2trc2MwMy9vaS1kZXNjcHRpb24y&#34;&gt; 信息学竞赛全攻略 2：为什么要参加竞赛&lt;/span&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdHVkeWluZ2ZhdGhlci5jb20vYXJjaGl2ZXMvMzEyNQ==&#34;&gt;灯下随笔（四）—— 强基计划与竞赛的未来&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;参考链接:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubHVvZ3UuY29tLmNuL2Jsb2cva2trc2MwMy9vaS1kZXNjcHRpb24y&#34;&gt;信息学竞赛全攻略 2：为什么要参加竞赛&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdHVkeWluZ2ZhdGhlci5jb20vYXJjaGl2ZXMvMzEyNQ==&#34;&gt;灯下随笔（四）—— 强基计划与竞赛的未来&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;十二月的普通高中学业水平测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十二月的普通高中学业水平测试&#34;&gt;#&lt;/a&gt; 十二月的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuanNlZWEuY24vd2ViZmlsZS9leGFtaW5hdGlvbi9zZW5pb3JoaWdoc2Nob29sbGV2ZWwv&#34;&gt;普通高中学业水平测试&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;明明是 2022 年的事情，2021 年就早就已经开始备考了……&lt;/p&gt;
 &lt;p&gt;具体情况参见&lt;a href=&#34;https://invert-viewer.github.io/senior-high-school-level/&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
