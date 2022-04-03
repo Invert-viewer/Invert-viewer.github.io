@@ -1618,12 +1618,17 @@ const goToCommentHandle = function () {
 const menuActive = function () {
   $.each('.menu .item:not(.title)', function (element) {
     var target = element.child('a[href]');
+    var parentItem = element.parentNode.parentNode;
     if (!target) return;
     var isSamePath = target.pathname === location.pathname || target.pathname === location.pathname.replace('index.html', '');
     var isSubPath = !CONFIG.root.startsWith(target.pathname) && location.pathname.startsWith(target.pathname);
     var active = target.hostname === location.hostname && (isSamePath || isSubPath)
     element.toggleClass('active', active);
-    element.parentNode.parentNode.toggleClass('expand', element.parentNode.hasClass('submenu') && element.parentNode.child('.active'));
+    if(element.parentNode.child('.active') && parentItem.hasClass('dropdown')) {
+      parentItem.removeClass('active').addClass('expand');
+    } else {
+      parentItem.removeClass('expand');
+    }
   });
 }
 const cardActive = function() {
@@ -1706,7 +1711,7 @@ const postFancybox = function(p) {
       $.each(p + ' p.gallery', function(element) {
         var box = document.createElement('div');
         box.className = 'gallery';
-        box.attr('data-height', element.attr('data-height')||120);
+        box.attr('data-height', element.attr('data-height')||220);
 
         box.innerHTML = element.innerHTML.replace(/<br>/g, "")
 
@@ -1769,6 +1774,11 @@ const postBeauty = function () {
   $('.post.block').oncopy = function(event) {
     showtip(LOCAL.copyright)
 
+    if(LOCAL.nocopy) {
+      event.preventDefault()
+      return
+    }
+
     var copyright = $('#copyright')
     if(window.getSelection().toString().length > 30 && copyright) {
       event.preventDefault();
@@ -1794,6 +1804,10 @@ const postBeauty = function () {
     parent.addClass('ruby');
   })
 
+  $.each('ol[start]', function(element) {
+    element.style.counterReset = "counter " + parseInt(element.attr('start') - 1)
+  })
+
   $.each('.md table', function (element) {
     element.wrap({
       className: 'table-container'
@@ -1812,25 +1826,29 @@ const postBeauty = function () {
     element.insertAdjacentHTML('beforeend', '<div class="operation"><span class="breakline-btn"><i class="ic i-align-left"></i></span><span class="copy-btn"><i class="ic i-clipboard"></i></span><span class="fullscreen-btn"><i class="ic i-expand"></i></span></div>');
 
     var copyBtn = element.child('.copy-btn');
-    copyBtn.addEventListener('click', function (event) {
-      var target = event.currentTarget;
-      var comma = '', code = '';
-      code_container.find('pre').forEach(function(line) {
-        code += comma + line.innerText;
-        comma = '\n'
-      })
+    if(LOCAL.nocopy) {
+      copyBtn.remove()
+    } else {
+      copyBtn.addEventListener('click', function (event) {
+        var target = event.currentTarget;
+        var comma = '', code = '';
+        code_container.find('pre').forEach(function(line) {
+          code += comma + line.innerText;
+          comma = '\n'
+        })
 
-      clipBoard(code, function(result) {
-        target.child('.ic').className = result ? 'ic i-check' : 'ic i-times';
-        target.blur();
-        showtip(LOCAL.copyright);
-      })
-    });
-    copyBtn.addEventListener('mouseleave', function (event) {
-      setTimeout(function () {
-        event.target.child('.ic').className = 'ic i-clipboard';
-      }, 1000);
-    });
+        clipBoard(code, function(result) {
+          target.child('.ic').className = result ? 'ic i-check' : 'ic i-times';
+          target.blur();
+          showtip(LOCAL.copyright);
+        })
+      });
+      copyBtn.addEventListener('mouseleave', function (event) {
+        setTimeout(function () {
+          event.target.child('.ic').className = 'ic i-clipboard';
+        }, 1000);
+      });
+    }
 
     var breakBtn = element.child('.breakline-btn');
     breakBtn.addEventListener('click', function (event) {
@@ -1867,11 +1885,11 @@ const postBeauty = function () {
     fullscreenBtn.addEventListener('click', fullscreenHandle);
     caption && caption.addEventListener('click', fullscreenHandle);
 
-    if(code_container && code_container.height() > 300) {
+    if(code_container && code_container.find("tr").length > 15) {
+      
       code_container.style.maxHeight = "300px";
       code_container.insertAdjacentHTML('beforeend', '<div class="show-btn"><i class="ic i-angle-down"></i></div>');
       var showBtn = code_container.child('.show-btn');
-      var showBtnIcon = showBtn.child('i');
 
       var showCode = function() {
         code_container.style.maxHeight = ""
