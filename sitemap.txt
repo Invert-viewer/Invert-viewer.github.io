@@ -1,6 +1,6 @@
+https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/senior-year-departure/
 https://invert-viewer.github.io/2021-annual-summary/
-https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/blog-functional-testing/
 https://invert-viewer.github.io/CSP-J-S-on-cloud/
 https://invert-viewer.github.io/vvboard-experience/
