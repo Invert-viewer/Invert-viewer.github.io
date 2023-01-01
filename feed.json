@@ -5,6 +5,16 @@
     "home_page_url": "https://invert-viewer.github.io",
     "items": [
         {
+            "id": "https://invert-viewer.github.io/2022-annual-summary/",
+            "url": "https://invert-viewer.github.io/2022-annual-summary/",
+            "title": "2022-annual-summary",
+            "date_published": "2022-12-31T15:48:34.000Z",
+            "content_html": "<p><s>什么？你告诉我马上都 2023 了？我 2022 还没过够呢！</s></p>\n<p><em>就让我们再次祝贺地球再一次围绕着太阳公转了一圈！</em></p>\n<h2 id=\"六月的2022高考\"><a class=\"anchor\" href=\"#六月的2022高考\">#</a> 六月的 2022 高考</h2>\n<p><a href=\"https://invert-viewer.github.io/2021-annual-summary\">喂！话说你是不是写过一遍了？</a></p>\n<p><s>别担心，今年就到你了</s></p>\n<ul class=\"task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"cbx_0\" disabled=\"true\"><label for=\"cbx_0\"> 2022 高考 --- 等待补充</label></li>\n</ul>\n<h2 id=\"十一月-十二月的疫情反复结束了\"><a class=\"anchor\" href=\"#十一月-十二月的疫情反复结束了\">#</a> 十一月、十二月的疫情反复 (结束了？)</h2>\n<p>讲个笑话：</p>\n<blockquote>\n<p>因为开学，本次疫情取消。</p>\n</blockquote>\n<div class=\"note info\">\n<p>你知道吗？</p>\n<p>2020 年初三中考因为疫情放假的，和如今 2023 年高三因为疫情放假的是同一批人哦！</p>\n</div>\n",
+            "tags": [
+                "杂谈"
+            ]
+        },
+        {
             "id": "https://invert-viewer.github.io/senior-year-departure/",
             "url": "https://invert-viewer.github.io/senior-year-departure/",
             "title": "我的高三碎碎念",
