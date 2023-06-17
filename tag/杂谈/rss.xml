@@ -9,7 +9,6 @@
         <lastBuildDate>Sat, 31 Dec 2022 23:48:34 +0800</lastBuildDate>
         <category>杂谈</category>
         <category>测试</category>
-        <category>工具</category>
         <item>
             <guid isPermalink="true">https://invert-viewer.github.io/2022-annual-summary/</guid>
             <title>2022年度总结</title>
@@ -19,20 +18,23 @@
             <description><![CDATA[ &lt;p&gt;&lt;s&gt;什么？你告诉我马上都 2023 了？我 2022 还没过够呢！&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;就让我们再次祝贺地球再一次围绕着太阳公转了一圈！&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;六月的2022高考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六月的2022高考&#34;&gt;#&lt;/a&gt; 六月的 2022 高考&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://invert-viewer.github.io/2021-annual-summary&#34;&gt;喂！话说你是不是写过一遍了？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;s&gt;别担心，今年就到你了&lt;/s&gt;&lt;/p&gt;
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 2022 高考 --- 等待补充&lt;/label&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;十一月-十二月的疫情反复结束了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十一月-十二月的疫情反复结束了&#34;&gt;#&lt;/a&gt; 十一月、十二月的疫情反复 (结束了？)&lt;/h2&gt;
-&lt;p&gt;讲个笑话：&lt;/p&gt;
+&lt;p&gt;刚拿到试卷那一会造成的影响在&lt;a href=&#34;https://invert-viewer.github.io/senior-year-departure&#34;&gt;这个文章&lt;/a&gt;里面写过了，放了将近 6 个月到现在，也有不少新的感想。&lt;/p&gt;
+&lt;p&gt;首先造成的就是平常发的数学模拟卷难度陡然递增，本来去年的试卷一大特点就是大计算量和大思维量。可是很遗憾，我对付这些东西仍然是手无寸铁。&lt;/p&gt;
+&lt;p&gt;我试图在学校里面找找解决方案，&lt;strong&gt;我找到的却只有无尽的懊恼。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;其次便是我对数学的自信心大幅度下降 (&lt;em&gt;奇妙的是我后来发现这在我们班是普遍现象&lt;/em&gt;)，同样是 45 分钟的自主研修，我更倾向于写化学或物理而不是数学。本来有迹可循的 18 题解三角形，本来是必对的题目，可现在做模拟卷却发现形式千变万化，好像没什么规律可循。&lt;/p&gt;
+&lt;p&gt;再次是我对我们学校的教研组的彻底失望，形式主义泛滥也就算了，忍忍能过去。可是这么影响深远的高考结束了，高考试卷分析总得有吧？等了半天好像只有语文的，英语就只是简单做一下原卷了事（也有可能是试卷简单的缘故），数学科目只有_第 7 题比大小_和_第 12 题抽象函数的导数_拿出来着重讲过，其他题目闻所未闻！&lt;/p&gt;
+&lt;h2 id=&#34;十一月-十二月的疫情反复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十一月-十二月的疫情反复&#34;&gt;#&lt;/a&gt; 十一月、十二月的疫情反复&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;因为开学，本次疫情取消。&lt;/p&gt;
+&lt;p&gt;讲个笑话：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;因为开学，本次疫情取消。&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;你知道吗？&lt;/p&gt;
-&lt;p&gt;2020 年初三中考因为疫情放假的，和如今 2023 年高三因为疫情放假的是同一批人哦！&lt;/p&gt;
+&lt;p&gt;2020 年初三中考因为疫情放假的，和如今 2023 年高三因为疫情放假的是同一批人哦！(ノへ￣、)&lt;/p&gt;
+&lt;p&gt;初三下学期放了三个月寒假，高三上学期又是将近一个月的假期。&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;可是疫情真的结束了吗？&lt;/p&gt;
+&lt;p&gt;是结束，更是开始。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -53,6 +55,7 @@
 &lt;h3 id=&#34;2022年高考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2022年高考&#34;&gt;#&lt;/a&gt; 2022 年高考&lt;/h3&gt;
 &lt;p&gt;今年的高考卷…… ヾ (≧へ≦)〃&lt;/p&gt;
 &lt;h4 id=&#34;新高考i卷&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新高考i卷&#34;&gt;#&lt;/a&gt; 新高考 Ⅰ 卷&lt;/h4&gt;
+&lt;p&gt;刚拿到试卷电子稿时，印象最深的就是那道立体几何 (19 题，12 分) 的第一问&lt;/p&gt;
 &lt;h4 id=&#34;全国乙卷&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全国乙卷&#34;&gt;#&lt;/a&gt; 全国乙卷&lt;/h4&gt;
 &lt;p&gt;最让我感到神奇的是卷子上面 19 题给的相关系数公式是没办法直接带的！要用求和符号的性质来化简（把另一个很难记的公式背下来也行）。&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;[&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo fence=&#34;true&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Σ&lt;/mi&gt;&lt;msup&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Σ&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;r=\frac{\sum\left[\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)\right]}{\sqrt{\mathrm{\Sigma}\left(x_i-\overline{x}\right)^2
@@ -99,7 +102,7 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;/blockquote&gt;
 &lt;p&gt;没想到初三暑假降临的疫情如今卷土重来，气势汹汹！11 月 21 日被通知线上授课，本以为自己能够通过这次机遇提升一番，但事与愿违，自己还是在漫无目的的游荡，不知方向，晕头转向！🙄&lt;/p&gt;
 &lt;ul class=&#34;task-list&#34;&gt;
-&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt;  补充学校每日安排&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; 补充学校每日安排&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;喂，哪来 11 月 31 日的？？？&lt;/s&gt;&lt;/p&gt;
@@ -280,7 +283,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <link>https://invert-viewer.github.io/CSP-J-S-on-cloud/</link>
             <category>杂谈</category>
             <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
-            <description><![CDATA[ &lt;blockquote&gt;
+            <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;注意！本人最后并没有参赛，甚至连报名都没成功，只是站在一个局外人的视角来看待的，** 参考价值不足！**&lt;em&gt; 其实当个笑话来看就行。&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;没有人天生被定义为失败者！&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&#34;note info&#34;&gt;
@@ -294,8 +300,7 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;/div&gt;
 &lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
 &lt;p&gt;这还要从一个动态说起：（见下面的动态链接）&lt;/p&gt;
-&lt;p&gt;原动态图片居然设置了防盗链🙄，请点击 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90LmJpbGliaWxpLmNvbS80NDgxNjA1NjE1Mjk2MTI5MTU/c3BtX2lkX2Zyb209MzMzLjk5OS4wLjA=&#34;&gt;这里&lt;/span&gt;
-查看&lt;/p&gt;
+&lt;p&gt;原动态图片居然设置了防盗链🙄，请点击 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly90LmJpbGliaWxpLmNvbS80NDgxNjA1NjE1Mjk2MTI5MTU/c3BtX2lkX2Zyb209MzMzLjk5OS4wLjA=&#34;&gt;这里&lt;/span&gt;查看&lt;/p&gt;
 &lt;p&gt;（图片中通过普及组的那个人才三年级…… 再看看我自己🙃，感觉有点滑稽。）&lt;/p&gt;
 &lt;p&gt;当然还有 &lt;em&gt;羟基计划&lt;/em&gt; 和这个有关 (+_+)&lt;/p&gt;
 &lt;p&gt;一看我居然撞上了信息学奥赛 (¬‿¬)&lt;/p&gt;
@@ -324,25 +329,24 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
 &lt;p&gt;接着便是找找认证地点安排，找到本市中的地点，发现认证地点距我家实在是太远了！&lt;/p&gt;
 &lt;p&gt;查高德地图发现即使是三个路线都超过 100 公里，就算驾车也要两个小时，但要真当天早上参加的话其实还好 (毕竟时间在下午 2 点)。&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;好吧其实这比起其他的不利因素还算友好。&lt;/p&gt;
+&lt;p&gt;好吧其实这比起其他的不利因素这个还算友好。&lt;/p&gt;
 &lt;h3 id=&#34;认证时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证时&#34;&gt;#&lt;/a&gt; 认证时&lt;/h3&gt;
 &lt;p&gt;答题方式其实这和平常考试也没什么区别，也是试卷笔试 + 填涂答题卡。&lt;/p&gt;
 &lt;p&gt;但认证内容嘛……&lt;/p&gt;
-&lt;p&gt;这里有个&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmhhbnMzNjIuY24vcG9zdC8yMDIxLWNzcC1zLTEv&#34;&gt;提高组的试题链接&lt;/span&gt; 。
+&lt;p&gt;这里有个&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ibG9nLmhhbnMzNjIuY24vcG9zdC8yMDIxLWNzcC1zLTEv&#34;&gt;提高组的试题链接&lt;/span&gt;。
 虽然没找到普及组的，应该更简单一点，里面的题目意思相信懂得都懂。😎&lt;/p&gt;
 &lt;p&gt;比如这里提高组的试题中有两道排列组合的数学题，难度嘛，自行体会 🤐&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/hans362/image-hosting@master/2021/09/30/5283768.jpg&#34; alt=&#34;图标(若图片无法显示，请单击查看)&#34;&gt;&lt;/p&gt;
 &lt;p&gt;（全国试卷应该是通用的，这河南的题应该与江苏相同）&lt;/p&gt;
 &lt;h3 id=&#34;认证后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证后&#34;&gt;#&lt;/a&gt; 认证后&lt;/h3&gt;
 &lt;p&gt;这里有即时的与历史的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubm9pLmNuL2dzL3h3L2pzLw==&#34;&gt;认证通知消息&lt;/span&gt;，
- 反正已经与我无关了╯︿╰，看看就行&lt;/p&gt;
+&lt;em&gt; 反正已经与我无关了╯︿╰，看看就行。&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 2&lt;sup&gt;1024&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#感受&#34;&gt;#&lt;/a&gt; 感受&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;到网络上去搜索关于信息学竞赛的相关事宜时，看到当下实行的政策，这真的给我泼了一盆冷水，“&lt;em&gt;CSP-J/S 认证成绩优异者，可参加 NOI 省级选拔，省级选拔成绩优异者可参加 NOI。&lt;/em&gt;” 这告诉我好像有好几级台阶需要攀爬，而对于既没有教育资源又是竞赛强省的我来说属实…… 不太可能😑&lt;/li&gt;
+&lt;li&gt;到网络上去搜索关于信息学竞赛的相关事宜时，看到当下实行的政策，这真的给我泼了一盆冷水，“&lt;em&gt;CSP-J/S 认证成绩优异者，可参加 NOI 省级选拔，省级选拔成绩优异者可参加 NOI。&lt;/em&gt;” 这告诉我好像有好几级台阶需要攀爬，而对于既没有教育资源又是竞赛强省的我来说属实…… 不太可能🙄&lt;/li&gt;
 &lt;li&gt;算是彻底体验了一会 “地域差异” 为何物，感觉这好像就是天生给你设定好的，难道这是注定的吗？&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;不！没有人天生被定义为失败者！相信一定可以打破这困局！&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;没有人天生被定义为失败者！相信一定可以打破这困局！&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;题外话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题外话&#34;&gt;#&lt;/a&gt; 题外话&lt;/h2&gt;
 &lt;p&gt;这里可以看到曾经的洛谷练习题状态：&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://luogu.wao3.cn/api/practice?id=576341&#34; alt=&#34;我的练习情况&#34;&gt;&lt;/p&gt;
@@ -356,16 +360,13 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
             <category>杂谈</category>
             <pubDate>Tue, 24 Aug 2021 15:32:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;时间2021年8月24日900~203026&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年8月24日900~203026&#34;&gt;#&lt;/a&gt; 时间：2021 年 8 月 24 日 9:00~20:30:26&lt;/h2&gt;
-&lt;h4 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h4&gt;
-&lt;p&gt;搭建了快 10 个小时终于整好了 (ToT)/~~~, 期间真的遇到无数故障，查了好多资料，真的就像原教程说的搭完后 “仿佛踏入仙境”(・_・)&lt;/p&gt;
-&lt;h4 id=&#34;那些遇到的奇葩问题记不太清了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#那些遇到的奇葩问题记不太清了&#34;&gt;#&lt;/a&gt; 那些遇到的奇葩问题（记不太清了）&lt;/h4&gt;
+&lt;h3 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h3&gt;
+&lt;p&gt;搭建了快 10 个小时终于整好了 (ToT)/~~~, 期间真的遇到无数故障，查了好多资料，真的就像&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMDI1OTIyODY=&#34;&gt;原教程&lt;/span&gt;说的搭完后 “仿佛踏入仙境”(・_・)&lt;/p&gt;
+&lt;h3 id=&#34;那些遇到的奇葩问题记不太清了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#那些遇到的奇葩问题记不太清了&#34;&gt;#&lt;/a&gt; 那些遇到的奇葩问题（记不太清了）&lt;/h3&gt;
 &lt;p&gt;1. 上传文件总是失败（改了无数遍 hosts 文件……）
 2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）
-3. 终于能访问后网页却是蓝底白字（这个困扰最久，可是解决方案太傻瓜)&lt;/p&gt;
-&lt;h4 id=&#34;已知问题或者说是待办事项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#已知问题或者说是待办事项&#34;&gt;#&lt;/a&gt; 已知问题（或者说是待办事项）&lt;/h4&gt;
-&lt;p&gt;待会发啊的 o (&lt;em&gt;￣▽￣&lt;/em&gt;) ブ&lt;/p&gt;
-&lt;p&gt;欢迎来到我的网站！
-今天就开学了，以后肯定疏于管理了 (+_+)，都高二了，还到了新的班级（10 班），加油吧！！！ ^o^/&lt;/p&gt;
+3. 终于能访问后网页却是蓝底白字（这个困扰最久，&lt;em&gt;&lt;strong&gt;一定要注意大小写！！！&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;高二了，还到了新的班级（10 班），加油吧！！！ ^o^/~&lt;/p&gt;
 &lt;p&gt;next 版本：7.7.2&lt;/p&gt;
 &lt;h2 id=&#34;时间2021年9月21日195915&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月21日195915&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 21 日 19:59:15&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -379,26 +380,23 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  今天提交了入团申请书，还不知道能不能通过……
  还有那神奇的综合素质评价表，真的让我无言以对。(¬_¬)&lt;/p&gt;
 &lt;h2 id=&#34;时间2021年9月26日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月26日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 26 日&lt;/h2&gt;
-&lt;p&gt;距离博客网页创建已经过了整整一个月，其现在还是保持正常运行。&lt;/p&gt;
+&lt;p&gt;距离博客网页创建已经过了整整一个月，至少还可以保持正常运行。&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;虽然有点 bug 还没修&lt;/s&gt;&lt;/p&gt;
-&lt;p&gt;好耶ヾ (✿ﾟ▽ﾟ) ノ&lt;/p&gt;
 &lt;h2 id=&#34;时间2021年9月27日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月27日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 27 日&lt;/h2&gt;
 &lt;p&gt;打算充实一下博客的内容，就每周写一点周记吧！&lt;/p&gt;
 &lt;p&gt;&lt;s&gt;虽然我知道这些周记肯定很水&lt;/s&gt;&lt;/p&gt;
 &lt;h2 id=&#34;时间2021年10月1日223746&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年10月1日223746&#34;&gt;#&lt;/a&gt; 时间：2021 年 10 月 1 日 22:37:46&lt;/h2&gt;
-&lt;p&gt;今天更换了新的主题，虽然好看但是 bug 也太多了吧……&lt;/p&gt;
+&lt;p&gt;今天更换了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==&#34;&gt;新的主题&lt;/span&gt;，虽然好看但是 bug 也太多了吧！╰（‵□′）╯&lt;/p&gt;
 &lt;p&gt;光是修这些玩意儿就又耗了一天的时间……&lt;/p&gt;
 &lt;h2 id=&#34;时间2021年11月24日230754&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年11月24日230754&#34;&gt;#&lt;/a&gt; 时间：2021 年 11 月 24 日 23:07:54&lt;/h2&gt;
 &lt;p&gt;好长好长时间都没写博客了……&lt;/p&gt;
 &lt;p&gt;这期间发生了不少事情，就比如这几个影响最大的：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;2021年11月11号的期中考试(￢ω￢)~~考的什么玩意啊~~
-
-信息学竞赛——————中途退出(;′⌒`)
-
-2022年普通高中学业水平测试报名
-
-第一次实现了“技术变现”
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;2021 年 11 月 11 号的期中考试 (￢ω￢)&lt;s&gt; 考的什么玩意啊&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;信息学竞赛 —————— 中途退出 (;′⌒`)&lt;/li&gt;
+&lt;li&gt;2022 年普通高中学业水平测试报名&lt;/li&gt;
+&lt;li&gt;第一次实现了 “技术变现”&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;暂时写这么多吧，毕竟其中的艰辛不是三言两语能讲清楚的。&lt;/p&gt;
 &lt;p&gt;＞︿＜&lt;/p&gt;
  ]]></description>
