@@ -1,10 +1,11 @@
+https://invert-viewer.github.io/C++%20gleanings%20Part%20I/
+https://invert-viewer.github.io/2021-annual-summary/
 https://invert-viewer.github.io/CSP-J-S-on-cloud/
 https://invert-viewer.github.io/hello-world/
 https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/blog-functional-testing/
 https://invert-viewer.github.io/2022-annual-summary/
 https://invert-viewer.github.io/senior-year-departure/
-https://invert-viewer.github.io/2021-annual-summary/
 https://invert-viewer.github.io/vvboard-experience/
 https://invert-viewer.github.io/senior-high-school-level/
 https://invert-viewer.github.io/tags/index.html
@@ -14,4 +15,5 @@ https://invert-viewer.github.io/lib/three/renovate.json
 https://invert-viewer.github.io/lib/three/README.html
 https://invert-viewer.github.io/
 https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/
+https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/
 https://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</loc>
+    
+    <lastmod>2023-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/2021-annual-summary/</loc>
+    
+    <lastmod>2023-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://invert-viewer.github.io/CSP-J-S-on-cloud/</loc>
     
     <lastmod>2023-06-17</lastmod>
@@ -50,15 +68,6 @@
     <loc>https://invert-viewer.github.io/senior-year-departure/</loc>
     
     <lastmod>2023-01-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/2021-annual-summary/</loc>
-    
-    <lastmod>2022-11-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,7 +139,7 @@
 
   <url>
     <loc>https://invert-viewer.github.io/</loc>
-    <lastmod>2023-06-17</lastmod>
+    <lastmod>2023-06-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,14 +147,21 @@
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2023-06-17</lastmod>
+    <lastmod>2023-06-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2023-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-06-17</lastmod>
+    <lastmod>2023-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

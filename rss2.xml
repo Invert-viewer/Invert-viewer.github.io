@@ -9,8 +9,35 @@
     <atom:link href="https://invert-viewer.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>致敬想象与创造力！</description>
-    <pubDate>Sun, 22 Jan 2023 13:12:27 GMT</pubDate>
+    <pubDate>Mon, 19 Jun 2023 15:09:07 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>C++ 拾遗</title>
+      <link>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</link>
+      <guid>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</guid>
+      <pubDate>Mon, 19 Jun 2023 12:56:46 GMT</pubDate>
+      
+        
+        
+      <description>&lt;div class=&quot;note info&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;本文主要是复习之前高二跟着《CCF 中学生计算机程序设计 入门篇》学的 C++，目录基本按照书本。&lt;s&gt;高考完了在不复习就真的忘光啦！&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;由于是 “拾遗”，而且这本书是为竞赛同学准备的，所以</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<div class="note info"><ul><li>本文主要是复习之前高二跟着《CCF 中学生计算机程序设计 入门篇》学的 C++，目录基本按照书本。<s>高考完了在不复习就真的忘光啦！</s></li><li>由于是 “拾遗”，而且这本书是为竞赛同学准备的，所以内容不会像《C Primer Plus》那么全。</li><li>由于大部分内容都是书本原话，不方便概括，所以多用折叠块。</li></ul></div><h2 id="第一章-编程基本概念"><a class="anchor" href="#第一章-编程基本概念">#</a> 第一章 编程基本概念</h2><div class="note info"><p>原本标题是 “编程如此简单” 可我感觉实在是太假了！╰（‵□′）╯</p></div><h3 id="程序设计概念"><a class="anchor" href="#程序设计概念">#</a> 程序设计概念</h3><details><summary>基本概念(程序、计算机语言、编辑和编译、IDE)</summary><div><ul><li>程序：用计算机编写的一系列指令序列</li><li>计算机语言：人与计算机之间通信的语言，有许多不同的语言，而且即使是同一种语言也有不同的版本。<s>点名批评 python2 和 python3</s>！</li><li>编辑：在某种计算机语言环境下编写程序的过程</li><li>解释：翻译一句执行一句。例如 Java</li><li>编译：一次性全部翻译，在执行。例如 C++</li><li>IDE: 集成开发环境 (Integrated development environment), 一般集成了编辑、编译和调试功能。<strong>所有 IDE 都是天下第一 IDE</strong></li></ul></div></details><h3 id="程序结构"><a class="anchor" href="#程序结构">#</a> 程序结构</h3><p>下面要请出经典的 “hello,world” 啦！&gt;ω&lt;</p><figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span> <span class="token directive keyword">include</span><span class="token string">&lt;iostream></span>               <span class="token comment">// 头文件</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>              <span class="token comment">// 名字空间，std 指的是标准名字空间</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>                       <span class="token comment">// 主函数</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    cout<span class="token operator">&lt;&lt;</span><span class="token operator">&lt;</span><span class="token string">"hello,world"</span><span class="token operator">&lt;&lt;</span><span class="token operator">&lt;</span>endl<span class="token punctuation">;</span>  <span class="token comment">// 主函数</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>                     <span class="token comment">// 主函数 (一般每个函数都有返回值，所以有了这句)</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><p>C++ 程序由头文件、名字空间和主函数构成</p><details class="info"><summary>1.头文件</summary><div><p>引用其他程序，用于保存程序的声明。格式如下：</p><figure class="highlight cpp"><figcaption data-lang="C++"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token expression"><span class="token operator">&lt;</span><span class="token operator">></span>  </span><span class="token comment">// 尖括号和引号里面加上引用文件名</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">""</span></span></pre></td></tr></table></figure></div></details><details class="info"><summary>2.名字空间</summary><div><p>防止编写大型程序时名字产生冲突。<em>（或者说方便指明函数是哪来的）</em></p></div></details><details class="info"><summary>3.主函数</summary><div><p>一般的 “函数”，都是实现某种功能的。而在大多数程序里面，main 函数是必须存在的，它是优先运行的。</p></div></details><h3 id="整数算数运算"><a class="anchor" href="#整数算数运算">#</a> 整数算数运算</h3>]]></content:encoded>
+      
+      
+      
+      <category domain="https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+      
+      
+      <comments>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2022年度总结</title>
