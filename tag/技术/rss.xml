@@ -16,24 +16,14 @@
             <link>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</link>
             <category>技术</category>
             <pubDate>Mon, 19 Jun 2023 20:56:46 +0800</pubDate>
-            <description><![CDATA[ &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[ ]&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;本文主要是复习之前高二跟着《CCF 中学生计算机程序设计 入门篇》学的 C++，目录基本按照书本。&lt;s&gt;高考完了在不复习就真的忘光啦！&lt;/s&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;由于是 “拾遗”，而且这本书定位特殊，所以内容不会像《C Primer Plus》那么全。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;本文大部分内容都源于书本，但尽可能不去摘抄原文，为了阅读效率，会多用折叠块。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;本文不探寻原理，只适用于上手操作，如需了解原理，请去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC5jcHByZWZlcmVuY2UuY29t&#34;&gt; cppreference&lt;/span&gt;。&lt;/p&gt;
-&lt;/li&gt;
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;本文主要是复习之前高二跟着《CCF 中学生计算机程序设计 入门篇》学的 C++，目录基本按照书本。&lt;s&gt;高考完了在不复习就真的忘光啦！&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;由于是 “拾遗”，而且这本书定位特殊，所以内容不会像《C Primer Plus》那么全。&lt;/li&gt;
+&lt;li&gt;本文大部分内容都源于书本，但尽可能不去摘抄原文，为了阅读效率，会多用折叠块。&lt;/li&gt;
+&lt;li&gt;本文不探寻原理，只适用于上手操作，如需了解原理，请去&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC5jcHByZWZlcmVuY2UuY29t&#34;&gt; cppreference&lt;/span&gt;。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;:::&lt;/p&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;第一章-编程基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章-编程基本概念&#34;&gt;#&lt;/a&gt; 第一章 编程基本概念&lt;/h2&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;原本标题是 “编程如此简单” 可我感觉实在是太假了！╰（‵□′）╯&lt;/p&gt;
@@ -101,8 +91,8 @@
 &lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 等待施工&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;参考资料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考资料&#34;&gt;#&lt;/a&gt; 参考资料&lt;/h2&gt;
-&lt;p&gt;1.&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vaS13aWtpLm9yZy9sYW5nL3Zhci8jZm46bm90ZTEx&#34;&gt; 变量数据类型 - OI WIKI&lt;/span&gt;
-2.&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC5jcHByZWZlcmVuY2UuY29tL3cvY3BwL2xhbmd1YWdlL3R5cGU=&#34;&gt; 类型 - cppreference&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1.&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vaS13aWtpLm9yZy9sYW5nL3Zhci8jZm46bm90ZTEx&#34;&gt; 变量数据类型 - OI WIKI&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2.&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly96aC5jcHByZWZlcmVuY2UuY29tL3cvY3BwL2xhbmd1YWdlL3R5cGU=&#34;&gt; 类型 - cppreference&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
