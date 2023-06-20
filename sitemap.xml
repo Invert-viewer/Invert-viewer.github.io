@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://invert-viewer.github.io/Mistakes-made-in-problem-solving/</loc>
+    
+    <lastmod>2023-06-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</loc>
     
     <lastmod>2023-06-20</lastmod>
