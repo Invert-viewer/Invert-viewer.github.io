@@ -1,10 +1,10 @@
+https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/after-Chinese-GaoKao/
 https://invert-viewer.github.io/Mistakes-made-in-problem-solving/
 https://invert-viewer.github.io/C++%20gleanings%20Part%20I/
 https://invert-viewer.github.io/2021-annual-summary/
 https://invert-viewer.github.io/CSP-J-S-on-cloud/
 https://invert-viewer.github.io/hello-world/
-https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/blog-functional-testing/
 https://invert-viewer.github.io/2022-annual-summary/
 https://invert-viewer.github.io/senior-year-departure/
