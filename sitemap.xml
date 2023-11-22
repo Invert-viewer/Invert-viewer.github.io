@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://invert-viewer.github.io/2022-annual-summary/</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://invert-viewer.github.io/about/index.html</loc>
     
-    <lastmod>2023-11-21</lastmod>
+    <lastmod>2023-11-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://invert-viewer.github.io/after-Chinese-GaoKao/</loc>
     
-    <lastmod>2023-07-18</lastmod>
+    <lastmod>2023-11-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -68,15 +77,6 @@
     <loc>https://invert-viewer.github.io/blog-functional-testing/</loc>
     
     <lastmod>2023-02-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/2022-annual-summary/</loc>
-    
-    <lastmod>2023-01-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -157,7 +157,7 @@
 
   <url>
     <loc>https://invert-viewer.github.io/</loc>
-    <lastmod>2023-11-21</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -165,21 +165,21 @@
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2023-11-21</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2023-11-21</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2023-11-21</lastmod>
+    <lastmod>2023-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
