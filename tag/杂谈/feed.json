@@ -5,6 +5,16 @@
     "home_page_url": "https://invert-viewer.github.io",
     "items": [
         {
+            "id": "https://invert-viewer.github.io/2023-annual-summary/",
+            "url": "https://invert-viewer.github.io/2023-annual-summary/",
+            "title": "2023年终总结",
+            "date_published": "2024-02-04T08:10:51.000Z",
+            "content_html": "<p><sub>什么？2024 了都？去年真的是魔幻啊啊啊啊啊啊啊！</sub></p>\n<p><em>就让我们第三次地祝贺地球再一次围绕着太阳公转了一圈！</em></p>\n<p>~~* 去年的年终总结实在是太水了。_~~ 不过好在 23 年在不少重要时间点做了记录，应该可以内容充实一点啦。</p>\n",
+            "tags": [
+                "杂谈"
+            ]
+        },
+        {
             "id": "https://invert-viewer.github.io/after-Chinese-GaoKao/",
             "url": "https://invert-viewer.github.io/after-Chinese-GaoKao/",
             "title": "记高考---失落的当下|未知的未来",
