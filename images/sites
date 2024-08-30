@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Stack Exchange Site Directory</title>
+    <link rel="self" href="https://stackexchange.com/feeds/sites" type="application/atom+xml" />
+    <link rel="alternate" href="https://stackexchange.com/sites" type="text/html" />
+    <subtitle>All Network Sites</subtitle>
+    <updated>2022-04-04T06:15:11Z</updated>
+    <id>https://stackexchange.com/feeds/sites</id>
+    <creativeCommons:license>https://creativecommons.org/licenses/by-sa/4.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>http://proofassistants.stackexchange.com</id>
+        <title type="text">Proof Assistants Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://proofassistants.stackexchange.com" />
+        <published>2022-02-08T19:00:00Z</published>
+        <updated>2022-02-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for mathematicians and computer scientists who develop and use proof assistants
+        </summary>
+    </entry>
+    <entry>
+        <id>http://cardano.stackexchange.com</id>
+        <title type="text">Cardano Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://cardano.stackexchange.com" />
+        <published>2021-04-27T19:00:00Z</published>
+        <updated>2021-04-27T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users and developers of the Cardano cryptocurrency ecosystem
+        </summary>
+    </entry>
+    <entry>
+        <id>http://mattermodeling.stackexchange.com</id>
+        <title type="text">Matter Modeling Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://mattermodeling.stackexchange.com" />
+        <published>2020-04-28T19:00:00Z</published>
+        <updated>2020-04-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for materials modelers and data scientists
+        </summary>
+    </entry>
+    <entry>
+        <id>http://drones.stackexchange.com</id>
+        <title type="text">Drones and Model Aircraft Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://drones.stackexchange.com" />
+        <published>2020-04-14T19:00:00Z</published>
+        <updated>2020-04-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for experienced flyers, pilots, and builders of drones and model aircraft
+        </summary>
+    </entry>
+    <entry>
+        <id>http://or.stackexchange.com</id>
+        <title type="text">Operations Research Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://or.stackexchange.com" />
+        <published>2019-05-30T19:00:00Z</published>
+        <updated>2019-05-30T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for operations research and analytics professionals, educators, and students
+        </summary>
+    </entry>
+    <entry>
+        <id>http://tezos.stackexchange.com</id>
+        <title type="text">Tezos Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://tezos.stackexchange.com" />
+        <published>2019-01-29T19:00:00Z</published>
+        <updated>2019-01-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users, experts, and developers of the Tezos blockchain project
+        </summary>
+    </entry>
+    <entry>
+        <id>http://eosio.stackexchange.com</id>
+        <title type="text">EOS.IO Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://eosio.stackexchange.com" />
+        <published>2018-05-08T19:00:00Z</published>
+        <updated>2018-05-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users and developers of distributed applications built on top of the blockchain operating system, EOS.IO
+        </summary>
+    </entry>
+    <entry>
+        <id>http://quantumcomputing.stackexchange.com</id>
+        <title type="text">Quantum Computing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://quantumcomputing.stackexchange.com" />
+        <published>2018-03-12T19:00:00Z</published>
+        <updated>2018-03-12T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for engineers, scientists, programmers, and computing professionals interested in quantum computing
+        </summary>
+    </entry>
+    <entry>
+        <id>http://conlang.stackexchange.com</id>
+        <title type="text">Constructed Languages Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://conlang.stackexchange.com" />
+        <published>2018-02-06T19:00:00Z</published>
+        <updated>2018-02-06T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for designers and users of artificial or invented languages, consciously developed instead of having developed naturally
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stellar.stackexchange.com</id>
+        <title type="text">Stellar Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://stellar.stackexchange.com" />
+        <published>2018-01-17T19:00:00Z</published>
+        <updated>2018-01-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers and users of Stellar and the Stellar Distributed Exchange
+        </summary>
+    </entry>
+    <entry>
+        <id>http://iota.stackexchange.com</id>
+        <title type="text">Iota Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://iota.stackexchange.com" />
+        <published>2017-11-28T19:00:00Z</published>
+        <updated>2017-11-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of Iota, the open-source cryptocurrency for IoT that does not use a blockchain
+        </summary>
+    </entry>
+    <entry>
+        <id>http://interpersonal.stackexchange.com</id>
+        <title type="text">Interpersonal Skills Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://interpersonal.stackexchange.com" />
+        <published>2017-06-27T19:00:00Z</published>
+        <updated>2017-06-27T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people looking to improve their interpersonal communication skills
+        </summary>
+    </entry>
+    <entry>
+        <id>http://cseducators.stackexchange.com</id>
+        <title type="text">Computer Science Educators Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://cseducators.stackexchange.com" />
+        <published>2017-05-23T19:00:00Z</published>
+        <updated>2017-05-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those involved in the field of teaching Computer Science
+        </summary>
+    </entry>
+    <entry>
+        <id>http://bioinformatics.stackexchange.com</id>
+        <title type="text">Bioinformatics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://bioinformatics.stackexchange.com" />
+        <published>2017-05-16T19:00:00Z</published>
+        <updated>2017-05-16T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for researchers, developers, students, teachers, and end users interested in bioinformatics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://devops.stackexchange.com</id>
+        <title type="text">DevOps Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://devops.stackexchange.com" />
+        <published>2017-02-28T19:00:00Z</published>
+        <updated>2017-02-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for software engineers working on automated testing, continuous delivery, service integration and monitoring, and building SDLC infrastructure
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ukrainian.stackexchange.com</id>
+        <title type="text">Ukrainian Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ukrainian.stackexchange.com" />
+        <published>2017-02-07T19:00:00Z</published>
+        <updated>2017-02-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, teachers and students of the Ukrainian language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://vegetarianism.stackexchange.com</id>
+        <title type="text">Veganism &amp; Vegetarianism Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://vegetarianism.stackexchange.com" />
+        <published>2017-01-31T19:00:00Z</published>
+        <updated>2017-01-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those committed to a vegan or vegetarian lifestyle and anyone interested in learning more
+        </summary>
+    </entry>
+    <entry>
+        <id>http://literature.stackexchange.com</id>
+        <title type="text">Literature Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://literature.stackexchange.com" />
+        <published>2017-01-18T19:00:00Z</published>
+        <updated>2017-01-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for scholars and enthusiasts of literature
+        </summary>
+    </entry>
+    <entry>
+        <id>http://iot.stackexchange.com</id>
+        <title type="text">Internet of Things Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://iot.stackexchange.com" />
+        <published>2016-12-06T19:00:00Z</published>
+        <updated>2016-12-06T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for builders and users of networked sensors and control devices in the contexts of smart homes, industry automation, or environmental sensors
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sitecore.stackexchange.com</id>
+        <title type="text">Sitecore Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sitecore.stackexchange.com" />
+        <published>2016-09-13T19:00:00Z</published>
+        <updated>2016-09-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers and end users of the Sitecore CMS and multichannel marketing software
+        </summary>
+    </entry>
+    <entry>
+        <id>http://esperanto.stackexchange.com</id>
+        <title type="text">Esperanto Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://esperanto.stackexchange.com" />
+        <published>2016-08-23T19:00:00Z</published>
+        <updated>2016-08-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for teachers and students of the Esperanto language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ai.stackexchange.com</id>
+        <title type="text">Artificial Intelligence Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ai.stackexchange.com" />
+        <published>2016-08-02T19:00:00Z</published>
+        <updated>2016-08-02T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people interested in conceptual questions about life and challenges in a world where &quot;cognitive&quot; functions can be mimicked in purely digital environment
+        </summary>
+    </entry>
+    <entry>
+        <id>http://monero.stackexchange.com</id>
+        <title type="text">Monero Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://monero.stackexchange.com" />
+        <published>2016-07-19T19:00:00Z</published>
+        <updated>2016-07-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers and users of the secure, private and untraceable cryptocurrency Monero
+        </summary>
+    </entry>
+    <entry>
+        <id>http://korean.stackexchange.com</id>
+        <title type="text">Korean Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://korean.stackexchange.com" />
+        <published>2016-06-21T19:00:00Z</published>
+        <updated>2016-06-21T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, teachers and students of the Korean language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://crafts.stackexchange.com</id>
+        <title type="text">Arts &amp; Crafts Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://crafts.stackexchange.com" />
+        <published>2016-04-26T19:00:00Z</published>
+        <updated>2016-04-26T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for artists and crafters
+        </summary>
+    </entry>
+    <entry>
+        <id>http://retrocomputing.stackexchange.com</id>
+        <title type="text">Retrocomputing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://retrocomputing.stackexchange.com" />
+        <published>2016-04-19T19:00:00Z</published>
+        <updated>2016-04-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for vintage-computer hobbyists interested in restoring, preserving, and using the classic computer and gaming systems of yesteryear
+        </summary>
+    </entry>
+    <entry>
+        <id>http://languagelearning.stackexchange.com</id>
+        <title type="text">Language Learning Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://languagelearning.stackexchange.com" />
+        <published>2016-04-05T19:00:00Z</published>
+        <updated>2016-04-05T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, polyglots, and anyone interested in the techniques of second-language acquisition
+        </summary>
+    </entry>
+    <entry>
+        <id>http://latin.stackexchange.com</id>
+        <title type="text">Latin Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://latin.stackexchange.com" />
+        <published>2016-02-23T19:00:00Z</published>
+        <updated>2016-02-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, teachers, and students wanting to discuss the finer points of the Latin language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ethereum.stackexchange.com</id>
+        <title type="text">Ethereum Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ethereum.stackexchange.com" />
+        <published>2016-01-20T19:00:00Z</published>
+        <updated>2016-01-20T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of Ethereum, the decentralized application platform and smart contract enabled blockchain
+        </summary>
+    </entry>
+    <entry>
+        <id>http://3dprinting.stackexchange.com</id>
+        <title type="text">3D Printing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://3dprinting.stackexchange.com" />
+        <published>2016-01-12T19:00:00Z</published>
+        <updated>2016-01-12T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for 3D printing enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://es.stackoverflow.com</id>
+        <title type="text">Stack Overflow en espa&#xF1;ol</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://es.stackoverflow.com" />
+        <published>2015-12-01T19:00:00Z</published>
+        <updated>2015-12-01T19:00:00Z</updated>
+        <summary type="html">
+            Preguntas y respuestas para programadores y profesionales de la inform&#xE1;tica
+        </summary>
+    </entry>
+    <entry>
+        <id>http://hardwarerecs.stackexchange.com</id>
+        <title type="text">Hardware Recommendations Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://hardwarerecs.stackexchange.com" />
+        <published>2015-09-09T19:00:00Z</published>
+        <updated>2015-09-09T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people seeking specific hardware recommendations
+        </summary>
+    </entry>
+    <entry>
+        <id>http://computergraphics.stackexchange.com</id>
+        <title type="text">Computer Graphics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://computergraphics.stackexchange.com" />
+        <published>2015-08-04T19:00:00Z</published>
+        <updated>2015-08-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for computer graphics researchers and programmers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://portuguese.stackexchange.com</id>
+        <title type="text">Portuguese Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://portuguese.stackexchange.com" />
+        <published>2015-07-14T19:00:00Z</published>
+        <updated>2015-07-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, teachers and learners wanting to discuss the finer points of the Portuguese language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://elementaryos.stackexchange.com</id>
+        <title type="text">elementary OS Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://elementaryos.stackexchange.com" />
+        <published>2015-06-30T19:00:00Z</published>
+        <updated>2015-06-30T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers and users of elementary OS and applications
+        </summary>
+    </entry>
+    <entry>
+        <id>http://opensource.stackexchange.com</id>
+        <title type="text">Open Source Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://opensource.stackexchange.com" />
+        <published>2015-06-23T19:00:00Z</published>
+        <updated>2015-06-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people organizing, marketing or licensing open source development projects
+        </summary>
+    </entry>
+    <entry>
+        <id>http://law.stackexchange.com</id>
+        <title type="text">Law Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://law.stackexchange.com" />
+        <published>2015-05-26T19:00:00Z</published>
+        <updated>2015-05-26T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for legal professionals, students, and others with experience or interest in law
+        </summary>
+    </entry>
+    <entry>
+        <id>http://mythology.stackexchange.com</id>
+        <title type="text">Mythology &amp; Folklore Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://mythology.stackexchange.com" />
+        <published>2015-04-28T19:00:00Z</published>
+        <updated>2015-04-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for enthusiasts and scholars of mythology and folklore
+        </summary>
+    </entry>
+    <entry>
+        <id>http://rus.stackexchange.com</id>
+        <title type="text">&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439; &#x44F;&#x437;&#x44B;&#x43A;</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://rus.stackexchange.com" />
+        <published>2015-04-27T00:00:00Z</published>
+        <updated>2015-04-27T00:00:00Z</updated>
+        <summary type="html">
+            C&#x430;&#x439;&#x442; &#x432;&#x43E;&#x43F;&#x440;&#x43E;&#x441;&#x43E;&#x432; &#x438; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43B;&#x438;&#x43D;&#x433;&#x432;&#x438;&#x441;&#x442;&#x43E;&#x432; &#x438; &#x44D;&#x43D;&#x442;&#x443;&#x437;&#x438;&#x430;&#x441;&#x442;&#x43E;&#x432; &#x440;&#x443;&#x441;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x44F;&#x437;&#x44B;&#x43A;&#x430;
+        </summary>
+    </entry>
+    <entry>
+        <id>http://medicalsciences.stackexchange.com</id>
+        <title type="text">Medical Sciences Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://medicalsciences.stackexchange.com" />
+        <published>2015-03-31T19:00:00Z</published>
+        <updated>2015-03-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professionals in medical and allied health fields, students of those professions, related academics, and others with a sound understanding of medicine and healthcare-related sciences
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ru.stackoverflow.com</id>
+        <title type="text">Stack Overflow &#x43D;&#x430; &#x440;&#x443;&#x441;&#x441;&#x43A;&#x43E;&#x43C;</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ru.stackoverflow.com" />
+        <published>2015-03-27T06:00:00Z</published>
+        <updated>2015-03-27T06:00:00Z</updated>
+        <summary type="html">
+            &#x412;&#x43E;&#x43F;&#x440;&#x43E;&#x441;&#x44B; &#x438; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x44B; &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x438;&#x441;&#x442;&#x43E;&#x432;
+        </summary>
+    </entry>
+    <entry>
+        <id>http://civicrm.stackexchange.com</id>
+        <title type="text">CiviCRM Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://civicrm.stackexchange.com" />
+        <published>2015-03-24T19:00:00Z</published>
+        <updated>2015-03-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for administrators and users of the CiviCRM  Constituent Relationship Management software
+        </summary>
+    </entry>
+    <entry>
+        <id>http://woodworking.stackexchange.com</id>
+        <title type="text">Woodworking Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://woodworking.stackexchange.com" />
+        <published>2015-03-17T19:00:00Z</published>
+        <updated>2015-03-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional and amateur woodworkers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://musicfans.stackexchange.com</id>
+        <title type="text">Music Fans Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://musicfans.stackexchange.com" />
+        <published>2015-02-24T19:00:00Z</published>
+        <updated>2015-02-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for music historians, critics, and fans
+        </summary>
+    </entry>
+    <entry>
+        <id>http://vi.stackexchange.com</id>
+        <title type="text">Vi and Vim Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://vi.stackexchange.com" />
+        <published>2015-02-03T19:00:00Z</published>
+        <updated>2015-02-03T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people using the vi and Vim families of text editors
+        </summary>
+    </entry>
+    <entry>
+        <id>http://coffee.stackexchange.com</id>
+        <title type="text">Coffee Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://coffee.stackexchange.com" />
+        <published>2015-01-27T19:00:00Z</published>
+        <updated>2015-01-27T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people interested in all aspects of producing and consuming coffee
+        </summary>
+    </entry>
+    <entry>
+        <id>http://engineering.stackexchange.com</id>
+        <title type="text">Engineering Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://engineering.stackexchange.com" />
+        <published>2015-01-20T19:00:00Z</published>
+        <updated>2015-01-20T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professionals and students of engineering
+        </summary>
+    </entry>
+    <entry>
+        <id>http://lifehacks.stackexchange.com</id>
+        <title type="text">Lifehacks Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://lifehacks.stackexchange.com" />
+        <published>2014-12-09T19:00:00Z</published>
+        <updated>2014-12-09T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people looking to bypass life&#x27;s everyday problems with simple tricks
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ja.stackoverflow.com</id>
+        <title type="text">&#x30B9;&#x30BF;&#x30C3;&#x30AF;&#x30FB;&#x30AA;&#x30FC;&#x30D0;&#x30FC;&#x30D5;&#x30ED;&#x30FC;</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ja.stackoverflow.com" />
+        <published>2014-12-01T00:00:00Z</published>
+        <updated>2014-12-01T00:00:00Z</updated>
+        <summary type="html">
+            &#x71B1;&#x72C2;&#x7684;&#x3067;&#x30D7;&#x30ED;&#x30D5;&#x30A7;&#x30C3;&#x30B7;&#x30E7;&#x30CA;&#x30EB;&#x306A;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DE;&#x30FC;&#x306E;&#x305F;&#x3081;&#x306E;Q&amp;A
+        </summary>
+    </entry>
+    <entry>
+        <id>http://economics.stackexchange.com</id>
+        <title type="text">Economics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://economics.stackexchange.com" />
+        <published>2014-11-18T19:00:00Z</published>
+        <updated>2014-11-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those who study, teach, research and apply economics and econometrics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://hsm.stackexchange.com</id>
+        <title type="text">History of Science and Mathematics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://hsm.stackexchange.com" />
+        <published>2014-10-28T19:00:00Z</published>
+        <updated>2014-10-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people interested in the history and origins of science and mathematics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://emacs.stackexchange.com</id>
+        <title type="text">Emacs Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://emacs.stackexchange.com" />
+        <published>2014-09-23T19:00:00Z</published>
+        <updated>2014-09-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those using, extending or developing Emacs
+        </summary>
+    </entry>
+    <entry>
+        <id>http://worldbuilding.stackexchange.com</id>
+        <title type="text">Worldbuilding Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://worldbuilding.stackexchange.com" />
+        <published>2014-09-16T19:00:00Z</published>
+        <updated>2014-09-16T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for writers/artists using science, geography and culture to construct imaginary worlds and settings
+        </summary>
+    </entry>
+    <entry>
+        <id>http://communitybuilding.stackexchange.com</id>
+        <title type="text">Community Building Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://communitybuilding.stackexchange.com" />
+        <published>2014-07-29T19:00:00Z</published>
+        <updated>2014-07-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for community managers, administrators, and moderators
+        </summary>
+    </entry>
+    <entry>
+        <id>http://hinduism.stackexchange.com</id>
+        <title type="text">Hinduism Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://hinduism.stackexchange.com" />
+        <published>2014-06-18T19:00:00Z</published>
+        <updated>2014-06-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for followers of the Hindu religion and those interested in learning more about Hinduism
+        </summary>
+    </entry>
+    <entry>
+        <id>http://buddhism.stackexchange.com</id>
+        <title type="text">Buddhism Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://buddhism.stackexchange.com" />
+        <published>2014-06-17T19:00:00Z</published>
+        <updated>2014-06-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people practicing or interested in Buddhist philosophy, teaching, and practice
+        </summary>
+    </entry>
+    <entry>
+        <id>http://craftcms.stackexchange.com</id>
+        <title type="text">Craft CMS Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://craftcms.stackexchange.com" />
+        <published>2014-06-11T19:00:00Z</published>
+        <updated>2014-06-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for administrators, end users, developers and designers for Craft CMS
+        </summary>
+    </entry>
+    <entry>
+        <id>http://puzzling.stackexchange.com</id>
+        <title type="text">Puzzling Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://puzzling.stackexchange.com" />
+        <published>2014-05-14T19:00:00Z</published>
+        <updated>2014-05-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those who create, solve, and study puzzles
+        </summary>
+    </entry>
+    <entry>
+        <id>http://datascience.stackexchange.com</id>
+        <title type="text">Data Science Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://datascience.stackexchange.com" />
+        <published>2014-05-13T19:00:00Z</published>
+        <updated>2014-05-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Data science professionals, Machine Learning specialists, and those interested in learning more about the field
+        </summary>
+    </entry>
+    <entry>
+        <id>http://joomla.stackexchange.com</id>
+        <title type="text">Joomla Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://joomla.stackexchange.com" />
+        <published>2014-04-22T19:00:00Z</published>
+        <updated>2014-04-22T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Joomla! administrators, users, developers and designers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://earthscience.stackexchange.com</id>
+        <title type="text">Earth Science Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://earthscience.stackexchange.com" />
+        <published>2014-04-15T19:00:00Z</published>
+        <updated>2014-04-15T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those interested in the geology, meteorology, oceanography, and environmental sciences
+        </summary>
+    </entry>
+    <entry>
+        <id>http://matheducators.stackexchange.com</id>
+        <title type="text">Mathematics Educators Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://matheducators.stackexchange.com" />
+        <published>2014-03-13T19:00:00Z</published>
+        <updated>2014-03-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those involved in the field of teaching mathematics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://expatriates.stackexchange.com</id>
+        <title type="text">Expatriates Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://expatriates.stackexchange.com" />
+        <published>2014-03-12T19:00:00Z</published>
+        <updated>2014-03-12T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people living abroad on a long-term basis
+        </summary>
+    </entry>
+    <entry>
+        <id>http://arduino.stackexchange.com</id>
+        <title type="text">Arduino Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://arduino.stackexchange.com" />
+        <published>2014-02-11T19:00:00Z</published>
+        <updated>2014-02-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers of open-source hardware and software that is compatible with Arduino
+        </summary>
+    </entry>
+    <entry>
+        <id>http://softwarerecs.stackexchange.com</id>
+        <title type="text">Software Recommendations Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://softwarerecs.stackexchange.com" />
+        <published>2014-02-04T19:00:00Z</published>
+        <updated>2014-02-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people seeking specific software recommendations
+        </summary>
+    </entry>
+    <entry>
+        <id>http://alcohol.stackexchange.com</id>
+        <title type="text">Beer, Wine &amp; Spirits Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://alcohol.stackexchange.com" />
+        <published>2014-01-21T19:00:00Z</published>
+        <updated>2014-01-21T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for alcoholic beverage aficionados and those interested in beer, wine, or spirits
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ebooks.stackexchange.com</id>
+        <title type="text">Ebooks Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ebooks.stackexchange.com" />
+        <published>2013-12-18T19:00:00Z</published>
+        <updated>2013-12-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for ebook publishers and readers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://aviation.stackexchange.com</id>
+        <title type="text">Aviation Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://aviation.stackexchange.com" />
+        <published>2013-12-17T19:00:00Z</published>
+        <updated>2013-12-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for aircraft pilots, mechanics, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://pt.stackoverflow.com</id>
+        <title type="text">Stack Overflow em Portugu&#xEA;s</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://pt.stackoverflow.com" />
+        <published>2013-12-12T19:00:00Z</published>
+        <updated>2013-12-12T19:00:00Z</updated>
+        <summary type="html">
+            Perguntas e respostas para programadores profissionais e entusiastas
+        </summary>
+    </entry>
+    <entry>
+        <id>http://italian.stackexchange.com</id>
+        <title type="text">Italian Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://italian.stackexchange.com" />
+        <published>2013-11-05T19:00:00Z</published>
+        <updated>2013-11-05T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, and linguists wanting to discuss the finer points of the Italian language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ham.stackexchange.com</id>
+        <title type="text">Amateur Radio Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ham.stackexchange.com" />
+        <published>2013-10-22T19:00:00Z</published>
+        <updated>2013-10-22T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for amateur radio enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://pets.stackexchange.com</id>
+        <title type="text">Pets Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://pets.stackexchange.com" />
+        <published>2013-10-08T19:00:00Z</published>
+        <updated>2013-10-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for pet owners, caretakers, breeders, veterinarians, and trainers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://tor.stackexchange.com</id>
+        <title type="text">Tor Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://tor.stackexchange.com" />
+        <published>2013-09-25T19:00:00Z</published>
+        <updated>2013-09-25T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for researchers, developers, and users of Tor
+        </summary>
+    </entry>
+    <entry>
+        <id>http://astronomy.stackexchange.com</id>
+        <title type="text">Astronomy Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://astronomy.stackexchange.com" />
+        <published>2013-09-24T19:00:00Z</published>
+        <updated>2013-09-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for astronomers and astrophysicists
+        </summary>
+    </entry>
+    <entry>
+        <id>http://space.stackexchange.com</id>
+        <title type="text">Space Exploration Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://space.stackexchange.com" />
+        <published>2013-07-16T19:00:00Z</published>
+        <updated>2013-07-16T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for spacecraft operators, scientists, engineers, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://blender.stackexchange.com</id>
+        <title type="text">Blender Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://blender.stackexchange.com" />
+        <published>2013-05-22T19:00:00Z</published>
+        <updated>2013-05-22T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people who use Blender to create 3D graphics, animations, or games
+        </summary>
+    </entry>
+    <entry>
+        <id>http://freelancing.stackexchange.com</id>
+        <title type="text">Freelancing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://freelancing.stackexchange.com" />
+        <published>2013-05-21T19:00:00Z</published>
+        <updated>2013-05-21T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for  self-employed and freelance workers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://opendata.stackexchange.com</id>
+        <title type="text">Open Data Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://opendata.stackexchange.com" />
+        <published>2013-05-08T19:00:00Z</published>
+        <updated>2013-05-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for developers and researchers interested in open data
+        </summary>
+    </entry>
+    <entry>
+        <id>http://networkengineering.stackexchange.com</id>
+        <title type="text">Network Engineering Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://networkengineering.stackexchange.com" />
+        <published>2013-05-07T19:00:00Z</published>
+        <updated>2013-05-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for network engineers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://reverseengineering.stackexchange.com</id>
+        <title type="text">Reverse Engineering Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://reverseengineering.stackexchange.com" />
+        <published>2013-03-19T19:00:00Z</published>
+        <updated>2013-03-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for researchers and developers who explore the principles of a system through analysis of its structure, function, and operation
+        </summary>
+    </entry>
+    <entry>
+        <id>http://tridion.stackexchange.com</id>
+        <title type="text">Tridion Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://tridion.stackexchange.com" />
+        <published>2013-02-19T19:00:00Z</published>
+        <updated>2013-02-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Tridion developers and administrators
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sustainability.stackexchange.com</id>
+        <title type="text">Sustainable Living Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sustainability.stackexchange.com" />
+        <published>2013-01-29T19:00:00Z</published>
+        <updated>2013-01-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for folks dedicated to a lifestyle that can be maintained indefinitely without depleting available resources
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ell.stackexchange.com</id>
+        <title type="text">English Language Learners Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ell.stackexchange.com" />
+        <published>2013-01-23T19:00:00Z</published>
+        <updated>2013-01-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for speakers of other languages learning English
+        </summary>
+    </entry>
+    <entry>
+        <id>http://magento.stackexchange.com</id>
+        <title type="text">Magento Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://magento.stackexchange.com" />
+        <published>2013-01-22T19:00:00Z</published>
+        <updated>2013-01-22T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of the Magento e-Commerce platform
+        </summary>
+    </entry>
+    <entry>
+        <id>http://anime.stackexchange.com</id>
+        <title type="text">Anime &amp; Manga Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://anime.stackexchange.com" />
+        <published>2012-12-11T19:00:00Z</published>
+        <updated>2012-12-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for anime and manga fans
+        </summary>
+    </entry>
+    <entry>
+        <id>http://politics.stackexchange.com</id>
+        <title type="text">Politics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://politics.stackexchange.com" />
+        <published>2012-12-04T19:00:00Z</published>
+        <updated>2012-12-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people interested in governments, policies, and political processes
+        </summary>
+    </entry>
+    <entry>
+        <id>http://expressionengine.stackexchange.com</id>
+        <title type="text">ExpressionEngine&#xAE; Answers</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://expressionengine.stackexchange.com" />
+        <published>2012-11-15T19:00:00Z</published>
+        <updated>2012-11-15T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for administrators, end users, developers and designers for ExpressionEngine&#xAE; CMS
+        </summary>
+    </entry>
+    <entry>
+        <id>http://robotics.stackexchange.com</id>
+        <title type="text">Robotics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://robotics.stackexchange.com" />
+        <published>2012-10-23T19:00:00Z</published>
+        <updated>2012-10-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional robotic engineers, hobbyists, researchers and students
+        </summary>
+    </entry>
+    <entry>
+        <id>http://genealogy.stackexchange.com</id>
+        <title type="text">Genealogy &amp; Family History Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://genealogy.stackexchange.com" />
+        <published>2012-10-09T19:00:00Z</published>
+        <updated>2012-10-09T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for expert genealogists and people interested in genealogy or family history
+        </summary>
+    </entry>
+    <entry>
+        <id>http://patents.stackexchange.com</id>
+        <title type="text">Ask Patents</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://patents.stackexchange.com" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for people interested in improving the patent system
+        </summary>
+    </entry>
+    <entry>
+        <id>http://salesforce.stackexchange.com</id>
+        <title type="text">Salesforce Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://salesforce.stackexchange.com" />
+        <published>2012-07-31T19:00:00Z</published>
+        <updated>2012-07-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Salesforce administrators, implementation experts, developers and anybody in-between
+        </summary>
+    </entry>
+    <entry>
+        <id>http://islam.stackexchange.com</id>
+        <title type="text">Islam Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://islam.stackexchange.com" />
+        <published>2012-06-19T19:00:00Z</published>
+        <updated>2012-06-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Muslims, experts in Islam, and those interested in learning more about Islam
+        </summary>
+    </entry>
+    <entry>
+        <id>http://russian.stackexchange.com</id>
+        <title type="text">Russian Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://russian.stackexchange.com" />
+        <published>2012-06-13T19:00:00Z</published>
+        <updated>2012-06-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, and linguists wanting to discuss the finer points of the Russian language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://raspberrypi.stackexchange.com</id>
+        <title type="text">Raspberry Pi Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://raspberrypi.stackexchange.com" />
+        <published>2012-06-12T19:00:00Z</published>
+        <updated>2012-06-12T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users and developers of hardware and software for Raspberry Pi
+        </summary>
+    </entry>
+    <entry>
+        <id>http://chess.stackexchange.com</id>
+        <title type="text">Chess Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://chess.stackexchange.com" />
+        <published>2012-05-01T19:00:00Z</published>
+        <updated>2012-05-01T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for serious players and enthusiasts of chess
+        </summary>
+    </entry>
+    <entry>
+        <id>http://chemistry.stackexchange.com</id>
+        <title type="text">Chemistry Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://chemistry.stackexchange.com" />
+        <published>2012-04-25T19:00:00Z</published>
+        <updated>2012-04-25T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for scientists, academics, teachers, and students in the field of chemistry
+        </summary>
+    </entry>
+    <entry>
+        <id>http://windowsphone.stackexchange.com</id>
+        <title type="text">Windows Phone Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://windowsphone.stackexchange.com" />
+        <published>2012-04-24T19:00:00Z</published>
+        <updated>2012-04-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for enthusiasts and power users of Windows Phone OS
+        </summary>
+    </entry>
+    <entry>
+        <id>http://workplace.stackexchange.com</id>
+        <title type="text">The Workplace Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://workplace.stackexchange.com" />
+        <published>2012-04-10T19:00:00Z</published>
+        <updated>2012-04-10T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for members of the workforce navigating the professional setting
+        </summary>
+    </entry>
+    <entry>
+        <id>http://cs.stackexchange.com</id>
+        <title type="text">Computer Science Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://cs.stackexchange.com" />
+        <published>2012-03-06T19:00:00Z</published>
+        <updated>2012-03-06T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, researchers and practitioners of computer science
+        </summary>
+    </entry>
+    <entry>
+        <id>http://academia.stackexchange.com</id>
+        <title type="text">Academia Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://academia.stackexchange.com" />
+        <published>2012-02-14T19:00:00Z</published>
+        <updated>2012-02-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for academics and those enrolled in higher education
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sports.stackexchange.com</id>
+        <title type="text">Sports Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sports.stackexchange.com" />
+        <published>2012-02-08T19:00:00Z</published>
+        <updated>2012-02-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for participants in team and individual sport activities
+        </summary>
+    </entry>
+    <entry>
+        <id>http://martialarts.stackexchange.com</id>
+        <title type="text">Martial Arts Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://martialarts.stackexchange.com" />
+        <published>2012-01-31T19:00:00Z</published>
+        <updated>2012-01-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students and teachers of all martial arts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://outdoors.stackexchange.com</id>
+        <title type="text">The Great Outdoors Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://outdoors.stackexchange.com" />
+        <published>2012-01-24T19:00:00Z</published>
+        <updated>2012-01-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people who love being outdoors enjoying nature and wilderness, and learning about the required skills and equipment
+        </summary>
+    </entry>
+    <entry>
+        <id>http://psychology.stackexchange.com</id>
+        <title type="text">Psychology &amp; Neuroscience Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://psychology.stackexchange.com" />
+        <published>2012-01-18T19:00:00Z</published>
+        <updated>2012-01-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for practitioners, researchers, and students in cognitive science, psychology, neuroscience, and psychiatry
+        </summary>
+    </entry>
+    <entry>
+        <id>http://mathematica.stackexchange.com</id>
+        <title type="text">Mathematica Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://mathematica.stackexchange.com" />
+        <published>2012-01-17T19:00:00Z</published>
+        <updated>2012-01-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of Wolfram Mathematica
+        </summary>
+    </entry>
+    <entry>
+        <id>http://poker.stackexchange.com</id>
+        <title type="text">Poker Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://poker.stackexchange.com" />
+        <published>2012-01-10T19:00:00Z</published>
+        <updated>2012-01-10T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for serious players and enthusiasts of poker
+        </summary>
+    </entry>
+    <entry>
+        <id>http://biology.stackexchange.com</id>
+        <title type="text">Biology Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://biology.stackexchange.com" />
+        <published>2011-12-14T19:00:00Z</published>
+        <updated>2011-12-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for biology researchers, academics, and students
+        </summary>
+    </entry>
+    <entry>
+        <id>http://chinese.stackexchange.com</id>
+        <title type="text">Chinese Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://chinese.stackexchange.com" />
+        <published>2011-12-13T19:00:00Z</published>
+        <updated>2011-12-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, and linguists wanting to discuss the finer points of the Chinese language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://movies.stackexchange.com</id>
+        <title type="text">Movies &amp; TV Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://movies.stackexchange.com" />
+        <published>2011-11-30T19:00:00Z</published>
+        <updated>2011-11-30T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for movie and TV enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://scicomp.stackexchange.com</id>
+        <title type="text">Computational Science Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://scicomp.stackexchange.com" />
+        <published>2011-11-29T19:00:00Z</published>
+        <updated>2011-11-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for scientists using computers to solve scientific problems
+        </summary>
+    </entry>
+    <entry>
+        <id>http://spanish.stackexchange.com</id>
+        <title type="text">Spanish Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://spanish.stackexchange.com" />
+        <published>2011-11-15T19:00:00Z</published>
+        <updated>2011-11-15T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, teachers, students and Spanish language enthusiasts in general wanting to discuss the finer points of the language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://bricks.stackexchange.com</id>
+        <title type="text">Bricks</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://bricks.stackexchange.com" />
+        <published>2011-10-25T19:00:00Z</published>
+        <updated>2011-10-25T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for LEGO&#xAE; and building block enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://history.stackexchange.com</id>
+        <title type="text">History Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://history.stackexchange.com" />
+        <published>2011-10-11T19:00:00Z</published>
+        <updated>2011-10-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for historians and history buffs
+        </summary>
+    </entry>
+    <entry>
+        <id>http://hermeneutics.stackexchange.com</id>
+        <title type="text">Biblical Hermeneutics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://hermeneutics.stackexchange.com" />
+        <published>2011-10-04T19:00:00Z</published>
+        <updated>2011-10-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professors, theologians, and those interested in exegetical analysis of biblical texts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://linguistics.stackexchange.com</id>
+        <title type="text">Linguistics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://linguistics.stackexchange.com" />
+        <published>2011-09-13T19:00:00Z</published>
+        <updated>2011-09-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional linguists and others with an interest in linguistic research and theory
+        </summary>
+    </entry>
+    <entry>
+        <id>http://bitcoin.stackexchange.com</id>
+        <title type="text">Bitcoin Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://bitcoin.stackexchange.com" />
+        <published>2011-08-30T19:00:00Z</published>
+        <updated>2011-08-30T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Bitcoin crypto-currency enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://christianity.stackexchange.com</id>
+        <title type="text">Christianity Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://christianity.stackexchange.com" />
+        <published>2011-08-23T19:00:00Z</published>
+        <updated>2011-08-23T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for committed Christians, experts in Christianity and those interested in learning more
+        </summary>
+    </entry>
+    <entry>
+        <id>http://french.stackexchange.com</id>
+        <title type="text">French Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://french.stackexchange.com" />
+        <published>2011-08-17T19:00:00Z</published>
+        <updated>2011-08-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, and linguists wanting to discuss the finer points of the French language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://dsp.stackexchange.com</id>
+        <title type="text">Signal Processing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://dsp.stackexchange.com" />
+        <published>2011-08-16T19:00:00Z</published>
+        <updated>2011-08-16T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for practitioners of the art and science of signal, image and video processing
+        </summary>
+    </entry>
+    <entry>
+        <id>http://crypto.stackexchange.com</id>
+        <title type="text">Cryptography Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://crypto.stackexchange.com" />
+        <published>2011-07-12T19:00:00Z</published>
+        <updated>2011-07-12T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for software developers, mathematicians and others interested in cryptography
+        </summary>
+    </entry>
+    <entry>
+        <id>http://travel.stackexchange.com</id>
+        <title type="text">Travel Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://travel.stackexchange.com" />
+        <published>2011-06-21T19:00:00Z</published>
+        <updated>2011-06-21T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for road warriors and seasoned travelers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gardening.stackexchange.com</id>
+        <title type="text">Gardening &amp; Landscaping Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://gardening.stackexchange.com" />
+        <published>2011-06-08T19:00:00Z</published>
+        <updated>2011-06-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for gardeners and landscapers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://philosophy.stackexchange.com</id>
+        <title type="text">Philosophy Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://philosophy.stackexchange.com" />
+        <published>2011-06-07T19:00:00Z</published>
+        <updated>2011-06-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those interested in the study of the fundamental nature of knowledge, reality, and existence
+        </summary>
+    </entry>
+    <entry>
+        <id>http://japanese.stackexchange.com</id>
+        <title type="text">Japanese Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://japanese.stackexchange.com" />
+        <published>2011-05-31T19:00:00Z</published>
+        <updated>2011-05-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for students, teachers, and linguists wanting to discuss the finer points of the Japanese language
+        </summary>
+    </entry>
+    <entry>
+        <id>http://german.stackexchange.com</id>
+        <title type="text">German Language Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://german.stackexchange.com" />
+        <published>2011-05-24T19:00:00Z</published>
+        <updated>2011-05-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for speakers of German wanting to discuss the finer points of the language and translation
+        </summary>
+    </entry>
+    <entry>
+        <id>http://judaism.stackexchange.com</id>
+        <title type="text">Mi Yodeya</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://judaism.stackexchange.com" />
+        <published>2011-05-10T19:00:00Z</published>
+        <updated>2011-05-10T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for those who base their lives on Jewish law and tradition and anyone interested in learning more
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sqa.stackexchange.com</id>
+        <title type="text">Software Quality Assurance &amp; Testing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sqa.stackexchange.com" />
+        <published>2011-05-03T19:00:00Z</published>
+        <updated>2011-05-03T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for software quality control experts, automation engineers, and software testers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://music.stackexchange.com</id>
+        <title type="text">Music: Practice &amp; Theory Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://music.stackexchange.com" />
+        <published>2011-04-26T19:00:00Z</published>
+        <updated>2011-04-26T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for musicians, students, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sharepoint.stackexchange.com</id>
+        <title type="text">SharePoint Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sharepoint.stackexchange.com" />
+        <published>2011-04-07T19:00:00Z</published>
+        <updated>2011-04-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for SharePoint enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://parenting.stackexchange.com</id>
+        <title type="text">Parenting Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://parenting.stackexchange.com" />
+        <published>2011-03-29T19:00:00Z</published>
+        <updated>2011-03-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for parents, grandparents, nannies and others with a parenting role
+        </summary>
+    </entry>
+    <entry>
+        <id>http://mechanics.stackexchange.com</id>
+        <title type="text">Motor Vehicle Maintenance &amp; Repair Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://mechanics.stackexchange.com" />
+        <published>2011-03-07T19:00:00Z</published>
+        <updated>2011-03-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for mechanics and DIY enthusiast owners of cars, trucks, and motorcycles
+        </summary>
+    </entry>
+    <entry>
+        <id>http://drupal.stackexchange.com</id>
+        <title type="text">Drupal Answers</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://drupal.stackexchange.com" />
+        <published>2011-03-02T19:00:00Z</published>
+        <updated>2011-03-02T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Drupal developers and administrators
+        </summary>
+    </entry>
+    <entry>
+        <id>http://fitness.stackexchange.com</id>
+        <title type="text">Physical Fitness Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://fitness.stackexchange.com" />
+        <published>2011-03-01T19:00:00Z</published>
+        <updated>2011-03-01T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for physical fitness professionals, athletes, trainers, and those providing health-related needs
+        </summary>
+    </entry>
+    <entry>
+        <id>http://skeptics.stackexchange.com</id>
+        <title type="text">Skeptics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://skeptics.stackexchange.com" />
+        <published>2011-02-24T19:00:00Z</published>
+        <updated>2011-02-24T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for scientific skepticism
+        </summary>
+    </entry>
+    <entry>
+        <id>http://pm.stackexchange.com</id>
+        <title type="text">Project Management Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://pm.stackexchange.com" />
+        <published>2011-02-07T19:00:00Z</published>
+        <updated>2011-02-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for project managers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://quant.stackexchange.com</id>
+        <title type="text">Quantitative Finance Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://quant.stackexchange.com" />
+        <published>2011-01-31T19:00:00Z</published>
+        <updated>2011-01-31T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for finance professionals and academics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://codegolf.stackexchange.com</id>
+        <title type="text">Code Golf Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://codegolf.stackexchange.com" />
+        <published>2011-01-27T19:00:00Z</published>
+        <updated>2011-01-27T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for programming puzzle enthusiasts and code golfers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://codereview.stackexchange.com</id>
+        <title type="text">Code Review Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://codereview.stackexchange.com" />
+        <published>2011-01-19T19:00:00Z</published>
+        <updated>2011-01-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for peer programmer code reviews
+        </summary>
+    </entry>
+    <entry>
+        <id>http://scifi.stackexchange.com</id>
+        <title type="text">Science Fiction &amp; Fantasy Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://scifi.stackexchange.com" />
+        <published>2011-01-11T19:00:00Z</published>
+        <updated>2011-01-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for science fiction and fantasy enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://graphicdesign.stackexchange.com</id>
+        <title type="text">Graphic Design Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://graphicdesign.stackexchange.com" />
+        <published>2011-01-04T19:00:00Z</published>
+        <updated>2011-01-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Graphic Design professionals, students, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://dba.stackexchange.com</id>
+        <title type="text">Database Administrators Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://dba.stackexchange.com" />
+        <published>2011-01-03T19:00:00Z</published>
+        <updated>2011-01-03T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for database professionals who wish to improve their database skills and learn from others in the community
+        </summary>
+    </entry>
+    <entry>
+        <id>http://video.stackexchange.com</id>
+        <title type="text">Video Production Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://video.stackexchange.com" />
+        <published>2010-12-07T19:00:00Z</published>
+        <updated>2010-12-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for engineers, producers, editors and enthusiasts spanning the fields of video and media creation
+        </summary>
+    </entry>
+    <entry>
+        <id>http://writing.stackexchange.com</id>
+        <title type="text">Writing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://writing.stackexchange.com" />
+        <published>2010-11-18T19:00:00Z</published>
+        <updated>2010-11-18T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for the craft of professional writing, including fiction, non-fiction, technical, scholarly, and commercial writing
+        </summary>
+    </entry>
+    <entry>
+        <id>http://security.stackexchange.com</id>
+        <title type="text">Information Security Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://security.stackexchange.com" />
+        <published>2010-11-11T19:00:00Z</published>
+        <updated>2010-11-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for information security professionals
+        </summary>
+    </entry>
+    <entry>
+        <id>http://sound.stackexchange.com</id>
+        <title type="text">Sound Design Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://sound.stackexchange.com" />
+        <published>2010-11-10T17:25:34Z</published>
+        <updated>2010-11-10T17:25:34Z</updated>
+        <summary type="html">
+            Q&amp;A for sound engineers, producers, editors, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://homebrew.stackexchange.com</id>
+        <title type="text">Homebrewing Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://homebrew.stackexchange.com" />
+        <published>2010-11-08T19:00:00Z</published>
+        <updated>2010-11-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for dedicated home brewers and serious enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://physics.stackexchange.com</id>
+        <title type="text">Physics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://physics.stackexchange.com" />
+        <published>2010-11-02T19:00:00Z</published>
+        <updated>2010-11-02T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for active researchers, academics and students of physics
+        </summary>
+    </entry>
+    <entry>
+        <id>http://boardgames.stackexchange.com</id>
+        <title type="text">Board &amp; Card Games Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://boardgames.stackexchange.com" />
+        <published>2010-10-19T19:00:00Z</published>
+        <updated>2010-10-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people who like playing board games, designing board games or modifying the rules of existing board games
+        </summary>
+    </entry>
+    <entry>
+        <id>http://electronics.stackexchange.com</id>
+        <title type="text">Electrical Engineering Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://electronics.stackexchange.com" />
+        <published>2010-09-29T19:00:00Z</published>
+        <updated>2010-09-29T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for electronics and electrical engineering professionals, students, and enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://android.stackexchange.com</id>
+        <title type="text">Android Enthusiasts Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://android.stackexchange.com" />
+        <published>2010-09-13T19:00:00Z</published>
+        <updated>2010-09-13T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for enthusiasts and power users of the Android operating system
+        </summary>
+    </entry>
+    <entry>
+        <id>http://softwareengineering.stackexchange.com</id>
+        <title type="text">Software Engineering Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://softwareengineering.stackexchange.com" />
+        <published>2010-09-01T19:00:00Z</published>
+        <updated>2010-09-01T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professionals, academics, and students working within the systems development life cycle
+        </summary>
+    </entry>
+    <entry>
+        <id>http://bicycles.stackexchange.com</id>
+        <title type="text">Bicycles Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://bicycles.stackexchange.com" />
+        <published>2010-08-25T19:00:00Z</published>
+        <updated>2010-08-25T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people who build and repair bicycles, people who train cycling, or commute on bicycles
+        </summary>
+    </entry>
+    <entry>
+        <id>http://rpg.stackexchange.com</id>
+        <title type="text">Role-playing Games Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://rpg.stackexchange.com" />
+        <published>2010-08-19T19:00:00Z</published>
+        <updated>2010-08-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for gamemasters and players of tabletop, paper-and-pencil role-playing games
+        </summary>
+    </entry>
+    <entry>
+        <id>http://apple.stackexchange.com</id>
+        <title type="text">Ask Different</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://apple.stackexchange.com" />
+        <published>2010-08-17T19:00:00Z</published>
+        <updated>2010-08-17T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for power users of Apple hardware and software
+        </summary>
+    </entry>
+    <entry>
+        <id>http://cstheory.stackexchange.com</id>
+        <title type="text">Theoretical Computer Science Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://cstheory.stackexchange.com" />
+        <published>2010-08-16T19:00:00Z</published>
+        <updated>2010-08-16T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for theoretical computer scientists and researchers in related fields
+        </summary>
+    </entry>
+    <entry>
+        <id>http://wordpress.stackexchange.com</id>
+        <title type="text">WordPress Development Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://wordpress.stackexchange.com" />
+        <published>2010-08-11T19:00:00Z</published>
+        <updated>2010-08-11T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for WordPress developers and administrators
+        </summary>
+    </entry>
+    <entry>
+        <id>http://unix.stackexchange.com</id>
+        <title type="text">Unix &amp; Linux Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://unix.stackexchange.com" />
+        <published>2010-08-10T19:00:00Z</published>
+        <updated>2010-08-10T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of Linux, FreeBSD and other Un*x-like operating systems
+        </summary>
+    </entry>
+    <entry>
+        <id>http://ux.stackexchange.com</id>
+        <title type="text">User Experience Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://ux.stackexchange.com" />
+        <published>2010-08-09T19:00:00Z</published>
+        <updated>2010-08-09T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for user experience researchers and experts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://english.stackexchange.com</id>
+        <title type="text">English Language &amp; Usage Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://english.stackexchange.com" />
+        <published>2010-08-05T19:00:00Z</published>
+        <updated>2010-08-05T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for linguists, etymologists, and serious English language enthusiasts
+        </summary>
+    </entry>
+    <entry>
+        <id>http://money.stackexchange.com</id>
+        <title type="text">Personal Finance &amp; Money Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://money.stackexchange.com" />
+        <published>2010-08-04T19:00:00Z</published>
+        <updated>2010-08-04T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people who want to be financially literate
+        </summary>
+    </entry>
+    <entry>
+        <id>http://askubuntu.com</id>
+        <title type="text">Ask Ubuntu</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://askubuntu.com" />
+        <published>2010-07-28T19:00:00Z</published>
+        <updated>2010-07-28T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for Ubuntu users and developers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://tex.stackexchange.com</id>
+        <title type="text">TeX - LaTeX Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://tex.stackexchange.com" />
+        <published>2010-07-26T19:00:00Z</published>
+        <updated>2010-07-26T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for users of TeX, LaTeX, ConTeXt, and related typesetting systems
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gis.stackexchange.com</id>
+        <title type="text">Geographic Information Systems Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://gis.stackexchange.com" />
+        <published>2010-07-22T19:00:00Z</published>
+        <updated>2010-07-22T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for cartographers, geographers and GIS professionals
+        </summary>
+    </entry>
+    <entry>
+        <id>http://diy.stackexchange.com</id>
+        <title type="text">Home Improvement Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://diy.stackexchange.com" />
+        <published>2010-07-21T19:00:00Z</published>
+        <updated>2010-07-21T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for contractors and serious DIYers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://math.stackexchange.com</id>
+        <title type="text">Mathematics Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://math.stackexchange.com" />
+        <published>2010-07-20T19:00:00Z</published>
+        <updated>2010-07-20T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people studying math at any level and professionals in related fields
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stats.stackexchange.com</id>
+        <title type="text">Cross Validated</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://stats.stackexchange.com" />
+        <published>2010-07-19T19:00:00Z</published>
+        <updated>2010-07-19T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for people interested in statistics, machine learning, data analysis, data mining, and data visualization
+        </summary>
+    </entry>
+    <entry>
+        <id>http://photo.stackexchange.com</id>
+        <title type="text">Photography Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://photo.stackexchange.com" />
+        <published>2010-07-15T19:00:00Z</published>
+        <updated>2010-07-15T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional, enthusiast and amateur photographers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gamedev.stackexchange.com</id>
+        <title type="text">Game Development Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://gamedev.stackexchange.com" />
+        <published>2010-07-14T19:00:00Z</published>
+        <updated>2010-07-14T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional and independent game developers
+        </summary>
+    </entry>
+    <entry>
+        <id>http://cooking.stackexchange.com</id>
+        <title type="text">Seasoned Advice</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://cooking.stackexchange.com" />
+        <published>2010-07-09T19:00:00Z</published>
+        <updated>2010-07-09T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for professional and amateur chefs
+        </summary>
+    </entry>
+    <entry>
+        <id>http://webmasters.stackexchange.com</id>
+        <title type="text">Webmasters Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://webmasters.stackexchange.com" />
+        <published>2010-07-08T19:00:00Z</published>
+        <updated>2010-07-08T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for pro webmasters
+        </summary>
+    </entry>
+    <entry>
+        <id>http://gaming.stackexchange.com</id>
+        <title type="text">Arqade</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://gaming.stackexchange.com" />
+        <published>2010-07-07T19:00:00Z</published>
+        <updated>2010-07-07T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for passionate videogamers on all platforms
+        </summary>
+    </entry>
+    <entry>
+        <id>http://webapps.stackexchange.com</id>
+        <title type="text">Web Applications Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://webapps.stackexchange.com" />
+        <published>2010-06-30T19:00:00Z</published>
+        <updated>2010-06-30T19:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for power users of web applications
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackapps.com</id>
+        <title type="text">Stack Apps</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://stackapps.com" />
+        <published>2010-03-31T00:00:00Z</published>
+        <updated>2010-03-31T00:00:00Z</updated>
+        <summary type="html">
+            Q&amp;A for apps, scripts, and development with the Stack Exchange API
+        </summary>
+    </entry>
+    <entry>
+        <id>http://mathoverflow.net</id>
+        <title type="text">MathOverflow</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://mathoverflow.net" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for professional mathematicians
+        </summary>
+    </entry>
+    <entry>
+        <id>http://superuser.com</id>
+        <title type="text">Super User</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://superuser.com" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for computer enthusiasts and power users
+        </summary>
+    </entry>
+    <entry>
+        <id>http://meta.stackexchange.com</id>
+        <title type="text">Meta Stack Exchange</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://meta.stackexchange.com" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for meta-discussion of the Stack Exchange family of Q&amp;A websites
+        </summary>
+    </entry>
+    <entry>
+        <id>http://serverfault.com</id>
+        <title type="text">Server Fault</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://serverfault.com" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for system and network administrators
+        </summary>
+    </entry>
+    <entry>
+        <id>http://stackoverflow.com</id>
+        <title type="text">Stack Overflow</title>
+        <author>
+            <name>Stack Exchange</name>
+            <uri>https://stackexchange.com</uri>
+        </author>
+        <link rel="alternate" href="http://stackoverflow.com" />
+        <published></published>
+        <updated></updated>
+        <summary type="html">
+            Q&amp;A for professional and enthusiast programmers
+        </summary>
+    </entry>
+</feed>
