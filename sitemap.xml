@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://invert-viewer.github.io/new/index.html</loc>
+    
+    <lastmod>2024-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://invert-viewer.github.io/after-Chinese-GaoKao/</loc>
     
     <lastmod>2024-09-04</lastmod>
