@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://invert-viewer.github.io/lib/three/package.json</loc>
+    <loc>https://invert-viewer.github.io/lib/three/renovate.json</loc>
     
     <lastmod>2021-08-28</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://invert-viewer.github.io/lib/three/renovate.json</loc>
+    <loc>https://invert-viewer.github.io/lib/three/package.json</loc>
     
     <lastmod>2021-08-28</lastmod>
     
@@ -175,7 +175,7 @@
 
   <url>
     <loc>https://invert-viewer.github.io/</loc>
-    <lastmod>2024-09-03</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,21 +183,21 @@
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2024-09-03</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2024-09-03</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2024-09-03</lastmod>
+    <lastmod>2024-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
