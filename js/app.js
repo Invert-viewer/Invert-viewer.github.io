@@ -2118,7 +2118,7 @@ const algoliaSearch = function(pjax) {
         }
       }
     }),
-
+// 原来格式
     // instantsearch.widgets.hits({
     //   container: '#search-hits',
     //   templates: {
@@ -2136,38 +2136,57 @@ const algoliaSearch = function(pjax) {
     //     item: 'item'
     //   }
     // }),
-    instantsearch.widgets.hits({
-      container  : '#algolia-hits',
-      hitsPerPage: algoliaSettings.hits.per_page || 10,
-      templates  : {
-        item: function(data) {
-          var link = data.permalink ? data.permalink : CONFIG.root + data.path;
-          return (
-            `
-              <ul>
-                <li>
-                  <a href=${link} class="algolia-hit-item-link">${data._highlightResult.title.value}</a>
-                  <a href=${link} class="algolia-hit-item-match">
-                    <p>${data._highlightResult.contentStripTruncate.value}</p>
-                  </a>
-                </li>
-              </ul>
+// 网上格式
+    // instantsearch.widgets.hits({
+    //   container  : '#algolia-hits',
+    //   hitsPerPage: algoliaSettings.hits.per_page || 10,
+    //   templates  : {
+    //     item: function(data) {
+    //       var link = data.permalink ? data.permalink : CONFIG.root + data.path;
+    //       return (
+    //         `
+    //           <ul>
+    //             <li>
+    //               <a href=${link} class="algolia-hit-item-link">${data._highlightResult.title.value}</a>
+    //               <a href=${link} class="algolia-hit-item-match">
+    //                 <p>${data._highlightResult.contentStripTruncate.value}</p>
+    //               </a>
+    //             </li>
+    //           </ul>
+    //         `
+    //       );
+    //     },
+    //     empty: function(data) {
+    //       return (
+    //         '<div id="algolia-hits-empty">'
+    //       + algoliaSettings.labels.hits_empty.replace(/\$\{query}/, data.query)
+    //       + '</div>'
+    //       );
+    //     }
+    //   },
+    //   cssClasses: {
+    //     item: 'algolia-hit-item'
+    //   }
+    // }),
 
-            `
-          );
+    instantsearch.widgets.hits({
+      container: '#search-hits',
+      templates: {
+        item: function(data) {
+          var cats = data.categories ? '<span>'+data.categories.join('<i class="ic i-angle-right"></i>')+'</span>' : '';
+          return '<a href="' + CONFIG.root + data.path +'">'+cats+data._highlightResult.title.value+'</a>';
         },
         empty: function(data) {
-          return (
-            '<div id="algolia-hits-empty">'
-          + algoliaSettings.labels.hits_empty.replace(/\$\{query}/, data.query)
-          + '</div>'
-          );
+          return '<div id="hits-empty">'+
+          algoliaSettings.labels.hits_empty.replace(/\$\{query}/, data.query) +
+            '</div>';
         }
       },
       cssClasses: {
         item: 'algolia-hit-item'
       }
     }),
+
 
     instantsearch.widgets.pagination({
       container: '#search-pagination',
