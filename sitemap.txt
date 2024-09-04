@@ -1,5 +1,5 @@
-https://invert-viewer.github.io/friends/index.html
 https://invert-viewer.github.io/blog-functional-testing/
+https://invert-viewer.github.io/friends/index.html
 https://invert-viewer.github.io/about/index.html
 https://invert-viewer.github.io/2023-annual-summary/
 https://invert-viewer.github.io/CSP-J-S-on-cloud/
