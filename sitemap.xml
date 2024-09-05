@@ -2,6 +2,105 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://invert-viewer.github.io/vvboard-experience/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/senior-year-departure/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/senior-high-school-level/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/Mistakes-made-in-problem-solving/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/hello-world/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/CSP-J-S-on-cloud/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/blog-functional-testing/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/2023-annual-summary/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/2022-annual-summary/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://invert-viewer.github.io/2021-annual-summary/</loc>
+    
+    <lastmod>2024-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://invert-viewer.github.io/after-Chinese-GaoKao/</loc>
     
     <lastmod>2024-09-04</lastmod>
@@ -12,15 +111,6 @@
   
   <url>
     <loc>https://invert-viewer.github.io/timeline/index.html</loc>
-    
-    <lastmod>2024-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/blog-functional-testing/</loc>
     
     <lastmod>2024-09-04</lastmod>
     
@@ -47,96 +137,6 @@
   </url>
   
   <url>
-    <loc>https://invert-viewer.github.io/2023-annual-summary/</loc>
-    
-    <lastmod>2024-08-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/CSP-J-S-on-cloud/</loc>
-    
-    <lastmod>2024-02-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/2022-annual-summary/</loc>
-    
-    <lastmod>2023-11-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/Mistakes-made-in-problem-solving/</loc>
-    
-    <lastmod>2023-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</loc>
-    
-    <lastmod>2023-06-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/2021-annual-summary/</loc>
-    
-    <lastmod>2023-06-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/hello-world/</loc>
-    
-    <lastmod>2023-06-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/senior-year-departure/</loc>
-    
-    <lastmod>2023-01-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/vvboard-experience/</loc>
-    
-    <lastmod>2022-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://invert-viewer.github.io/senior-high-school-level/</loc>
-    
-    <lastmod>2022-04-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://invert-viewer.github.io/tags/index.html</loc>
     
     <lastmod>2021-09-02</lastmod>
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://invert-viewer.github.io/lib/three/package.json</loc>
+    <loc>https://invert-viewer.github.io/lib/three/renovate.json</loc>
     
     <lastmod>2021-08-28</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://invert-viewer.github.io/lib/three/renovate.json</loc>
+    <loc>https://invert-viewer.github.io/lib/three/package.json</loc>
     
     <lastmod>2021-08-28</lastmod>
     
