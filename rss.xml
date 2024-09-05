@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title></title>
+        <subtitle>致敬想象与创造力!</subtitle>
+        <icon>https://invert-viewer.github.io/assets/favicon.ico</icon>
+        <link>https://invert-viewer.github.io</link>
+        <author>
+          <name>倒置的观察者</name>
+        </author>
+        <description>致敬想象与创造力！</description>
+        <language>zh-CN</language>
+        <pubDate>Thu, 05 Sep 2024 16:52:43 +0800</pubDate>
+        <lastBuildDate>Thu, 05 Sep 2024 16:52:43 +0800</lastBuildDate>
+        <category term="倒置的观察者" />
+        <category term="invert-viewer" />
+        <category term="倒置的观察者的博客" />
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/blog-functional-testing/</guid>
+            <title>博客功能测试</title>
+            <link>https://invert-viewer.github.io/blog-functional-testing/</link>
+            <category term="测试" scheme="https://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/" />
+            <pubDate>Thu, 05 Sep 2024 16:52:43 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本测试&#34;&gt;#&lt;/a&gt; 文本测试&lt;/h2&gt;
+&lt;p&gt;![图标](&lt;a href=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;（小图标与背景测试）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;这是一个互联网图标。
+&lt;img loading=&#34;lazy&#34; data-src=&#34;https://img.icons8.com/dotty/80/000000/internet-explorer.png&#34; alt=&#34;图标&#34;&gt;&lt;/li&gt;
+&lt;li&gt;无序列表测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;这是斜体文字&lt;/em&gt;
+&lt;strong&gt;粗体文本&lt;/strong&gt;
+&lt;em&gt;&lt;strong&gt;粗斜体文本&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;
+&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;munder accentunder=&#34;true&#34;&gt;&lt;mtext&gt;带下划线文本&lt;/mtext&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/munder&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\underline{\text{带下划线文本}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8833em;vertical-align:-0.2em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord underline&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6833em;&#34;&gt;&lt;span style=&#34;top:-2.84em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;underline-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;带下划线文本&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mtext&gt;带上划线文本&lt;/mtext&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\overline{\text{带上划线文本}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.8833em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord overline&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8833em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord text&#34;&gt;&lt;span class=&#34;mord cjk_fallback&#34;&gt;带上划线文本&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.8033em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;代码测试&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Hello，world！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;引用测试&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;s&gt;更多资料稍后放出&lt;/s&gt;
+这是引用测试&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure class=&#34;highlight csharp&#34;&gt;&lt;figcaption&gt;&lt;span&gt;偶然间翻出来的(2021.7.1)&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//Hello,world!&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;&amp;quot;Hello,world!&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//输出的尝试ヾ(•ω•`)o&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; aFriend = &lt;span class=&#34;string&#34;&gt;&amp;quot;Bill&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(aFriend);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;aFriend = &lt;span class=&#34;string&#34;&gt;&amp;quot;Maira&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//单个变量只能赋值有效一次，第二次赋值时总是会覆盖第一次的值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(aFriend);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;&amp;quot;Hello &amp;quot;&lt;/span&gt; + aFriend);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;$&amp;quot;Hello &lt;span class=&#34;subst&#34;&gt;&amp;#123;aFriend&amp;#125;&lt;/span&gt;&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//第二种输出方法（用 ““+”” 或 ““$””）&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; firstFriend = &lt;span class=&#34;string&#34;&gt;&amp;quot;Maria&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;string&lt;/span&gt; secondFriend = &lt;span class=&#34;string&#34;&gt;&amp;quot;Sage&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;$&amp;quot;My friends are &lt;span class=&#34;subst&#34;&gt;&amp;#123;firstFriend&amp;#125;&lt;/span&gt; and &lt;span class=&#34;subst&#34;&gt;&amp;#123;secondFriend&amp;#125;&lt;/span&gt;&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//俩变量(∪.∪ )...zzz(∪.∪ )...zzz&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;$&amp;quot;The name &lt;span class=&#34;subst&#34;&gt;&amp;#123;firstFriend&amp;#125;&lt;/span&gt; has &lt;span class=&#34;subst&#34;&gt;&amp;#123;firstFriend.Length&amp;#125;&lt;/span&gt; letters.&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Console.WriteLine(&lt;span class=&#34;string&#34;&gt;$&amp;quot;The name &lt;span class=&#34;subst&#34;&gt;&amp;#123;secondFriend&amp;#125;&lt;/span&gt; has &lt;span class=&#34;subst&#34;&gt;&amp;#123;secondFriend.Length&amp;#125;&lt;/span&gt; letters.&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;格式测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#格式测试&#34;&gt;#&lt;/a&gt; 格式测试&lt;/h2&gt;
+&lt;p&gt;汇总一下吧&lt;/p&gt;
+&lt;p&gt;1. 问题&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;好像除了 “post” 之外的 source 不能用，要不然标题会炸🙄&lt;/li&gt;
+&lt;li&gt;还有改变语言文件，只有标题栏会改，但是列表不会改，这就很神奇😶&lt;/li&gt;
+&lt;li&gt;如果我现在切换主题，主页会不会炸？&lt;/li&gt;
+&lt;li&gt;我的 markdown 语法是真的差页面排版都不会……&lt;/li&gt;
+&lt;li&gt;新创建的那几个栏目为什么上面有个那么明显的 English (´･ω･`)?&lt;/li&gt;
+&lt;li&gt;数学公式、化学方程式好像不能输入。。。。。。&lt;/li&gt;
+&lt;li&gt;搜索栏炸了 (⊙o⊙)…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2. 可用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;emoji, 颜文字都能用。&lt;/li&gt;
+&lt;li&gt;粗体，斜体，删除线，下划线啥的基本能用&lt;/li&gt;
+&lt;li&gt;还有栏目也加载了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;还有一件事！(。_。)
+ 测试失败了，标题刚刚变成了 “[object,Object]”，现在变成了 “未命名”……༼ つ ◕_◕ ༽つ
+&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png&#34; alt=&#34;just failed.png&#34;&gt;
+&lt;s&gt; 我看不见&lt;/s&gt; (其实上面那个是张图片)&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;希望不会崩溃&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;功能测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能测试&#34;&gt;#&lt;/a&gt; 功能测试&lt;/h2&gt;
+&lt;h3 id=&#34;可用功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可用功能&#34;&gt;#&lt;/a&gt; 可用功能&lt;/h3&gt;
+&lt;p&gt;1.&lt;s&gt; 设置博文内链接为蓝色&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;都换新主题了哪来的蓝色？
+测试链接:&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;https://invert-viewer.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2. 显示站点文章总字数
+不过在页面底部，只有一行小字……&lt;/p&gt;
+&lt;p&gt;3. 为文章添加 tags
+ 成功，不过需要点击进入文章才能看见……&lt;/p&gt;
+&lt;p&gt;4. 添加 tags 页面 (标签)&lt;/p&gt;
+&lt;p&gt;5. 简化四级链接&lt;/p&gt;
+&lt;p&gt;6. 设置预览概要&lt;/p&gt;
+&lt;h3 id=&#34;失败功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#失败功能&#34;&gt;#&lt;/a&gt; 失败功能&lt;/h3&gt;
+&lt;p&gt;a.&lt;s&gt;JavaScript 3D library 风格功能&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 改为 canvas nest 风格。&lt;/p&gt;
+&lt;p&gt;b.&lt;s&gt; 添加社交链接&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无意义&lt;/p&gt;
+&lt;p&gt;c.&lt;s&gt; 尝试在 schedule 里面添加表格&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 无法识别。&lt;/p&gt;
+&lt;p&gt;d.&lt;s&gt; 显示文章字数和阅读时长&lt;/s&gt;
+&lt;em&gt;放弃原因:&lt;/em&gt; 崩溃原因不明。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;后续：博客因此原因 3 天内都打不开 o_o ....
+ 直到 2021-8-30 19:50:46 才修复成功，可以重新访问🤣
+无法访问期间博客一直显示未找到主机，浏览器上面显示空白，标题栏部分只有网站的英文名称……&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/hello-world/</guid>
+            <title>Hello,world! 写在前面的一些话</title>
+            <link>https://invert-viewer.github.io/hello-world/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Thu, 05 Sep 2024 15:52:12 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;时间2021年8月24日900~203026&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年8月24日900~203026&#34;&gt;#&lt;/a&gt; 时间：2021 年 8 月 24 日 9:00~20:30:26&lt;/h2&gt;
+&lt;h3 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h3&gt;
+&lt;p&gt;搭建了快 10 个小时终于整好了 (ToT)/~~~, 期间真的遇到无数故障，查了好多资料，真的就像&lt;a href=&#34;https://zhuanlan.zhihu.com/p/102592286&#34; title=&#34;虽然有的内容有点过时 了，但还是很推荐去看看&#34;&gt;原教程&lt;/a&gt;说的搭完后 “仿佛踏入仙境”(・_・)&lt;/p&gt;
+&lt;h3 id=&#34;那些遇到的奇葩问题记不太清了&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#那些遇到的奇葩问题记不太清了&#34;&gt;#&lt;/a&gt; 那些遇到的奇葩问题（记不太清了）&lt;/h3&gt;
+&lt;p&gt;1. 上传文件总是失败（改了无数遍 hosts 文件……）
+2. 本地访问成功后 GitHub Pages 上面是 404（又是一番找资料）
+3. 终于能访问后网页却是蓝底白字（这个困扰最久，&lt;em&gt;&lt;strong&gt;一定要注意大小写！！！&lt;/strong&gt;&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;高二了，还到了新的班级（10 班），加油吧！！！ ^o^/~&lt;/p&gt;
+&lt;p&gt;next 版本：7.7.2&lt;/p&gt;
+&lt;h2 id=&#34;时间2021年9月21日195915&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月21日195915&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 21 日 19:59:15&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本人广泛应用了逻辑谬误来辅助论证空洞的论点，看似说了很多但其实什么都没说，属于无病呻吟，仅仅是在为以后撰写更多二十一世纪的经典网络回复练手。内容纯属虚构，如有雷同实属巧合。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;感觉这话很多场合都能用。😂&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;时间2021年9月22日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月22日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 22 日&lt;/h2&gt;
+&lt;p&gt;网站又有新的 bug 了，但在高中不放假真的没时间去修，而且还有那些测试文档没有整理……(￣^￣)
+ 今天提交了入团申请书，还不知道能不能通过……
+ 还有那神奇的综合素质评价表，真的让我无言以对。(¬_¬)&lt;/p&gt;
+&lt;h2 id=&#34;时间2021年9月26日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月26日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 26 日&lt;/h2&gt;
+&lt;p&gt;距离博客网页创建已经过了整整一个月，至少还可以保持正常运行。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;虽然有点 bug 还没修&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;时间2021年9月27日&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年9月27日&#34;&gt;#&lt;/a&gt; 时间：2021 年 9 月 27 日&lt;/h2&gt;
+&lt;p&gt;打算充实一下博客的内容，就每周写一点周记吧！&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;虽然我知道这些周记肯定很水&lt;/s&gt;&lt;/p&gt;
+&lt;h2 id=&#34;时间2021年10月1日223746&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年10月1日223746&#34;&gt;#&lt;/a&gt; 时间：2021 年 10 月 1 日 22:37:46&lt;/h2&gt;
+&lt;p&gt;今天更换了&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34; title=&#34;shoka&#34;&gt;新的主题&lt;/a&gt;，虽然好看但是 bug 也太多了吧！╰（‵□′）╯&lt;/p&gt;
+&lt;p&gt;光是修这些玩意儿就又耗了一天的时间……&lt;/p&gt;
+&lt;h2 id=&#34;时间2021年11月24日230754&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年11月24日230754&#34;&gt;#&lt;/a&gt; 时间：2021 年 11 月 24 日 23:07:54&lt;/h2&gt;
+&lt;p&gt;好长好长时间都没写博客了……&lt;/p&gt;
+&lt;p&gt;这期间发生了不少事情，就比如这几个影响最大的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2021 年 11 月 11 号的期中考试 (￢ω￢)&lt;s&gt; 考的什么玩意啊&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;信息学竞赛 —————— 中途退出 (;′⌒`)&lt;/li&gt;
+&lt;li&gt;2022 年普通高中学业水平测试报名&lt;/li&gt;
+&lt;li&gt;第一次实现了 “技术变现”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;暂时写这么多吧，毕竟其中的艰辛不是三言两语能讲清楚的。&lt;/p&gt;
+&lt;p&gt;＞︿＜&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/2023-annual-summary/</guid>
+            <title>2023年终总结</title>
+            <link>https://invert-viewer.github.io/2023-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Sun, 04 Feb 2024 16:10:51 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;sub&gt;什么？2024 了都？去年真的是魔幻啊啊啊啊啊啊啊！&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;就让我们第三次地祝贺地球再一次围绕着太阳公转了一圈！&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;~~* 去年的年终总结实在是太水了。_~~ 不过好在 23 年在不少重要时间点做了记录，应该可以内容充实一点啦。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/after-Chinese-GaoKao/</guid>
+            <title>记高考---失落的当下|未知的未来</title>
+            <link>https://invert-viewer.github.io/after-Chinese-GaoKao/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Tue, 18 Jul 2023 22:34:27 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note default no-icon&#34;&gt;
+&lt;p&gt;我飘向北方，别问我家乡，高耸古老的城墙，挡不住忧伤。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本文是在官方公布本科批次投档线后的深夜写下的，基本以第三人称行文，但还是有部分个人情绪，且意识流味较重，请慎重理性看待。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;高考打翻了调味罐&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高考打翻了调味罐&#34;&gt;#&lt;/a&gt; 高考 ———— 打翻了调味罐&lt;/h2&gt;
+&lt;p&gt;&amp;quot;今年的数学估计非常难，大家做好准备。&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;还看什么书啊，看了也没用了。&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;听说他昨晚到凌晨一点都没有睡着，真的假的？&amp;quot;&lt;/p&gt;
+&lt;p&gt;三天的试炼，悄无声息地在周围打响了。&lt;/p&gt;
+&lt;p&gt;踏出校门的一刻，看到了水泄不通的家长们在门口期待凯旋，同学们声嘶力竭地喊出口号，震耳欲聋。望向他们的眼神中，不仅是一份好奇，更是一份期待。&lt;/p&gt;
+&lt;p&gt;挥舞着黄澄澄的扇子，手摇着绿油油的复习手册，说着 “之乎者也” 似乎在挽留什么，看着周围同学的神情，他似乎忘记了是什么在前方等待着他。&lt;/p&gt;
+&lt;p&gt;陌生的地方，熟悉的气息，空旷的考场带给他的不是震撼，而是如秋天般的肃杀感。黑编织包中的资料他早已拿出，他蹲在无人的角落试图留下一些记忆，过去的，手中的，这里的。他所期待的不是欢声笑语，而是一份无悔。&lt;/p&gt;
+&lt;p&gt;走进了无数次幻想过的考场，气氛似乎没有怎么浓墨重彩的渲染，但他的心中早已五味杂陈。&lt;/p&gt;
+&lt;p&gt;一帆风顺在他这里永远是否命题，2B 铅笔都忘带的他在旁人看起来似乎不大聪明，但他最后还是用铅芯解决了问题。他虽对 &amp;quot;创新性&amp;quot; 早有耳闻，可是创新的语言文字运用还是给了他一个下马威。想起早读、课堂、晚自习背诵的日日夜夜，带给他的只有冲击与一丝懊恼，来不及担忧，就来到了最后的作文，可惜留给他的只有熟悉的模板与常规的思路，妙手对他仍是遥不可及的。下笔说不上是如有神助，只能是中规中矩。&lt;/p&gt;
+&lt;p&gt;他不知何为 &amp;quot;有多大希望就有多大失望&amp;quot; 的话语，洗了洗脸就走进了考场，不知是试卷看起来的简单还是他的期望让他颇为紧张，前几个小选择题全都算错让他心慌不已，记得之前妖魔鬼怪的模拟题都让他的分数一次一次创下新低，想起这些他看起来又自信了，以为逆风翻盘就在此刻，谁知这都是建立在空中楼阁上的，少有的自信却隐患无穷。谁知最后他提交了只写完每个大题第一题的答卷，这就是他的高中三年的数学成果吗？不敢相信。&lt;/p&gt;
+&lt;p&gt;自以为是强项的英语，谁知听力广播却伴着回音，主播就像喉咙里面塞了个拖鞋…… 好在题目他能接受。最后缺少升华的结尾似乎少了灵魂。&lt;/p&gt;
+&lt;p&gt;物理试卷似乎出乎意料的简单，可惜他没有把握住。化学明明是他的强项，他却在时间分配上面翻了车。政治却又让他始料未及，他不知题目居然让他亲自参与碳排放交易，法律案件熟悉中却满是陌生。&lt;/p&gt;
+&lt;p&gt;走出考场，迎接他的没有鲜花簇拥，也没有热泪盈眶，他忘了如何表达欢喜，草草拍了几张照片就赶回了自己的学校，潦草的班会没有轰轰烈烈的告别，没有热热闹闹的合影，他却不知，正是这个班会宣告了他的高中生涯，最终，截止了。&lt;/p&gt;
+&lt;p&gt;他留下了什么？十几人的签名，班主任的临别赠语，或是一些虚无缥缈的联系方式，对他来说仅此而已，他认为这里没有什么好留恋的，他只是想逃离这个地方，去到所谓的远方，谁知这个 &amp;quot;远方&amp;quot; 早已被提取标好了价格。&lt;/p&gt;
+&lt;h2 id=&#34;高考查分好运来了吗&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高考查分好运来了吗&#34;&gt;#&lt;/a&gt; 高考查分 ———— 好运来了吗？&lt;/h2&gt;
+&lt;p&gt;并没有。&lt;/p&gt;
+&lt;p&gt;揭晓成绩那一刻震碎了他的三观，尽管知道今年试卷简单分数线会长，但他没想到涨了 19 分，实在是接受不了这是本科最低控制线。&lt;/p&gt;
+&lt;p&gt;谁知与他同等级的同学洋洋洒洒都是 500 多分，瞠目结舌之余留下的只有数不清的问号。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/Mistakes-made-in-problem-solving/</guid>
+            <title>解题犯过的错误</title>
+            <link>https://invert-viewer.github.io/Mistakes-made-in-problem-solving/</link>
+            <category term="技术" scheme="https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+            <pubDate>Tue, 20 Jun 2023 22:49:19 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;前言:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;建议本书的读者…… 每周不少于 10 题。…… 只有亲自动手实践，学到的东西才是自己的 ————《深入浅出程序设计竞赛》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;b2004-对齐输出&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b2004-对齐输出&#34;&gt;#&lt;/a&gt; B2004 &lt;a href=&#34;https://www.luogu.com.cn/problem/B2004&#34;&gt;对齐输出&lt;/a&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//printf(&amp;quot;%8lld%8lld%8lld&amp;quot;,a,b,c);      不能这么写&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%8lld %8lld %8lld&amp;quot;&lt;/span&gt;,a,b,c);      AC&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;printf () 函数有多个格式符的时候，要把各个格式符用 &lt;em&gt;&lt;strong&gt;空格&lt;/strong&gt;&lt;/em&gt; 隔开。&lt;/p&gt;
+&lt;h2 id=&#34;b2005-字符三角形&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b2005-字符三角形&#34;&gt;#&lt;/a&gt; B2005 &lt;a href=&#34;https://www.luogu.com.cn/problem/B2005&#34;&gt;字符三角形&lt;/a&gt;&lt;/h2&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</guid>
+            <title>C++ 拾遗</title>
+            <link>https://invert-viewer.github.io/C++%20gleanings%20Part%20I/</link>
+            <category term="技术" scheme="https://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+            <pubDate>Mon, 19 Jun 2023 20:56:46 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;本文主要是复习之前高二跟着《CCF 中学生计算机程序设计 入门篇》学的 C++，目录基本按照书本。&lt;s&gt;高考完了在不复习就真的忘光啦！&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;由于是 “拾遗”，而且这本书定位特殊，所以内容不会像《C Primer Plus》那么全。&lt;/li&gt;
+&lt;li&gt;本文大部分内容都源于书本，但尽可能不去摘抄原文，为了阅读效率，会多用折叠块。&lt;/li&gt;
+&lt;li&gt;本文不探寻原理，只适用于上手操作，如需了解原理，请去&lt;a href=&#34;https://zh.cppreference.com&#34;&gt; cppreference&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;第一章-编程基本概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一章-编程基本概念&#34;&gt;#&lt;/a&gt; 第一章 编程基本概念&lt;/h2&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;原本标题是 “编程如此简单” 可我感觉实在是太假了！╰（‵□′）╯&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;程序设计概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程序设计概念&#34;&gt;#&lt;/a&gt; 程序设计概念&lt;/h3&gt;
+&lt;details&gt;&lt;summary&gt;基本概念(程序、计算机语言、编辑和编译、IDE)&lt;/summary&gt;&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;程序：用计算机编写的一系列指令序列&lt;/li&gt;
+&lt;li&gt;计算机语言：人与计算机之间通信的语言，有许多不同的语言，而且即使是同一种语言也有不同的版本。&lt;s&gt;点名批评 python2 和 python3&lt;/s&gt;！&lt;/li&gt;
+&lt;li&gt;编辑：在某种计算机语言环境下编写程序的过程&lt;/li&gt;
+&lt;li&gt;解释：翻译一句执行一句。例如 Java&lt;/li&gt;
+&lt;li&gt;编译：一次性全部翻译，在执行。例如 C++&lt;/li&gt;
+&lt;li&gt;IDE:&lt;ruby&gt; 集&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;Integrated&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; 成&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;development&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt; 开发环境&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;environment&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, 一般集成了编辑、编译和调试功能。&lt;strong&gt;所有 IDE 都是天下第一 IDE&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h4 id=&#34;程序结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#程序结构&#34;&gt;#&lt;/a&gt; 程序结构&lt;/h4&gt;
+&lt;p&gt;下面要请出经典的 “hello,world” 啦！&amp;gt;ω&amp;lt;&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;# &lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;               &lt;span class=&#34;comment&#34;&gt;//头文件&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;namespace&lt;/span&gt; std;              &lt;span class=&#34;comment&#34;&gt;//名字空间，std指的是标准名字空间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&amp;#123;                       &lt;span class=&#34;comment&#34;&gt;//主函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    cout&amp;lt;&amp;lt;&lt;span class=&#34;string&#34;&gt;&amp;quot;hello,world&amp;quot;&lt;/span&gt;&amp;lt;&amp;lt;endl;  &lt;span class=&#34;comment&#34;&gt;//主函数&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;                     &lt;span class=&#34;comment&#34;&gt;//主函数(一般每个函数都有返回值，所以有了这句)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;C++ 程序由头文件、名字空间和主函数构成。&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;1.头文件&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;引用其他程序，用于保存程序的声明。格式如下：&lt;/p&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;&amp;gt;&lt;/span&gt;  &lt;span class=&#34;comment&#34;&gt;//尖括号和引号里面加上引用文件名&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;2.名字空间&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;防止编写大型程序时名字产生冲突。&lt;em&gt;（或者说方便指明函数是哪来的）&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;3.主函数&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;一般的 “函数”，都是实现某种功能的。在大多数程序里面，main 函数是必须存在的，它是优先运行的。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h3 id=&#34;整数算数运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#整数算数运算&#34;&gt;#&lt;/a&gt; 整数算数运算&lt;/h3&gt;
+&lt;h4 id=&#34;cout语句&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cout语句&#34;&gt;#&lt;/a&gt; cout 语句&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;作用：输出，通过&lt;ruby&gt;流&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;stream&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 的方式来实现的。&lt;/li&gt;
+&lt;li&gt;输出一般遇到 endl 或 “/n” 会换行。&lt;/li&gt;
+&lt;li&gt;格式如下：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cout&amp;lt;&amp;lt;项目&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;&amp;lt;&amp;lt;项目&lt;span class=&#34;number&#34;&gt;2&lt;/span&gt;&amp;lt;&amp;lt;...&amp;lt;&amp;lt;项目n;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;如果项目是表达式，则输出值。&lt;/li&gt;
+&lt;li&gt;如果项目加引号，直接输出。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;算数运算符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#算数运算符&#34;&gt;#&lt;/a&gt; 算数运算 (符)&lt;/h4&gt;
+&lt;p&gt;&lt;ruby&gt;加&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;+&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;、&lt;ruby&gt;减&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;-&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;、&lt;ruby&gt;乘&lt;rt&gt;●&lt;/rt&gt;&lt;/ruby&gt;、&lt;ruby&gt;除&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;/&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 和&lt;ruby&gt;模&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;%&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;除法结果是整数，没有小数部分&lt;/li&gt;
+&lt;li&gt;模是取两数相除的余数，也是整数。&lt;/li&gt;
+&lt;li&gt;运算顺序同一般数学计算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;实数运算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实数运算&#34;&gt;#&lt;/a&gt; 实数运算&lt;/h4&gt;
+&lt;p&gt;5 和 5.0 是不一样的，在数学上面意义相同，可是前者是实数，后者是整数。二者不同会影响除法和取模运算的结果。&lt;/p&gt;
+&lt;h2 id=&#34;第二章-数据的存储和读入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二章-数据的存储和读入&#34;&gt;#&lt;/a&gt; 第二章 数据的存储和读入&lt;/h2&gt;
+&lt;h3 id=&#34;数据类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据类型&#34;&gt;#&lt;/a&gt; 数据类型&lt;/h3&gt;
+&lt;p&gt;这里仅列举一部分常用的：
+1. 整数类型 int, 占用 4 字节，表示 - 2&lt;sup&gt;31 到 2&lt;/sup&gt;31 范围内的&lt;strong&gt;整数&lt;/strong&gt;。
+2. 双精度浮点类型 double，表示最大整数 1.8×10^308 范围内的浮点数 (也就是小数)。
+3. 字符型 char，占用 1 字节，表示 - 128 到 127 范围内对应的字符&lt;/p&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;科学计数法：例如 3.40E+38 表示 3.40×10^38。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;查看数据类型占的字节数目可以用 sizeof () 函数。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;如果数据类型选的不对，还强行把数据放进去，就会造成&lt;ruby&gt;数据溢出&lt;rp&gt; (&lt;/rp&gt;&lt;rt&gt;overflow&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt; 错误，而且&lt;em&gt;&lt;strong&gt;编译器看不出来&lt;/strong&gt;&lt;/em&gt;！！！&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;变量常量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量常量&#34;&gt;#&lt;/a&gt; 变量 &amp;amp; 常量&lt;/h3&gt;
+&lt;h4 id=&#34;变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#变量&#34;&gt;#&lt;/a&gt; 变量&lt;/h4&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;变量名命名规则(一般长度控制在15字符以内)&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;1. 名字只能有字母、数字或下划线。
+2.&lt;em&gt; 第一个字符&lt;/em&gt;不能是数字。
+3. 不能是 C++ 关键字。
+4. 区分大小写。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;ul&gt;
+&lt;li&gt;变量定义：类型标识符 变量名 1，变量名 2，……，变量名 n;&lt;/li&gt;
+&lt;li&gt;赋值格式：变量 赋值运算符 表达式&lt;/li&gt;
+&lt;li&gt;赋值运算符：= += -= *= /= %= &amp;amp;= |= ^= &amp;gt;&amp;gt;= &amp;lt;&amp;lt;=  ()&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;常量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常量&#34;&gt;#&lt;/a&gt; 常量&lt;/h4&gt;
+&lt;h2 id=&#34;参考资料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#参考资料&#34;&gt;#&lt;/a&gt; 参考资料&lt;/h2&gt;
+&lt;p&gt;1.&lt;a href=&#34;https://oi-wiki.org/lang/var/#fn:note11&#34;&gt; 变量数据类型 - OI WIKI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.&lt;a href=&#34;https://zh.cppreference.com/w/cpp/language/type&#34;&gt; 类型 - cppreference&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/2022-annual-summary/</guid>
+            <title>2022年度总结</title>
+            <link>https://invert-viewer.github.io/2022-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Sat, 31 Dec 2022 23:48:34 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;s&gt;什么？你告诉我马上都 2023 了？我 2022 还没过够呢！&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;就让我们再次祝贺地球再一次围绕着太阳公转了一圈！&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六月的2022高考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六月的2022高考&#34;&gt;#&lt;/a&gt; 六月的 2022 高考&lt;/h2&gt;
+&lt;p&gt;刚拿到试卷那一会造成的影响在&lt;a href=&#34;https://invert-viewer.github.io/senior-year-departure&#34;&gt;这个文章&lt;/a&gt;里面写过了，放了将近 6 个月到现在，也有不少新的感想。&lt;/p&gt;
+&lt;p&gt;首先造成的就是平常发的数学模拟卷难度陡然递增，本来去年的试卷一大特点就是大计算量和大思维量。可是很遗憾，我对付这些东西仍然是手无寸铁。&lt;/p&gt;
+&lt;p&gt;我试图在学校里面找找解决方案，&lt;strong&gt;我找到的却只有无尽的懊恼。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;其次便是我对数学的自信心大幅度下降 (&lt;em&gt;奇妙的是我后来发现这在我们班是普遍现象&lt;/em&gt;)，同样是 45 分钟的自主研修，我更倾向于写化学或物理而不是数学。本来有迹可循的 18 题解三角形，本来是必对的题目，可现在做模拟卷却发现形式千变万化，好像没什么规律可循。&lt;/p&gt;
+&lt;p&gt;再次是我对我们学校的教研组的彻底失望，形式主义泛滥也就算了，忍忍能过去。可是这么影响深远的高考结束了，高考试卷分析总得有吧？等了半天好像只有语文的，英语就只是简单做一下原卷了事（也有可能是试卷简单的缘故），数学科目只有 &lt;em&gt;第 7 题比大小&lt;/em&gt; 和 &lt;em&gt;第 12 题抽象函数的导数&lt;/em&gt; 拿出来着重讲过，其他题目闻所未闻！&lt;/p&gt;
+&lt;h2 id=&#34;十一月-十二月的疫情反复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十一月-十二月的疫情反复&#34;&gt;#&lt;/a&gt; 十一月、十二月的疫情反复&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;讲个笑话：&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;因为开学，本次疫情取消。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;你知道吗？&lt;/p&gt;
+&lt;p&gt;2020 年初三中考因为疫情放假的，和如今 2023 年高三因为疫情放假的是同一批人哦！(ノへ￣、)&lt;/p&gt;
+&lt;p&gt;初三下学期放了三个月寒假，高三上学期又是将近一个月的假期。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;可是疫情真的结束了吗？&lt;/p&gt;
+&lt;p&gt;是结束，更是开始。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/senior-year-departure/</guid>
+            <title>我的高三碎碎念</title>
+            <link>https://invert-viewer.github.io/senior-year-departure/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Thu, 30 Jun 2022 21:36:57 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;“从今年的数学卷子来看，我们还有很长一段路要走。”&lt;/p&gt;
+&lt;p&gt;--- 高二下学期班主任&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;由于高三学校实在是没什么假期，这篇文章会更新的十分缓慢！&lt;s&gt;其实&lt;/s&gt;&lt;s&gt;说白了就是我懒&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s class=&#34;danger&#34;&gt;这玩意其实就是个流水账……&lt;/s&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;六月&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六月&#34;&gt;#&lt;/a&gt; 六月&lt;/h2&gt;
+&lt;h3 id=&#34;2022年高考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2022年高考&#34;&gt;#&lt;/a&gt; 2022 年高考&lt;/h3&gt;
+&lt;p&gt;今年的高考卷…… ヾ (≧へ≦)〃&lt;/p&gt;
+&lt;h4 id=&#34;新高考i卷&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新高考i卷&#34;&gt;#&lt;/a&gt; 新高考 Ⅰ 卷&lt;/h4&gt;
+&lt;p&gt;刚拿到试卷电子稿时，印象最深的就是那道立体几何 (19 题，12 分) 的第一问&lt;/p&gt;
+&lt;h4 id=&#34;全国乙卷&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全国乙卷&#34;&gt;#&lt;/a&gt; 全国乙卷&lt;/h4&gt;
+&lt;p&gt;最让我感到神奇的是卷子上面 19 题给的相关系数公式是没办法直接带的！要用求和符号的性质来化简（把另一个很难记的公式背下来也行）。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;r&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;mrow&gt;&lt;mo&gt;∑&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;[&lt;/mo&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mo fence=&#34;true&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;/mrow&gt;&lt;msqrt&gt;&lt;mrow&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Σ&lt;/mi&gt;&lt;msup&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;mo fence=&#34;true&#34;&gt;)&lt;/mo&gt;&lt;/mrow&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;mo&gt;∗&lt;/mo&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mi mathvariant=&#34;normal&#34;&gt;Σ&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mtext&gt; &lt;/mtext&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mover accent=&#34;true&#34;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo stretchy=&#34;true&#34;&gt;‾&lt;/mo&gt;&lt;/mover&gt;&lt;msup&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;/msqrt&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;r=\frac{\sum\left[\left(x_i-\overline{x}\right)\left(y_i-\overline{y}\right)\right]}{\sqrt{\mathrm{\Sigma}\left(x_i-\overline{x}\right)^2
+\ast\ \mathrm{\Sigma}(y_i\ -\overline{y})^2}}&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.02778em;&#34;&gt;r&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1.8396em;vertical-align:-0.8296em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.01em;&#34;&gt;&lt;span style=&#34;top:-2.4266em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord sqrt mtight&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.0906em;&#34;&gt;&lt;span class=&#34;svg-align&#34; style=&#34;top:-3.4286em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.4286em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34; style=&#34;padding-left:1.19em;&#34;&gt;&lt;span class=&#34;mord mathrm mtight&#34;&gt;Σ&lt;/span&gt;&lt;span class=&#34;minner mtight&#34;&gt;&lt;span class=&#34;minner mtight&#34;&gt;&lt;span class=&#34;mopen mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3281em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:0em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord overline mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6756em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.5776em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line mtight&#34; style=&#34;border-bottom-width:0.049em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8575em;&#34;&gt;&lt;span style=&#34;top:-2.8971em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;∗&lt;/span&gt;&lt;span class=&#34;mspace mtight&#34;&gt;&lt;span class=&#34;mtight&#34;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mathrm mtight&#34;&gt;Σ&lt;/span&gt;&lt;span class=&#34;mopen mtight&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3281em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:-0.0359em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace mtight&#34;&gt;&lt;span class=&#34;mtight&#34;&gt; &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord overline mtight&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6756em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.5776em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line mtight&#34; style=&#34;border-bottom-width:0.049em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.1944em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose mtight&#34;&gt;&lt;span class=&#34;mclose mtight&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.7463em;&#34;&gt;&lt;span style=&#34;top:-2.786em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.0626em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3.4286em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;hide-tail mtight&#34; style=&#34;min-width:0.853em;height:1.5429em;&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;400em&#34; height=&#34;1.5429em&#34; viewBox=&#34;0 0 400000 1080&#34; preserveAspectRatio=&#34;xMinYMin slice&#34;&gt;&lt;path d=&#34;M95,702
+c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,-10,-9.5,-14
+c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54
+c44.2,-33.3,65.8,-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10
+s173,378,173,378c0.7,0,35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429
+c69,-144,104.5,-217.7,106.5,-221
+l0 -0
+c5.3,-9.3,12,-14,20,-14
+H400000v40H845.2724
+s-225.272,467,-225.272,467s-235,486,-235,486c-2.7,4.7,-9,7,-19,7
+c-6,0,-10,-1,-12,-3s-194,-422,-194,-422s-65,47,-65,47z
+M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3659em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.485em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mop op-symbol small-op mtight&#34; style=&#34;position:relative;top:0em;&#34;&gt;∑&lt;/span&gt;&lt;span class=&#34;minner mtight&#34;&gt;&lt;span class=&#34;mopen mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;minner mtight&#34;&gt;&lt;span class=&#34;mopen mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3281em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:0em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord overline mtight&#34;&gt;&lt;span class=&#34;vlist-t&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6756em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;x&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.5776em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line mtight&#34; style=&#34;border-bottom-width:0.049em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;minner mtight&#34;&gt;&lt;span class=&#34;mopen mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3281em;&#34;&gt;&lt;span style=&#34;top:-2.357em;margin-left:-0.0359em;margin-right:0.0714em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.5em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size3 size1 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.143em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mbin mtight&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mord overline mtight&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.6756em;&#34;&gt;&lt;span style=&#34;top:-3em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.03588em;&#34;&gt;y&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.5776em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;overline-line mtight&#34; style=&#34;border-bottom-width:0.049em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.1944em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose mtight delimcenter&#34; style=&#34;top:0em;&#34;&gt;&lt;span class=&#34;mtight&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.8296em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;可问题是上课时老师只是带我们简单看了一下推导过程，我们都没在意。结果想不到高考居然真的这么弄了！不过好在之后我去仔细看了一下求和符号，至少现在不会太担心了。😏&lt;/p&gt;
+&lt;h3 id=&#34;誓师大会-距离2023高考还有363天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#誓师大会-距离2023高考还有363天&#34;&gt;#&lt;/a&gt; 誓师大会 --- 距离 2023 高考还有 363 天&lt;/h3&gt;
+&lt;p&gt;2022 年 6 月 10 日，高考假期结束后的第三天，学校举行了高三誓师大会，同时也标志着高三生涯正式开始了。&lt;/p&gt;
+&lt;h3 id=&#34;高二期末考试-距离2023高考还有345天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高二期末考试-距离2023高考还有345天&#34;&gt;#&lt;/a&gt; 高二期末考试 -- 距离 2023 高考还有 345 天&lt;/h3&gt;
+&lt;p&gt;2022 年 6 月 27~29 日&lt;/p&gt;
+&lt;p&gt;期末考试就是市统测，但是卷子出的很有问题！被不少人批判……&lt;/p&gt;
+&lt;p&gt;考试结束后 (6 月 30 号), 我们班的 6 科老师竟然要换掉 4 个！虽然原因有各种各样的 (比如刚刚来学校，带不了高三、因为某些原因离职等等)，但都跟我们班的那群 “神仙” 们脱离不了干系！(#｀-_ゝ -)&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 数学老师走前留下的一段话 —— 从高尔顿板、正态分布到我们的未来&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;七月~十一月&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#七月~十一月&#34;&gt;#&lt;/a&gt; 七月～十一月&lt;/h2&gt;
+&lt;h3 id=&#34;暑期补习-距离2023高考还有336天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#暑期补习-距离2023高考还有336天&#34;&gt;#&lt;/a&gt; 暑期补习 -- 距离 2023 高考还有 336 天&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 等待补充&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;开学-距离2023高考还有280天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开学-距离2023高考还有280天&#34;&gt;#&lt;/a&gt; 开学 -- 距离 2023 高考还有 280 天&lt;/h4&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 等待补充&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;运动会-距离高考还有251天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#运动会-距离高考还有251天&#34;&gt;#&lt;/a&gt; 运动会 -- 距离高考还有 251 天&lt;/h3&gt;
+&lt;p&gt;百日已逝，但是发现自己却是没什么作为！&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_3&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_3&#34;&gt; 等待补充&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;十二月&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十二月&#34;&gt;#&lt;/a&gt; 十二月&lt;/h2&gt;
+&lt;h3 id=&#34;疫情居家网课-距离高考还有188天&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#疫情居家网课-距离高考还有188天&#34;&gt;#&lt;/a&gt; 疫情居家网课 -- 距离高考还有 188 天&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;逝者如斯夫，不舍昼夜。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;没想到初三暑假降临的疫情如今卷土重来，气势汹汹！11 月 21 日被通知线上授课，本以为自己能够通过这次机遇提升一番，但事与愿违，自己还是在漫无目的的游荡，不知方向，晕头转向！🙄&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_4&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_4&#34;&gt; 补充学校每日安排&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;+++&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;喂，哪来 11 月 31 日的？？？&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;12.1: 明天早读英语背诵第三单元前半部分单词，有时间再写 45 套。&lt;/p&gt;
+&lt;p&gt;+++&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/senior-high-school-level/</guid>
+            <title>学业水平测试总结</title>
+            <link>https://invert-viewer.github.io/senior-high-school-level/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Thu, 06 Jan 2022 23:49:43 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;一点点感言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一点点感言&#34;&gt;#&lt;/a&gt; 一点点感言&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;时间：2022 年 1 月 5 号晚上 22：57&lt;/strong&gt;
+ 随着 19：00 的晚数学自习铃声想起，预示着我从高一以来直到高三以前信息课已经全部结束了……&lt;/p&gt;
+&lt;p&gt;不知应该是欣喜还是懊恼 (._.`)&lt;/p&gt;
+&lt;p&gt;就如我朋友所说的：我失去了利用价值。。。。。。(∪.∪)&lt;/p&gt;
+&lt;p&gt;是的，就凭新马高中这样的信息课教育，我轻轻松松做完的所有操作题，在他人眼中看来如洪水猛兽。以至于在课上经常遇到全班求着我帮他们做操作题的滑稽场面。突然间就体会到了什么是＂会当凌绝顶，一揽众山小＂的局面。(&amp;gt;﹏&amp;lt;。)&lt;/p&gt;
+&lt;p&gt;毕竟老师的态度真的是一言难尽啊！很明显可以看出来他们只是为了让我们通过这场小高考而教授的，完全不是为了我们能够提高信息知识而教授我们的…… (就比如他从来都不讲选择题，更为讽刺的是选择题的分值占比最高)&lt;/p&gt;
+&lt;h2 id=&#34;普通高中学业水平测试信息技术概况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#普通高中学业水平测试信息技术概况&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://www.jseea.cn/webfile/examination/seniorhighschoollevel/&#34;&gt;普通高中学业水平测试 (信息技术) 概况&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;系统硬件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#系统硬件&#34;&gt;#&lt;/a&gt; 系统（硬件）&lt;/h3&gt;
+&lt;p&gt;机房里面的电脑系统仍就是经典的 Windows 7。ARM 只有 4GB。&lt;s&gt;&lt;em&gt;话说我自己电脑的 RAM 不也是这么大嘛……&lt;/em&gt;&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;系统软件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#系统软件&#34;&gt;#&lt;/a&gt; 系统（软件）&lt;/h3&gt;
+&lt;p&gt;软件也是很单调的，除了一些 “系统必备” 之外，主要的软件还有 WPS、Python、Access 2016（很明显是盗版的）、考试客户端（具体名字我忘了，图标是一个金色的钢笔头竖直放在一张空文档的图标上）。要是没有什么考试而且信息老师也不管的话，其他同学要么发呆、要么讲话、要么去玩 Win7 自带的那几个小游戏。而我和坐在旁边的同学 (被我带的 ´ ▽ ` ）到是在玩 cmd（命令提示符），由于那玩意背景是黑色的（我懒得调整），经常会被老师给发现。&lt;/p&gt;
+&lt;p&gt;我主要是在用 cmd 瞎弄，比如整个 shutdown -s &amp;amp;shutdown -a（用命令把别人的电脑关机）来戏弄别人，或是整个 msg *[……] 来发送 “秘密讯息”（其实这个直到下课临走前我才弄出来，肯定可以给接下来信息补差的人留下一个超大的谜团。&lt;em&gt;(:з」∠)&lt;/em&gt;）&lt;/p&gt;
+&lt;h3 id=&#34;课本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#课本&#34;&gt;#&lt;/a&gt; 课本&lt;/h3&gt;
+&lt;p&gt;刚开始都拿的是蓝色封面《信息技术 必修一 数据与计算》和橙色封面的《信息技术 必修二 信息系统与社会》，自从进入所谓的 “冲刺阶段”（&lt;em&gt;连起跑阶段都没有还好意思说冲刺……&lt;/em&gt;）后每个人拿的都是学校发的一本《信息技术复习资料》（新马中学信息中心编制 ---2021 年 12 月共 270 页），这玩意与其说是复习指南倒不如说是题库，所有信息课上面遇到的题上面全部收录，其中不乏许多奇奇怪怪的破题目。这学校内部印刷的书连个目录都没有，真是绝了……&lt;/p&gt;
+&lt;p&gt;如果硬是要添一个目录的话这书可以分为 4 部分：&lt;/p&gt;
+&lt;p&gt;1. 知识点汇总（1～25 页）（排版些许混乱，一会儿表格一会儿框图的，看起来像是从网上直接复制的，质量难以评价）&lt;/p&gt;
+&lt;p&gt;2. 选择题汇总（26～107 页）（超纲是常有的事，如果只是上课听老师讲的话最多只能作对那些不需要一丁点信息知识的题目，就连老师自己都亲自说道：（如果从这些当中抽 25 题出来）“我都没法做全对）&lt;/p&gt;
+&lt;p&gt;3.Python 操作题汇总（108～144 页）（题目形式是完型填空，但是其中不乏迷惑操作，比如明明数据类型是整型（int, 例如年龄），题目里面非要开个浮点数（float)。如果答案是 a &lt;em&gt;b, 那么输入 b&lt;/em&gt; a 就是错的。还有画三角函数图像的题目，我在学校的电脑上面试了试发现根本就没办法画出来……）&lt;/p&gt;
+&lt;h3 id=&#34;离谱题目摘录&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#离谱题目摘录&#34;&gt;#&lt;/a&gt; 离谱题目摘录&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; &lt;strong&gt;施工中，敬请期待……&lt;/strong&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;写在最后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写在最后&#34;&gt;#&lt;/a&gt; 写在最后&lt;/h2&gt;
+&lt;p&gt;万般挽留，此刻终将到来，唯有迟暮依稀。&lt;/p&gt;
+&lt;h3 id=&#34;旧版归档&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#旧版归档&#34;&gt;#&lt;/a&gt; 旧版归档&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; &lt;strong&gt;等待整理&lt;/strong&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;最重要的还是这两个日期&lt;/p&gt;
+&lt;p&gt;2022 年 1 月 9 日～2022 年 1 月 11 日  &lt;strong&gt;普通高中学业水平合格性考试 (信息技术)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;2022 年 1 月 16 日～2022 年 1 月 18 日  &lt;strong&gt;普通高中学业水平合格性考试&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;这就是传说中的小高考。。。&lt;/p&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;物化生政史地&#34;&gt;
+&lt;p&gt;首先学校肯定是宣布它的重要性啥的，然后迎接而来的便是 4 次模拟，每次都有几门拿了班级第一，弄得我实在是无聊极了，唯一开心点的是最后一次模拟时生物摸了个 94 分。(我也不知道为什么第二名和我分差有近 10 分)
+ 至少我已经处于了安全区域，接下来都是考着玩的……&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;信息技术&#34;&gt;
+&lt;p&gt;在我们年级，相当一部分人遇到感觉信息技术就像洪水猛兽一般……&lt;/p&gt;
+&lt;p&gt;我既然之前摸过一点点 Python 和 C++、还有闲的没事干看的 6 本《信息技术 选择性必修》，这场考试对我来说简直是小菜一碟。&lt;/p&gt;
+&lt;p&gt;学校为了备考发了一本《备考指南》，这里面与其说是指南倒不如说是题库，只是选择题、Python 编程操作题、综合题的堆砌罢了，还是有不少漏洞的。&lt;/p&gt;
+&lt;p&gt;先来看看这一堆漏洞：
+先不说没有一点解析这件事……&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;选择题连老师自己都说自己来做其中的一份 (20 道) 都不可能全对，话说这本书难道不是你自己编的吗？？？&lt;/li&gt;
+&lt;li&gt;操作题有许多程序定义变量整的奇奇怪怪，例如年龄 (age) 不知道为什么要用 float，难道会有人年龄带小数？自定义函数 (def) 的名称一会儿英文一会儿拼音，甚至还有个拼音缩写这种奇葩。o (￣┰￣*) ゞ&lt;/li&gt;
+&lt;li&gt;综合题质量真的是不敢维恭，倒不如说这是常识题……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总的来说还是学校信息课没有办法去教授我们如何去编写这些程序，这些语句为什么要放在这，即没能告诉这些东西的底层逻辑是什么，最后只有在临近小高考时赶鸭子上架。试想一下我自己若是没有提前接触过这些，说不定我现在也 “谈信息技术色变” 了 (・_・)&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/2021-annual-summary/</guid>
+            <title>2021年终总结</title>
+            <link>https://invert-viewer.github.io/2021-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Sat, 01 Jan 2022 00:12:09 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;时光如白驹过隙，转眼又是一年的年末，不知不觉竟然就要步入 2022 了。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;s&gt;同时意味着地球再一次绕着太阳公转了一圈&lt;/s&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;学习&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#学习&#34;&gt;#&lt;/a&gt; 学习&lt;/h2&gt;
+&lt;h3 id=&#34;四月的选科&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四月的选科&#34;&gt;#&lt;/a&gt; 四月的选科&lt;/h3&gt;
+&lt;p&gt;首先是开了个毫无意义的选科指导大会，就算在会上做了很多笔记，最后挑选时仍然感到云里雾里，轮到我自己选的时候便犯了难……&lt;/p&gt;
+&lt;p&gt;学校给出的方案是纯文或物理搭上 1~2 个文科。&lt;em&gt;(最后不知道是什么原因学校还开了一个纯理班。)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;首先看成绩，我的物理、政治都是年级六百多名，地理、历史、生物、化学都是年级前五十至甚至更高。
+而学校又没有物化地的班型，再加上跑班是肯定不可能的。&lt;/p&gt;
+&lt;p&gt;然后看了看自己的兴趣，首先政治是不可能摸的。还顺带听说到大学时可以转系。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;最后还是被学校打了脸 (￣﹃￣)&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;最后得出的结论是：去文科班🤣&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;虽然现在看来感觉是个多么好笑的决定&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;八月的博客与调班&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#八月的博客与调班&#34;&gt;#&lt;/a&gt; 八月的博客与调班&lt;/h3&gt;
+&lt;h4 id=&#34;博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#博客&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;随着暑假接近了尾声，想到一些东西有感而发，便顺着&lt;a href=&#34;https://zhuanlan.zhihu.com/p/102592286&#34;&gt;知乎上的一篇教程&lt;/a&gt;搭建起了自己的独立博客。(8 月 24 日)&lt;/p&gt;
+&lt;p&gt;但至少到 11 月之前，仍然没有多少实质性的技术内容涌现出。(｀-_ゝ -)&lt;/p&gt;
+&lt;p&gt;11~12 月还是太忙了，首先是学校放假天数一次比一次少啊＞﹏＜&lt;/p&gt;
+&lt;p&gt;(一周只有 SAT15:30~SUN13:50 放假时间)&lt;/p&gt;
+&lt;p&gt;这也导致了这片创造的原地一片荒芜……&lt;/p&gt;
+&lt;p&gt;最后，直到 2022 年的元旦才有时间去修改这个……&lt;/p&gt;
+&lt;h4 id=&#34;调班&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调班&#34;&gt;#&lt;/a&gt; 调班&lt;/h4&gt;
+&lt;p&gt;本以为自己的选科是周密严谨的，但很快就出现了转折。&lt;/p&gt;
+&lt;p&gt;探查过其他班级的教师与自己的成绩水平后，最后还是决定去物化政班。&lt;/p&gt;
+&lt;p&gt;接着，在 8 月 30 号到校管委会去字了字，随之而来的便是调班，从政史地班到了物化政班，当然在选科自由的条件下这肯定不是最好的选择，但对于我自己来说的未来，这种选择_稍微_好一些。。。&lt;/p&gt;
+&lt;h3 id=&#34;十月的信息学竞赛&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十月的信息学竞赛&#34;&gt;#&lt;/a&gt; 十月的&lt;a href=&#34;https://www.noi.cn/&#34;&gt;信息学 &amp;quot;竞赛&amp;quot;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;起步是低沉的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起步是低沉的&#34;&gt;#&lt;/a&gt; 起步是低沉的……&lt;/h4&gt;
+&lt;p&gt;首先当然是探查了情况，结果就是当头一棒。🙄&lt;/p&gt;
+&lt;p&gt;竞赛的具体的内容请看&lt;a href=&#34;https://invert-viewer.github.io/CSP-J-S-on-cloud/&#34;&gt; CSP-J/S 云上游记&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;为了竞赛，考虑到我大多数时间在学校没时间去上网查找资料，便把目光转向书本，我便借助&lt;a href=&#34;https://oi-wiki.org/contest/resources/#_5&#34;&gt; OIwiki&lt;/a&gt; 买了 9 本书。最后只仔细读了《CCF 中学生计算机程序设计 - 入门篇》的 70%（截止到 “数组” 前，已读了 180 页，共计 260 页）就放弃了……&lt;/p&gt;
+&lt;p&gt;通过那本书的自学，我只是了解到了一些相当浅显的 C++ 语法。&lt;/p&gt;
+&lt;p&gt;毕竟没有经过科学的训练 (被市区的顶尖学校垄断)，在被迫叫停之前至少我努力了 (ง・_・)ง&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;这些，只是一点点基础而已，虽然现在已经基本忘了……&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;变量、赋值语句、数据类型转换、变量的读入和输出、if 语句及其嵌套语句、逻辑和条件表达式、switch 语句、for/while/do-while 语句、多重循环。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;以上均来自《CCF 中学生计算机程序设计入门篇》&lt;/em&gt;;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;figure class=&#34;highlight cpp&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt;&lt;span class=&#34;string&#34;&gt;&amp;lt;cmath&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;using&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;namespace&lt;/span&gt; std;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; n=&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;long&lt;/span&gt; &lt;span class=&#34;type&#34;&gt;double&lt;/span&gt; num_1,num_2,ans;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt; (n&amp;lt;&lt;span class=&#34;number&#34;&gt;30&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; num_1=&lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;(n&lt;span class=&#34;number&#34;&gt;+2&lt;/span&gt;)/&lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;(n&lt;span class=&#34;number&#34;&gt;+1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; n++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; num_2=&lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;(n&lt;span class=&#34;number&#34;&gt;+2&lt;/span&gt;)/&lt;span class=&#34;built_in&#34;&gt;log&lt;/span&gt;(n&lt;span class=&#34;number&#34;&gt;+1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; ans=num_1*num_2;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt; &lt;span class=&#34;comment&#34;&gt;//这段代码具体什么意义其实我自己也忘了……&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;cout&amp;lt;&amp;lt;ans&amp;lt;&amp;lt;endl;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然而…… 我参加信息学竞赛的想法，还是如阳光下的肥皂泡迅速破灭了……&lt;/p&gt;
+&lt;p&gt;最后不但没有取得多少成果，而且还被我们班的数学老师说教了一遍。&lt;/p&gt;
+&lt;p&gt;11 月 11 号那场滑稽的期中考试也成了我的 OIer 生涯的最后通牒。&lt;/p&gt;
+&lt;p&gt;我也冠上了个 “中途退出” 的_美_ 名 (ಥ _ ಥ))&lt;/p&gt;
+&lt;h4 id=&#34;回首有望到了一些其他的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#回首有望到了一些其他的&#34;&gt;#&lt;/a&gt; 回首有望到了一些其他的&lt;/h4&gt;
+&lt;p&gt;这一短暂的 OIer 历程带来的仅仅是坏处吗？&lt;/p&gt;
+&lt;p&gt;矛盾具有普遍性，我想并不是的。&lt;/p&gt;
+&lt;p&gt;在这里引用一段话：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;有的学校可能会想：既然如此吃力不讨好，那我们还搞竞赛干嘛？&lt;/em&gt;
+事实上大错特错。竞赛的收益，并不仅仅在一张奖状。开阔的视野，发散的思维，都是我们从竞赛中能学到的东西。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;参考链接:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/kkksc03/oi-descption2&#34;&gt;信息学竞赛全攻略 2：为什么要参加竞赛&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者:&lt;a href=&#34;https://www.luogu.com.cn/blog/kkksc03/#&#34;&gt;kkksc03&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://studyingfather.com/archives/3125&#34;&gt;灯下随笔（四）—— 强基计划与竞赛的未来&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;作者:&lt;a href=&#34;https://studyingfather.com/&#34;&gt;Studying Father&lt;/a&gt; 采用&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh&#34;&gt; (CC) BY-NC-SA 许可协议&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;十二月的普通高中学业水平测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十二月的普通高中学业水平测试&#34;&gt;#&lt;/a&gt; 十二月的&lt;a href=&#34;https://www.jseea.cn/webfile/examination/seniorhighschoollevel/&#34;&gt;普通高中学业水平测试&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;明明是 2022 年的事情，2021 年就早就已经开始备考了……&lt;/p&gt;
+&lt;p&gt;具体情况参见&lt;a href=&#34;https://invert-viewer.github.io/senior-high-school-level/&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;尾声&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#尾声&#34;&gt;#&lt;/a&gt; 尾声&lt;/h2&gt;
+&lt;p&gt;2022 就这么来了，眺望未来，我的高中生活已经过去一半，道阻且长。&lt;/p&gt;
+&lt;p&gt;最后留下一段《意林》上看到的话，与君共勉：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;去找到能让你骄傲的事，去把眼光放得更加长远，不要让大多数人的价值标准成为你自己的价值标准，永远不是别人说了算，是你自己说了算，你一定有比你周围人都更擅长的东西，去找到他，总有一天会找到的。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/vvboard-experience/</guid>
+            <title>虚谷号使用体验</title>
+            <link>https://invert-viewer.github.io/vvboard-experience/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Sat, 30 Oct 2021 17:53:55 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;声明：本人所用的虚谷号 (创客板) 为 1G+8G 的配置，大部分原因是由配置不足导致的。&lt;/p&gt;
+&lt;p&gt;仅代表本人意见，请在交流时保持心平气和。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;s&gt;现在终于轮到我来批判这块开发板了&lt;/s&gt;
+ (͡・͜ʖ ͡・)&lt;/p&gt;
+&lt;h2 id=&#34;缘起&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#缘起&#34;&gt;#&lt;/a&gt; 缘起&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;故事还要从那本 &lt;em&gt;《普通高中教科书  信息技术  选择性必修 6  开源硬件项目设计》&lt;/em&gt; 说起……&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自从我高一下学期分过班之后，我从网上买到了 6 本人教版的信息技术，粗略地翻了翻目录，发现其他的课本还有点印象，唯独这 “开源硬件 项目设计” 看完后有点懵，感觉一点印象都没有……&lt;/p&gt;
+&lt;p&gt;几乎整本书都是围绕着 “虚谷号” 这块开发板展开的，(很好奇地感到居然不是树莓派) 于是我抱着 &lt;ins class=&#34;wavy&#34;&gt;工欲善其事，必先利其器&lt;/ins&gt; 的态度购回了一块&lt;span class=&#34;red&#34;&gt;虚谷号&lt;/span&gt;。&lt;/p&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;六本《信息技术》的书名与主要内容&lt;/summary&gt;&lt;div&gt;
+&lt;p class=&#34;bulr&#34;&gt;！！目录啥的就先鸽了吧！！&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 1  数据与数据结构》&lt;/p&gt;
+&lt;p&gt;(数据结构、数组与链表、线性表、栈、队列、字符串、二叉树、算法基本概念、迭代法、递归法)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 2  网络基础》&lt;/p&gt;
+&lt;p&gt;(计算机网络基本概念、网络的类型、数据交换技术、TCP/IP 协议、IP 地址、域名、网络设备与操作系统、加密技术与安全、网络资源分享、物联网、创新网络服务与隐私保护)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 3  数据管理与分析》&lt;/p&gt;
+&lt;p&gt;(业务需求与解决方案、数据采集途径、CSV 数据文件创建 / 导入 / 导出、数据库与数据管理、设计逻辑结构与建立数据库、结构化查询与提取、备份和还原数据库、数据分析的工具与方法、数据可视化与数据报告)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 4  人工智能初步》&lt;/p&gt;
+&lt;p&gt;(人工智能：概念 / 基本特征 / 发展历程 / 发展现状 / 研究内容与应用、知识表示与专家系统、回归算法、使用决策树进行分离、使用 K - 均值算法进行聚类、神经网络与深度学习、人工智能领域应用：计算机视觉 / 自然语言处理 / 机器理解与推理 / 博弈决策 / 智能机器人、人工智能发展：价值和未来发展 / 伦理及安全挑战 / 法规与应用规范)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 5  三维设计与创意》&lt;/p&gt;
+&lt;p&gt;(初识三维设计、三维设计相关技术：三维建模技术 / 三维重建技术 / 三维渲染技术 / 三维显示技术 / 虚拟现实技术 / 三维打印技术、三维设计在各领域的应用、三维建模基础、设计与新建三维模型、装配和发布三维模型、三维创意设计原则、三维作品赏析、规划设计三维动画、设计三维动画模型的外观、三维动画实现和作品发布)&lt;/p&gt;
+&lt;p&gt;《普通高中教科书  信息技术  选择性必修 6  开源硬件项目设计》&lt;/p&gt;
+&lt;p&gt;(设计工具与编程语言、开源硬件开发基础、通信模块与拓展版、项目开发流程剖析、分析事物特征、项目设计方案、选择硬件方案、审查并优化方案、开源硬件项目制作：实现功能 / 调控测试 / 开源与知识产权保护)&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;体验&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#体验&#34;&gt;#&lt;/a&gt; 体验&lt;/h2&gt;
+&lt;p&gt;在实际使用了一段时间后，我很想大声地喊出一句话：&lt;span class=&#34;rainbow&#34;&gt;&lt;em&gt;日内瓦，退钱！！！&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;目前仍在施工中……&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://invert-viewer.github.io/CSP-J-S-on-cloud/</guid>
+            <title>CSP-J/S 云上游记</title>
+            <link>https://invert-viewer.github.io/CSP-J-S-on-cloud/</link>
+            <category term="杂谈" scheme="https://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;注意！本人最后并没有参赛，甚至连报名都没成功，只是站在一个局外人的视角来看待的，** 参考价值不足！**&lt;em&gt; 其实当个笑话来看就行。&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;没有人天生被定义为失败者！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;这应该算是我的博客的第一篇正式文章了。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;之前的测试文章都不知道是个什么玩意儿&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;希望这个是一个好的开端吧。(´。＿。｀)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;CSP-J/S 的成绩对升学有好处吗？&lt;/p&gt;
+&lt;p&gt;答：CSP-J/S 是业余自愿的科学活动，不建议将认证成绩简单地作为选拔学生的依据，也不建议和升学挂钩。若任何机构将 CSP-J/S 成绩作为职业晋升和升学的依据，CCF 不承担任何责任。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;我是怎么了解到的&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#我是怎么了解到的&#34;&gt;#&lt;/a&gt; 我是怎么了解到的？&lt;/h2&gt;
+&lt;p&gt;这还要从一个动态说起：（见下面的动态链接）&lt;/p&gt;
+&lt;p&gt;原动态图片居然设置了防盗链🙄，请点击 &lt;a href=&#34;https://t.bilibili.com/448160561529612915?spm_id_from=333.999.0.0&#34;&gt;这里&lt;/a&gt;查看&lt;/p&gt;
+&lt;p&gt;（图片中通过普及组的那个人才三年级…… 再看看我自己🙃，感觉有点滑稽。）&lt;/p&gt;
+&lt;p&gt;当然还有 &lt;em&gt;羟基计划&lt;/em&gt; 和这个有关 (+_+)&lt;/p&gt;
+&lt;p&gt;一看我居然撞上了信息学奥赛 (¬‿¬)&lt;/p&gt;
+&lt;p&gt;震惊之余，迎着好奇便顺藤摸瓜地摸到了这个网站：&lt;a href=&#34;https://www.noi.cn&#34;&gt;https://www.noi.cn&lt;/a&gt;，便开启了我的云上奥赛之旅。&lt;/p&gt;
+&lt;h2 id=&#34;云上流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#云上流程&#34;&gt;#&lt;/a&gt; “云” 上流程&lt;/h2&gt;
+&lt;h3 id=&#34;报名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#报名&#34;&gt;#&lt;/a&gt; 报名&lt;/h3&gt;
+&lt;p&gt;1. 报名时间&lt;/p&gt;
+&lt;p&gt;首先我应该参加 CSP-J 也就是普及组，无意间发现报名时间已经截止了……&lt;/p&gt;
+&lt;p&gt;算了，明年还可以再报名！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2. 报名方式&lt;/p&gt;
+&lt;p&gt;信息学竞赛，很明显是&lt;a href=&#34;http://cspsj.noi.cn/&#34;&gt;网络报名&lt;/a&gt; ，但必须要通过教师认证，可我在的这个苏北小县城哪来有资格的教师😓，接着找办法报名，发现只可以 “各省认证负责人将帮助认证者完成报名并进行认证安排”，也就是说我还要单线去联系本省负责人……&lt;/p&gt;
+&lt;p&gt;这报名中的不确定因素有点多啊（我也好好感受了一下 “地域差异”）&lt;/p&gt;
+&lt;p&gt;算了，地域差异还是可以想办法克服的！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;认证前&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证前&#34;&gt;#&lt;/a&gt; 认证前&lt;/h3&gt;
+&lt;p&gt;1. 内容了解&lt;/p&gt;
+&lt;p&gt;大概看了看普及组的认证内容，官网上面很浅显地提了一句：“涉及算法和编程”，第一眼看到时感觉不是太难嘛，毕竟《信息技术》选择性必修一里面还是有数据结构的内容的，然后当我具体去找那个 “编程 “代表什么的时候直接把我劝退，好家伙，居然是 C++！&lt;/p&gt;
+&lt;p&gt;😥&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;其实还有 C 语言，但反正我都没学过&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;倍感无言之余，想起我第一个接触的编程语言可是 Python 啊，又很难沾上边……&lt;/p&gt;
+&lt;p&gt;算了，反正 C++ 还可以再学！&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2.“到达” 考场&lt;/p&gt;
+&lt;p&gt;“第一轮认证以笔试为主”，当我看到这句话时就知道我肯定不能在自己家认证了。&lt;/p&gt;
+&lt;p&gt;😞&lt;span class=&#34;spoiler bulr&#34; title=&#34;你知道得太多了&#34;&gt;好吧其实想想也不可能允许你开卷的……&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;接着便是找找认证地点安排，找到本市中的地点，发现认证地点距我家实在是太远了！&lt;/p&gt;
+&lt;p&gt;查高德地图发现即使是三个路线都超过 100 公里，就算驾车也要两个小时，但要真当天早上参加的话其实还好 (毕竟时间在下午 2 点)。&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 1&lt;/span&gt;&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;好吧其实这比起其他的不利因素这个还算友好。&lt;/p&gt;
+&lt;h3 id=&#34;认证时&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证时&#34;&gt;#&lt;/a&gt; 认证时&lt;/h3&gt;
+&lt;p&gt;答题方式其实这和平常考试也没什么区别，也是试卷笔试 + 填涂答题卡。&lt;/p&gt;
+&lt;p&gt;但认证内容嘛……&lt;/p&gt;
+&lt;p&gt;这里有个&lt;a href=&#34;https://blog.hans362.cn/post/2021-csp-s-1/&#34;&gt;提高组的试题链接&lt;/a&gt;。
+虽然没找到普及组的，应该更简单一点，里面的题目意思相信懂得都懂。😎&lt;/p&gt;
+&lt;p&gt;比如这里提高组的试题中有两道排列组合的数学题，难度嘛，自行体会 🤐&lt;/p&gt;
+&lt;p&gt;（全国试卷应该是通用的，这河南的题应该与江苏相同）&lt;/p&gt;
+&lt;h3 id=&#34;认证后&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#认证后&#34;&gt;#&lt;/a&gt; 认证后&lt;/h3&gt;
+&lt;p&gt;这里有即时的与历史的&lt;a href=&#34;https://www.noi.cn/gs/xw/js/&#34;&gt;认证通知消息&lt;/a&gt;，
+&lt;em&gt; 反正已经与我无关了╯︿╰，看看就行。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;grey&#34;&gt;劝退指数 + 2&lt;sup&gt;1024&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#感受&#34;&gt;#&lt;/a&gt; 感受&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;到网络上去搜索关于信息学竞赛的相关事宜时，看到当下实行的政策，这真的给我泼了一盆冷水，“&lt;em&gt;CSP-J/S 认证成绩优异者，可参加 NOI 省级选拔，省级选拔成绩优异者可参加 NOI。&lt;/em&gt;” 这告诉我好像有好几级台阶需要攀爬，而对于既没有教育资源又是竞赛强省的我来说属实…… 不太可能🙄&lt;/li&gt;
+&lt;li&gt;算是彻底体验了一会 “地域差异” 为何物，感觉这好像就是天生给你设定好的，难道这是注定的吗？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;没有人天生被定义为失败者！相信一定可以打破这困局！&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;题外话&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#题外话&#34;&gt;#&lt;/a&gt; 题外话&lt;/h2&gt;
+&lt;p&gt;这里可以看到曾经的洛谷练习题状态：&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://luogu.wao3.cn/api/practice?id=576341&#34; alt=&#34;我的练习情况&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;天天摸鱼，还只有 3 题，不愧是我🤣。&lt;/s&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
