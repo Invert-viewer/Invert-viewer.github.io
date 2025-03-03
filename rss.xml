@@ -3,8 +3,8 @@
     <channel>
         <title>owo</title>
         <subtitle>致敬想象与创造力!</subtitle>
-        <icon>http://invert-viewer.github.io/assets/favicon.ico</icon>
-        <link>http://invert-viewer.github.io</link>
+        <icon>https://invert-viewer.179.life/assets/favicon.ico</icon>
+        <link>https://invert-viewer.179.life</link>
         <author>
           <name>倒置的观察者</name>
         </author>
@@ -16,18 +16,18 @@
         <category term="invert-viewer" />
         <category term="倒置的观察者的博客" />
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/15-questions-for-blog/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/15-questions-for-blog/</guid>
             <title>博客自省问卷15问</title>
-            <link>http://invert-viewer.github.io/15-questions-for-blog/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/15-questions-for-blog/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Mon, 03 Mar 2025 16:35:15 +0800</pubDate>
             <description><![CDATA[  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/2024-annual-summary/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/2024-annual-summary/</guid>
             <title>2024年终总结</title>
-            <link>http://invert-viewer.github.io/2024-annual-summary/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/2024-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sat, 28 Dec 2024 15:11:29 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;s&gt;让我们在一次相聚在这里，庆祝地球再次绕着太阳转了一圈吧。&lt;/s&gt;&lt;br /&gt;
 对我自己而言，可谓是 “被耽误的一年”，但也是有非同寻常的意义所在，下面来看看吧。&lt;/p&gt;
@@ -42,10 +42,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/2023-annual-summary/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/2023-annual-summary/</guid>
             <title>2023年终总结</title>
-            <link>http://invert-viewer.github.io/2023-annual-summary/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/2023-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sun, 04 Feb 2024 16:10:51 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;sub&gt;什么？2024 了都？去年真的是魔幻啊啊啊啊啊啊啊！&lt;/sub&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;就让我们第三次地祝贺地球再一次围绕着太阳公转了一圈！&lt;/em&gt;&lt;/p&gt;
@@ -53,10 +53,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/after-Chinese-GaoKao/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/after-Chinese-GaoKao/</guid>
             <title>记高考---失落的当下|未知的未来</title>
-            <link>http://invert-viewer.github.io/after-Chinese-GaoKao/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/after-Chinese-GaoKao/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Tue, 18 Jul 2023 22:34:27 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note default no-icon&#34;&gt;
 &lt;p&gt;我飘向北方，别问我家乡，高耸古老的城墙，挡不住忧伤。&lt;/p&gt;
@@ -86,10 +86,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/Mistakes-made-in-problem-solving/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/Mistakes-made-in-problem-solving/</guid>
             <title>解题犯过的错误</title>
-            <link>http://invert-viewer.github.io/Mistakes-made-in-problem-solving/</link>
-            <category term="技术" scheme="http://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+            <link>https://invert-viewer.179.life/Mistakes-made-in-problem-solving/</link>
+            <category term="技术" scheme="https://invert-viewer.179.life/tags/%E6%8A%80%E6%9C%AF/" />
             <pubDate>Tue, 20 Jun 2023 22:49:19 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;前言:&lt;/p&gt;
@@ -103,10 +103,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/C++%20gleanings%20Part%20I/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/C++%20gleanings%20Part%20I/</guid>
             <title>C++ 拾遗</title>
-            <link>http://invert-viewer.github.io/C++%20gleanings%20Part%20I/</link>
-            <category term="技术" scheme="http://invert-viewer.github.io/tags/%E6%8A%80%E6%9C%AF/" />
+            <link>https://invert-viewer.179.life/C++%20gleanings%20Part%20I/</link>
+            <category term="技术" scheme="https://invert-viewer.179.life/tags/%E6%8A%80%E6%9C%AF/" />
             <pubDate>Mon, 19 Jun 2023 20:56:46 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;ul&gt;
@@ -198,10 +198,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/2022-annual-summary/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/2022-annual-summary/</guid>
             <title>2022年度总结</title>
-            <link>http://invert-viewer.github.io/2022-annual-summary/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/2022-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sat, 31 Dec 2022 23:48:34 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;s&gt;什么？你告诉我马上都 2023 了？我 2022 还没过够呢！&lt;/s&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;就让我们再次祝贺地球再一次围绕着太阳公转了一圈！&lt;/em&gt;&lt;/p&gt;
@@ -226,10 +226,10 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/senior-year-departure/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/senior-year-departure/</guid>
             <title>我的高三碎碎念</title>
-            <link>http://invert-viewer.github.io/senior-year-departure/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/senior-year-departure/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Thu, 30 Jun 2022 21:36:57 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;“从今年的数学卷子来看，我们还有很长一段路要走。”&lt;/p&gt;
@@ -299,10 +299,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/senior-high-school-level/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/senior-high-school-level/</guid>
             <title>学业水平测试总结</title>
-            <link>http://invert-viewer.github.io/senior-high-school-level/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/senior-high-school-level/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Thu, 06 Jan 2022 23:49:43 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;一点点感言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一点点感言&#34;&gt;#&lt;/a&gt; 一点点感言&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;时间：2022 年 1 月 5 号晚上 22：57&lt;/strong&gt;&lt;br /&gt;
@@ -359,10 +359,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/2021-annual-summary/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/2021-annual-summary/</guid>
             <title>2021年终总结</title>
-            <link>http://invert-viewer.github.io/2021-annual-summary/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/2021-annual-summary/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sat, 01 Jan 2022 00:12:09 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;时光如白驹过隙，转眼又是一年的年末，不知不觉竟然就要步入 2022 了。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;s&gt;同时意味着地球再一次绕着太阳公转了一圈&lt;/s&gt;&lt;/em&gt;&lt;/p&gt;
@@ -428,10 +428,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/vvboard-experience/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/vvboard-experience/</guid>
             <title>虚谷号使用体验</title>
-            <link>http://invert-viewer.github.io/vvboard-experience/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/vvboard-experience/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sat, 30 Oct 2021 17:53:55 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;声明：本人所用的虚谷号 (创客板) 为 1G+8G 的配置，大部分原因是由配置不足导致的。&lt;/p&gt;
@@ -466,10 +466,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/CSP-J-S-on-cloud/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/CSP-J-S-on-cloud/</guid>
             <title>CSP-J/S 云上游记</title>
-            <link>http://invert-viewer.github.io/CSP-J-S-on-cloud/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/CSP-J-S-on-cloud/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Sat, 02 Oct 2021 22:27:49 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;注意！本人最后并没有参赛，甚至连报名都没成功，只是站在一个局外人的视角来看待的，** 参考价值不足！**&lt;em&gt; 其实当个笑话来看就行。&lt;/em&gt;&lt;/p&gt;
@@ -542,10 +542,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/blog-functional-testing/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/blog-functional-testing/</guid>
             <title>博客功能测试</title>
-            <link>http://invert-viewer.github.io/blog-functional-testing/</link>
-            <category term="测试" scheme="http://invert-viewer.github.io/tags/%E6%B5%8B%E8%AF%95/" />
+            <link>https://invert-viewer.179.life/blog-functional-testing/</link>
+            <category term="测试" scheme="https://invert-viewer.179.life/tags/%E6%B5%8B%E8%AF%95/" />
             <pubDate>Fri, 01 Oct 2021 14:58:22 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;文本测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文本测试&#34;&gt;#&lt;/a&gt; 文本测试&lt;/h2&gt;
 &lt;p&gt;![图标](&lt;a href=&#34;https://img.icons8.com/material-outlined/24/000000/search.png&#34;&gt;https://img.icons8.com/material-outlined/24/000000/search.png&lt;/a&gt;）&lt;/p&gt;
@@ -620,10 +620,10 @@ M834 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://invert-viewer.github.io/hello-world/</guid>
+            <guid isPermalink="true">https://invert-viewer.179.life/hello-world/</guid>
             <title>Hello,world! 写在前面的一些话</title>
-            <link>http://invert-viewer.github.io/hello-world/</link>
-            <category term="杂谈" scheme="http://invert-viewer.github.io/tags/%E6%9D%82%E8%B0%88/" />
+            <link>https://invert-viewer.179.life/hello-world/</link>
+            <category term="杂谈" scheme="https://invert-viewer.179.life/tags/%E6%9D%82%E8%B0%88/" />
             <pubDate>Tue, 24 Aug 2021 09:00:00 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;时间2021年8月24日900~203026&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时间2021年8月24日900~203026&#34;&gt;#&lt;/a&gt; 时间：2021 年 8 月 24 日 9:00~20:30:26&lt;/h2&gt;
 &lt;h3 id=&#34;关于博客搭建的一点点感受&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#关于博客搭建的一点点感受&#34;&gt;#&lt;/a&gt; 关于&lt;a href=&#34;https://invert-viewer.github.io/&#34;&gt;博客&lt;/a&gt;搭建的一点点感受&lt;/h3&gt;
