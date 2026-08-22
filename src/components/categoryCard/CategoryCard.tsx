@@ -48,12 +48,7 @@ function CategoryCard(props: CategoryCardProps) {
       onMouseLeave={handleMouseLeave}
       onTouchStart={handleTouchStart}
     >
-      <div
-        class="cover"
-        style={
-          props.cover ? `background-image: url(${props.cover})` : undefined
-        }
-      >
+      <div class="cover" style={props.cover ? `background-image: url(${props.cover})` : undefined}>
         <h2 class="title">{props.name}</h2>
         {props.topCategory && <span>{props.topCategory.name}</span>}
       </div>
@@ -81,11 +76,7 @@ function CategoryCard(props: CategoryCardProps) {
           <div class="meta footer">
             {props.topCategory && (
               <span>
-                <a
-                  href={props.topCategory.url}
-                  title={props.topCategory.name}
-                  itemprop="url"
-                >
+                <a href={props.topCategory.url} title={props.topCategory.name} itemprop="url">
                   <i class="i-ri-flag-line"></i>
                   {props.topCategory.name}
                 </a>

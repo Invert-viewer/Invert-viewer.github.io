@@ -31,7 +31,7 @@ import { avatar } from "@/components/Images.astro";
 import "@/styles/spoiler.css";
 
 // 加密文章内容组件
-import EncryptedPostContent from "@/components/encrypted/EncryptedPost.svelte";
+import EncryptedPostContent from "@/components/encrypted/EncryptedPost";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");

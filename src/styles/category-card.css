@@ -66,11 +66,7 @@
 .cards .cover {
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(
-    to bottom right,
-    var(--color-pink),
-    var(--color-orange)
-  );
+  background-image: linear-gradient(to bottom right, var(--color-pink), var(--color-orange));
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   color: var(--header-text-color, var(--grey-0));
@@ -145,11 +141,7 @@
   max-width: calc(100% + 2rem);
   padding: 0 1rem 0 2rem;
   border-radius: 0 0.3rem 0.3rem 0;
-  background-image: linear-gradient(
-    to right,
-    var(--color-orange) 0,
-    var(--color-pink) 100%
-  );
+  background-image: linear-gradient(to right, var(--color-orange) 0, var(--color-pink) 100%);
   color: var(--grey-0);
 }
 
@@ -280,11 +272,7 @@
   padding: 0.3rem 1rem;
   border-radius: 1rem 0;
   color: var(--grey-0);
-  background-image: linear-gradient(
-    to right,
-    var(--color-pink) 0,
-    var(--color-orange) 100%
-  );
+  background-image: linear-gradient(to right, var(--color-pink) 0, var(--color-orange) 100%);
   text-decoration: none;
   transition: transform 0.3s ease;
 }
