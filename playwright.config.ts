@@ -24,7 +24,7 @@ export default defineConfig({
     video: "retain-on-failure",
   },
   webServer: {
-    command: `pnpm run preview -- --host ${PREVIEW_HOST} --port ${PREVIEW_PORT}`,
+    command: `pnpm exec astro preview --host ${PREVIEW_HOST} --port ${PREVIEW_PORT}`,
     url: BASE_URL,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
