@@ -32,7 +32,12 @@ function stubIntersectionObserver(): { instance: () => MockObserverInstance | nu
     readonly disconnect = vi.fn();
 
     constructor(callback: (entries: MockEntry[]) => void) {
-      current = { callback, observe: this.observe, unobserve: this.unobserve, disconnect: this.disconnect };
+      current = {
+        callback,
+        observe: this.observe,
+        unobserve: this.unobserve,
+        disconnect: this.disconnect,
+      };
     }
   }
 

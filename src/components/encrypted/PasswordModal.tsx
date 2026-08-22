@@ -47,11 +47,14 @@ function PasswordModal(props: PasswordModalProps) {
       } else {
         setError(errorText());
         setPassword("");
+        // 先解除 loading 态：disabled 输入框无法获得焦点，focus 需在可聚焦后调用
+        setIsLoading(false);
         inputRef?.focus();
       }
     } catch {
       setError(errorText());
       setPassword("");
+      setIsLoading(false);
       inputRef?.focus();
     } finally {
       setIsLoading(false);

@@ -29,9 +29,7 @@ afterEach(() => {
 
 describe("SidebarTabs 面板切换", () => {
   it("面板不足两个时不渲染", () => {
-    const { container } = render(() => (
-      <SidebarTabs panels={[PANELS[0]]} activePanel="contents" />
-    ));
+    const { container } = render(() => <SidebarTabs panels={[PANELS[0]]} activePanel="contents" />);
     expect(container.querySelector("ul")).toBeNull();
   });
 
