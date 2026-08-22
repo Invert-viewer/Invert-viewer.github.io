@@ -32,7 +32,7 @@ function EncryptedPost(props: EncryptedPostProps) {
         const password = sessionStorage.getItem(`encrypted_${window.location.pathname}`) || "";
         const tocJson = await decryptContent(props.encryptedToc, password);
         const parsed = JSON.parse(tocJson);
-        const toc = Array.isArray(parsed) ? (parsed as TocItem[]) : [];
+        const toc: TocItem[] = Array.isArray(parsed) ? parsed : [];
         // 更新侧边栏 TOC
         encryptedTocStore.set(toc);
       }

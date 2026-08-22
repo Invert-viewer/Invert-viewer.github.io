@@ -55,7 +55,7 @@ function FloatingToolbar(props: FloatingToolbarProps) {
     const player = document.querySelector("#player");
     const showBtn = document.querySelector("#nyx-show-btn");
 
-    if (!player || !showBtn) {
+    if (!(player instanceof HTMLElement) || !showBtn) {
       return;
     }
 
