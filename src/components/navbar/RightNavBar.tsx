@@ -9,9 +9,7 @@ function RightNavBar(props: RightNavBarProps) {
   const mergedClass = () => [props.class ?? ""].filter(Boolean).join(" ");
 
   return (
-    <ul
-      class={`inline-flex cursor-pointer items-center justify-center ${mergedClass()}`.trim()}
-    >
+    <ul class={`inline-flex cursor-pointer items-center justify-center ${mergedClass()}`.trim()}>
       {props.children}
     </ul>
   );

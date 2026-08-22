@@ -64,11 +64,7 @@ function NavBar(props: NavBarProps) {
       return;
     }
 
-    const next = toggleThemeWithTransition(
-      document,
-      window,
-      isDark() ? "dark" : "light",
-    );
+    const next = toggleThemeWithTransition(document, window, isDark() ? "dark" : "light");
     setIsDark(next === "dark");
   };
 
