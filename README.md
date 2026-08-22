@@ -6,7 +6,7 @@
 [![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/theme-shoka-x/astro-blog-shokax)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theme-shoka-x/astro-blog-shokax)
 
-This project is a reconstruction of [Hexo Theme ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) on Astro, built with Astro + Svelte 5 + UnoCSS.
+This project is a reconstruction of [Hexo Theme ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) on Astro, built with Astro + SolidJS + UnoCSS.
 
 [<img width="1920" height="911" alt="Three-column preview" src="https://github.com/user-attachments/assets/b8ad5bbe-43a3-4c49-a32f-45ba5ba3dcd1" />](https://preview.astro.kaitaku.xyz/)
 
@@ -69,7 +69,7 @@ astro-blog-shokax
 │   │   ├── images/               # 🌟 Cover images
 │   │   ├── icons/                # Part of RemixIcon assets (used for Shadow DOM)
 │   │   ├── avatar.avif           # 🌟 Site owner avatar
-│   ├── components/               # Astro / Svelte components
+│   ├── components/               # Astro / SolidJS components
 │   ├── content/                  # Content outside collections
 │   │   ├── friend-rules.md       # 🌟 Friends link rules
 │   ├── i18n/                     # i18n system
@@ -253,7 +253,7 @@ These projects in particular have provided tremendous support during development
 
 - [Astro](https://astro.build/): the foundation of this project
 - [UnoCSS](https://unocss.dev/): a modern atomic CSS engine that completely solved the icon issues that troubled the team for a long time in earlier iterations
-- [Svelte](https://svelte.dev/): the frontend UI framework used in this project, an excellent choice for personal blogs
+- [SolidJS](https://www.solidjs.com/): the frontend UI framework used in this project (JSX + signals)
 - [Mizuki](https://github.com/matsuzaka-yuki/Mizuki): directly inspired the team's Astro migration and provided an excellent example to follow
 - [Node.js](https://nodejs.org/): the runtime used in this project
 - [Shoka](https://github.com/amehime/hexo-theme-shoka): the origin of ShokaX — without Shoka, ShokaX would not exist

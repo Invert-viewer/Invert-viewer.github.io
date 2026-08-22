@@ -21,10 +21,10 @@
   - Page 1 is `/` from `src/pages/index.astro`.
   - Pages 2..N are `/page/<n>/` from `src/pages/page/[page].astro` (it filters out `page === "1"`).
 
-## UI + hydration (Astro ⇄ Svelte)
+## UI + hydration (Astro ⇄ SolidJS)
 
 - Solid components are mounted from `.astro` via `client:*` directives (e.g. `<NavBar client:load />` in `Layout.astro`).
-- Some Svelte components are custom elements (web components).
+- Some parts are custom elements (web components).
   - Example: `src/components/code-block-element.ts` registers the `code-block` custom element (invoked by `src/components/CodeBlock.tsx`).
   - Custom-element pattern used here:
     - Ensure the custom element module is included by rendering it once (Layout has a hidden `<CodeBlock client:idle />`).
@@ -33,7 +33,7 @@
 ## Styling, icons, and UnoCSS gotchas
 
 - UnoCSS is integrated via `unocss/astro` with Wind preset + icons + attributify (see `uno.config.ts`).
-- Icon classes are `i-ri-…` (Iconify Remix Icon set), used heavily in Svelte markup (e.g. `src/components/navbar/NavBar.svelte`).
+- Icon classes are `i-ri-…` (Iconify Remix Icon set), used heavily in Solid markup (e.g. `src/components/navbar/NavBar.tsx`).
 - Uno safelist is derived from `src/theme.config.ts` (nav/sidebar icons). Note: `uno.config.ts` cannot use the `@` alias (it imports theme config via a relative path by design).
 
 ## Search (Pagefind)

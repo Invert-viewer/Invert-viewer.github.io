@@ -6,7 +6,7 @@
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/theme-shoka-x/astro-blog-shokax)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theme-shoka-x/astro-blog-shokax)
 
-这是 [Hexo Theme ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) 在 Astro 上的重构版本，使用 Astro + Svelte 5 + UnoCSS 技术栈
+这是 [Hexo Theme ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) 在 Astro 上的重构版本，使用 Astro + SolidJS + UnoCSS 技术栈
 
 [<img width="1920" height="911" alt="三栏式预览" src="https://github.com/user-attachments/assets/b8ad5bbe-43a3-4c49-a32f-45ba5ba3dcd1" />](https://preview.astro.kaitaku.xyz/)
 
@@ -69,7 +69,7 @@ astro-blog-shokax
 │   │   ├── images/               # 🌟 封面图片
 │   │   ├── icons/                # RemixIcon 的部分图标（用于 Shadow DOM）
 │   │   ├── avatar.avif           # 🌟 站点所有者头像
-│   ├── components/               # Astro / Svelte 组件
+│   ├── components/               # Astro / SolidJS 组件
 │   ├── content/                  # 不属于内容集合的内容
 │   │   ├── friend-rules.md       # 🌟 友链规则
 │   ├── i18n/                     # i18n 系统
@@ -249,7 +249,7 @@ ShokaX 开发组向所有 ShokaX 在过去、现在和未来的使用过与可�
 
 - [Astro](https://astro.build/)：本项目的基石
 - [UnoCSS](https://unocss.dev/)：现代化的原子 CSS 引擎，彻底解决了在前作中困扰开发组很长时间的图标问题
-- [Svelte](https://svelte.dev/)：本项目的前端 UI 框架，个人博客项目的理想之选
+- [SolidJS](https://www.solidjs.com/)：本项目的前端 UI 框架（JSX + signals）
 - [Mizuki](https://github.com/matsuzaka-yuki/Mizuki)：直接启发了开发组进行 Astro 迁移，为我们的迁移提供了极好的榜样
 - [Node.js](https://nodejs.org/)：本项目使用的运行时
 - [Shoka](https://github.com/amehime/hexo-theme-shoka)：ShokaX 的起源，没有 Shoka 便不可能有 ShokaX
