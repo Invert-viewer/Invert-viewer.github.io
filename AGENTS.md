@@ -8,8 +8,8 @@
 - 默认沟通语言：**中文**（输出与代码注释优先中文）
 - 优先使用仓库脚本，不要自创命令
 - 路由要求：`trailingSlash: "always"`（内部链接保留尾 `/`）
-- 不要随意偏离现有架构（Astro + Svelte 5 + UnoCSS + Pagefind）
-- Svelte 5 交互代码遵循现有 runes 风格（`$state/$props/$effect`）
+- 不要随意偏离现有架构（Astro + SolidJS + UnoCSS + Pagefind）
+- SolidJS 交互代码遵循现有风格（createSignal/createEffect/createMemo + JSX）
 - 有代码改动后至少执行：
   1. `pnpm run format`
   2. `pnpm run lint`

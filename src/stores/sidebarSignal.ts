@@ -2,7 +2,7 @@ import { createSignal } from "solid-js";
 
 /**
  * Sidebar 可见状态（SolidJS 版，P3 迁移用）
- * 对应原 svelte store（src/stores/sidebarStore.ts），迁移完成后移除 svelte 版
+ * 对应原 svelte store（sidebarStore.ts，P3 迁移后已移除）
  */
 export const [sidebarOpen, setSidebarOpen] = createSignal(false);
 

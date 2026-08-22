@@ -3,7 +3,7 @@
 ## Stack & runtime
 
 - Astro 7 site; Node.js (≥ 22.12) with pnpm is the expected runtime (`packageManager: pnpm@…`). Prefer the `pnpm run …` scripts in `package.json`.
-- Svelte 5 is used for interactive UI and typically uses runes (`$state`, `$props`, `$effect`) — see `src/components/navbar/NavBar.svelte`.
+- SolidJS is used for interactive UI (JSX + `createSignal`/`createEffect`) — see `src/components/navbar/NavBar.tsx`.
 
 ## Where things live
 
@@ -23,9 +23,9 @@
 
 ## UI + hydration (Astro ⇄ Svelte)
 
-- Svelte components are mounted from `.astro` via `client:*` directives (e.g. `<NavBar client:load />` in `Layout.astro`).
+- Solid components are mounted from `.astro` via `client:*` directives (e.g. `<NavBar client:load />` in `Layout.astro`).
 - Some Svelte components are custom elements (web components).
-  - Example: `src/components/CodeBlock.svelte` declares `<svelte:options customElement="code-block" />`.
+  - Example: `src/components/code-block-element.ts` registers the `code-block` custom element (invoked by `src/components/CodeBlock.tsx`).
   - Custom-element pattern used here:
     - Ensure the custom element module is included by rendering it once (Layout has a hidden `<CodeBlock client:idle />`).
     - Then create/replace DOM nodes at runtime (see `src/toolkit/initCodeBlock.ts`, which wraps `.astro-code` blocks into `<code-block>`).
@@ -38,7 +38,7 @@
 
 ## Search (Pagefind)
 
-- Search UI is `@pagefind/default-ui` in `src/components/search/SearchPage.svelte`.
+- Search UI is `@pagefind/component-ui` in `src/components/search/SearchPage.tsx`.
 - Production build must include Pagefind indexing:
   - `pnpm run build` runs `astro build` AND `pagefind --site ./dist` (see `package.json`).
   - If you change markup, preserve `data-pagefind-body` usage (e.g. `src/pages/posts/[...slug].astro`).
@@ -46,7 +46,7 @@
 ## Dev workflows (use repo scripts)
 
 - Dev server: `pnpm run dev`
-- Type/content checks: `pnpm run check` (Astro check + svelte-check)
+- Type/content checks: `pnpm run check` (Astro check)
 - Lint/format: `pnpm run lint` (oxlint, type-aware) and `pnpm run format` (oxfmt)
 - Unit tests: `pnpm run test` (vitest; tests live under `src/toolkit/**/*.test.ts`)
 
@@ -56,4 +56,4 @@
 - When finishing work, **do not** create new Markdown files to “report” results. Summarize changes directly in chat.
 - If adding dependencies to the repository, report **package name**, **what it does**, and **where it is used** (usage scope/files).
 - After modifying code, run `pnpm run format` and `pnpm run lint`, then check IDE diagnostics (Problems) and fix any errors introduced by the change.
-- Use MCP services when helpful (e.g. Svelte docs/autofix for Svelte work), but avoid MCP/tools that are outside this repo’s stack (e.g. Pylance/Python-specific services).
+- Use MCP services when helpful (e.g. SolidJS docs for Solid work), but avoid MCP/tools that are outside this repo’s stack (e.g. Pylance/Python-specific services).
