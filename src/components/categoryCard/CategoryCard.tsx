@@ -18,6 +18,8 @@ interface CategoryCardProps {
   postCount: number;
   childCount?: number;
   posts: PostInfo[];
+  /** 入场动画可见标记（由 CategoryCards 的 IntersectionObserver 驱动） */
+  show?: boolean;
   isActive?: boolean;
   onMouseEnter?: () => void;
   onMouseLeave?: () => void;
@@ -43,7 +45,7 @@ function CategoryCard(props: CategoryCardProps) {
 
   return (
     <section
-      class={`item ${props.isActive ? "active" : ""}`}
+      class={`item ${props.show ? "show" : ""} ${props.isActive ? "active" : ""}`.trim()}
       onMouseEnter={props.onMouseEnter}
       onMouseLeave={handleMouseLeave}
       onTouchStart={handleTouchStart}

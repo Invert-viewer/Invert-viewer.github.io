@@ -99,22 +99,28 @@ describe("CategoryCards 分类卡片墙", () => {
     expect(io.instance()?.unobserve).toHaveBeenCalledWith(third);
   });
 
-  it("悬停状态机：进入锁定、切换转移、离开清空", () => {
+  it("悬停状态机：进入锁定、切换转移、离开清空，且不丢失 show 入场类", () => {
     stubIntersectionObserver();
     const { container } = render(() => <CategoryCards categories={CATEGORIES} />);
 
     const [first, second] = [itemAt(container, 0), itemAt(container, 1)];
+    expect(first.classList.contains("show")).toBe(true);
 
     fireEvent.mouseEnter(first);
     expect(first.classList.contains("active")).toBe(true);
+    // 回归：激活切换不得覆盖入场 show 类（曾导致 opacity:0 卡片消失）
+    expect(first.classList.contains("show")).toBe(true);
 
-    // 进入第二张时第一张取消
+    // 进入第二张时第一张取消，且两张都保留 show
     fireEvent.mouseEnter(second);
     expect(second.classList.contains("active")).toBe(true);
     expect(first.classList.contains("active")).toBe(false);
+    expect(first.classList.contains("show")).toBe(true);
+    expect(second.classList.contains("show")).toBe(true);
 
     // 离开当前锁定卡片清空激活态
     fireEvent.mouseLeave(second);
     expect(second.classList.contains("active")).toBe(false);
+    expect(second.classList.contains("show")).toBe(true);
   });
 });

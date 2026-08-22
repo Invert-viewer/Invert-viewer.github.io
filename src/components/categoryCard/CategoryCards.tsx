@@ -26,7 +26,11 @@ interface CategoryCardsProps {
 
 function CategoryCards(props: CategoryCardsProps) {
   const [activeIndex, setActiveIndex] = createSignal<number | null>(null);
+  // show 集合同样由 Solid 状态驱动：避免 IO 直接改 DOM class 与 Solid 渲染
+  // 的 class 拼接冲突（曾导致悬停激活时 .show 被覆盖、卡片 opacity:0 消失）
+  const [visibleIndexes, setVisibleIndexes] = createSignal<Set<number>>(new Set());
   let container: HTMLDivElement | null = null;
+  let io: IntersectionObserver | null = null;
 
   const handleMouseEnter = (index: number) => {
     if (activeIndex() !== null && activeIndex() !== index) {
@@ -47,28 +51,39 @@ function CategoryCards(props: CategoryCardsProps) {
     const items = Array.from(container.querySelectorAll(".item"));
     if (items.length === 0) return;
 
-    const io = new IntersectionObserver(
+    io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.target.classList.contains("show")) {
-            io.unobserve(entry.target);
-          } else if (entry.isIntersecting || entry.intersectionRatio > 0) {
-            entry.target.classList.add("show");
-            io.unobserve(entry.target);
+          if (!(entry.target instanceof HTMLElement)) {
+            return;
+          }
+          const index = Number(entry.target.dataset.index);
+          if (!Number.isInteger(index)) {
+            return;
+          }
+          if (entry.isIntersecting || entry.intersectionRatio > 0) {
+            setVisibleIndexes((prev) => (prev.has(index) ? prev : new Set(prev).add(index)));
+            io?.unobserve(entry.target);
           }
         });
       },
       { root: null, threshold: [0.3] },
     );
 
-    items.forEach((item) => io.observe(item));
-    items.slice(0, 2).forEach((item) => item.classList.add("show"));
+    items.forEach((item, index) => {
+      if (!(item instanceof HTMLElement)) {
+        return;
+      }
+      item.dataset.index = String(index);
+      io?.observe(item);
+    });
+    // 前两张卡片首屏直接展开
+    setVisibleIndexes(new Set([0, 1]));
   });
 
   onCleanup(() => {
-    if (!container) return;
-    const items = Array.from(container.querySelectorAll(".item"));
-    items.forEach((item) => item.classList.remove("show"));
+    io?.disconnect();
+    io = null;
   });
 
   return (
@@ -83,6 +98,7 @@ function CategoryCards(props: CategoryCardsProps) {
             postCount={category.postCount}
             childCount={category.childCount}
             posts={category.posts}
+            show={visibleIndexes().has(i())}
             isActive={activeIndex() === i()}
             onMouseEnter={() => handleMouseEnter(i())}
             onMouseLeave={() => handleMouseLeave(i())}

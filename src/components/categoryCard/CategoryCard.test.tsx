@@ -112,6 +112,20 @@ describe("CategoryCard 分类卡片", () => {
     expect(sectionOf(container).classList.contains("active")).toBe(false);
   });
 
+  it("show 传入时携带入场类，缺省时不含", () => {
+    const withShow = render(() => (
+      <CategoryCard name="前端" url="/u/" postCount={1} posts={POSTS} show />
+    ));
+    expect(withShow.container.querySelector("section.item")?.classList.contains("show")).toBe(true);
+
+    const withoutShow = render(() => (
+      <CategoryCard name="前端" url="/u/" postCount={1} posts={POSTS} />
+    ));
+    expect(withoutShow.container.querySelector("section.item")?.classList.contains("show")).toBe(
+      false,
+    );
+  });
+
   it("鼠标进入/离开与触屏启动触发回调", () => {
     const onEnter = vi.fn();
     const onLeave = vi.fn();
