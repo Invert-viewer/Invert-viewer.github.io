@@ -14,7 +14,6 @@ import {
 
 import UnoCSS from "@unocss/astro";
 
-import { hyacinePlugin } from "@hyacine/astro";
 import mdx from "@astrojs/mdx";
 
 import spoiler from "./src/satteri-plugins/spoiler.ts";
@@ -82,7 +81,11 @@ export default defineConfig({
     // P3 完成：全部组件已迁移至 SolidJS
     solid(),
     sitemap(),
-    hyacinePlugin(),
+    // NOTE: @hyacine/astro@0.0.3 与 Astro 7.0.6 不兼容（config:setup 阶段
+    // vite module runner 已关闭 → 插件配置加载失败 → virtual:hyacine/runtime
+    // 无 loader → 构建 UNLOADABLE，CI 从 P2 起全红）。临时停用以解锁构建；
+    // 待上游修复或自研兼容后恢复（内容端 @hyacine/cli/api 不受影响）。
+    // hyacinePlugin(),
     mdx(),
     PlayformInline({
       Logger: 0,
