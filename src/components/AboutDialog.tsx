@@ -89,8 +89,7 @@ const waitForTyping = (delay: number) =>
 function AboutDialog(props: AboutDialogProps) {
   const title = () => props.title ?? t("aboutDialog.defaults.title");
   const intro = () => props.intro ?? t("aboutDialog.defaults.intro");
-  const authorName = () =>
-    props.authorName ?? t("aboutDialog.defaults.authorName");
+  const authorName = () => props.authorName ?? t("aboutDialog.defaults.authorName");
   const authorAvatar = () => props.authorAvatar ?? "";
   const startId = () => props.startId ?? "intro";
   const endHint = () => props.endHint ?? t("aboutDialog.defaults.endHint");
@@ -140,14 +139,9 @@ function AboutDialog(props: AboutDialogProps) {
     }
 
     const nextNode = nodeMap().get(option.nextId);
-    const botReply = nextNode
-      ? nextNode.text
-      : t("aboutDialog.runtime.branchNotConfigured");
+    const botReply = nextNode ? nextNode.text : t("aboutDialog.runtime.branchNotConfigured");
 
-    setMessages([
-      ...messages(),
-      createMessage("user", option.reply ?? option.label),
-    ]);
+    setMessages([...messages(), createMessage("user", option.reply ?? option.label)]);
     setIsTyping(true);
     await scrollToBottom();
 
@@ -184,33 +178,20 @@ function AboutDialog(props: AboutDialogProps) {
           <>
             <For each={messages()}>
               {(message) => (
-                <div
-                  class={`message-row ${message.speaker === "user" ? "is-user" : ""}`}
-                >
+                <div class={`message-row ${message.speaker === "user" ? "is-user" : ""}`}>
                   {message.speaker === "bot" && (
                     <div class="author-avatar" aria-hidden="true">
                       {authorAvatar() ? (
-                        <img
-                          src={authorAvatar()}
-                          alt=""
-                          loading="lazy"
-                          decoding="async"
-                        />
+                        <img src={authorAvatar()} alt="" loading="lazy" decoding="async" />
                       ) : (
                         <span>{authorInitial()}</span>
                       )}
                     </div>
                   )}
 
-                  <div
-                    class={`message-content ${message.speaker === "user" ? "is-user" : ""}`}
-                  >
-                    {message.speaker === "bot" && (
-                      <p class="author-name">{authorName()}</p>
-                    )}
-                    <div
-                      class={`message-bubble ${message.speaker === "user" ? "is-user" : ""}`}
-                    >
+                  <div class={`message-content ${message.speaker === "user" ? "is-user" : ""}`}>
+                    {message.speaker === "bot" && <p class="author-name">{authorName()}</p>}
+                    <div class={`message-bubble ${message.speaker === "user" ? "is-user" : ""}`}>
                       {message.text}
                     </div>
                   </div>
@@ -222,12 +203,7 @@ function AboutDialog(props: AboutDialogProps) {
               <div class="message-row">
                 <div class="author-avatar" aria-hidden="true">
                   {authorAvatar() ? (
-                    <img
-                      src={authorAvatar()}
-                      alt=""
-                      loading="lazy"
-                      decoding="async"
-                    />
+                    <img src={authorAvatar()} alt="" loading="lazy" decoding="async" />
                   ) : (
                     <span>{authorInitial()}</span>
                   )}
@@ -253,18 +229,13 @@ function AboutDialog(props: AboutDialogProps) {
       </div>
 
       <footer class="dialog-footer">
-        <div
-          class={`fake-input ${isTyping() ? "is-typing" : ""}`}
-          aria-hidden="true"
-        >
+        <div class={`fake-input ${isTyping() ? "is-typing" : ""}`} aria-hidden="true">
           <span class="fake-input-text">
             {isTyping()
               ? t("aboutDialog.typing.peerTyping")
               : t("aboutDialog.typing.inputPlaceholder")}
           </span>
-          <span class="fake-input-action">
-            {t("aboutDialog.actions.send")}
-          </span>
+          <span class="fake-input-action">{t("aboutDialog.actions.send")}</span>
         </div>
 
         {currentOptions().length > 0 ? (
@@ -286,12 +257,7 @@ function AboutDialog(props: AboutDialogProps) {
           <p class="dialog-end">{endHint()}</p>
         )}
 
-        <button
-          type="button"
-          class="restart-button"
-          disabled={isTyping()}
-          onclick={restart}
-        >
+        <button type="button" class="restart-button" disabled={isTyping()} onclick={restart}>
           {t("aboutDialog.actions.restart")}
         </button>
       </footer>

@@ -26,12 +26,7 @@
   position: relative;
   padding: 0.9rem 1rem;
   border-bottom: 1px solid var(--grey-3);
-  background: linear-gradient(
-    120deg,
-    var(--grey-1),
-    var(--color-pink-light-a3),
-    var(--grey-1)
-  );
+  background: linear-gradient(120deg, var(--grey-1), var(--color-pink-light-a3), var(--grey-1));
   background-size: 220% 220%;
   animation: dialog-header-flow 10s ease infinite;
 }
@@ -264,12 +259,7 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(
-    120deg,
-    var(--grey-1-a0),
-    var(--color-red-a1),
-    var(--grey-1-a0)
-  );
+  background: linear-gradient(120deg, var(--grey-1-a0), var(--color-red-a1), var(--grey-1-a0));
   opacity: 0;
   transform: translateX(-120%);
   transition:
