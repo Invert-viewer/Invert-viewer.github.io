@@ -335,67 +335,8 @@ const CODEBLOCK_CSS = `
     0%, 100% { transform: translateX(-50%) translateY(0); }
     50% { transform: translateX(-50%) translateY(-6px); }
   }
-  :host pre * {
-    font-family: "Maple Mono", "Courier New", Courier, monospace;
-    font-size: 0.925rem; line-height: 1.25rem; line-break: anywhere; white-space: break-spaces;
-  }
-  :host pre {
-    padding: 0.925rem; margin: 0;
-    border-bottom-right-radius: 0.5rem; border-bottom-left-radius: 0.5rem;
-    background-color: var(--surface-code) !important; overflow-x: auto;
-  }
-  :host(.dark) .content-wrapper pre {
-    background-color: var(--surface-code) !important;
-  }
   .content-wrapper {
     font-family: "Maple Mono", "Courier New", monospace;
-  }
-  :host code .line {
-    color: inherit; text-indent: -2.5rem; padding-left: 2.5rem; display: block;
-    min-height: 1.25rem; contain-intrinsic-height: 24px;
-    transition: background-color 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
-  }
-  :host code .line:hover { background-color: var(--line-hover-bg); }
-  :host code {
-    counter-reset: step; counter-increment: step 0; display: flex; flex-direction: column;
-  }
-  :host code .line::before {
-    content: counter(step); counter-increment: step;
-    width: 1rem; margin-right: 1.5rem; display: inline-block; text-align: right;
-    color: var(--text-color-muted);
-  }
-  :host .line.highlighted {
-    background-color: var(--cb-line-highlight-bg);
-    box-shadow: inset 0.25rem 0 0 var(--cb-line-highlight-border);
-  }
-  :host .line.diff.add {
-    background-color: var(--cb-diff-add-bg);
-    box-shadow: inset 0.25rem 0 0 var(--cb-diff-add-border);
-  }
-  :host .line.diff.remove {
-    background-color: var(--cb-diff-remove-bg);
-    box-shadow: inset 0.25rem 0 0 var(--cb-diff-remove-border);
-  }
-  :host code .line.diff.add::before {
-    content: counter(step) " +"; color: var(--cb-diff-add-border);
-  }
-  :host code .line.diff.remove::before {
-    content: counter(step) " -"; color: var(--cb-diff-remove-border);
-  }
-  :host pre.has-focused .line { opacity: var(--cb-focus-dim-opacity); }
-  :host pre.has-focused .line.focused {
-    opacity: 1; background-color: var(--cb-focus-bg);
-    box-shadow: inset 0.25rem 0 0 var(--cb-focus-border);
-  }
-  :host .line.highlighted.error {
-    background-color: var(--cb-error-bg); box-shadow: inset 0.25rem 0 0 var(--cb-error-border);
-  }
-  :host .line.highlighted.warning {
-    background-color: var(--cb-warning-bg); box-shadow: inset 0.25rem 0 0 var(--cb-warning-border);
-  }
-  :host .highlighted-word {
-    background-color: var(--cb-highlighted-word-bg);
-    border-radius: 0.2rem; padding: 0.05rem 0.15rem;
   }
   .fullscreen {
     position: fixed; top: 0; left: 0; right: 0; bottom: 0;
@@ -420,8 +361,5 @@ const CODEBLOCK_CSS = `
   @keyframes fullscreenOut {
     from { opacity: 1; transform: scale(1); }
     to { opacity: 0; transform: scale(0.95); }
-  }
-  :host-context(html[data-theme="dark"]) code span {
-    color: var(--shiki-dark) !important;
   }
 `;

@@ -64,6 +64,28 @@ test("@regression 侧边栏目录面板可切换并响应目录点击", async ({
     .not.toBe(beforeScrollY);
 });
 
+test("@regression 侧边栏切换面板时非激活面板隐藏（防 .contents 工具类覆盖 display）", async ({
+  page,
+}) => {
+  await page.goto(POSTS.postMigrationTest);
+
+  const contentsPanel = page.locator("#sidebar .panel.contents");
+  await expect(contentsPanel).toBeVisible();
+
+  // 切换到任意非目录面板（related/overview 均可）
+  const otherTab = page.locator("#sidebar .tab button:not(.contents)").first();
+  if ((await otherTab.count()) > 0) {
+    await otherTab.click();
+
+    // 回归:目录面板 class 名 contents 与 UnoCSS 工具类（display: contents）撞名,
+    // 曾导致非激活面板仍参与布局显示在上方——必须真正隐藏
+    await expect(contentsPanel).toBeHidden();
+
+    const activePanel = page.locator("#sidebar .panel.active");
+    await expect(activePanel).toBeVisible();
+  }
+});
+
 test("@regression 浮动工具栏返回顶部与移动端切换侧栏可用", async ({ page }) => {
   await page.goto(POSTS.postMigrationTest);
 

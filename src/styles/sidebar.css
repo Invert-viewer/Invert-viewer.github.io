@@ -175,14 +175,14 @@
 }
 
 /* ===== SidebarPanel ===== */
-.panel {
+.panels .panel {
   display: none;
   padding: 0.875rem 0.9375rem 2rem;
   animation: sidebar-slide-in 0.3s ease-in-out;
   content-visibility: auto;
 }
 
-.panel.active {
+.panels .panel.active {
   display: block;
 }
 
