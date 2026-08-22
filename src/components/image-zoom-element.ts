@@ -51,6 +51,8 @@ class ImageZoomElement extends ShadowSlotElement {
     this.dialogElement = this.shadowRoot?.querySelector(".image-zoom-overlay") ?? null;
 
     this.bindImage();
+    // 点击遮罩空白处关闭（dialog 占据全屏，省略 content/close/nav 外的命中即空白区域）
+    this.dialogElement?.addEventListener("click", this.handleOverlayClick);
     window.addEventListener("keydown", this.handleWindowKeydown);
   }
 
@@ -64,6 +66,7 @@ class ImageZoomElement extends ShadowSlotElement {
       clearTimeout(this.closeTimer);
       this.closeTimer = null;
     }
+    this.dialogElement?.removeEventListener("click", this.handleOverlayClick);
     window.removeEventListener("keydown", this.handleWindowKeydown);
     this.restoreBodyScroll();
   }

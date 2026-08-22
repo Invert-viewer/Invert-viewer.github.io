@@ -142,6 +142,10 @@ class CodeBlockElement extends ShadowSlotElement {
   }
 
   private toggleCollapse() {
+    // 折叠按钮仅在 shouldShowCollapse 时可见；防止不可见状态下的合成点击误翻转
+    if (!this.shouldShowCollapse) {
+      return;
+    }
     this.isCollapsed = !this.isCollapsed;
     this.renderCollapseState();
   }
