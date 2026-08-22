@@ -1,7 +1,8 @@
 import type { ImageMetadata } from "astro";
 import type { CollectionEntry } from "astro:content";
 import { countWords } from "./calculateStats";
-import { toCategoryHref, toPostHref } from "./url";
+import { resolveExcerpt } from "./excerpt";
+import { toPostProjection } from "./projection";
 
 const DEFAULT_EXCERPT_LENGTH = 300;
 const DEFAULT_WORDS_PER_MINUTE = 300;
@@ -62,24 +63,11 @@ export function getExcerpt(
   excerptLength: number = DEFAULT_EXCERPT_LENGTH,
   aiSummary?: string,
 ): string {
-  if (post.data.encrypted) {
-    return encryptedExcerpt;
-  }
-
-  const trimmedAiSummary = typeof aiSummary === "string" ? aiSummary.trim() : "";
-  if (trimmedAiSummary) {
-    return trimmedAiSummary;
-  }
-
-  if (post.data.description) {
-    return post.data.description;
-  }
-
-  if (post.body) {
-    return post.body.slice(0, excerptLength);
-  }
-
-  return "";
+  return resolveExcerpt(post, {
+    encryptedExcerpt,
+    length: excerptLength,
+    aiSummary,
+  });
 }
 
 export function transformIndexPosts(
@@ -100,18 +88,12 @@ export function transformIndexPosts(
   return postList.map((post) => {
     const wordCount = countWords(post.body || "");
     const readTime = calculateReadTime(wordCount, wordsPerMinute);
-    const lastCategory = post.data.categories?.at(-1);
     const aiSummary = useAiExcerpt ? aiSummaries?.get(post.id) : undefined;
 
     return {
-      slug: post.id,
-      title: post.data.title,
-      url: toPostHref(post.id),
-      date: post.data.date,
+      ...toPostProjection(post),
       excerpt: getExcerpt(post, encryptedExcerpt, excerptLength, aiSummary),
       cover: resolveCover?.(post),
-      category: lastCategory,
-      categoryUrl: lastCategory ? toCategoryHref(lastCategory) : undefined,
       wordCount,
       readTime,
     };

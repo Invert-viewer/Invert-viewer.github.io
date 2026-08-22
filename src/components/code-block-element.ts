@@ -1,12 +1,14 @@
+import { ShadowSlotElement } from "./web-components-base";
+
 /**
  * code-block 自定义元素（P3 迁移自 CodeBlock.svelte 的 <svelte:options customElement="code-block" />）
  *
  * 机制与原 svelte 版一致：
- * - 自定义元素带 open shadow DOM
+ * - 自定义元素带 open shadow DOM（基于 ShadowSlotElement 基类）
  * - Markdown 渲染出的 <code-block> 的 light DOM children（.astro-code pre）经 <slot> 分发进入 shadow DOM
  * - 阴影内 <style> 承载原有组件样式（含原 :global(code-block ...) 选择器）
  */
-class CodeBlockElement extends HTMLElement {
+class CodeBlockElement extends ShadowSlotElement {
   static readonly COLLAPSE_THRESHOLD = 15;
   static icons: CodeBlockIcons | null = null;
 
@@ -27,57 +29,8 @@ class CodeBlockElement extends HTMLElement {
   private fullscreenBtn: HTMLButtonElement | null = null;
   private langText: HTMLSpanElement | null = null;
   private root: HTMLDivElement | null = null;
-  private themeObserver: MutationObserver | null = null;
 
-  connectedCallback() {
-    if (this.dataset.inited === "true") {
-      return;
-    }
-    this.dataset.inited = "true";
-
-    this.attachShadow({ mode: "open" });
-    if (!this.shadowRoot) {
-      return;
-    }
-
-    this.shadowRoot.innerHTML = this.renderMarkup();
-    this.shadowRoot.appendChild(this.createStyle());
-
-    this.bindElements();
-
-    // 初始化语言标签
-    this.codeLanguage = this.getCodeLanguage();
-    if (this.langText) {
-      this.langText.textContent = this.codeLanguage;
-    }
-
-    // 检测是否处于 code-group（tabs 容器）内
-    this.detectCodeGroup();
-
-    // 延迟检查代码行数（确保内容已完全渲染）
-    setTimeout(() => this.checkCodeLength(), 100);
-
-    // 主题监听
-    this.updateTheme();
-    this.themeObserver = new MutationObserver(() => this.updateTheme());
-    this.themeObserver.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["data-theme"],
-    });
-
-    // ESC 退出全屏
-    window.addEventListener("keydown", this.handleKeydown);
-  }
-
-  disconnectedCallback() {
-    window.removeEventListener("keydown", this.handleKeydown);
-    this.themeObserver?.disconnect();
-    if (typeof document !== "undefined") {
-      document.body.style.overflow = "";
-    }
-  }
-
-  private renderMarkup(): string {
+  protected override renderShadowMarkup(): string {
     return `
       <div class="codeblock">
         <div class="header">
@@ -99,7 +52,50 @@ class CodeBlockElement extends HTMLElement {
     `;
   }
 
-  private bindElements() {
+  protected override shadowStyleCss(): string {
+    const icons = CodeBlockElement.icons ?? {};
+    return CODEBLOCK_CSS.replaceAll("__ICON_COPY__", icons.copy ?? "")
+      .replaceAll("__ICON_COPIED__", icons.copied ?? "")
+      .replaceAll("__ICON_FULLSCREEN__", icons.fullscreen ?? "")
+      .replaceAll("__ICON_FULLSCREEN_EXIT__", icons.fullscreenExit ?? "")
+      .replaceAll("__ICON_ARROW_DOWN__", icons.arrowDown ?? "")
+      .replaceAll("__ICON_ARROW_UP__", icons.arrowUp ?? "");
+  }
+
+  protected override themeTracked(): boolean {
+    return true;
+  }
+
+  protected override onThemeChange(isDark: boolean) {
+    this.isDark = isDark;
+    this.renderThemeState();
+  }
+
+  protected override onDetach() {
+    window.removeEventListener("keydown", this.handleKeydown);
+    if (typeof document !== "undefined") {
+      document.body.style.overflow = "";
+    }
+  }
+
+  protected override onShadowReady() {
+    // 初始化语言标签
+    this.codeLanguage = this.getCodeLanguage();
+    if (this.langText) {
+      this.langText.textContent = this.codeLanguage;
+    }
+
+    // 检测是否处于 code-group（tabs 容器）内
+    this.detectCodeGroup();
+
+    // 延迟检查代码行数（确保内容已完全渲染）
+    setTimeout(() => this.checkCodeLength(), 100);
+
+    // ESC 退出全屏
+    window.addEventListener("keydown", this.handleKeydown);
+  }
+
+  protected override bindDom() {
     if (!this.shadowRoot) return;
 
     this.root = this.shadowRoot.querySelector(".codeblock");
@@ -152,11 +148,6 @@ class CodeBlockElement extends HTMLElement {
     const tabCount = group.querySelectorAll(":scope > .tabs-panels > .tab-item").length;
     this.isMultiTab = tabCount > 1;
     this.renderGroupState();
-  }
-
-  private updateTheme() {
-    this.isDark = document.documentElement.dataset.theme === "dark";
-    this.renderThemeState();
   }
 
   private renderThemeState() {
@@ -238,18 +229,6 @@ class CodeBlockElement extends HTMLElement {
       this.toggleFullscreen();
     }
   };
-
-  private createStyle(): HTMLStyleElement {
-    const style = document.createElement("style");
-    const icons = CodeBlockElement.icons ?? {};
-    style.textContent = CODEBLOCK_CSS.replaceAll("__ICON_COPY__", icons.copy ?? "")
-      .replaceAll("__ICON_COPIED__", icons.copied ?? "")
-      .replaceAll("__ICON_FULLSCREEN__", icons.fullscreen ?? "")
-      .replaceAll("__ICON_FULLSCREEN_EXIT__", icons.fullscreenExit ?? "")
-      .replaceAll("__ICON_ARROW_DOWN__", icons.arrowDown ?? "")
-      .replaceAll("__ICON_ARROW_UP__", icons.arrowUp ?? "");
-    return style;
-  }
 }
 
 export interface CodeBlockIcons {

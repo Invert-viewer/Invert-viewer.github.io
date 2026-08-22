@@ -1,3 +1,4 @@
+import { ShadowSlotElement } from "./web-components-base";
 import { lockBodyScroll } from "@/toolkit/ui/scrollLock";
 import { currentLocale, getT } from "@/i18n";
 
@@ -13,7 +14,7 @@ type PreviewImages = PreviewImage[];
  * 机制一致：open shadow DOM + <slot> 分发；light DOM 内 <image-zoom><img /></image-zoom>。
  * dialog 预览 UI 位于 shadow 内；宿主角标样式在全局 image-zoom.css。
  */
-class ImageZoomElement extends HTMLElement {
+class ImageZoomElement extends ShadowSlotElement {
   private container: HTMLElement | null = null;
   private dialogElement: HTMLDialogElement | null = null;
   private isOpen = false;
@@ -22,53 +23,12 @@ class ImageZoomElement extends HTMLElement {
   private previewImages: PreviewImages = [];
 
   private cleanupImageListeners: (() => void) | null = null;
-  private cleanupSlotListener: (() => void) | null = null;
   private closeTimer: ReturnType<typeof setTimeout> | null = null;
   private releaseBodyScrollLock: (() => void) | null = null;
 
   private t = getT(currentLocale);
 
-  connectedCallback() {
-    if (this.dataset.inited === "true") {
-      return;
-    }
-    this.dataset.inited = "true";
-
-    this.attachShadow({ mode: "open" });
-    if (!this.shadowRoot) {
-      return;
-    }
-
-    this.shadowRoot.innerHTML = this.renderMarkup();
-    this.shadowRoot.appendChild(this.createStyle());
-
-    this.container = this.shadowRoot.querySelector(".image-zoom-wrapper");
-    this.dialogElement = this.shadowRoot.querySelector(".image-zoom-overlay");
-
-    this.bindImage();
-
-    const slot = this.container?.querySelector("slot");
-    if (slot) {
-      const onSlotChange = () => this.bindImage();
-      slot.addEventListener("slotchange", onSlotChange);
-      this.cleanupSlotListener = () => slot.removeEventListener("slotchange", onSlotChange);
-    }
-
-    window.addEventListener("keydown", this.handleWindowKeydown);
-  }
-
-  disconnectedCallback() {
-    this.cleanupSlotListener?.();
-    this.cleanupImageListeners?.();
-    if (this.closeTimer) {
-      clearTimeout(this.closeTimer);
-      this.closeTimer = null;
-    }
-    window.removeEventListener("keydown", this.handleWindowKeydown);
-    this.restoreBodyScroll();
-  }
-
-  private renderMarkup(): string {
+  protected override renderShadowMarkup(): string {
     const m = this.t;
     return `
       <div class="image-zoom-wrapper"><slot></slot></div>
@@ -82,13 +42,33 @@ class ImageZoomElement extends HTMLElement {
     `;
   }
 
-  private createStyle(): HTMLStyleElement {
-    const style = document.createElement("style");
-    style.textContent = IMAGE_ZOOM_SHADOW_CSS;
-    return style;
+  protected override shadowStyleCss(): string {
+    return IMAGE_ZOOM_SHADOW_CSS;
   }
 
-  private bindImage() {
+  protected override onShadowReady() {
+    this.container = this.shadowRoot?.querySelector(".image-zoom-wrapper") ?? null;
+    this.dialogElement = this.shadowRoot?.querySelector(".image-zoom-overlay") ?? null;
+
+    this.bindImage();
+    window.addEventListener("keydown", this.handleWindowKeydown);
+  }
+
+  protected override onSlotChange() {
+    this.bindImage();
+  }
+
+  protected override onDetach() {
+    this.cleanupImageListeners?.();
+    if (this.closeTimer) {
+      clearTimeout(this.closeTimer);
+      this.closeTimer = null;
+    }
+    window.removeEventListener("keydown", this.handleWindowKeydown);
+    this.restoreBodyScroll();
+  }
+
+  protected bindImage() {
     this.cleanupImageListeners?.();
     this.cleanupImageListeners = null;
 
