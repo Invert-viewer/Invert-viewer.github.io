@@ -1,4 +1,5 @@
 import svelte from "@astrojs/svelte";
+import solid from "@astrojs/solid-js";
 import { defineConfig } from "astro/config";
 import { satteri } from "@astrojs/markdown-satteri";
 import sitemap from "@astrojs/sitemap";
@@ -84,6 +85,8 @@ export default defineConfig({
         customElement: true,
       },
     }),
+    // P3 渐进迁移：新组件用 .tsx（Solid）：迁移完成后移除 svelte 集成
+    solid(),
     sitemap(),
     hyacinePlugin(),
     mdx(),
@@ -100,7 +103,7 @@ export default defineConfig({
     },
     plugins: [
       Font.vite({
-        scanFiles: ["src/**/*.{svelte,ts,tsx,js,jsx,md,mdx,json,astro}"],
+        scanFiles: ["src/**/*.{tsx,ts,js,jsx,md,mdx,json,astro,svelte}"],
         css: {
           fontDisplay: "optional",
         },
