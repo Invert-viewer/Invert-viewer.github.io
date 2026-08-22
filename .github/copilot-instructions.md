@@ -30,11 +30,32 @@
     - Ensure the custom element module is included by rendering it once (Layout has a hidden `<CodeBlock client:idle />`).
     - Then create/replace DOM nodes at runtime (see `src/toolkit/initCodeBlock.ts`, which wraps `.astro-code` blocks into `<code-block>`).
 
+### Component-testing layer
+
+- `pnpm run test` runs a split vitest setup (see `vitest.config.ts`): `unit` project for `src/toolkit/**/*.test.ts` (node env) and `dom` project for `src/components/**` element/component tests (jsdom + `vite-plugin-solid`, setup in `src/components/test/setup.ts`).
+- Native custom-element classes (`code-block` / `image-zoom`) are tested by directly `customElements.define`-ing and mounting them — no Solid harness needed.
+- Sticking points when writing component tests (jsdom gaps): `HTMLDialogElement` lacks `showModal/close` (polyfilled in `src/components/test/setup.ts`), there is no `requestAnimationFrame`/`scrollTo` (stubbed there too), and `IntersectionObserver` must be stubbed per test.
+
+## Gotchas (learned the hard way — keep these in mind)
+
+### UnoCSS class-name collisions hijack your CSS
+
+UnoCSS (Wind preset) generates a utility class for **every class name it sees**, so an id/class used as a styling hook can collide with a utility. Example: the sidebar panel class `.contents` collided with UnoCSS's `.contents { display: contents }`, overriding `.panel { display: none }` and leaving hidden panels visible.
+
+- Never use bare names like `contents`, `flex`, `hidden`, `block` … as styling class hooks; either prefix them (`panel-*`, `p-*`) or defend with higher-specificity selectors (`.panels .panel { display: none }` beats the single-class utility).
+- If display/visibility state is controlled by JS-added classes, keep the class composition in one place (Solid state) instead of mixing `classList.add` with framework-rendered `className` (a “double-writer” race: the framework rewrite of `className` drops the JS-added class).
+
 ## Styling, icons, and UnoCSS gotchas
 
 - UnoCSS is integrated via `unocss/astro` with Wind preset + icons + attributify (see `uno.config.ts`).
 - Icon classes are `i-ri-…` (Iconify Remix Icon set), used heavily in Solid markup (e.g. `src/components/navbar/NavBar.tsx`).
 - Uno safelist is derived from `src/theme.config.ts` (nav/sidebar icons). Note: `uno.config.ts` cannot use the `@` alias (it imports theme config via a relative path by design).
+- ⚠️ **Class-name collisions**: UnoCSS creates a utility for every class name it sees. A class used as a styling hook can collide with a utility (e.g. `contents` became `display: contents`, overriding `.panel { display: none }`). Prefer prefixed hook names (`panel-*`) or higher-specificity selectors; never rely on bare `contents`/`hidden`/`block`-style names for layout state.
+
+### Custom-element (shadow DOM) styling boundaries
+
+- Styles inside a shadow root **cannot reach slotted light-DOM content** (`:host pre`, `:host code .line` etc. do NOT match light DOM children). Styles targeting slot content must live in the global stylesheet (selector starting from the host, e.g. `code-block pre`) or use `::slotted(...)` (which cannot take descendant selectors).
+- Keep structural styles (container/header/buttons/fullscreen) inside the shadow `<style>`; move light-DOM content styles (line numbers, fonts, highlights) to a global CSS file — see `src/styles/code-block-light.css`.
 
 ## Search (Pagefind)
 
