@@ -18,6 +18,7 @@
     "e2e:smoke": "bunx playwright test --grep @smoke",
     "e2e:critical": "bunx playwright test --grep @critical",
     "e2e:regression": "bunx playwright test --grep @regression",
+    "changelog": "bunx git-cliff@2.13.1 -o CHANGELOG.md",
     "hyc": "hyc"
   },
   "dependencies": {
