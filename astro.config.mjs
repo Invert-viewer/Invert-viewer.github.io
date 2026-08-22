@@ -93,6 +93,27 @@ export default defineConfig({
   ],
 
   vite: {
+    ssr: {
+      // AstroContainer 场景：阻止 astro/container 与 @astrojs/mdx 被打入 client bundle。
+      // 否则构建期会求值 CLIENT_ENTRY（require.resolve('vite/dist/client/client.mjs')），
+      // 在 pnpm 严格隔离布局下解析失败 → "cannot test case insensitive FS, CLIENT_ENTRY ..."
+      // （bun 扁平 node_modules 下可解析，故 bun 时代 CI 正常）
+      external: [
+        "astro/container",
+        "@astrojs/mdx",
+        // css-tree（@unocss/transformer-directives 链）：其 lib/data-patch.js 用
+        // createRequire(import.meta.url)("../data/patch.json") 动态加载相对 JSON，
+        // 打包进 prerender chunk 后相对路径失效（Cannot find module '../data/patch.json'）；
+        // external 后回落包内路径解析（css-tree 已 root hoist 保证可见）
+        "css-tree",
+        // svgo（astro 图片/HTML 优化链）：plugins 内 createRequire(import.meta.url)("../package.json")
+        // 读取自身版本；打包后相对路径失效
+        "svgo",
+        "csso",
+        // jiti：lib/jiti.mjs 动态 require "../dist/babel.cjs"
+        "jiti",
+      ],
+    },
     resolve: {
       alias: {
         "@": new URL("./src", import.meta.url).toString(),

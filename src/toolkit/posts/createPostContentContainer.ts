@@ -1,4 +1,4 @@
-import { getContainerRenderer as getMdxContainerRenderer } from "@astrojs/mdx";
+import { getContainerRenderer as getMdxContainerRenderer } from "@astrojs/mdx/container-renderer";
 import { experimental_AstroContainer } from "astro/container";
 import { loadRenderers } from "astro:container";
 
