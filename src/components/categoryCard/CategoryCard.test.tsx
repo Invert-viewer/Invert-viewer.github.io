@@ -94,7 +94,7 @@ describe("CategoryCard 分类卡片", () => {
     ));
 
     const items = container.querySelectorAll(".posts li");
-    expect(items.length).toBe(6);
+    expect(items).toHaveLength(6);
     expect(container.querySelector('.posts a[href="/posts/p6/"]')).toBeNull();
   });
 

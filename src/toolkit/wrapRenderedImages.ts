@@ -1,4 +1,5 @@
-const IMAGE_TAG_PATTERN = /<img(?<attributes>[^>]*?)\s*\/?>/g;
+// 匹配 <img ...> 或 <img .../>：贪婪单量词 [^>] 无回溯风险（S8786）
+const IMAGE_TAG_PATTERN = /<img\b[^>]*>/gi;
 
 // 提取 title 属性（双引号或单引号，非空）
 const TITLE_PATTERN = /\btitle=(?<quote>["'])(?<title>[^"']+)\k<quote>/i;
@@ -12,7 +13,9 @@ const TITLE_PATTERN = /\btitle=(?<quote>["'])(?<title>[^"']+)\k<quote>/i;
  * alt 作为无障碍替代文本保留在 img 上，title 用作可见说明。
  */
 export function wrapRenderedImages(html: string): string {
-  return html.replace(IMAGE_TAG_PATTERN, (_, attributes = "") => {
+  return html.replace(IMAGE_TAG_PATTERN, (match) => {
+    // 提取 <img 内部（不含尖括号与标签名），去掉尾部自闭合斜杠与空白保持与原输出一致
+    const attributes = match.slice("<img".length, -1).replace(/[\s/]+$/, "");
     const img = `<img${attributes}>`;
     const titleMatch = attributes.match(TITLE_PATTERN);
     if (!titleMatch) {

@@ -57,13 +57,13 @@ describe("MenuBar 顶部导航", () => {
     const { container } = render(() => <MenuBar navLinks={NAV} name="ShokaX" />);
 
     const buttons = container.querySelectorAll("button.dropbox-root-btn");
-    expect(buttons.length).toBe(2);
+    expect(buttons).toHaveLength(2);
     const degraded = buttons[1];
     expect(degraded?.textContent).toContain("失效下拉");
   });
 
   it("navLinks 为空时仅剩站名链接", () => {
     const { container } = render(() => <MenuBar navLinks={[]} name="ShokaX" />);
-    expect(menuLinks(container).length).toBe(1);
+    expect(menuLinks(container)).toHaveLength(1);
   });
 });

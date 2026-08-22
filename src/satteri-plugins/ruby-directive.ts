@@ -27,10 +27,10 @@ const RUBY_REGEX = /^([^\s(（]+)([（(])([^）)]+)([）)])$/;
 // 转义 HTML 特殊字符
 function escapeHtml(s: string): string {
   return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 }
 
 function buildRubyHtml(value: string, ruby: string): string {
@@ -47,7 +47,7 @@ export default function rubyDirective(): MdastPluginDefinition {
 
       // 取第一个子节点（必须是 text 节点）
       const firstChild = node.children?.[0];
-      if (!firstChild || firstChild.type !== "text" || typeof firstChild.value !== "string") return;
+      if (firstChild?.type !== "text" || typeof firstChild.value !== "string") return;
 
       const text = firstChild.value;
       const matches = text.match(RUBY_REGEX);

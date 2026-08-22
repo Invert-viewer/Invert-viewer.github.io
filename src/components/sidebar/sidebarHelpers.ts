@@ -65,7 +65,8 @@ export function extractTocFromContent(content: string): TocItem[] {
     const id = text
       .toLowerCase()
       .replaceAll(/[^\w\u4E00-\u9FA5]+/g, "-")
-      .replaceAll(/^-+|-+$/g, "");
+      .replace(/^-+/, "")
+      .replace(/-+$/, "");
 
     toc.push({
       id,
@@ -89,16 +90,18 @@ export function buildTocTree(items: TocItem[]): TocItem[] {
   items.forEach((item) => {
     const newItem: TocItem = { ...item, children: [] };
 
-    while (stack.length > 0 && stack[stack.length - 1].level >= item.level) {
+    while (stack.length > 0 && (stack.at(-1)?.level ?? 0) >= item.level) {
       stack.pop();
     }
 
     if (stack.length === 0) {
       result.push(newItem);
     } else {
-      const parent = stack[stack.length - 1];
-      if (!parent.children) parent.children = [];
-      parent.children.push(newItem);
+      const parent = stack.at(-1);
+      if (parent) {
+        parent.children ??= [];
+        parent.children.push(newItem);
+      }
     }
 
     stack.push(newItem);

@@ -9,15 +9,12 @@
   width: 100%;
   top: 0;
   bottom: 0;
+  scrollbar-width: none;
 }
 
 #sidebar::-webkit-scrollbar,
 .panels > .inner::-webkit-scrollbar {
   display: none;
-}
-
-#sidebar {
-  scrollbar-width: none;
 }
 
 /* Tablet/Mobile */
@@ -426,6 +423,7 @@
   vertical-align: middle;
   transform: scale(0.8);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  color: var(--social-color, var(--grey-5));
 }
 
 .social .item::before {
@@ -444,10 +442,6 @@
 .social .item:hover::before {
   top: -10%;
   left: -10%;
-}
-
-.social .item div {
-  color: var(--social-color, var(--grey-5));
 }
 
 .social .item:focus div,

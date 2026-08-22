@@ -160,9 +160,6 @@
   min-height: 0;
   flex-direction: column;
   width: 100%;
-}
-
-.pagefind-component-shell {
   --pagefind-ui-scale: 1;
   --pagefind-ui-primary: var(--color-red);
   --pagefind-ui-text: var(--text-color);

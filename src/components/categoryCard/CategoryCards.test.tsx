@@ -61,14 +61,14 @@ afterEach(() => {
 describe("CategoryCards 分类卡片墙", () => {
   it("空分类时不渲染任何卡片", () => {
     const { container } = render(() => <CategoryCards />);
-    expect(container.querySelectorAll("section.item").length).toBe(0);
+    expect(container.querySelectorAll("section.item")).toHaveLength(0);
   });
 
   it("渲染全部分类卡片并透传名称", () => {
     stubIntersectionObserver();
     const { container } = render(() => <CategoryCards categories={CATEGORIES} />);
     const items = container.querySelectorAll("section.item");
-    expect(items.length).toBe(3);
+    expect(items).toHaveLength(3);
 
     const links = container.querySelectorAll(".ribbon a");
     expect(links[0]?.textContent).toBe("前端");

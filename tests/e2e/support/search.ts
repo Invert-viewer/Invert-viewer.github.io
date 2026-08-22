@@ -33,12 +33,12 @@ export async function openSearchDialog(page: Page) {
 
   try {
     await expect(searchDialog).toBeVisible({ timeout: 3000 });
-    return searchDialog;
   } catch {
     // fallback：快捷键未命中（如焦点在可编辑元素上）时改用点击，
     // 仅在对话框仍不可见时补一次，避免 toggle 翻转。
     await openSearchButton.click({ force: true });
     await expect(searchDialog).toBeVisible({ timeout: 5000 });
-    return searchDialog;
   }
+
+  return searchDialog;
 }

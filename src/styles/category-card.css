@@ -13,6 +13,9 @@
 
 .cards .item.show {
   display: block !important;
+  animation: category-slide-up-big-in 0.5s;
+  opacity: 1;
+  will-change: auto;
 }
 
 .cards .item {
@@ -27,12 +30,6 @@
   /* 防止动画导致CLS - 预留空间 */
   will-change: opacity, transform;
   contain-intrinsic-height: 14rem;
-}
-
-.cards .item.show {
-  animation: category-slide-up-big-in 0.5s;
-  opacity: 1;
-  will-change: auto;
 }
 
 @keyframes category-slide-up-big-in {

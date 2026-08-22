@@ -34,7 +34,7 @@ describe("SidebarRelated 相关文章", () => {
   it("渲染文章列表与 /posts/{slug}/ 链接", () => {
     const { container } = render(() => <SidebarRelated posts={POSTS} />);
     const links = container.querySelectorAll("a");
-    expect(links.length).toBe(2);
+    expect(links).toHaveLength(2);
 
     const first = container.querySelector('a[href="/posts/post-a/"]');
     expect(first?.textContent).toBe("文章 A");

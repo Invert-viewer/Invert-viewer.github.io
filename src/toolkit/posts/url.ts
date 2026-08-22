@@ -1,5 +1,5 @@
 function trimSlashes(input: string): string {
-  return input.replaceAll(/^\/+|\/+$/g, "");
+  return input.replace(/^\/+/g, "").replace(/\/+$/g, "");
 }
 
 function removeMarkdownExtension(input: string): string {

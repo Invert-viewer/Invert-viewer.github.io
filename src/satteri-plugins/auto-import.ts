@@ -30,7 +30,7 @@ const resolveModulePath = (path: string): string => {
 };
 
 function getDefaultImportName(path: string): string {
-  return parse(path).name.replaceAll(/[^\w\d]/g, "");
+  return parse(path).name.replaceAll(/[^\w]/g, "");
 }
 
 function formatImport(imported: string, module: string): string {

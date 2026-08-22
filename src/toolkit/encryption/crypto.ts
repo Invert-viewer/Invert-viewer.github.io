@@ -44,8 +44,8 @@ function arrayToBase64(array: Uint8Array): string {
   }
   // 浏览器环境
   let binary = "";
-  for (let i = 0; i < array.length; i++) {
-    binary += String.fromCodePoint(array[i]);
+  for (const code of array) {
+    binary += String.fromCodePoint(code);
   }
   return btoa(binary);
 }

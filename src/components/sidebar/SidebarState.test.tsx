@@ -35,7 +35,7 @@ describe("SidebarState 站点统计", () => {
     expect(nav).not.toBeNull();
 
     const links = nav?.querySelectorAll("a");
-    expect(links?.length).toBe(2);
+    expect(links).toHaveLength(2);
 
     const postsLink = nav?.querySelector('a[href="/archives/"]');
     expect(postsLink?.textContent).toContain("5");

@@ -64,7 +64,6 @@ function SearchPage(props: SearchPageProps) {
   function openSearch() {
     if (props.selector) {
       setInternalVisible(true);
-      return;
     }
     // 非 selector 模式：showSearch 由外部控制（本主题默认 selector 模式）
   }
@@ -72,14 +71,12 @@ function SearchPage(props: SearchPageProps) {
   function closeSearch() {
     if (props.selector) {
       setInternalVisible(false);
-      return;
     }
   }
 
   function toggleVisibility() {
     if (props.selector) {
       setInternalVisible((v) => !v);
-      return;
     }
   }
 

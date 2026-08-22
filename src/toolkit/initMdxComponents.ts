@@ -242,7 +242,7 @@ const initTabs = (root: TabsRoot) => {
 
     // 读取该 tab 内 code-block 的语言，注入语言徽标
     const pre = item.querySelector("code-block pre[data-language]");
-    const lang = pre?.getAttribute("data-language") || "";
+    const lang = pre instanceof HTMLElement ? pre.dataset.language || "" : "";
     const badge = document.createElement("span");
     badge.className = "lang-badge";
     badge.setAttribute("aria-hidden", "true");

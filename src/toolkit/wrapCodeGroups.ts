@@ -22,9 +22,9 @@ const DATA_LANG_PATTERN = /\bdata-language=(?<quote>["'])(?<lang>[\w-]+)\k<quote
 const CLASS_LANG_PATTERN = /class="[^"]*\blanguage-(?<lang>[\w-]+)/;
 
 function extractLabel(blockHtml: string, fallback: string): string {
-  const dataMatch = blockHtml.match(DATA_LANG_PATTERN);
+  const dataMatch = DATA_LANG_PATTERN.exec(blockHtml);
   if (dataMatch?.groups?.lang) return dataMatch.groups.lang.toUpperCase();
-  const classMatch = blockHtml.match(CLASS_LANG_PATTERN);
+  const classMatch = CLASS_LANG_PATTERN.exec(blockHtml);
   if (classMatch?.groups?.lang) return classMatch.groups.lang.toUpperCase();
   return fallback;
 }

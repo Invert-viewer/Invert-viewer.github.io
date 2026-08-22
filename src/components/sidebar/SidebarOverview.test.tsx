@@ -65,7 +65,7 @@ describe("SidebarOverview 组合渲染", () => {
     expect(container.querySelector("a.item.github")).not.toBeNull();
 
     const stateLinks = container.querySelectorAll('nav[aria-label="站点统计导航"] a');
-    expect(stateLinks.length).toBe(2);
+    expect(stateLinks).toHaveLength(2);
     expect(stateLinks[0]?.getAttribute("href")).toBe("/archives/");
 
     const menuLink = container.querySelector('nav.menu a[href="/posts/"]');

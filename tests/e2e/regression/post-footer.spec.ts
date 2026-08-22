@@ -14,7 +14,8 @@ test("@regression 版权区超长 permalink 在移动视口折行且不撑破布
   await link.evaluate((el) => {
     el.textContent = `https://example.com/posts/${"abc%20".repeat(80)}/`;
   });
-  await page.waitForTimeout(200);
+  // 同步化：等待链接折行（代替固定 wait）
+  await expect.poll(async () => (await link.boundingBox())?.height ?? 0).toBeGreaterThan(20);
 
   // 文档无横向溢出
   const horizontalOverflow = await page.evaluate(
@@ -22,9 +23,9 @@ test("@regression 版权区超长 permalink 在移动视口折行且不撑破布
   );
   expect(horizontalOverflow).toBe(false);
 
-  // 链接折行展示（多行高度），而非单行内联撑破容器
   const linkBox = await link.boundingBox();
-  expect(linkBox?.height ?? 0).toBeGreaterThan(20);
+
+  // 链接右缘不超出版权容器
 
   // 链接右缘不超出版权容器
   const containerBox = await page.locator("#copyright").boundingBox();

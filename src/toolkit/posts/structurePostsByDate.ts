@@ -52,13 +52,8 @@ export function structurePostsByDate(posts: Post[], config: ArchiveConfig = {}):
     monthGroup.posts.push(post);
 
     if (config.daily) {
-      if (!monthGroup.dailyGroups) {
-        monthGroup.dailyGroups = {};
-      }
-
-      if (!monthGroup.dailyGroups[day]) {
-        monthGroup.dailyGroups[day] = [];
-      }
+      monthGroup.dailyGroups ??= {};
+      monthGroup.dailyGroups[day] ??= [];
 
       monthGroup.dailyGroups[day].push(post);
     }

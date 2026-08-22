@@ -36,7 +36,7 @@ describe("SidebarTabs 面板切换", () => {
   it("渲染全部面板按钮", () => {
     const { container } = render(() => <SidebarTabs panels={PANELS} activePanel="contents" />);
     const buttons = container.querySelectorAll("button");
-    expect(buttons.length).toBe(3);
+    expect(buttons).toHaveLength(3);
     expect(buttons[0]?.getAttribute("aria-label")).toBe("目录");
     expect(buttons[1]?.getAttribute("aria-label")).toBe("相关文章");
   });

@@ -55,7 +55,7 @@ describe("SidebarMenu 侧栏菜单", () => {
 
     const submenu = container.querySelector("li.item.dropdown ul.submenu");
     expect(submenu).not.toBeNull();
-    expect(submenu?.querySelectorAll('a[href="/categories/a/"]').length).toBe(1);
+    expect(submenu?.querySelectorAll('a[href="/categories/a/"]')).toHaveLength(1);
     expect(submenu?.querySelector('a[href="/categories/b/"]')?.textContent).toContain("B 类");
   });
 

@@ -72,6 +72,6 @@ describe("SidebarSocial 社交链接", () => {
       email: { url: "mailto:hi@example.com", icon: "i-ri-mail-fill" },
     };
     const { container } = render(() => <SidebarSocial social={social} />);
-    expect(container.querySelectorAll("a.item").length).toBe(3);
+    expect(container.querySelectorAll("a.item")).toHaveLength(3);
   });
 });

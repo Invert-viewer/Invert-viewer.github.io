@@ -68,14 +68,27 @@ function formatDateTime(input: unknown): string {
   });
 }
 
+/** 线性剥离 HTML 标签（评论文本来源于不可控输入，正则 `<[^>]*>` 存在回溯风险） */
+function stripHtmlTags(input: string): string {
+  let out = "";
+  let inTag = false;
+  for (const ch of input) {
+    if (ch === "<") {
+      inTag = true;
+    } else if (ch === ">") {
+      inTag = false;
+    } else if (!inTag) {
+      out += ch;
+    }
+  }
+  return out;
+}
+
 function toPlainText(input: unknown): string {
   if (input == null) {
     return "";
   }
-  return safeString(input)
-    .replaceAll(/<[^>]*>/g, "")
-    .replaceAll(/\s+/g, " ")
-    .trim();
+  return stripHtmlTags(safeString(input)).replaceAll(/\s+/g, " ").trim();
 }
 
 function normalizePath(path: string): string {
