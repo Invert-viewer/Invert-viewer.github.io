@@ -58,8 +58,8 @@ export abstract class ShadowSlotElement extends HTMLElement {
       shadow.appendChild(style);
     }
 
-    this.onShadowReady(shadow);
     this.bindDom();
+    this.onShadowReady(shadow);
     this.bindSlot();
 
     if (this.themeTracked() && typeof document !== "undefined") {

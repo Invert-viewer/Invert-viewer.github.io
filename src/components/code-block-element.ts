@@ -47,6 +47,7 @@ class CodeBlockElement extends ShadowSlotElement {
         </div>
         <div class="content-container">
           <div class="content-wrapper"><slot></slot></div>
+          <button class="collapse-btn" style="display:none;" aria-label="Expand code"></button>
         </div>
       </div>
     `;
@@ -104,9 +105,11 @@ class CodeBlockElement extends ShadowSlotElement {
     this.copyBtn = this.shadowRoot.querySelector(".copy-btn");
     this.fullscreenBtn = this.shadowRoot.querySelector(".fullscreen-btn");
     this.langText = this.shadowRoot.querySelector(".lang-text");
+    this.collapseBtn = this.shadowRoot.querySelector(".collapse-btn");
 
     this.copyBtn?.addEventListener("click", () => void this.copyCode());
     this.fullscreenBtn?.addEventListener("click", () => this.toggleFullscreen());
+    this.collapseBtn?.addEventListener("click", () => this.toggleCollapse());
   }
 
   private getPreElement(): HTMLPreElement | undefined {
@@ -138,6 +141,11 @@ class CodeBlockElement extends ShadowSlotElement {
     }
   }
 
+  private toggleCollapse() {
+    this.isCollapsed = !this.isCollapsed;
+    this.renderCollapseState();
+  }
+
   private detectCodeGroup() {
     const rootNode = this.getRootNode();
     const host = rootNode instanceof ShadowRoot ? rootNode.host : this;
@@ -160,7 +168,14 @@ class CodeBlockElement extends ShadowSlotElement {
   }
 
   private renderCollapseState() {
+    if (!this.collapseBtn) return;
+
+    // 折叠按钮仅在多行代码触发折叠时出现
+    this.collapseBtn.style.display = this.shouldShowCollapse ? "" : "none";
     this.contentContainer?.classList.toggle("collapsed", this.isCollapsed);
+    this.collapseBtn.setAttribute("aria-label", this.isCollapsed ? "Expand code" : "Collapse code");
+    // 图标方向由折叠状态决定
+    this.collapseBtn.dataset.collapsed = this.isCollapsed ? "true" : "false";
   }
 
   private async copyCode() {
@@ -301,6 +316,10 @@ const CODEBLOCK_CSS = `
     -webkit-mask-size: 1.25rem; -webkit-mask-repeat: no-repeat; -webkit-mask-position: center;
     transition: all 0.2s ease; box-shadow: var(--codeblock-button-shadow);
     z-index: var(--z-dropdown); animation: float 2s ease-in-out infinite; scale: 1.5;
+    mask-image: url(__ICON_ARROW_UP__); -webkit-mask-image: url(__ICON_ARROW_UP__);
+  }
+  .collapse-btn[data-collapsed="true"] {
+    mask-image: url(__ICON_ARROW_DOWN__); -webkit-mask-image: url(__ICON_ARROW_DOWN__);
   }
   .collapse-btn:hover {
     background-color: var(--codeblock-action-hover-color);
