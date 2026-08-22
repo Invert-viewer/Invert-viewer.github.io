@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { lockBodyScroll } from "./scrollLock";
 
 type ScrollLockDocument = Parameters<typeof lockBodyScroll>[0];

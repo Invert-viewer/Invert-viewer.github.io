@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { DEFAULT_THEME_CONFIG } from "./themeConfig.defaults";
 import { defineConfig } from "./themeConfig";
 

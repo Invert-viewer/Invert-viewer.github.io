@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { generateRandomBrightColor } from "./generateRandomBrightColor";
 
 function hexToRgb(hex: string): [number, number, number] {

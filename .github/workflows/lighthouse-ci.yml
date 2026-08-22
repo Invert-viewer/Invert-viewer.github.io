@@ -1,4 +1,4 @@
-﻿name: Lighthouse CI
+name: Lighthouse CI
 
 on:
   pull_request:
@@ -20,26 +20,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-
-      - name: Cache Bun dependencies
-        uses: actions/cache@v5
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          path: |
-            ~/.bun/install/cache
-            node_modules
-          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-bun-
+          version: 11.22.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Build site
-        run: bun run build:site
+        run: pnpm run build:site
 
       - name: Run Lighthouse CI
-        run: bunx --bun lhci autorun --config=.lighthouserc.json
+        run: pnpm exec lhci autorun --config=.lighthouserc.json
         env:
           LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}

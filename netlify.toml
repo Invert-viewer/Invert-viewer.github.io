@@ -1,6 +1,6 @@
 [build]
 framework = "astro"
-command = "bun install && bun run build"
+command = "pnpm install --frozen-lockfile && pnpm run build"
 publish = "dist"
 
 [[headers]]

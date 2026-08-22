@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { isThemeColorValue, isThemeTokenRef, sanitizeThemeColor } from "./themeColor";
 
 describe("themeColor", () => {

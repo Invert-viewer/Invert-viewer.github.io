@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { toCategoryHref, toPostHref, toTagHref, toTagSlug } from "./url";
 
 describe("url helpers", () => {

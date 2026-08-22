@@ -1,5 +1,5 @@
 import type { Post } from "./types";
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { structurePostsByDate } from "./structurePostsByDate";
 
 describe("structurePostsByDate", () => {

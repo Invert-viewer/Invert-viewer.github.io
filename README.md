@@ -35,7 +35,7 @@ Two-column layout:
 
 ## 📦 Installation
 
-We recommend using [Bun](https://bun.sh/) to run this project. Compatibility with Node.js is not guaranteed.
+We recommend using [Node.js](https://nodejs.org/) (v22.12 or higher) with [pnpm](https://pnpm.io/) to run this project.
 
 You can clone this repository directly to get started (and maybe drop us a Star 😜), or use the [interactive installation flow provided by HyC](https://docs.astro.kaitaku.xyz/start/guides/).
 
@@ -46,13 +46,13 @@ git clone https://github.com/theme-shoka-x/astro-blog-shokax
 
 cd astro-blog-shokax
 
-bun install
+pnpm install
 
 # Start the development server
-bun run dev
+pnpm run dev
 
 # Build for production
-bun run build
+pnpm run build
 ```
 
 Your site is now ready to use. If you'd like to customize it, check the full documentation for the next step: [ShokaX Astro Docs](https://docs.astro.kaitaku.xyz/start/guides/)
@@ -100,8 +100,8 @@ ShokaX includes `@hyacine/cli` and `@hyacine/core` and provides the following ca
 - Blog extension plugins
 
 ```shell
-# Global installation is recommended, or you can use `bun hyc` later instead of `hyc`
-bun add @hyacine/cli -g
+# Global installation is recommended (or use `pnpm add -D @hyacine/cli` locally and `pnpm hyc`)
+pnpm add -g @hyacine/cli
 
 hyc sync # Sync database and content collections
 
@@ -255,5 +255,5 @@ These projects in particular have provided tremendous support during development
 - [UnoCSS](https://unocss.dev/): a modern atomic CSS engine that completely solved the icon issues that troubled the team for a long time in earlier iterations
 - [Svelte](https://svelte.dev/): the frontend UI framework used in this project, an excellent choice for personal blogs
 - [Mizuki](https://github.com/matsuzaka-yuki/Mizuki): directly inspired the team's Astro migration and provided an excellent example to follow
-- [Bun](https://bun.sh/): the runtime used in this project, fast and delightful to use
+- [Node.js](https://nodejs.org/): the runtime used in this project
 - [Shoka](https://github.com/amehime/hexo-theme-shoka): the origin of ShokaX — without Shoka, ShokaX would not exist

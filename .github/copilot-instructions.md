@@ -2,7 +2,7 @@
 
 ## Stack & runtime
 
-- Astro 5 site; Bun is the expected runtime (`packageManager: bun@…`). Prefer the `bun run …` scripts in `package.json`.
+- Astro 7 site; Node.js (≥ 22.12) with pnpm is the expected runtime (`packageManager: pnpm@…`). Prefer the `pnpm run …` scripts in `package.json`.
 - Svelte 5 is used for interactive UI and typically uses runes (`$state`, `$props`, `$effect`) — see `src/components/navbar/NavBar.svelte`.
 
 ## Where things live
@@ -40,20 +40,20 @@
 
 - Search UI is `@pagefind/default-ui` in `src/components/search/SearchPage.svelte`.
 - Production build must include Pagefind indexing:
-  - `bun run build` runs `astro build` AND `pagefind --site ./dist` (see `package.json`).
+  - `pnpm run build` runs `astro build` AND `pagefind --site ./dist` (see `package.json`).
   - If you change markup, preserve `data-pagefind-body` usage (e.g. `src/pages/posts/[...slug].astro`).
 
 ## Dev workflows (use repo scripts)
 
-- Dev server: `bun run dev`
-- Type/content checks: `bun run check` (Astro check)
-- Lint/format: `bun run lint` (oxlint, type-aware) and `bun run format` (oxfmt)
-- Unit tests: `bun test` (tests live under `src/toolkit/**/*.test.ts`)
+- Dev server: `pnpm run dev`
+- Type/content checks: `pnpm run check` (Astro check + svelte-check)
+- Lint/format: `pnpm run lint` (oxlint, type-aware) and `pnpm run format` (oxfmt)
+- Unit tests: `pnpm run test` (vitest; tests live under `src/toolkit/**/*.test.ts`)
 
 ## Collaboration conventions (this repo)
 
 - Use **Chinese** for AI agent output and code comments by default (中文注释/中文反馈优先)。
 - When finishing work, **do not** create new Markdown files to “report” results. Summarize changes directly in chat.
 - If adding dependencies to the repository, report **package name**, **what it does**, and **where it is used** (usage scope/files).
-- After modifying code, run `bun run format` and `bun run lint`, then check IDE diagnostics (Problems) and fix any errors introduced by the change.
+- After modifying code, run `pnpm run format` and `pnpm run lint`, then check IDE diagnostics (Problems) and fix any errors introduced by the change.
 - Use MCP services when helpful (e.g. Svelte docs/autofix for Svelte work), but avoid MCP/tools that are outside this repo’s stack (e.g. Pylance/Python-specific services).

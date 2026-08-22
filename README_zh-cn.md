@@ -35,7 +35,7 @@
 
 ## 📦 安装
 
-本项目建议使用 [Bun](https://bun.sh/) 运行，不保证与 Nodejs 的兼容性
+本项目建议使用 [Node.js](https://nodejs.org/)（v22.12 及以上）与 [pnpm](https://pnpm.io/) 运行。
 
 你可以直接将本仓库 Clone 到本地（并为我们点一个 Star 😜），来开始使用。也可使用[由 Hyc 提供的交互式安装支持](https://docs.astro.kaitaku.xyz/start/guides/)
 
@@ -46,13 +46,13 @@ git clone https://github.com/theme-shoka-x/astro-blog-shokax
 
 cd astro-blog-shokax
 
-bun install
+pnpm install
 
 # 启动开发服务器
-bun run dev
+pnpm run dev
 
 # 构建生产版本
-bun run build
+pnpm run build
 ```
 
 现在，你的站点已经可用了。如果你想自定义你的站点，查看完整文档来进行下一步：[ShokaX Astro 文档](https://docs.astro.kaitaku.xyz/start/guides/)
@@ -100,8 +100,8 @@ ShokaX 内置 @hyacine/cli 和 @hyacine/core 提供如下能力：
 - 博客扩展插件
 
 ```shell
-# 建议全局安装，或者后续也可使用 bun hyc 而非 hyc
-bun add @hyacine/cli -g
+# 建议全局安装（或在本地 pnpm add -D @hyacine/cli 后使用 pnpm hyc）
+pnpm add -g @hyacine/cli
 
 hyc sync # 同步数据库和内容集合
 
@@ -251,5 +251,5 @@ ShokaX 开发组向所有 ShokaX 在过去、现在和未来的使用过与可�
 - [UnoCSS](https://unocss.dev/)：现代化的原子 CSS 引擎，彻底解决了在前作中困扰开发组很长时间的图标问题
 - [Svelte](https://svelte.dev/)：本项目的前端 UI 框架，个人博客项目的理想之选
 - [Mizuki](https://github.com/matsuzaka-yuki/Mizuki)：直接启发了开发组进行 Astro 迁移，为我们的迁移提供了极好的榜样
-- [Bun](https://bun.sh/)：本项目使用的运行时，高性能而易用
+- [Node.js](https://nodejs.org/)：本项目使用的运行时
 - [Shoka](https://github.com/amehime/hexo-theme-shoka)：ShokaX 的起源，没有 Shoka 便不可能有 ShokaX

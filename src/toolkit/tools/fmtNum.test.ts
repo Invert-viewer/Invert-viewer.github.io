@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { fmtNum } from "./fmtNum";
 
 describe("fmtNum", () => {
@@ -15,7 +15,7 @@ describe("fmtNum", () => {
   });
 
   it("throws error for negative numbers", () => {
-    expect(() => fmtNum(-1)).toThrowError("Number must be non-negative");
+    expect(() => fmtNum(-1)).toThrow("Number must be non-negative");
     expect(() => fmtNum(-100)).toThrow();
   });
 });

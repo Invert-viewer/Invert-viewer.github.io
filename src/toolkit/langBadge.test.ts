@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { LANG_RING_COUNT, langBadgeIndex, langBadgeColor } from "./langBadge";
 
 describe("langBadgeIndex", () => {

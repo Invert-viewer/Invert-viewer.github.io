@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { initTheme, toggleTheme, toggleThemeWithTransition } from "./theme";
 
 type StorageData = Map<string, string>;

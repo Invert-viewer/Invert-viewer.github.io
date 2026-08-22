@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { wrapCodeGroups } from "./wrapCodeGroups";
 const pre = (lang: string, body = "code") =>
   `<pre class="astro-code astro-code-themes" data-language="${lang}">${body}</pre>`;
