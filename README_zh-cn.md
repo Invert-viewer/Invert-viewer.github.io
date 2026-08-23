@@ -129,6 +129,15 @@ hyc serve
 
 <img width="1702" height="952" alt="lighthouse" src="https://github.com/user-attachments/assets/05b8768f-5f04-4204-8f4f-7f2f6f30e102" />
 
+## ⚠️ 架构约束
+
+以下耦合点与版本锁定，在重大升级前应重新评估：
+
+- **自定义 Markdown 管线**：`@astrojs/markdown-satteri` + `satteri` 整体替换了 Astro 内置的 Markdown/remark/rehype 处理链（见 `astro.config.mjs` → `markdown.processor`）。这是未来 Astro 大版本升级时最大的耦合点——升级 Astro 前需优先验证该处理链。
+- **版本锁定**：`astro` 精确固定（`7.2.4`）；`pnpm-workspace.yaml` 的 overrides 锁定 `vite@8.1.3` 与 `rolldown@1.1.4`。这些锁定仍因 Windows 构建稳定性保留（rolldown 新版本在 Windows 虚拟模块场景会崩溃）；依赖升级时应重新评估锁定是否仍必要。
+- **休眠集成**：`@hyacine/astro@0.0.3` 因与 Astro 7 不兼容被停用（见 `astro.config.mjs` 注释），但在上游修复或自研替代完成前保留在依赖中。不要未经测试就重新启用。
+- **加密文章**：AES-256-GCM + PBKDF2（600k 迭代，OWASP 2023 推荐阈值）。密文/salt/iv 随页面 HTML 下发，离线暴力破解始终可行——请使用强密码。加密文章已从 RSS 与 sitemap 中排除。
+
 ## 📦 版本控制
 
 ShokaX Astro 遵循 SemVer 进行版本控制，每次版本发布后会设置对应的 Github Releases 和 Git tag（遵循vX.Y.Z格式），你可以通过 checkout 到特定 tag 来更新或回退版本

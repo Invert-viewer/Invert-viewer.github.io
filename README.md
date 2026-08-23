@@ -129,6 +129,15 @@ We use [LHCI](https://github.com/GoogleChrome/lighthouse-ci) to test page perfor
 
 <img width="1702" height="952" alt="lighthouse" src="https://github.com/user-attachments/assets/05b8768f-5f04-4204-8f4f-7f2f6f30e102" />
 
+## ⚠️ Architecture Constraints
+
+Known coupling points and version pins that should be reviewed before major upgrades:
+
+- **Custom Markdown pipeline.** `@astrojs/markdown-satteri` + `satteri` replace Astro's built-in Markdown/remark/rehype processing (see `astro.config.mjs` → `markdown.processor`). This is the largest coupling point for future Astro major upgrades — verify the processor chain first when bumping Astro.
+- **Pinned versions.** `astro` is pinned exactly (`7.2.4`); `pnpm-workspace.yaml` overrides pin `vite@8.1.3` and `rolldown@1.1.4`. These remain for Windows build reliability (rolldown releases break virtual modules on Windows); reassess the pins whenever the underlying packages are upgraded.
+- **Dormant integration.** `@hyacine/astro@0.0.3` is disabled (Astro 7 incompatibility, see the comment in `astro.config.mjs`) but kept in dependencies pending an upstream fix or a self-built replacement. Do not re-enable without testing against the current Astro version.
+- **Encrypted posts.** AES-256-GCM + PBKDF2 (600k iterations, OWASP 2023 recommendation). Ciphertext/salt/IV are shipped in the page HTML, so offline brute-force is always possible; use strong passwords. Encrypted posts are excluded from RSS and sitemap.
+
 ## 📦 Versioning
 
 ShokaX Astro follows **SemVer** for version control. Each release will have a corresponding **GitHub Release** and **Git tag** (following the `vX.Y.Z` format). You can update or roll back to a specific version by checking out the corresponding tag.
