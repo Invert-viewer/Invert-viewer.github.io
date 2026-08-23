@@ -92,6 +92,8 @@ astro-blog-shokax
 
 ## ⚙️ HyC Capabilities
 
+> ⚠️ **Temporarily removed** — `@hyacine/*` and `nyx-player` dependencies are removed from `package.json` while they are being refactored upstream. The sections below describe the intended integration and will become active again once the dependencies are restored.
+
 ShokaX includes `@hyacine/cli` and `@hyacine/core` and provides the following capabilities:
 
 - AI recommendations and summaries

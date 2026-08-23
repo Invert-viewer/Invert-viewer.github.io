@@ -92,6 +92,8 @@ astro-blog-shokax
 
 ## ⚙️ HyC 能力
 
+> ⚠️ **临时移除** —— `@hyacine/*` 与 `nyx-player` 依赖已从 `package.json` 移除（上游重构中）。以下内容描述预期的集成方式，依赖恢复后即恢复生效。
+
 ShokaX 内置 @hyacine/cli 和 @hyacine/core 提供如下能力：
 
 - AI 推荐和总结

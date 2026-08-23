@@ -63,19 +63,26 @@ function FloatingToolbar(props: FloatingToolbarProps) {
       return;
     }
 
-    await import("nyx-player/style");
-    const { initPlayer } = await import("nyx-player");
+    try {
+      // @vite-ignore：依赖临时移除期间允许构建期不解析该模块（运行时由下方 catch 兜底）
+      await import(/* @vite-ignore */ "nyx-player/style");
+      const { initPlayer } = await import(/* @vite-ignore */ "nyx-player");
 
-    initPlayer(
-      "#player",
-      "#nyx-show-btn",
-      props.nyxPlayer?.urls || [],
-      "#nyx-play-btn",
-      props.nyxPlayer?.darkModeTarget || ':root[data-theme="dark"]',
-      props.nyxPlayer?.preset || "shokax",
-    );
+      initPlayer(
+        "#player",
+        "#nyx-show-btn",
+        props.nyxPlayer?.urls || [],
+        "#nyx-play-btn",
+        props.nyxPlayer?.darkModeTarget || ':root[data-theme="dark"]',
+        props.nyxPlayer?.preset || "shokax",
+      );
 
-    player.dataset.nyxInited = "true";
+      player.dataset.nyxInited = "true";
+    } catch {
+      // nyx-player 依赖临时移除（重写计划中）：模块加载失败时静默跳过，
+      // 不打断其余工具栏功能；恢复依赖后此分支自动恢复正常。
+      console.warn("[FloatingToolbar] nyx-player 未加载，跳过播放器初始化");
+    }
   };
 
   onMount(() => {
