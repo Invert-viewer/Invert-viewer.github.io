@@ -11,13 +11,19 @@ import en from "./locales/en.json";
 // Type for supported locales
 export type Locale = ResolvedLocale;
 
+// 以 en 为键名基准：所有语言文件必须与 en 的键结构兼容。
+// 编译期防线——任何语言从 en 中缺失键（或结构不一）都会直接报错。
+// 注意：satisfies 只校验单向（各语言 ⊆ en），反向独有键由测试
+// src/i18n/locales-consistency.test.ts 兜底。
+type LocaleMessages = typeof en;
+
 // Resources type
 const resources = {
   "zh-CN": { translation: zhCN },
   "zh-TW": { translation: zhTW },
   ja: { translation: ja },
   en: { translation: en },
-} as const;
+} as const satisfies Record<ResolvedLocale, { translation: LocaleMessages }>;
 
 // Get current locale from theme config
 export const currentLocale = resolveLocale(themeConfig.locale);

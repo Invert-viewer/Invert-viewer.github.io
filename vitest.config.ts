@@ -21,7 +21,7 @@ export default defineConfig({
         extends: true,
         test: {
           name: "unit",
-          include: ["src/toolkit/**/*.test.ts"],
+          include: ["src/toolkit/**/*.test.ts", "src/i18n/**/*.test.ts"],
           environment: "node",
         },
       },
