@@ -15,6 +15,6 @@
       }
     ]
   },
-  "include": [".astro/types.d.ts", "**/*"],
+  "include": [".astro/types.d.ts", "src/**/*", "*.config.ts"],
   "exclude": ["dist"]
 }

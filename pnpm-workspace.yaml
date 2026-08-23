@@ -1,6 +1,7 @@
 # pnpm 配置：允许这些依赖执行 postinstall 构建脚本（下载/编译二进制）
 # 对应原 bun 的 trustedDependencies 语义；pnpm 11 使用 allowBuilds 格式
 allowBuilds:
+  # cn-font-split 是 vite-plugin-font 的运行时依赖（字体子集化），需执行 build 脚本
   cn-font-split: true
   esbuild: true
   koffi: true

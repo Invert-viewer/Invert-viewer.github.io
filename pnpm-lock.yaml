@@ -73,8 +73,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.0
       mouse-firework:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       node-emoji:
         specifier: ^2.2.0
         version: 2.2.0
@@ -87,9 +87,6 @@ importers:
       satteri:
         specifier: ^0.9.4
         version: 0.9.5
-      solid-element:
-        specifier: ^1.9.2
-        version: 1.9.2(solid-js@1.9.15)
       solid-js:
         specifier: ^1.9.15
         version: 1.9.15
@@ -103,9 +100,6 @@ importers:
       '@astrojs/check':
         specifier: 0.9.9
         version: 0.9.9(prettier@3.9.6)(typescript@6.0.3)
-      '@astrojs/compiler-rs':
-        specifier: ^0.3.2
-        version: 0.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/ts-plugin':
         specifier: 1.10.10
         version: 1.10.10(typescript@6.0.3)
@@ -2942,9 +2936,6 @@ packages:
     resolution: {integrity: sha512-dnN3ibLeoRf2HNC+OlCiNc5d2zxbLJXOtiZUudNFSXZrNSydxcCsSpRzXwfu7BBWCIfHPw+xTayeBvJCP/D8Ng==}
     engines: {node: '>= 18'}
 
-  component-register@0.8.8:
-    resolution: {integrity: sha512-djhwcxjY+X9dacaYUEOkOm7tda8uOEDiMDigWysu3xv54M8o6XDlsjR1qt5Y8QLGiKg51fqXFIR2HUTmt9ys0Q==}
-
   compressible@2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
     engines: {node: '>= 0.6'}
@@ -4539,6 +4530,9 @@ packages:
   mouse-firework@0.2.0:
     resolution: {integrity: sha512-sU16G8gQQo6BxMAo1II/VIygmOGLBhBXKe7nKQyyxf9k+a7mNxtnomp3/wFIhYJIGF+s+hHo9D9iTPY2QCRMFA==}
 
+  mouse-firework@0.3.0:
+    resolution: {integrity: sha512-jlXC4m1QXDceFRKrTkRc84SmJANITEW2c8WeacKmSgIA5rJ1mz6tPZW2Kildd8AdiPsWdpnLIUcpiN1P6dIimg==}
+
   mrmime@2.0.1:
     resolution: {integrity: sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ==}
     engines: {node: '>=10'}
@@ -5369,11 +5363,6 @@ packages:
   socks@2.8.9:
     resolution: {integrity: sha512-LJhUYUvItdQ0LkJTmPeaEObWXAqFyfmP85x0tch/ez9cahmhlBBLbIqDFnvBnUJGagb0JbIQrkBs1wJ+yRYpEw==}
     engines: {node: '>= 10.0.0', npm: '>= 3.0.0'}
-
-  solid-element@1.9.2:
-    resolution: {integrity: sha512-+6bK9YGAf47lrwWyTFXUVKCkKTkof3bn6yxknHJPAE5MGSCvx4DJH1KE3ltUjIXeDWhS2gU5yjpynkH709+Xag==}
-    peerDependencies:
-      solid-js: ^1.9.14
 
   solid-js@1.9.15:
     resolution: {integrity: sha512-EeiY2xfpZJqPLjXspVEKjAII4yv8NyG//NxZ3IpOFHdUNnnTyL0uJOeS9LWGvA7cFCz5y94cjFwYlmw5Luncsg==}
@@ -9136,8 +9125,6 @@ snapshots:
 
   common-ancestor-path@2.0.0: {}
 
-  component-register@0.8.8: {}
-
   compressible@2.0.18:
     dependencies:
       mime-db: 1.54.0
@@ -11211,6 +11198,8 @@ snapshots:
     dependencies:
       theme-shokax-anime: 0.0.8
 
+  mouse-firework@0.3.0: {}
+
   mrmime@2.0.1: {}
 
   ms@2.0.0: {}
@@ -12309,11 +12298,6 @@ snapshots:
     dependencies:
       ip-address: 10.5.0
       smart-buffer: 4.2.0
-
-  solid-element@1.9.2(solid-js@1.9.15):
-    dependencies:
-      component-register: 0.8.8
-      solid-js: 1.9.15
 
   solid-js@1.9.15:
     dependencies:
