@@ -57,7 +57,11 @@ export interface PasswordVerifyResult {
  * 加密配置
  */
 export interface EncryptionConfig {
-  /** 密钥派生迭代次数，默认 100000 */
+  /**
+   * 密钥派生迭代次数，默认 600000
+   * OWASP 2023 起推荐 PBKDF2-HMAC-SHA256 ≥ 600k 次；
+   * 旧密文内嵌自身的 iterations，解密时按密文记录取值，天然向后兼容。
+   */
   iterations?: number;
   /** 盐值长度（字节），默认 16 */
   saltLength?: number;
@@ -67,9 +71,13 @@ export interface EncryptionConfig {
 
 /**
  * 默认加密配置
+ *
+ * 迭代次数 600000 为 OWASP 2023 推荐阈值（PBKDF2-HMAC-SHA256）：密文随
+ * salt+iv 下发到客户端 HTML，可被无限离线爆破，低迭代会被 GPU 快速破解。
+ * 已发布旧文章不受影响（解密使用密文内嵌的 iterations）。
  */
 export const DEFAULT_ENCRYPTION_CONFIG: Required<EncryptionConfig> = {
-  iterations: 100000,
+  iterations: 600000,
   saltLength: 16,
   ivLength: 12,
 };

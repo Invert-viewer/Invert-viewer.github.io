@@ -1,3 +1,6 @@
+import { readdirSync, readFileSync } from "node:fs";
+import { join, relative } from "node:path";
+
 import solid from "@astrojs/solid-js";
 import { defineConfig } from "astro/config";
 import { satteri } from "@astrojs/markdown-satteri";
@@ -57,6 +60,46 @@ import PlayformInline from "@playform/inline";
 import { installProcessWarningFilter } from "./src/toolkit/suppressWatcherWarning";
 import themeConfig from "./src/theme.config.ts";
 
+// ── sitemap 排除加密文章 ────────────────────────────────────────────────
+// 加密文章内容构建后为密文，不应被搜索引擎收录（页面自身也带 noindex）。
+// sitemap integration 的 filter 拿不到 content collection，这里在配置期
+// 直接扫描 src/posts 的 frontmatter 收集 `encrypted: true` 的文章 slug。
+// 注意：不能使用 new URL("./src/posts", import.meta.url)——config 被 bundle 进
+// prerender chunk 后 import.meta.url 指向 chunk 位置而非项目根，需用 process.cwd()。
+const POSTS_DIR = join(process.cwd(), "src", "posts");
+
+/**
+ * @param {string} text 文件全文
+ * @returns {boolean} 是否声明 encrypted: true
+ */
+function isEncryptedFrontmatter(text) {
+  const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!match) return false;
+  return /(?:^|\n)encrypted:\s*true\s*(?:#.*)?(?=\n|$)/.test(match[1]);
+}
+
+/** @returns {Set<string>} 加密文章 slug 集合 */
+function collectEncryptedSlugs() {
+  const encrypted = new Set();
+  const walk = (dir) => {
+    for (const entry of readdirSync(dir, { withFileTypes: true })) {
+      const full = join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(full);
+      } else if (/\.(md|mdx)$/.test(entry.name)) {
+        const text = readFileSync(full, "utf8");
+        if (isEncryptedFrontmatter(text)) {
+          encrypted.add(relative(POSTS_DIR, full).replace(/\.(md|mdx)$/, ""));
+        }
+      }
+    }
+  };
+  walk(POSTS_DIR);
+  return encrypted;
+}
+
+const encryptedSlugs = collectEncryptedSlugs();
+
 if (themeConfig.diagnostics?.suppressFsWatcherMaxListenersWarning !== false) {
   installProcessWarningFilter();
 }
@@ -80,7 +123,13 @@ export default defineConfig({
     }),
     // P3 完成：全部组件已迁移至 SolidJS
     solid(),
-    sitemap(),
+    sitemap({
+      filter: (url) => {
+        // 排除加密文章（`/posts/<slug>/` 形式）
+        const path = new URL(url).pathname.replace(/^\/+|\/+$/g, "");
+        return !(path.startsWith("posts/") && encryptedSlugs.has(path.slice("posts/".length)));
+      },
+    }),
     // NOTE: @hyacine/astro@0.0.3 与 Astro 7.0.6 不兼容（config:setup 阶段
     // vite module runner 已关闭 → 插件配置加载失败 → virtual:hyacine/runtime
     // 无 loader → 构建 UNLOADABLE，CI 从 P2 起全红）。临时停用以解锁构建；
