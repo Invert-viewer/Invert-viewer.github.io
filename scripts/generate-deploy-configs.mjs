@@ -1,16 +1,18 @@
 #!/usr/bin/env node
 /**
- * 三平台部署配置生成器（vercel.json / netlify.toml / edgeone.json）
+ * 多平台部署配置生成器（vercel.json / netlify.toml / edgeone.json / wrangler.toml / public/_headers）
  *
  * 本脚本是本仓库部署配置的【唯一事实来源】：
- * - 安全头与缓存规则在此集中定义，三份平台文件均由脚本生成，避免手工维护漂移。
- * - 平台差异（格式）封装在下方各生成函数中，策略层（header/cache）三平台一致。
+ * - 安全头与缓存规则在此集中定义，各平台文件均由脚本生成，避免手工维护漂移。
+ * - 平台差异（格式）封装在下方各生成函数中，策略层（header/cache）平台间一致。
+ * - Cloudflare 走 Workers Static Assets（纯静态，无 adapter/无 SSR）：wrangler.toml
+ *   声明 assets 目录，public/_headers 承载安全头与缓存规则（构建时由 Astro 拷入 dist）。
  *
  * 用法：
- *   node scripts/generate-deploy-configs.mjs           # 写入三个平台配置文件
+ *   node scripts/generate-deploy-configs.mjs           # 写入全部平台配置文件
  *   node scripts/generate-deploy-configs.mjs --check   # 只校验，不写入（CI 用）
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -82,12 +84,37 @@ function generateEdgeOne() {
   };
 }
 
+// Cloudflare Workers Static Assets — 纯静态托管（同 nyx-player-solid 模式）
+function generateWrangler() {
+  return `name = "astro-blog-shokax"
+compatibility_date = "2026-08-22"
+
+# Workers Static Assets — 纯静态（无 SSR / 无 adapter），Astro 构建产物
+# 配合 pnpm-workspace.yaml 的 allowBuilds.workerd（否则 pnpm 11 拒绝下载 workerd 二进制）
+[assets]
+directory = "dist"
+not_found_handling = "404-page"
+`;
+}
+
+// Cloudflare _headers（放 public/，构建时拷入 dist/）：首条匹配优先，/_astro/* 必须在 /* 前
+function generateHeaders() {
+  return `/_astro/*
+  Cache-Control: ${ASSET_CACHE}
+
+/*
+${SECURITY_HEADERS.map(({ key, value }) => `  ${key}: ${value}`).join("\n")}
+`;
+}
+
 /* ── 输出 ──────────────────────────────────────────────────────────── */
 
 const TARGETS = [
   { file: "vercel.json", content: `${JSON.stringify(generateVercel(), null, 2)}\n` },
   { file: "netlify.toml", content: generateNetlify() },
   { file: "edgeone.json", content: `${JSON.stringify(generateEdgeOne(), null, 2)}\n` },
+  { file: "wrangler.toml", content: generateWrangler() },
+  { file: join("public", "_headers"), content: generateHeaders() },
 ];
 
 const checkOnly = process.argv.includes("--check");
@@ -111,6 +138,7 @@ for (const { file, content } of TARGETS) {
       console.log(`✓ ${file} 与脚本一致`);
     }
   } else {
+    mkdirSync(dirname(target), { recursive: true });
     writeFileSync(target, content);
     console.log(`✓ 已写入 ${file}`);
   }

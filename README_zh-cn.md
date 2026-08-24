@@ -5,6 +5,10 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/theme-shoka-x/astro-blog-shokax)
 [![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https://github.com/theme-shoka-x/astro-blog-shokax)
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/theme-shoka-x/astro-blog-shokax)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/theme-shoka-x/astro-blog-shokax)
+
+> Cloudflare 部署走 Workers Static Assets（纯静态，见 `wrangler.toml` + `public/_headers`）：
+> 构建命令 `pnpm run build:site && npx wrangler deploy`，勿执行 `astro add cloudflare`（会改写为 SSR wrangler 模式并踩 pnpm workerd 构建脚本拦截）。
 
 这是 [Hexo Theme ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) 在 Astro 上的重构版本，使用 Astro + SolidJS + UnoCSS 技术栈
 
