@@ -40,6 +40,14 @@
   display: block;
 }
 
+/* 移动端抽屉遮罩（SidebarOverlay）：宽屏必隐藏——uno 的 lg:hidden 可能被
+   后加载的工具类（.fixed 等）覆盖，显式提权（与 navbar 汉堡同策略） */
+@media (min-width: 1024px) {
+  button[aria-label="Close sidebar"] {
+    display: none !important;
+  }
+}
+
 [data-theme="dark"] #sidebar {
   background-color: var(--grey-1);
 }

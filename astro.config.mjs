@@ -56,7 +56,6 @@ const mdxAutoImports = [
 
 import Font from "vite-plugin-font";
 
-import PlayformInline from "@playform/inline";
 import { installProcessWarningFilter } from "./src/toolkit/suppressWatcherWarning";
 import themeConfig from "./src/theme.config.ts";
 
@@ -136,9 +135,12 @@ export default defineConfig({
     // 待上游修复或自研兼容后恢复（内容端 @hyacine/cli/api 不受影响）。
     // hyacinePlugin(),
     mdx(),
-    PlayformInline({
-      Logger: 0,
-    }),
+    // NOTE: @playform/inline 已移除（2.0 CSS 管线调查定论）：
+    // 1) 每页整包内联约 72.5KB uno/全局 CSS（64 页 ≈ 4.6MB 冗余进 HTML），
+    //    内联块晚于共享外链加载 → 工具类覆盖手写媒体规则（宽屏汉堡不隐藏根因）
+    // 2) 内联重构丢弃 media 块内与同选择器合并的 display 声明（#sidebar.on 丢失，
+    //    移动端菜单不显示根因；剥离实验证实 #sidebar.on 完整保留）
+    // 产物改为共享 _astro css 外链（浏览器缓存全站复用）。
   ],
 
   vite: {
