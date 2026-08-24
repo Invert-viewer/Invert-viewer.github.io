@@ -29,10 +29,15 @@
     width: 280px;
     height: 100%;
   }
+}
 
-  #sidebar.on {
-    display: block;
-  }
+/* 注意：.on 必须放在 media 外——astro 构建管线（疑似 @playform/inline 后处理）会
+   丢弃 media 块内与同选择器其它规则合并时重复出现的 display 声明（实测 #sidebar.on
+   的 display:block 在产物中消失 → 移动端只出遮罩不出菜单）。
+   放顶层后：移动端由 base #sidebar{display:none} + .on{display:block} 控制，
+   宽屏 #sidebar 本就是 static 显示，不受影响。 */
+#sidebar.on {
+  display: block;
 }
 
 [data-theme="dark"] #sidebar {

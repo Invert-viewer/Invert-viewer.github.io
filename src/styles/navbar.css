@@ -85,7 +85,9 @@
 
 @media (min-width: 1024px) {
   .left-nav-btn {
-    display: none;
+    /* !important：`.flex` 等 uno 工具类会在多个样式 chunk 重复出现，后加载者会覆盖
+       媒体查询里的 display:none（特异性同为单类）→ 宽屏汉堡不隐藏。显式提权。 */
+    display: none !important;
   }
 }
 
