@@ -40,6 +40,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate Astro content/container types
+        # oxlint --type-check 依赖 astro:content/astro:container 等 virtual 模块类型，
+        # 由 astro sync 生成到 .astro/（gitignore，CI 干净 clone 缺失 → lint 假阳性）
+        run: pnpm exec astro sync
+
       - name: Run lint
         # 显式不带 --fix：CI 不改写文件，避免"能修的违规被静默修掉"掩盖问题
         run: pnpm run lint:ci

@@ -82,7 +82,12 @@ function SearchCard(props: { eyebrow: string; title: string; icon: string; actio
   return (
     <section class="extra-card">
       <CardHead eyebrow={props.eyebrow} title={props.title} icon={props.icon} />
-      <button type="button" class="extra-search-trigger" onclick={openGlobalSearch}>
+      <button
+        type="button"
+        class="extra-search-trigger"
+        data-open-global-search
+        onclick={openGlobalSearch}
+      >
         <span class="extra-search-trigger__text">{props.action}</span>
         <span class="extra-search-trigger__icon i-ri-arrow-right-line" />
       </button>

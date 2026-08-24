@@ -7,9 +7,10 @@ test("@regression 超宽屏首页渲染三栏布局与右侧栏卡片", async ({
 
   await expect(page.locator("body")).toHaveAttribute("data-layout-mode", "three-column");
 
-  const leftSidebar = page.locator(".layout-three-column > .layout-sidebar-column");
+  const leftSidebar = page.locator(".layout-three-column .layout-sidebar-column");
   const mainColumn = page.locator(".layout-three-column > #main");
-  const rightSidebar = page.locator(".layout-three-column > .layout-extra-column");
+  // 右栏为 client:visible 组件，被 astro-island 包装（非 grid 直接子级）
+  const rightSidebar = page.locator(".layout-three-column .layout-extra-column");
 
   await expect(leftSidebar).toBeVisible();
   await expect(mainColumn).toBeVisible();
@@ -23,11 +24,11 @@ test("@regression 超宽屏首页渲染三栏布局与右侧栏卡片", async ({
 
   const positions = await page.evaluate(() => {
     const left = document
-      .querySelector(".layout-three-column > .layout-sidebar-column")
+      .querySelector(".layout-three-column .layout-sidebar-column")
       ?.getBoundingClientRect();
     const main = document.querySelector(".layout-three-column > #main")?.getBoundingClientRect();
     const right = document
-      .querySelector(".layout-three-column > .layout-extra-column")
+      .querySelector(".layout-three-column .layout-extra-column")
       ?.getBoundingClientRect();
 
     return {
@@ -47,7 +48,7 @@ test("@regression 三栏右侧栏搜索入口可打开面板且滚动容器可�
   await page.goto(ROUTES.home);
 
   const rightSidebarInner = page.locator(
-    ".layout-three-column > .layout-extra-column > .layout-extra-column__inner",
+    ".layout-three-column .layout-extra-column > .layout-extra-column__inner",
   );
 
   await expect(rightSidebarInner).toBeVisible();
