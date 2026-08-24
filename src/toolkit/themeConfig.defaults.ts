@@ -139,6 +139,8 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     enable: false,
     preset: "shokax",
     darkModeTarget: ':root[data-theme="dark"]',
+    metingBaseURL: "https://meting.api.zkz098.cn",
+    metingUrlSource: "outer",
     urls: [
       {
         name: "默认歌单",

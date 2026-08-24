@@ -300,6 +300,19 @@ interface NyxPlayerConfig {
 
   /** 暗色模式选择器 */
   darkModeTarget?: string;
+
+  /**
+   * 元数据 API 根地址（modern meting / meting-api-rs 风格 /v1 资源式）。
+   * 默认指向自有托管端点 https://meting.api.zkz098.cn/；可换自托管实例。
+   */
+  metingBaseURL?: string;
+
+  /**
+   * 音频 URL 来源：
+   * - "outer"（默认）：网易云未登录外链，浏览器直连，绕开数据中心 IP 风控
+   * - "proxy"：经 API 代理 302（需自托管于非风控 IP）
+   */
+  metingUrlSource?: "outer" | "proxy";
 }
 
 interface HomeConfig {

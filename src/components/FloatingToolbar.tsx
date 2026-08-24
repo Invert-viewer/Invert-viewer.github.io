@@ -1,4 +1,6 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
+import { createModernMetingProvider, NyxPlayer } from "nyx-player-solid";
+import "nyx-player-solid/style";
 
 import { sidebarOpen, toggleSidebar } from "@/stores/sidebarSignal";
 import type { ShokaXThemeConfig } from "@/toolkit/themeConfig";
@@ -47,43 +49,15 @@ function FloatingToolbar(props: FloatingToolbarProps) {
     toggleSidebar();
   };
 
-  const initializeNyxPlayer = async () => {
-    if (typeof window === "undefined" || typeof document === "undefined" || !nyxEnabled()) {
-      return;
-    }
-
-    const player = document.querySelector("#player");
-    const showBtn = document.querySelector("#nyx-show-btn");
-
-    if (!(player instanceof HTMLElement) || !showBtn) {
-      return;
-    }
-
-    if (player.dataset.nyxInited === "true") {
-      return;
-    }
-
-    try {
-      // @vite-ignore：依赖临时移除期间允许构建期不解析该模块（运行时由下方 catch 兜底）
-      await import(/* @vite-ignore */ "nyx-player/style");
-      const { initPlayer } = await import(/* @vite-ignore */ "nyx-player");
-
-      initPlayer(
-        "#player",
-        "#nyx-show-btn",
-        props.nyxPlayer?.urls || [],
-        "#nyx-play-btn",
-        props.nyxPlayer?.darkModeTarget || ':root[data-theme="dark"]',
-        props.nyxPlayer?.preset || "shokax",
-      );
-
-      player.dataset.nyxInited = "true";
-    } catch {
-      // nyx-player 依赖临时移除（重写计划中）：模块加载失败时静默跳过，
-      // 不打断其余工具栏功能；恢复依赖后此分支自动恢复正常。
-      console.warn("[FloatingToolbar] nyx-player 未加载，跳过播放器初始化");
-    }
-  };
+  // 元数据 provider：modern meting（meting-api-rs /v1 资源式），指向主题配置的自有端点。
+  // 组件函数体仅执行一次（Solid 语义），provider 实例稳定；未启用/未配置时不构造。
+  const metingProvider =
+    props.nyxPlayer?.enable && props.nyxPlayer?.metingBaseURL
+      ? createModernMetingProvider({
+          baseURL: props.nyxPlayer.metingBaseURL,
+          urlSource: props.nyxPlayer.metingUrlSource ?? "outer",
+        })
+      : undefined;
 
   onMount(() => {
     if (typeof window === "undefined" || typeof document === "undefined") {
@@ -93,7 +67,6 @@ function FloatingToolbar(props: FloatingToolbarProps) {
     updateScrollPercent();
     updateHasComments();
     updateIsMobile();
-    void initializeNyxPlayer();
 
     let lastScrollY = window.scrollY;
     let idleTimer: ReturnType<typeof setTimeout> | null = null;
@@ -201,7 +174,16 @@ function FloatingToolbar(props: FloatingToolbarProps) {
         </li>
       </ul>
 
-      {nyxEnabled() && <div id="player"></div>}
+      {nyxEnabled() && (
+        <NyxPlayer
+          urls={props.nyxPlayer?.urls ?? []}
+          showBtn="#nyx-show-btn"
+          playBtn="#nyx-play-btn"
+          darkModeTarget={props.nyxPlayer?.darkModeTarget ?? ':root[data-theme="dark"]'}
+          preset={props.nyxPlayer?.preset ?? "shokax"}
+          provider={metingProvider}
+        />
+      )}
     </>
   );
 }

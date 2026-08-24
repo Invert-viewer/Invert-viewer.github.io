@@ -45,6 +45,7 @@
     "katex": "^0.17.0",
     "mouse-firework": "^0.3.0",
     "node-emoji": "^2.2.0",
+    "nyx-player-solid": "0.1.3",
     "pagefind": "^1.5.2",
     "satteri": "^0.9.4",
     "solid-js": "^1.9.15",
