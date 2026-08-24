@@ -1,4 +1,4 @@
-import { onCleanup, onMount } from "solid-js";
+import { createSignal } from "solid-js";
 
 import * as echarts from "echarts/core";
 import { BarChart, LineChart } from "echarts/charts";
@@ -16,6 +16,7 @@ import { CanvasRenderer } from "echarts/renderers";
 import type { ComposeOption } from "echarts/core";
 import type { BarSeriesOption, LineSeriesOption } from "echarts/charts";
 import { currentLocale, getT } from "@/i18n";
+import { useECharts } from "./use-echarts";
 
 echarts.use([
   BarChart,
@@ -61,19 +62,34 @@ function resolveThemeColor(token: string): string {
   return value || token;
 }
 
+/** 容器实例化工厂（echarts 模块注册已在模块顶层完成） */
+function initEChart(element: HTMLDivElement): echarts.ECharts {
+  return echarts.init(element);
+}
+
 function ArticleStatisticsCharts(props: ArticleStatisticsChartsProps) {
   const t = getT(currentLocale);
 
-  let monthlyChartElement: HTMLDivElement | null = null;
-  let categoryChartElement: HTMLDivElement | null = null;
-  let tagChartElement: HTMLDivElement | null = null;
+  const [monthlyChartElement, setMonthlyChartElement] = createSignal<HTMLDivElement | null>(null);
+  const [categoryChartElement, setCategoryChartElement] = createSignal<HTMLDivElement | null>(null);
+  const [tagChartElement, setTagChartElement] = createSignal<HTMLDivElement | null>(null);
 
-  let monthlyChart: echarts.ECharts | null = null;
-  let categoryChart: echarts.ECharts | null = null;
-  let tagChart: echarts.ECharts | null = null;
-
-  let resizeObserver: ResizeObserver | null = null;
-  let themeObserver: MutationObserver | null = null;
+  // echarts 实例化由模块级工厂完成
+  useECharts({
+    container: monthlyChartElement,
+    option: createMonthlyOption,
+    init: () => (monthlyChartElement() ? initEChart(monthlyChartElement()!) : null),
+  });
+  useECharts({
+    container: categoryChartElement,
+    option: createCategoryOption,
+    init: () => (categoryChartElement() ? initEChart(categoryChartElement()!) : null),
+  });
+  useECharts({
+    container: tagChartElement,
+    option: createTagOption,
+    init: () => (tagChartElement() ? initEChart(tagChartElement()!) : null),
+  });
 
   function createMonthlyOption(): ChartOption {
     const lineColor = resolveThemeColor("--color-purple");
@@ -254,89 +270,18 @@ function ArticleStatisticsCharts(props: ArticleStatisticsChartsProps) {
     };
   }
 
-  function renderCharts() {
-    if (monthlyChartElement) {
-      monthlyChart = echarts.init(monthlyChartElement);
-      monthlyChart.setOption(createMonthlyOption());
-    }
-
-    if (categoryChartElement) {
-      categoryChart = echarts.init(categoryChartElement);
-      categoryChart.setOption(createCategoryOption());
-    }
-
-    if (tagChartElement) {
-      tagChart = echarts.init(tagChartElement);
-      tagChart.setOption(createTagOption());
-    }
-  }
-
-  function refreshChartOptions() {
-    monthlyChart?.setOption(createMonthlyOption(), { notMerge: true });
-    categoryChart?.setOption(createCategoryOption(), { notMerge: true });
-    tagChart?.setOption(createTagOption(), { notMerge: true });
-  }
-
-  function bindResizeObserver() {
-    if (typeof ResizeObserver === "undefined") {
-      return;
-    }
-
-    resizeObserver = new ResizeObserver(() => {
-      monthlyChart?.resize();
-      categoryChart?.resize();
-      tagChart?.resize();
-    });
-
-    if (monthlyChartElement) resizeObserver.observe(monthlyChartElement);
-    if (categoryChartElement) resizeObserver.observe(categoryChartElement);
-    if (tagChartElement) resizeObserver.observe(tagChartElement);
-  }
-
-  onMount(() => {
-    renderCharts();
-    bindResizeObserver();
-
-    if (typeof MutationObserver !== "undefined") {
-      themeObserver = new MutationObserver((mutations) => {
-        const themeChanged = mutations.some((mutation) => mutation.attributeName === "data-theme");
-        if (themeChanged) {
-          refreshChartOptions();
-        }
-      });
-
-      themeObserver.observe(document.documentElement, {
-        attributes: true,
-        attributeFilter: ["data-theme"],
-      });
-    }
-  });
-
-  onCleanup(() => {
-    resizeObserver?.disconnect();
-    themeObserver?.disconnect();
-
-    monthlyChart?.dispose();
-    categoryChart?.dispose();
-    tagChart?.dispose();
-
-    monthlyChart = null;
-    categoryChart = null;
-    tagChart = null;
-  });
-
   return (
     <section class="chart-section">
       <div class="chart-card">
-        <div ref={(el) => (monthlyChartElement = el)} class="chart-canvas"></div>
+        <div ref={setMonthlyChartElement} class="chart-canvas"></div>
       </div>
 
       <div class="chart-grid">
         <div class="chart-card">
-          <div ref={(el) => (categoryChartElement = el)} class="chart-canvas"></div>
+          <div ref={setCategoryChartElement} class="chart-canvas"></div>
         </div>
         <div class="chart-card">
-          <div ref={(el) => (tagChartElement = el)} class="chart-canvas"></div>
+          <div ref={setTagChartElement} class="chart-canvas"></div>
         </div>
       </div>
     </section>

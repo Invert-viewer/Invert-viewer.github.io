@@ -10,9 +10,10 @@ import type {
   QuickNavigation,
   SidebarConfig,
 } from "@/components/sidebar/SidebarTypes";
-import RightSidebar from "@/components/sidebar/RightSidebar.astro";
+import { RightSidebar } from "@/components/sidebar/RightSidebar";
 import LayoutMainColumn from "./shared/LayoutMainColumn.astro";
 import LayoutPrimarySidebar from "./shared/LayoutPrimarySidebar.astro";
+import AnnouncementContent from "@/content/announcement.md";
 
 interface WidgetsConfig {
   randomPosts?: boolean;
@@ -100,5 +101,8 @@ const {
     posts={rightSidebarPosts}
     moments={rightSidebarMoments}
     tagCloudItems={rightSidebarTagCloud}
-  />
+    client:visible
+  >
+    <AnnouncementContent slot="announcement" />
+  </RightSidebar>
 </div>
