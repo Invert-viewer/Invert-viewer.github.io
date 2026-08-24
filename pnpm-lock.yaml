@@ -73,8 +73,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0
       nyx-player-solid:
-        specifier: 0.1.3
-        version: 0.1.3
+        specifier: 0.1.4
+        version: 0.1.4
       pagefind:
         specifier: ^1.5.2
         version: 1.5.2
@@ -3937,8 +3937,8 @@ packages:
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
 
-  nyx-player-solid@0.1.3:
-    resolution: {integrity: sha512-imGkTiThYLT1U7SSMId0XLrKYmw9eesyCl9ulUIikQ8PhDbVvu2dLkhSjOArA9I42B4qRo0WCa4tA9DbX1hBEQ==}
+  nyx-player-solid@0.1.4:
+    resolution: {integrity: sha512-Y0qdJwhFHQBL6wRbk/HEqGd5QqqtKJugBD01nwnoRoZu3gS9cIJNcVPwU15/prrRdoUxRCNn0quEKvGslUw3Jg==}
     engines: {node: '>=22.12.0'}
 
   object-inspect@1.13.4:
@@ -9761,7 +9761,7 @@ snapshots:
     dependencies:
       boolbase: 1.0.0
 
-  nyx-player-solid@0.1.3:
+  nyx-player-solid@0.1.4:
     dependencies:
       solid-element: 1.9.2(solid-js@1.9.15)
       solid-js: 1.9.15
