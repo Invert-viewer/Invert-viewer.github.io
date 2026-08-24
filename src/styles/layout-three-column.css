@@ -68,7 +68,10 @@
     transition: top 0.3s ease;
   }
 
-  .layout-three-column > astro-island > .layout-extra-column > .layout-extra-column__inner::-webkit-scrollbar {
+  .layout-three-column
+    > astro-island
+    > .layout-extra-column
+    > .layout-extra-column__inner::-webkit-scrollbar {
     display: none;
   }
 }
