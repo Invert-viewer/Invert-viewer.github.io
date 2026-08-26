@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import { currentLocale, getT } from "@/i18n";
 import { sanitizeThemeColor, type ThemeColorValue } from "@/toolkit/themeColor";
+import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import "./footer.css";
 
 interface Props {
@@ -168,6 +169,9 @@ const iconColor = sanitizeThemeColor(
           </div>
         )
       }
+
+      <!-- Hyacine Plugin Outlet: Footer Status -->
+      <HyacineOutlet name="footer-status" />
     </div>
   </div>
 </footer>

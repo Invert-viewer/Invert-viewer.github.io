@@ -3,6 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import Breadcrumb from "@/components/post/Breadcrumb.astro";
 import PostHeader from "@/components/post/PostHeader.astro";
 import PostFooter from "@/components/post/PostFooter.astro";
+import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import PostNav from "@/components/post/PostNav.astro";
 import AiSimilarPosts from "@/components/post/AiSimilarPosts.astro";
 import AiSummaryCard from "@/components/post/AiSummaryCard.astro";
@@ -334,6 +335,9 @@ const postMeta = {
           wordCount={wordCount}
         />
 
+        {/* Hyacine Plugin Outlet: Post Header */}
+        <HyacineOutlet name="post-header" context={post} />
+
         {
           !isEncrypted && (
             <AiSummaryCard
@@ -393,6 +397,9 @@ const postMeta = {
           showReward={false}
           license={post.data.license}
         />
+
+        {/* Hyacine Plugin Outlet: Post Footer */}
+        <HyacineOutlet name="post-footer" context={post} />
       </article>
     </div>
 

@@ -171,6 +171,7 @@ const widgetPosts = createWidgetPosts(posts);
 import CodeBlock from "@/components/CodeBlock";
 import ImageZoom from "@/components/ImageZoom";
 import SearchPage from "@/components/search/SearchPage";
+import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 ---
 
 <!doctype html>
@@ -182,6 +183,10 @@ import SearchPage from "@/components/search/SearchPage";
     <meta name="generator" content={Astro.generator} />
 
     <Analytics />
+
+    <script>
+      import "virtual:hyacine/runtime";
+    </script>
 
     <slot name="head" />
 
@@ -340,6 +345,7 @@ import SearchPage from "@/components/search/SearchPage";
       <ImageZoom client:idle />
     </div>
     <FloatingToolbar client:idle nyxPlayer={themeConfig.nyxPlayer} />
+    <HyacineOutlet name="layout-bottom" />
   </body>
 </html>
 

@@ -3,6 +3,7 @@ import { join, relative } from "node:path";
 
 import solid from "@astrojs/solid-js";
 import { defineConfig } from "astro/config";
+import { hyacinePlugin } from "@hyacine/plugin-astro";
 import { satteri } from "@astrojs/markdown-satteri";
 import sitemap from "@astrojs/sitemap";
 import esToolkitPlugin from "vite-plugin-es-toolkit";
@@ -129,11 +130,8 @@ export default defineConfig({
         return !(path.startsWith("posts/") && encryptedSlugs.has(path.slice("posts/".length)));
       },
     }),
-    // NOTE: @hyacine/astro@0.0.3 与 Astro 7.0.6 不兼容（config:setup 阶段
-    // vite module runner 已关闭 → 插件配置加载失败 → virtual:hyacine/runtime
-    // 无 loader → 构建 UNLOADABLE，CI 从 P2 起全红）。临时停用以解锁构建；
-    // 待上游修复或自研兼容后恢复（内容端 @hyacine/cli/api 不受影响）。
-    // hyacinePlugin(),
+    // 启用 Hyacine 现代化插件系统与双模插槽分发
+    hyacinePlugin(),
     mdx(),
     // NOTE: @playform/inline 已移除（2.0 CSS 管线调查定论）：
     // 1) 每页整包内联约 72.5KB uno/全局 CSS（64 页 ≈ 4.6MB 冗余进 HTML），
