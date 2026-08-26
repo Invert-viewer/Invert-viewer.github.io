@@ -65,6 +65,7 @@ const posts = defineCollection({
       ai_summary: z.string().optional(),
       ai_model: z.string().optional(),
       summary: z.string().optional(),
+      summaryModel: z.string().optional(),
       // Hyacine SDK 自动注入的 AI 数据字段
       ai: z
         .object({

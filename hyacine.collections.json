@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-26T08:53:31.825Z",
+  "generatedAt": "2026-08-26T08:59:18.939Z",
   "source": "content.config.ts",
   "collections": [
     {
@@ -97,6 +97,9 @@
             "type": "string"
           },
           "summary": {
+            "type": "string"
+          },
+          "summaryModel": {
             "type": "string"
           },
           "ai": {
@@ -332,6 +335,12 @@
           },
           {
             "key": "summary",
+            "kind": "string",
+            "required": false,
+            "hasDefault": false
+          },
+          {
+            "key": "summaryModel",
             "kind": "string",
             "required": false,
             "hasDefault": false
