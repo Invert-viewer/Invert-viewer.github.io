@@ -37,11 +37,11 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       '@hyacine/plugin-article-age-warning':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       '@hyacine/plugin-astro':
-        specifier: ^0.2.0
-        version: 0.2.0(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.2.1
+        version: 0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       '@hyacine/plugin-core':
         specifier: ^0.2.0
         version: 0.2.0
@@ -49,8 +49,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@hyacine/plugin-site-uptime':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       '@hyacine/plugin-vercount':
         specifier: ^0.2.0
         version: 0.2.0
@@ -833,12 +833,12 @@ packages:
     resolution: {integrity: sha512-BGTX9sMZ6ENrRPwYRMFnLF6kwfNOdHxf0K7otaB5ZDGOq6McUr1cFcC4BjP+PobxGQDNRHujBY5589O6BK74yQ==}
     engines: {node: '>=24'}
 
-  '@hyacine/plugin-article-age-warning@0.2.0':
-    resolution: {integrity: sha512-XFW2AQVyRBuHjd6SjYSB75MFSzLHNh1uqHxCpZqaUEVS3CqG7Xw56vpZA5G9h0B3OGh+BE2LhO24ygBvuVybvg==, tarball: https://registry.npmjs.org/@hyacine/plugin-article-age-warning/-/plugin-article-age-warning-0.2.0.tgz}
+  '@hyacine/plugin-article-age-warning@0.2.1':
+    resolution: {integrity: sha512-bQWmLiOMgumAOhUjEK+m2VkbPUcyhKxAjUKP8NyInzizhuaJE8uEyvov6JMmUtTx19r6DdXiDrJTQAL1MF/JPQ==}
     engines: {node: '>=24'}
 
-  '@hyacine/plugin-astro@0.2.0':
-    resolution: {integrity: sha512-J8yTyboSOTiQF22xgj7S/6QsfltTbrEkiPT2nfid7/ak6xgsNgtFawIaNK4FCG7SrD5SQ2pkCI0YCJ87LQbqHg==, tarball: https://registry.npmjs.org/@hyacine/plugin-astro/-/plugin-astro-0.2.0.tgz}
+  '@hyacine/plugin-astro@0.2.1':
+    resolution: {integrity: sha512-eG60LPMoA3iGXqz8B4mwfgg7xYHfMEDxH1CEjmAui+0Fi7sm2PgWF/6YJ8tfKG8oHLSlJmHk/rK9s7tXOrJW9Q==}
     engines: {node: '>=24'}
     peerDependencies:
       astro: '>=5.0.0'
@@ -857,8 +857,8 @@ packages:
     resolution: {integrity: sha512-GVPETwY7pXm6fDQcFtvR+m9cfa223YKNt1taMJIQ1/ZXH/adqsGYk4UrmsZZh3ke+b2imKCSaxvWqAq0vI+xMg==, tarball: https://registry.npmjs.org/@hyacine/plugin-mouse-firework/-/plugin-mouse-firework-0.2.0.tgz}
     engines: {node: '>=24'}
 
-  '@hyacine/plugin-site-uptime@0.2.0':
-    resolution: {integrity: sha512-LKXixLRsM8LmAiCx2l2VJkr8MPtJk8k5itjjB8BdRBs7ILfmWLB3/aqUxFSQMCuthVlWZmIXaSf8Dx5mNl18xg==, tarball: https://registry.npmjs.org/@hyacine/plugin-site-uptime/-/plugin-site-uptime-0.2.0.tgz}
+  '@hyacine/plugin-site-uptime@0.2.1':
+    resolution: {integrity: sha512-nbk9cRqEbpZXzvuhSRo4/9v7nHyJFdJHvmzwBJf52xvtADWUQALR/a4d5kIIVt0eN5i2FhJUpuBNsc2SVQEilQ==}
     engines: {node: '>=24'}
 
   '@hyacine/plugin-vercount@0.2.0':
@@ -6239,17 +6239,18 @@ snapshots:
       pinyin-pro: 3.29.3
       zod: 4.4.3
 
-  '@hyacine/plugin-article-age-warning@0.2.0':
+  '@hyacine/plugin-article-age-warning@0.2.1':
     dependencies:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
 
-  '@hyacine/plugin-astro@0.2.0(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
+  '@hyacine/plugin-astro@0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@astrojs/compiler': 3.0.1
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
       es-toolkit: 1.51.0
+      jiti: 2.7.0
       magic-string: 0.30.17
     optionalDependencies:
       astro: 7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0)
@@ -6266,7 +6267,7 @@ snapshots:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
 
-  '@hyacine/plugin-site-uptime@0.2.0':
+  '@hyacine/plugin-site-uptime@0.2.1':
     dependencies:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0

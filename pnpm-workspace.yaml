@@ -18,10 +18,10 @@ minimumReleaseAgeExclude:
   - "@hyacine/sdk@0.1.0 || 0.1.1"
   - "@hyacine/cli@0.1.0 || 0.1.1"
   - "@hyacine/plugin-core@0.2.0"
-  - "@hyacine/plugin-astro@0.2.0"
-  - "@hyacine/plugin-site-uptime@0.2.0"
+  - '@hyacine/plugin-astro@0.2.0 || 0.2.1'
+  - '@hyacine/plugin-site-uptime@0.2.0 || 0.2.1'
   - "@hyacine/plugin-mouse-firework@0.2.0"
-  - "@hyacine/plugin-article-age-warning@0.2.0"
+  - '@hyacine/plugin-article-age-warning@0.2.0 || 0.2.1'
   - "@hyacine/plugin-vercount@0.2.0"
 
 # 版本对齐迁移前 bun.lock 基线（P2 教训：pnpm 全新解析的传递依赖漂移会引入行为差异）：
