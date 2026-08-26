@@ -562,11 +562,12 @@ interface HycConfig {
 
   /**
    * 运行模式：
-   * - "gateway"：全量云端网关模式。配置 HYACINE_API_URL 时，通过 hyacineLoader 接入 D1 作为内容源并预注入 AI 数据。
-   * - "replica" / "ai-only"：本地副本与 AI 网关模式。保持本地 Markdown 文件作为 content loader，仅使用云端网关的 AI 摘要与推荐功能。
-   * - 默认 "gateway"
+   * - "cloud"（推荐）：云端主库模式。配置 HYACINE_API_URL 时，通过 hyacineLoader 接入 D1 作为内容源并预注入 AI 图谱。
+   * - "local"：本地文件优先模式。保持本地 Markdown 文件作为 content loader，仅使用云端网关的 AI 摘要与推荐功能。
+   * - 兼容别名："gateway" 等同于 "cloud"，"replica" / "ai-only" 等同于 "local"。
+   * - 默认 "cloud"
    */
-  mode?: "gateway" | "replica" | "ai-only";
+  mode?: "cloud" | "local" | "gateway" | "replica" | "ai-only";
 
   /**
    * AI 相近文章推荐配置。

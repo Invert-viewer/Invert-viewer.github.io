@@ -23,15 +23,15 @@ const isAiOnlyEnv =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_AI_ONLY === "true") ||
   process.env.HYACINE_AI_ONLY === "true";
 
-const configuredMode = envMode || themeConfig.hyc?.mode || "gateway";
-const isReplicaOrAiOnly =
+const configuredMode = envMode || themeConfig.hyc?.mode || "cloud";
+const isLocalMode =
   isAiOnlyEnv ||
+  configuredMode === "local" ||
   configuredMode === "replica" ||
-  configuredMode === "ai-only" ||
-  configuredMode === "local";
+  configuredMode === "ai-only";
 
-// 仅在配置了 API URL 且为 gateway 模式时启用远程 D1 loader；Replica / ai-only 模式保持本地文件 loader
-const useRemoteD1Loader = Boolean(hyacineApiUrl) && !isReplicaOrAiOnly;
+// 仅在配置了 API URL 且为 cloud 模式时启用远程 D1 loader；local 模式保持本地文件 loader
+const useRemoteD1Loader = Boolean(hyacineApiUrl) && !isLocalMode;
 
 const postsLoader: Loader = useRemoteD1Loader
   ? // oxlint-disable-next-line typescript/no-unsafe-type-assertion -- hyacineLoader 兼容 Astro Loader 协议
