@@ -120,6 +120,7 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
   },
   hyc: {
     enable: false,
+    mode: "gateway",
     aiSummary: {
       enable: true,
       title: "AI 摘要",

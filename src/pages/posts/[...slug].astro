@@ -241,67 +241,20 @@ const aiRecommendMinSimilarity = Math.min(
   ),
 );
 
-interface AiRecommendPost {
-  slug: string;
-  title: string;
-  score: number;
-}
+import { resolvePostAiSummary, resolvePostSimilar } from "@/toolkit/posts/aiGateway";
 
-interface PostAiSummary {
-  content: string | null;
-  model: string | null;
-}
+const aiSummary =
+  !isEncrypted && hycEnable && aiSummaryEnable
+    ? await resolvePostAiSummary(post)
+    : null;
 
-let aiRecommendPosts: AiRecommendPost[] = [];
-let aiSummary: PostAiSummary | null = null;
-
-// 提取 AI 摘要与推荐（优先使用 SDK 注入的预计算数据，其次为 Frontmatter 物化值）
-// oxlint-disable-next-line typescript/no-unsafe-type-assertion, typescript/no-explicit-any -- 允许动态提取 AI 字段
-const postDataAny = post.data as Record<string, any>;
-
-if (!isEncrypted && hycEnable && aiSummaryEnable) {
-  const content =
-    post.data.ai?.summary?.summary ??
-    postDataAny.ai_summary ??
-    postDataAny.summary ??
-    null;
-  const model =
-    post.data.ai?.summary?.model ??
-    postDataAny.ai_model ??
-    postDataAny.summaryModel ??
-    null;
-
-  if (content && typeof content === "string" && content.trim().length > 0) {
-    aiSummary = {
-      content: content.trim(),
-      model: typeof model === "string" ? model.trim() : null,
-    };
-  }
-}
-
-if (!isEncrypted && hycEnable && aiRecommendEnable) {
-  const candidates: Array<{ slug?: string; title?: string; score?: number }> =
-    post.data.similarPosts ??
-    post.data.ai?.similarPosts ??
-    [];
-
-  aiRecommendPosts = candidates
-    .filter((item) => item.slug && item.slug !== post.id)
-    .filter(
-      (item): item is { slug: string; title: string; score: number } =>
-        typeof item.score === "number" &&
-        item.score >= aiRecommendMinSimilarity &&
-        typeof item.title === "string" &&
-        typeof item.slug === "string",
-    )
-    .toSorted((a, b) => b.score - a.score)
-    .slice(0, aiRecommendLimit)
-    .map((item) => ({
-      slug: item.slug,
-      title: item.title,
-      score: item.score,
-    }));
-}
+const aiRecommendPosts =
+  !isEncrypted && hycEnable && aiRecommendEnable
+    ? await resolvePostSimilar(post, {
+        limit: aiRecommendLimit,
+        minSimilarity: aiRecommendMinSimilarity,
+      })
+    : [];
 
 // Current post path (trailing slash required by project routing)
 const postPath = toPostHref(post.id);

@@ -4,6 +4,7 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { hyacineLoader } from "@hyacine/sdk/astro";
 import { FOLDER_CATEGORY_TOKEN, withFolderCategories } from "./toolkit/posts/folderCategories";
+import themeConfig from "./theme.config";
 
 const hyacineApiUrl =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_API_URL) ||
@@ -12,10 +13,30 @@ const hyacineToken =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_READ_TOKEN) ||
   process.env.HYACINE_READ_TOKEN;
 
-const postsLoader: Loader = hyacineApiUrl
+// 运行模式判定：环境变量优先，其次 themeConfig.hyc.mode
+const envMode =
+  (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_MODE) ||
+  process.env.HYACINE_MODE ||
+  (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_LOADER_MODE) ||
+  process.env.HYACINE_LOADER_MODE;
+const isAiOnlyEnv =
+  (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_AI_ONLY === "true") ||
+  process.env.HYACINE_AI_ONLY === "true";
+
+const configuredMode = envMode || themeConfig.hyc?.mode || "gateway";
+const isReplicaOrAiOnly =
+  isAiOnlyEnv ||
+  configuredMode === "replica" ||
+  configuredMode === "ai-only" ||
+  configuredMode === "local";
+
+// 仅在配置了 API URL 且为 gateway 模式时启用远程 D1 loader；Replica / ai-only 模式保持本地文件 loader
+const useRemoteD1Loader = Boolean(hyacineApiUrl) && !isReplicaOrAiOnly;
+
+const postsLoader: Loader = useRemoteD1Loader
   ? // oxlint-disable-next-line typescript/no-unsafe-type-assertion -- hyacineLoader 兼容 Astro Loader 协议
     (hyacineLoader({
-      apiUrl: hyacineApiUrl,
+      apiUrl: hyacineApiUrl!,
       token: hyacineToken,
       prefix: "src/posts",
       withAiMetadata: true,
@@ -65,7 +86,6 @@ const posts = defineCollection({
       ai_summary: z.string().optional(),
       ai_model: z.string().optional(),
       summary: z.string().optional(),
-      summaryModel: z.string().optional(),
       // Hyacine SDK 自动注入的 AI 数据字段
       ai: z
         .object({
@@ -115,10 +135,10 @@ const posts = defineCollection({
     }),
 });
 
-const momentsLoader: Loader = hyacineApiUrl
+const momentsLoader: Loader = useRemoteD1Loader
   ? // oxlint-disable-next-line typescript/no-unsafe-type-assertion -- hyacineLoader 兼容 Astro Loader 协议
     (hyacineLoader({
-      apiUrl: hyacineApiUrl,
+      apiUrl: hyacineApiUrl!,
       token: hyacineToken,
       prefix: "src/moments",
       withAiMetadata: false,

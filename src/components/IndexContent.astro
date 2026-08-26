@@ -50,24 +50,22 @@ const aiSummaryConfig = hycConfig.aiSummary || {};
 const hycEnable = hycConfig.enable === true;
 const cardExcerptSource = aiSummaryConfig.cardExcerptSource ?? "default";
 
+import { resolvePostAiSummary } from "@/toolkit/posts/aiGateway";
+
 // 当配置为 AI 摘要来源时，提取列表文章的 AI 摘要；缺失则回退默认摘要
 const aiSummaries = new Map<string, string>();
 if (hycEnable && cardExcerptSource === "ai") {
   const candidates = [...stickyPosts, ...posts].filter(
     (post) => !post.data.encrypted,
   );
-  for (const post of candidates) {
-    // oxlint-disable-next-line typescript/no-unsafe-type-assertion, typescript/no-explicit-any -- 允许动态提取 AI 摘要
-    const postDataAny = post.data as Record<string, any>;
-    const summary =
-      post.data.ai?.summary?.summary ??
-      postDataAny.ai_summary ??
-      postDataAny.summary ??
-      "";
-    if (typeof summary === "string" && summary.trim().length > 0) {
-      aiSummaries.set(post.id, summary.trim());
-    }
-  }
+  await Promise.all(
+    candidates.map(async (post) => {
+      const resolved = await resolvePostAiSummary(post);
+      if (resolved?.content) {
+        aiSummaries.set(post.id, resolved.content);
+      }
+    }),
+  );
 }
 
 const transformOptions = {
