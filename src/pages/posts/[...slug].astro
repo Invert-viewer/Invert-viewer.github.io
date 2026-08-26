@@ -255,60 +255,51 @@ interface PostAiSummary {
 let aiRecommendPosts: AiRecommendPost[] = [];
 let aiSummary: PostAiSummary | null = null;
 
-// 加密文章不获取 AI 摘要和推荐
+// 提取 AI 摘要与推荐（优先使用 SDK 注入的预计算数据，其次为 Frontmatter 物化值）
+// oxlint-disable-next-line typescript/no-unsafe-type-assertion, typescript/no-explicit-any -- 允许动态提取 AI 字段
+const postDataAny = post.data as Record<string, any>;
+
 if (!isEncrypted && hycEnable && aiSummaryEnable) {
-  try {
-    const { getPostSummary } = await import("@hyacine/cli/api");
+  const content =
+    post.data.ai?.summary?.summary ??
+    postDataAny.ai_summary ??
+    postDataAny.summary ??
+    null;
+  const model =
+    post.data.ai?.summary?.model ??
+    postDataAny.ai_model ??
+    null;
 
-    if (typeof getPostSummary !== "function") {
-      throw new TypeError(
-        "getPostSummary is not available in current @hyacine/cli",
-      );
-    }
-
-    const summaryResult = (await getPostSummary(post.id)) as {
-      summary?: {
-        content?: string | null;
-        model?: string | null;
-      };
-    } | null;
-
-    if (summaryResult?.summary?.content) {
-      aiSummary = {
-        content: summaryResult.summary.content,
-        model: summaryResult.summary.model ?? null,
-      };
-    }
-  } catch {
-    aiSummary = null;
+  if (content && typeof content === "string" && content.trim().length > 0) {
+    aiSummary = {
+      content: content.trim(),
+      model: typeof model === "string" ? model.trim() : null,
+    };
   }
 }
 
 if (!isEncrypted && hycEnable && aiRecommendEnable) {
-  try {
-    const { findSimilarPosts } = await import("@hyacine/cli/api");
-    const similarResult = await findSimilarPosts({
-      query: post.id,
-      limit: aiRecommendLimit,
-    });
+  const candidates: Array<{ slug?: string; title?: string; score?: number }> =
+    post.data.similarPosts ??
+    post.data.ai?.similarPosts ??
+    [];
 
-    aiRecommendPosts = (similarResult.items || [])
-      .filter((item) => item.slug && item.slug !== post.id)
-      .filter(
-        (item) =>
-          typeof item.score === "number" &&
-          item.score >= aiRecommendMinSimilarity,
-      )
-      .toSorted((a, b) => b.score - a.score)
-      .slice(0, aiRecommendLimit)
-      .map((item) => ({
-        slug: item.slug,
-        title: item.title,
-        score: item.score,
-      }));
-  } catch {
-    aiRecommendPosts = [];
-  }
+  aiRecommendPosts = candidates
+    .filter((item) => item.slug && item.slug !== post.id)
+    .filter(
+      (item): item is { slug: string; title: string; score: number } =>
+        typeof item.score === "number" &&
+        item.score >= aiRecommendMinSimilarity &&
+        typeof item.title === "string" &&
+        typeof item.slug === "string",
+    )
+    .toSorted((a, b) => b.score - a.score)
+    .slice(0, aiRecommendLimit)
+    .map((item) => ({
+      slug: item.slug,
+      title: item.title,
+      score: item.score,
+    }));
 }
 
 // Current post path (trailing slash required by project routing)

@@ -18,16 +18,25 @@ const lastCategory = post.data.categories?.at(-1);
 <article class="post-card">
   <div class="cover">
     {
-      post.data.cover && (
-        <Image
-          layout="constrained"
-          src={post.data.cover}
-          alt={post.data.title}
-          loading="lazy"
-          decoding="async"
-          class="cover-image"
-        />
-      )
+      post.data.cover &&
+        (typeof post.data.cover === "string" ? (
+          <img
+            src={post.data.cover}
+            alt={post.data.title}
+            loading="lazy"
+            decoding="async"
+            class="cover-image"
+          />
+        ) : (
+          <Image
+            layout="constrained"
+            src={post.data.cover}
+            alt={post.data.title}
+            loading="lazy"
+            decoding="async"
+            class="cover-image"
+          />
+        ))
     }
     <div class="cover-overlay"></div>
   </div>

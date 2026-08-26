@@ -88,7 +88,14 @@ export function transformIndexPosts(
   return postList.map((post) => {
     const wordCount = countWords(post.body || "");
     const readTime = calculateReadTime(wordCount, wordsPerMinute);
-    const aiSummary = useAiExcerpt ? aiSummaries?.get(post.id) : undefined;
+    // oxlint-disable-next-line typescript/no-unsafe-type-assertion, typescript/no-explicit-any -- 允许动态提取 AI 摘要
+    const postDataAny = post.data as Record<string, any>;
+    const aiSummary = useAiExcerpt
+      ? (aiSummaries?.get(post.id) ??
+        post.data.ai?.summary?.summary ??
+        postDataAny.ai_summary ??
+        postDataAny.summary)
+      : undefined;
 
     return {
       ...toPostProjection(post),
