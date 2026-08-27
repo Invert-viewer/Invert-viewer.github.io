@@ -10,7 +10,7 @@ describe("FloatingToolbar", () => {
   });
 
   it("renders default top button without player buttons when player is absent", () => {
-    const { container } = render(() => <FloatingToolbar />);
+    const { container } = render(() => <FloatingToolbar hasNyxPlayer={false} />);
     const topBtn = container.querySelector(".tool.top button");
     expect(topBtn).not.toBeNull();
 

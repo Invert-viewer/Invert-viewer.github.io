@@ -11,10 +11,14 @@ const scrollToComments = () => {
   target.scrollIntoView({ behavior: "smooth", block: "start" });
 };
 
-function FloatingToolbar() {
+interface FloatingToolbarProps {
+  hasNyxPlayer?: boolean;
+}
+
+function FloatingToolbar(props: FloatingToolbarProps) {
   const [scrollPercent, setScrollPercent] = createSignal(0);
   const [hasComments, setHasComments] = createSignal(false);
-  const [hasNyxPlayer, setHasNyxPlayer] = createSignal(false);
+  const [hasNyxPlayer, setHasNyxPlayer] = createSignal(props.hasNyxPlayer ?? true);
   const [isMobile, setIsMobile] = createSignal(false);
   const [isVisible, setIsVisible] = createSignal(true);
 
