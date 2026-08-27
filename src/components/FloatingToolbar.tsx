@@ -29,7 +29,11 @@ function FloatingToolbar() {
   const updateDomPlugins = () => {
     setHasComments(Boolean(document.querySelector("#comments")));
     setHasNyxPlayer(
-      Boolean(document.querySelector("#nyx-player, .nyx-player, nyx-player, [data-nyx-player]")),
+      Boolean(
+        document.querySelector(
+          "#nyx-player, .nyx-player, nyx-player, [data-nyx-player], .hyacine-slot-layout-bottom astro-island, [data-hyacine-slot='layout-bottom'] astro-island, astro-island[opts*='NyxPlayer']",
+        ),
+      ),
     );
   };
 
