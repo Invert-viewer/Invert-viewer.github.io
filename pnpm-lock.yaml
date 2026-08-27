@@ -46,11 +46,11 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       '@hyacine/plugin-article-statistics':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.1
+        version: 0.1.1
       '@hyacine/plugin-astro':
-        specifier: ^0.2.1
-        version: 0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
+        specifier: ^0.2.2
+        version: 0.2.2(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
       '@hyacine/plugin-core':
         specifier: ^0.2.0
         version: 0.2.0
@@ -857,12 +857,12 @@ packages:
     resolution: {integrity: sha512-bQWmLiOMgumAOhUjEK+m2VkbPUcyhKxAjUKP8NyInzizhuaJE8uEyvov6JMmUtTx19r6DdXiDrJTQAL1MF/JPQ==}
     engines: {node: '>=24'}
 
-  '@hyacine/plugin-article-statistics@0.1.0':
-    resolution: {integrity: sha512-wwIOVQ5zKv+TVlC8UWWaH7aK17BH9A63UcpfL852moicC5Df6rv5tSRHs/MdKMSj0Lv0/zeCeNSBaJzjjIEcHA==}
+  '@hyacine/plugin-article-statistics@0.1.1':
+    resolution: {integrity: sha512-dN91hmXfSm0gILN0gJGaJN2GJG7ShM9CSIx13SwNop6tRTtjxPwioPAuRUfF9Qg6XMQFEKLG3Tn3D3y+YffAmA==}
     engines: {node: '>=24'}
 
-  '@hyacine/plugin-astro@0.2.1':
-    resolution: {integrity: sha512-eG60LPMoA3iGXqz8B4mwfgg7xYHfMEDxH1CEjmAui+0Fi7sm2PgWF/6YJ8tfKG8oHLSlJmHk/rK9s7tXOrJW9Q==}
+  '@hyacine/plugin-astro@0.2.2':
+    resolution: {integrity: sha512-YnuRkvFuvbqSUuqz+epitV/Lum2O4niNFTdxqj+jeusUu8YFjgeZOSGnDaW0VpS3JlLU8uQrT73dfzujd1zLIQ==}
     engines: {node: '>=24'}
     peerDependencies:
       astro: '>=5.0.0'
@@ -6293,14 +6293,14 @@ snapshots:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
 
-  '@hyacine/plugin-article-statistics@0.1.0':
+  '@hyacine/plugin-article-statistics@0.1.1':
     dependencies:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
       echarts: 6.1.0
       solid-js: 1.9.15
 
-  '@hyacine/plugin-astro@0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
+  '@hyacine/plugin-astro@0.2.2(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
       '@astrojs/compiler': 3.0.1
       '@hyacine/contract': 0.1.1
