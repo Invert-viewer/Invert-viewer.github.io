@@ -72,19 +72,21 @@ astro-blog-shokax
 │   │   ├── avatar.avif           # 🌟 Site owner avatar
 │   ├── components/               # Astro / SolidJS components
 │   ├── content/                  # Content outside collections
-│   │   ├── friend-rules.md       # 🌟 Friends link rules
+│   │   ├── friends-rules.md      # 🌟 Friends link rules
 │   ├── i18n/                     # i18n system
 │   ├── layouts/                  # Page layouts
 │   ├── moments/                  # 🌟 Moments / status content collection
 │   ├── pages/                    # Route pages
 │   ├── posts/                    # 🌟 Post content collection
-│   ├── remark-plugins/           # Markdown extensions
+│   ├── satteri-plugins/          # Markdown extensions (Satteri)
 │   ├── stores/                   # Global stores
 │   ├── styles/                   # Non-component stylesheets
 │   ├── toolkit/                  # Utilities
 │   ├── content.config.ts         # Content collections config
+│   ├── covers.config.ts          # Cover image presets
 │   ├── theme.config.ts           # 🌟 Theme configuration
 │   ├── theme.config.template.txt # HyC interactive config template
+├── hyacine.plugin.ts             # 🌟 Hyacine plugin configuration
 ├── hyacine.yml                   # HyC configuration
 ├── astro.config.mjs              # 🌟 Astro configuration
 
@@ -93,14 +95,12 @@ astro-blog-shokax
 
 ## ⚙️ HyC Capabilities
 
-> ⚠️ **Temporarily removed** — `@hyacine/*` and `nyx-player` dependencies are removed from `package.json` while they are being refactored upstream. The sections below describe the intended integration and will become active again once the dependencies are restored.
-
-ShokaX includes `@hyacine/cli` and `@hyacine/core` and provides the following capabilities:
+ShokaX includes `@hyacine/cli` and the `@hyacine/plugin-*` ecosystem, providing the following capabilities:
 
 - AI recommendations and summaries
 - Interactive installation and configuration
 - Lightweight local CMS
-- Blog extension plugins
+- Extensible blog plugins (site age, click effects, article age warning, comments, music player, visitor analytics, etc.)
 
 ```shell
 # Global installation is recommended (or use `pnpm add -D @hyacine/cli` locally and `pnpm hyc`)
@@ -121,9 +121,8 @@ hyc sort category
 hyc serve
 # Visit the official console at https://hyc.kaitaku.xyz/ to get started
 
-# HyC plugins are currently in Alpha and related documentation is still in progress
-# This theme currently enables the Site-Uptime (site age) and Mouse-firework (click effect) plugins by default
-# See hyacine.plugin.ts for details
+# Hyacine plugins are configured in hyacine.plugin.ts
+# Supports site uptime, mouse fireworks, article age warning, vercount, waline comments, AI content, nyx player, etc.
 ```
 
 ## 🚀 Performance
@@ -138,7 +137,6 @@ Known coupling points and version pins that should be reviewed before major upgr
 
 - **Custom Markdown pipeline.** `@astrojs/markdown-satteri` + `satteri` replace Astro's built-in Markdown/remark/rehype processing (see `astro.config.mjs` → `markdown.processor`). This is the largest coupling point for future Astro major upgrades — verify the processor chain first when bumping Astro.
 - **Pinned versions.** `astro` is pinned exactly (`7.2.4`); `pnpm-workspace.yaml` overrides pin `vite@8.1.3` and `rolldown@1.1.4`. These remain for Windows build reliability (rolldown releases break virtual modules on Windows); reassess the pins whenever the underlying packages are upgraded.
-- **Dormant integration.** `@hyacine/astro@0.0.3` is disabled (Astro 7 incompatibility, see the comment in `astro.config.mjs`) but kept in dependencies pending an upstream fix or a self-built replacement. Do not re-enable without testing against the current Astro version.
 - **Encrypted posts.** AES-256-GCM + PBKDF2 (600k iterations, OWASP 2023 recommendation). Ciphertext/salt/IV are shipped in the page HTML, so offline brute-force is always possible; use strong passwords. Encrypted posts are excluded from RSS and sitemap.
 
 ## 📦 Versioning
@@ -233,13 +231,10 @@ The right sidebar is shown only on wide screens (desktop). On mobile, the origin
 
 Pull requests are welcome. The project uses the following workflows to validate changes:
 
-- Lighthouse CI, with the following thresholds:
-  - Performance >= 0.92
-  - Accessibility >= 0.9
-  - Best Practices and SEO >= 0.95
-- CodeQL Scan & Code Quality
-- E2E testing
-- [Lychee](https://lychee.cli.rs/)
+- **Static Checks**: Oxlint (`pnpm run lint:ci`), Oxfmt (`pnpm run format:ci`), Astro check (`pnpm run check`), Vitest unit tests (`pnpm run test`), and deploy config consistency checks (`pnpm run config:deploy:check`)
+- **Build & Link Verification**: Site build (`pnpm run build`) and offline dead link check ([Lychee](https://lychee.cli.rs/))
+- **E2E Testing**: Multi-level end-to-end tests powered by Playwright (Smoke, Critical, Regression)
+- **Lighthouse CI**: Page performance assertions (Performance >= 0.92, Accessibility >= 0.9, Best Practices >= 0.95, SEO >= 0.95)
 
 If CI does not pass, you can still submit a PR and we will help improve it.
 

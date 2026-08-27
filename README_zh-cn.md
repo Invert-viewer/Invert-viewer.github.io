@@ -38,7 +38,7 @@
 
 本项目建议使用 [Node.js](https://nodejs.org/)（v22.12 及以上）与 [pnpm](https://pnpm.io/) 运行。
 
-你可以直接将本仓库 Clone 到本地（并为我们点一个 Star 😜），来开始使用。也可使用[由 Hyc 提供的交互式安装支持](https://docs.astro.kaitaku.xyz/start/guides/)
+你可以直接将本仓库 Clone 到本地（并为我们点一个 Star 😜），来开始使用。也可使用[由 HyC 提供的交互式安装支持](https://docs.astro.kaitaku.xyz/start/guides/)
 
 快速开始：
 
@@ -72,19 +72,21 @@ astro-blog-shokax
 │   │   ├── avatar.avif           # 🌟 站点所有者头像
 │   ├── components/               # Astro / SolidJS 组件
 │   ├── content/                  # 不属于内容集合的内容
-│   │   ├── friend-rules.md       # 🌟 友链规则
+│   │   ├── friends-rules.md      # 🌟 友链规则
 │   ├── i18n/                     # i18n 系统
 │   ├── layouts/                  # 页面布局
 │   ├── moments/                  # 🌟 动态/说说内容集合
 │   ├── pages/                    # 页面路由
 │   ├── posts/                    # 🌟 文章内容集合
-│   ├── remark-plugins/           # Markdown 扩展
+│   ├── satteri-plugins/          # Markdown 扩展（Satteri）
 │   ├── stores/                   # 全局 Store
 │   ├── styles/                   # 非组件化样式表
 │   ├── toolkit/                  # 工具函数
 │   ├── content.config.ts         # 内容集合配置文件
+│   ├── covers.config.ts          # 封面图预设配置
 │   ├── theme.config.ts           # 🌟 主题配置文件
 │   ├── theme.config.template.txt # HyC 交互式配置模板
+├── hyacine.plugin.ts             # 🌟 Hyacine 插件配置文件
 ├── hyacine.yml                   # HyC 配置文件
 ├── astro.config.mjs              # 🌟 Astro 配置文件
 
@@ -93,14 +95,12 @@ astro-blog-shokax
 
 ## ⚙️ HyC 能力
 
-> ⚠️ **临时移除** —— `@hyacine/*` 与 `nyx-player` 依赖已从 `package.json` 移除（上游重构中）。以下内容描述预期的集成方式，依赖恢复后即恢复生效。
-
-ShokaX 内置 @hyacine/cli 和 @hyacine/core 提供如下能力：
+ShokaX 内置 `@hyacine/cli` 与 `@hyacine/plugin-*` 插件生态，提供如下能力：
 
 - AI 推荐和总结
 - 交互式安装和配置
-- 本地轻 CMS
-- 博客扩展插件
+- 本地轻量 CMS
+- 丰富的博客扩展插件（建站时间、点击特效、文章时效性预警、评论系统、音乐播放器、访问量统计等）
 
 ```shell
 # 建议全局安装（或在本地 pnpm add -D @hyacine/cli 后使用 pnpm hyc）
@@ -121,9 +121,8 @@ hyc sort category
 hyc serve
 # 访问官方控制台 https://hyc.kaitaku.xyz/ 以开始使用
 
-# HyC 插件当前处于 Alpha 阶段，相关文档仍在准备
-# 目前本主题默认启用了 Site-Uptime（建站时间）和 Mouse-firework（点击特效）插件
-# 可参见 hyacine.plugin.ts
+# Hyacine 插件在 hyacine.plugin.ts 中集中配置
+# 支持 site uptime、mouse fireworks、article age warning、vercount、waline 评论、AI 内容、nyx 播放器等
 ```
 
 ## 🚀 性能
@@ -138,7 +137,6 @@ hyc serve
 
 - **自定义 Markdown 管线**：`@astrojs/markdown-satteri` + `satteri` 整体替换了 Astro 内置的 Markdown/remark/rehype 处理链（见 `astro.config.mjs` → `markdown.processor`）。这是未来 Astro 大版本升级时最大的耦合点——升级 Astro 前需优先验证该处理链。
 - **版本锁定**：`astro` 精确固定（`7.2.4`）；`pnpm-workspace.yaml` 的 overrides 锁定 `vite@8.1.3` 与 `rolldown@1.1.4`。这些锁定仍因 Windows 构建稳定性保留（rolldown 新版本在 Windows 虚拟模块场景会崩溃）；依赖升级时应重新评估锁定是否仍必要。
-- **休眠集成**：`@hyacine/astro@0.0.3` 因与 Astro 7 不兼容被停用（见 `astro.config.mjs` 注释），但在上游修复或自研替代完成前保留在依赖中。不要未经测试就重新启用。
 - **加密文章**：AES-256-GCM + PBKDF2（600k 迭代，OWASP 2023 推荐阈值）。密文/salt/iv 随页面 HTML 下发，离线暴力破解始终可行——请使用强密码。加密文章已从 RSS 与 sitemap 中排除。
 
 ## 📦 版本控制
@@ -229,13 +227,10 @@ layout: {
 
 欢迎提交 PR，本项目会使用以下工作流检查代码：
 
-- Lighthouse CI，标准为：
-  - Performance >= 0.92
-  - Accessibility >= 0.9
-  - Best Practices 和 SEO >= 0.95
-- CodeQL Scan & Code Quality
-- E2E 测试
-- [Lychee](https://lychee.cli.rs/)
+- **静态检查**：Oxlint 代码检查（`pnpm run lint:ci`）、Oxfmt 格式化检查（`pnpm run format:ci`）、Astro 类型与内容检查（`pnpm run check`）、Vitest 单元测试（`pnpm run test`）、部署配置一致性校验（`pnpm run config:deploy:check`）
+- **构建与链接检查**：站点构建（`pnpm run build`）与离线死链检查（[Lychee](https://lychee.cli.rs/)）
+- **E2E 测试**：基于 Playwright 的多层级端到端测试（Smoke、Critical、Regression）
+- **Lighthouse CI**：页面性能断言（Performance >= 0.92，Accessibility >= 0.9，Best Practices >= 0.95，SEO >= 0.95）
 
 如果出现未通过 CI 的情况也可提交 PR，我们会协助修改
 
@@ -245,7 +240,7 @@ layout: {
 
 ### 有关资源与许可证说明
 
-- 本项目的主要样式与设计理念来自 [Shoka](https://github.com/amehime/hexo-theme-shoka)，但本项目为独立实现，仅在设计理念与风格上受到启发，出于致敬目的，在`license`目录下放置 Shoka 的原始 MIT 许可证(LICENSE-shoka)
+- 本项目的主要样式与设计理念来自 [Shoka](https://github.com/amehime/hexo-theme-shoka)，但本项目为独立实现，仅在设计理念与风格上受到启发，出于致敬目的，在`licenses`目录下放置 Shoka 的原始 MIT 许可证(LICENSE-shoka)
 - 本项目是 [Hexo ShokaX](https://github.com/theme-shoka-x/hexo-theme-shokaX) 的独立自研重写版本，未直接使用其代码与资源，为独立实现，且本仓库由 ShokaX 项目团队直接维护，与 Hexo ShokaX 作者相同，所以本项目使用 ShokaX 作为项目名称
 - 本项目中默认的 avatar 图片为 [QuAn\_](https://www.pixiv.net/users/6657532) 的作品，本项目中该图片仅用于展示，版权归原作者所有，用户需自行确认使用合规性，请在正式部署前使用版权可控的图片替换本图片
 - 本项目使用了 [Maple Mono](https://font.subf.dev/zh-cn/) 和[霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 作为项目的默认字体，两款字体均为 OFL 1.1 许可证，其分发许可证分别为`licenses/LICENSE-maple-mono.txt`和`licenses/OFL.txt`

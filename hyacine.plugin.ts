@@ -71,16 +71,16 @@ export default defineConfig({
       restoreDelay: 3000,
     }),
     nyxPlayer({
-      enable: false,
+      enable: true,
       urls: [
         {
           name: "默认歌单",
-          url: "https://music.163.com/#/playlist?id=2943811283",
+          url: "https://music.163.com/m/playlist?id=12834717281&creatorId=12676493230",
         },
       ],
       preset: "shokax",
       darkModeTarget: ":root[data-theme=dark]",
-      metingBaseURL: "https://meting.api.zkz098.cn",
+      metingBaseURL: "https://meting.api.zkz098.cn/",
       metingUrlSource: "outer",
     }),
     articleStatistics(),
