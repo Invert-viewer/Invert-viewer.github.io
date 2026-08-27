@@ -3,18 +3,6 @@ import type { ShokaXThemeConfig } from "./themeConfig";
 export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
   siteName: "ShokaX",
   locale: "zh-CN",
-  analytics: {
-    googleAnalytics: {
-      // GA4 衡量 ID，例如 "G-XXXXXXXXXX"；留空则不注入 GA 脚本
-      measurementId: "",
-    },
-    umami: {
-      // Umami 网站 ID；留空则不注入 Umami 脚本
-      websiteId: "",
-      // Umami 追踪脚本地址；留空时使用官方云端脚本
-      scriptUrl: "",
-    },
-  },
   nav: [
     {
       href: "/",
@@ -111,49 +99,8 @@ export const DEFAULT_THEME_CONFIG: ShokaXThemeConfig = {
     recentComments: true,
     recentCommentsLimit: 10,
   },
-  comments: {
-    enable: false,
-    waline: {
-      serverURL: "",
-      lang: "zh-CN",
-    },
-  },
-  hyc: {
-    enable: false,
-    mode: "cloud",
-    aiSummary: {
-      enable: true,
-      title: "AI 摘要",
-      showModel: true,
-      cardExcerptSource: "default",
-    },
-    aiRecommend: {
-      enable: true,
-      limit: 3,
-      minSimilarity: 0.4,
-    },
-  },
   diagnostics: {
     suppressFsWatcherMaxListenersWarning: true,
-  },
-  nyxPlayer: {
-    enable: false,
-    preset: "shokax",
-    darkModeTarget: ':root[data-theme="dark"]',
-    metingBaseURL: "https://meting.api.zkz098.cn",
-    metingUrlSource: "outer",
-    urls: [
-      {
-        name: "默认歌单",
-        url: "https://music.163.com/#/playlist?id=2943811283",
-      },
-    ],
-  },
-  visibilityTitle: {
-    enable: true,
-    leaveTitle: "👀 你先忙，我等你回来~",
-    returnTitle: "🎉 欢迎回来！",
-    restoreDelay: 3000,
   },
   home: {
     selectedCategories: [{ name: "Tutorial" }, { name: "Frontend" }],

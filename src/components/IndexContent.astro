@@ -45,33 +45,25 @@ const headerCovers = advancedCarousel
     })
   : [];
 
-const hycConfig = themeConfig.hyc || {};
-const aiSummaryConfig = hycConfig.aiSummary || {};
-const hycEnable = hycConfig.enable === true;
-const cardExcerptSource = aiSummaryConfig.cardExcerptSource ?? "default";
-
-import { resolvePostAiSummary } from "@/toolkit/posts/aiGateway";
-
-// 当配置为 AI 摘要来源时，提取列表文章的 AI 摘要；缺失则回退默认摘要
+// 提取列表文章的物化 AI 摘要（仅读物化值：SDK D1 注入或 frontmatter 字段）
 const aiSummaries = new Map<string, string>();
-if (hycEnable && cardExcerptSource === "ai") {
-  const candidates = [...stickyPosts, ...posts].filter(
-    (post) => !post.data.encrypted,
-  );
-  await Promise.all(
-    candidates.map(async (post) => {
-      const resolved = await resolvePostAiSummary(post);
-      if (resolved?.content) {
-        aiSummaries.set(post.id, resolved.content);
-      }
-    }),
-  );
+const candidates = [...stickyPosts, ...posts].filter(
+  (post) => !post.data.encrypted,
+);
+for (const post of candidates) {
+  const sdkSummary = post.data.ai?.summary?.summary?.trim();
+  const fmSummary =
+    post.data.ai_summary?.trim() || post.data.summary?.trim();
+  const content = sdkSummary || fmSummary;
+  if (content) {
+    aiSummaries.set(post.id, content);
+  }
 }
 
 const transformOptions = {
   encryptedExcerpt: t("post.encryptedExcerpt"),
   resolveCover: (post: CollectionEntry<"posts">) => getPostCover(post, headerCovers),
-  excerptSource: cardExcerptSource,
+  excerptSource: "default" as const,
   aiSummaries,
 };
 

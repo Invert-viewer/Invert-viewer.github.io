@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import { t } from "@/i18n";
 import { buildSiteStatistics } from "@/toolkit/posts/buildSiteStatistics";
-import ArticleStatisticsCharts from "@/components/statistics/ArticleStatisticsCharts";
+import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import "@/styles/collapse.css";
 
 const allPosts = await getCollection("posts");
@@ -59,11 +59,13 @@ const latestMonth =
       }
     </p>
 
-    <ArticleStatisticsCharts
-      client:load
-      monthlyPostCounts={statistics.monthlyPostCounts}
-      categoryCounts={statistics.categoryCounts}
-      tagCounts={statistics.tagCounts}
+    <HyacineOutlet
+      name="article-statistics"
+      extraProps={{
+        monthlyPostCounts: statistics.monthlyPostCounts,
+        categoryCounts: statistics.categoryCounts,
+        tagCounts: statistics.tagCounts,
+      }}
     />
   </div>
 </Layout>

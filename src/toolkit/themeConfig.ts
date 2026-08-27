@@ -175,47 +175,6 @@ interface FooterConfig {
   };
 }
 
-interface GoogleAnalyticsConfig {
-  /**
-   * Google Analytics 4 衡量 ID。
-   * - 例如："G-XXXXXXXXXX"
-   * - 留空或省略时不注入任何 GA 脚本
-   */
-  measurementId?: string;
-}
-
-interface UmamiAnalyticsConfig {
-  /**
-   * Umami 网站 ID。
-   * - 例如："ceed9afc-092e-49aa-b8d3-471312618ff5"
-   * - 留空或省略时不注入 Umami 脚本
-   */
-  websiteId?: string;
-
-  /**
-   * Umami 追踪脚本地址。
-   * - 默认为 Umami 官方云端脚本 "https://cloud.umami.is/script.js"
-   * - 自架 Umami 实例时改为自有网域脚本地址
-   * - 仅在 websiteId 同时填写时生效
-   */
-  scriptUrl?: string;
-}
-
-interface AnalyticsConfig {
-  /**
-   * Google Analytics 4 配置。
-   * - 按 Google 官方 snippet 在 <head> 内联注入 gtag.js（async）+ dataLayer/gtag 引导
-   * - 首次 page_view 等 window load 后上报，并监听 `astro:page-load` 兼容客户端导航
-   */
-  googleAnalytics?: GoogleAnalyticsConfig;
-
-  /**
-   * Umami 网站统计配置。
-   * - Umami 自身追踪 History API 变更，无需额外 SPA 适配
-   */
-  umami?: UmamiAnalyticsConfig;
-}
-
 interface WidgetsConfig {
   /**
    * 是否显示随机文章小部件。
@@ -236,83 +195,11 @@ interface WidgetsConfig {
    * - 默认建议 5~10 条，避免页脚过长
    */
   recentCommentsLimit?: number;
-}
-
-interface WalineClientConfig {
-  /**
-   * Waline 服务端地址。
-   * - 例如: https://comments.example.com
-   */
-  serverURL?: string;
 
   /**
-   * 评论语言。
-   * - 留空时由 Waline 根据浏览器语言决定
+   * 最新评论服务端数据源（可选，用于 Widgets 最新评论拉取）。
    */
-  lang?: string;
-
-  /**
-   * 评论路径。
-   * - 默认为当前 pathname
-   * - 可用于多语言/去尾斜杠等场景统一路径
-   */
-  path?: string;
-
-  /**
-   * 暗黑模式配置。
-   * - false: 关闭
-   * - true: 强制开启
-   * - "auto": 跟随系统
-   * - CSS 选择器: 当选择器命中时启用暗黑模式
-   */
-  dark?: boolean | string;
-}
-
-interface CommentsConfig {
-  /**
-   * 是否启用评论模块。
-   * - false 时文章页不挂载评论组件
-   */
-  enable?: boolean;
-
-  /**
-   * Waline 客户端配置。
-   */
-  waline?: WalineClientConfig;
-}
-
-interface NyxPlayerPlaylist {
-  /** 歌单名称 */
-  name: string;
-  /** 歌单链接（网易云 / QQ 音乐） */
-  url: string;
-}
-
-interface NyxPlayerConfig {
-  /** 是否启用播放器 */
-  enable?: boolean;
-
-  /** 歌单配置 */
-  urls?: NyxPlayerPlaylist[];
-
-  /** 预设主题 */
-  preset?: "nyx" | "shokax";
-
-  /** 暗色模式选择器 */
-  darkModeTarget?: string;
-
-  /**
-   * 元数据 API 根地址（modern meting / meting-api-rs 风格 /v1 资源式）。
-   * 默认指向自有托管端点 https://meting.api.zkz098.cn/；可换自托管实例。
-   */
-  metingBaseURL?: string;
-
-  /**
-   * 音频 URL 来源：
-   * - "outer"（默认）：网易云未登录外链，浏览器直连，绕开数据中心 IP 风控
-   * - "proxy"：经 API 代理 302（需自托管于非风控 IP）
-   */
-  metingUrlSource?: "outer" | "proxy";
+  recentCommentsServerURL?: string;
 }
 
 interface HomeConfig {
@@ -477,109 +364,6 @@ interface TagCloudConfig {
   endColor?: ThemeColorValue;
 }
 
-interface VisibilityTitleConfig {
-  /**
-   * 是否启用页面可视度标题切换。
-   */
-  enable?: boolean;
-
-  /**
-   * 切换到其他标签页时显示的标题。
-   */
-  leaveTitle?: string;
-
-  /**
-   * 返回当前标签页时显示的标题。
-   */
-  returnTitle?: string;
-
-  /**
-   * 返回后恢复原始标题的延迟（毫秒）。
-   * - 默认 3000
-   */
-  restoreDelay?: number;
-}
-
-interface HycAiRecommendConfig {
-  /**
-   * 是否启用 AI 相近文章推荐。
-   * - false：关闭该功能
-   * - true/未设置：允许在文章页尝试展示
-   */
-  enable?: boolean;
-
-  /**
-   * 最多展示推荐条数。
-   * - 默认 3
-   */
-  limit?: number;
-
-  /**
-   * 最低相似度阈值。
-   * - 取值范围建议 0~1
-   * - 默认 0.4（40%）
-   */
-  minSimilarity?: number;
-}
-
-interface HycAiSummaryConfig {
-  /**
-   * 是否启用 AI 摘要卡片展示。
-   * - false：关闭该功能
-   * - true/未设置：允许在文章页展示（需有可用摘要）
-   */
-  enable?: boolean;
-
-  /**
-   * 摘要卡片标题。
-   * - 默认值："AI 摘要"
-   */
-  title?: string;
-
-  /**
-   * 是否显示摘要模型信息。
-   * - 默认 false
-   */
-  showModel?: boolean;
-
-  /**
-   * 列表页文章卡片的摘要来源。
-   * - "default"：使用默认摘要（description || body 截取），与历史行为一致
-   * - "ai"：优先使用 AI 摘要，缺失时回退到默认摘要
-   * - 仅在 hyc.enable 为 true 时生效
-   * - 默认 "default"
-   */
-  cardExcerptSource?: "default" | "ai";
-}
-
-interface HycConfig {
-  /**
-   * 是否启用 HYC 扩展功能总开关。
-   * - false：禁用全部 HYC 扩展能力
-   * - true：允许各子功能按自身开关生效
-   */
-  enable?: boolean;
-
-  /**
-   * 运行模式：
-   * - "cloud"（推荐）：云端主库模式。配置 HYACINE_API_URL 时，通过 hyacineLoader 接入 D1 作为内容源并预注入 AI 图谱。
-   * - "local"：本地文件优先模式。保持本地 Markdown 文件作为 content loader，仅使用云端网关的 AI 摘要与推荐功能。
-   * - 兼容别名："gateway" 等同于 "cloud"，"replica" / "ai-only" 等同于 "local"。
-   * - 默认 "cloud"
-   */
-  mode?: "cloud" | "local" | "gateway" | "replica" | "ai-only";
-
-  /**
-   * AI 相近文章推荐配置。
-   */
-  aiRecommend?: HycAiRecommendConfig;
-
-  /**
-   * AI 摘要配置。
-   */
-  aiSummary?: HycAiSummaryConfig;
-}
-
 interface DiagnosticsConfig {
   /**
    * 是否屏蔽开发/构建/检查期间由 FSWatcher 触发的
@@ -628,13 +412,6 @@ export interface ShokaXThemeConfig {
    * - 默认为 "zh-CN"
    */
   locale?: Locale;
-
-  /**
-   * 网站分析与统计配置。
-   * - 当前支持 Google Analytics 4 与 Umami
-   * - 任一子项未填写时对应脚本不会被注入
-   */
-  analytics?: AnalyticsConfig;
 
   /**
    * 导航栏配置。
@@ -686,17 +463,6 @@ export interface ShokaXThemeConfig {
   layout?: LayoutConfig;
 
   /**
-   * 评论配置。
-   * - 当前用于 Waline 评论系统
-   */
-  comments?: CommentsConfig;
-
-  /**
-   * nyx-player 音乐播放器配置。
-   */
-  nyxPlayer?: NyxPlayerConfig;
-
-  /**
    * 版权配置。
    * - 设置文章默认许可协议和版权声明显示
    */
@@ -713,19 +479,6 @@ export interface ShokaXThemeConfig {
    * - 用于控制标签云字号梯度对应的颜色渐变
    */
   tagCloud?: TagCloudConfig;
-
-  /**
-   * 页面可视度标题切换配置。
-   * - 失焦：显示 leaveTitle
-   * - 聚焦：显示 returnTitle，延迟 restoreDelay 后恢复原始标题
-   */
-  visibilityTitle?: VisibilityTitleConfig;
-
-  /**
-   * HYC 扩展功能配置。
-   * - enable 为总开关，关闭后所有 HYC 子功能不可用
-   */
-  hyc?: HycConfig;
 
   /**
    * 诊断与命令行输出配置。

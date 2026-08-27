@@ -5,9 +5,6 @@ import PostHeader from "@/components/post/PostHeader.astro";
 import PostFooter from "@/components/post/PostFooter.astro";
 import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import PostNav from "@/components/post/PostNav.astro";
-import AiSimilarPosts from "@/components/post/AiSimilarPosts.astro";
-import AiSummaryCard from "@/components/post/AiSummaryCard.astro";
-import WalineComments from "@/components/post/WalineComments";
 import { currentLocale } from "@/i18n";
 import { getCollection, render } from "astro:content";
 import themeConfig from "@/theme.config";
@@ -216,46 +213,6 @@ const readTime = Math.ceil(wordCount / 300);
 const siteConfig = themeConfig.sidebar || {};
 const author = siteConfig.author || "Author";
 const siteName = themeConfig.siteName || "Site";
-const commentsConfig = themeConfig.comments || {};
-const walineConfig = commentsConfig.waline || {};
-
-const hycConfig = themeConfig.hyc || {};
-const aiRecommendConfig = hycConfig.aiRecommend || {};
-const aiSummaryConfig = hycConfig.aiSummary || {};
-const hycEnable = hycConfig.enable === true;
-const aiRecommendEnable = aiRecommendConfig.enable !== false;
-const aiSummaryEnable = aiSummaryConfig.enable !== false;
-const aiSummaryTitle = aiSummaryConfig.title || "AI 摘要";
-const aiSummaryShowModel = aiSummaryConfig.showModel === true;
-const aiRecommendLimit = Math.max(
-  1,
-  Math.min(10, aiRecommendConfig.limit ?? 3),
-);
-const aiRecommendMinSimilarityRaw = aiRecommendConfig.minSimilarity ?? 0.4;
-const aiRecommendMinSimilarity = Math.min(
-  1,
-  Math.max(
-    0,
-    aiRecommendMinSimilarityRaw > 1
-      ? aiRecommendMinSimilarityRaw / 100
-      : aiRecommendMinSimilarityRaw,
-  ),
-);
-
-import { resolvePostAiSummary, resolvePostSimilar } from "@/toolkit/posts/aiGateway";
-
-const aiSummary =
-  !isEncrypted && hycEnable && aiSummaryEnable
-    ? await resolvePostAiSummary(post)
-    : null;
-
-const aiRecommendPosts =
-  !isEncrypted && hycEnable && aiRecommendEnable
-    ? await resolvePostSimilar(post, {
-        limit: aiRecommendLimit,
-        minSimilarity: aiRecommendMinSimilarity,
-      })
-    : [];
 
 // Current post path (trailing slash required by project routing)
 const postPath = toPostHref(post.id);
@@ -338,16 +295,12 @@ const postMeta = {
         {/* Hyacine Plugin Outlet: Post Header */}
         <HyacineOutlet name="post-header" context={post} />
 
-        {
-          !isEncrypted && (
-            <AiSummaryCard
-              summary={aiSummary?.content}
-              model={aiSummary?.model}
-              title={aiSummaryTitle}
-              showModel={aiSummaryShowModel}
-            />
-          )
-        }
+        {/* Hyacine Plugin Outlet: AI 摘要（encrypted 时插件内部自动短路） */}
+        <HyacineOutlet
+          name="post-summary"
+          context={post}
+          extraProps={{ postId: post.id, postBody: post.body }}
+        />
 
         <div class="body md" itemprop="articleBody">
           {
@@ -377,15 +330,6 @@ const postMeta = {
           }
         </div>
 
-        {
-          !isEncrypted && (
-            <AiSimilarPosts
-              posts={aiRecommendPosts}
-              minSimilarity={aiRecommendMinSimilarity}
-            />
-          )
-        }
-
         <PostFooter
           date={post.data.date}
           updated={post.data.updated}
@@ -399,7 +343,11 @@ const postMeta = {
         />
 
         {/* Hyacine Plugin Outlet: Post Footer */}
-        <HyacineOutlet name="post-footer" context={post} />
+        <HyacineOutlet
+          name="post-footer"
+          context={post}
+          extraProps={{ postId: post.id }}
+        />
       </article>
     </div>
 
@@ -410,16 +358,10 @@ const postMeta = {
     />
 
     {
-      !isEncrypted && commentsConfig.enable !== false && (
+      !isEncrypted && (
         <div id="comments" class="comment">
-          <WalineComments
-            client:visible
-            serverURL={walineConfig.serverURL}
-            lang={walineConfig.lang || currentLocale}
-            dark={walineConfig.dark}
-            path={walineConfig.path}
-            pagePath={postPath}
-          />
+          {/* Hyacine Plugin Outlet: Waline 评论 */}
+          <HyacineOutlet name="comment" />
         </div>
       )
     }

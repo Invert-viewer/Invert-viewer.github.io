@@ -36,9 +36,18 @@ importers:
       '@hyacine/contract':
         specifier: ^0.1.1
         version: 0.1.1
+      '@hyacine/plugin-ai-content':
+        specifier: ^0.1.0
+        version: 0.1.0(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
+      '@hyacine/plugin-analytics':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@hyacine/plugin-article-age-warning':
         specifier: ^0.2.1
         version: 0.2.1
+      '@hyacine/plugin-article-statistics':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@hyacine/plugin-astro':
         specifier: ^0.2.1
         version: 0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))
@@ -48,12 +57,21 @@ importers:
       '@hyacine/plugin-mouse-firework':
         specifier: ^0.2.0
         version: 0.2.0
+      '@hyacine/plugin-nyx-player':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@hyacine/plugin-site-uptime':
         specifier: ^0.2.1
         version: 0.2.1
       '@hyacine/plugin-vercount':
         specifier: ^0.2.0
         version: 0.2.0
+      '@hyacine/plugin-visibility-title':
+        specifier: ^0.1.0
+        version: 0.1.0
+      '@hyacine/plugin-waline-comments':
+        specifier: ^0.1.0
+        version: 0.1.0(typescript@6.0.3)
       '@hyacine/sdk':
         specifier: ^0.1.1
         version: 0.1.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
@@ -75,9 +93,6 @@ importers:
       cn-font-split:
         specifier: ^7.4.3
         version: 7.4.3
-      echarts:
-        specifier: ^6.1.0
-        version: 6.1.0
       es-toolkit:
         specifier: ^1.49.0
         version: 1.51.0
@@ -90,9 +105,6 @@ importers:
       node-emoji:
         specifier: ^2.2.0
         version: 2.2.0
-      nyx-player-solid:
-        specifier: 0.1.5
-        version: 0.1.5
       pagefind:
         specifier: ^1.5.2
         version: 1.5.2
@@ -833,8 +845,20 @@ packages:
     resolution: {integrity: sha512-BGTX9sMZ6ENrRPwYRMFnLF6kwfNOdHxf0K7otaB5ZDGOq6McUr1cFcC4BjP+PobxGQDNRHujBY5589O6BK74yQ==}
     engines: {node: '>=24'}
 
+  '@hyacine/plugin-ai-content@0.1.0':
+    resolution: {integrity: sha512-oY2eGEOQ6XWIlw8ErZmSHQicp+yE0DKtrl8dY7yjGIQ+Oez46KwZgnaKEJKi4QcMZ5zu+IAznvz9NN5Q03Izyw==}
+    engines: {node: '>=24'}
+
+  '@hyacine/plugin-analytics@0.1.0':
+    resolution: {integrity: sha512-AxJxq/HFq9erKO9qWwESAg4z7OJMmdb7xSwkHikoWCOzPm9dJMHCEUC6VdVvi3BDecM9fNOXm5z1j24TtS1Kkg==}
+    engines: {node: '>=24'}
+
   '@hyacine/plugin-article-age-warning@0.2.1':
     resolution: {integrity: sha512-bQWmLiOMgumAOhUjEK+m2VkbPUcyhKxAjUKP8NyInzizhuaJE8uEyvov6JMmUtTx19r6DdXiDrJTQAL1MF/JPQ==}
+    engines: {node: '>=24'}
+
+  '@hyacine/plugin-article-statistics@0.1.0':
+    resolution: {integrity: sha512-wwIOVQ5zKv+TVlC8UWWaH7aK17BH9A63UcpfL852moicC5Df6rv5tSRHs/MdKMSj0Lv0/zeCeNSBaJzjjIEcHA==}
     engines: {node: '>=24'}
 
   '@hyacine/plugin-astro@0.2.1':
@@ -857,12 +881,24 @@ packages:
     resolution: {integrity: sha512-GVPETwY7pXm6fDQcFtvR+m9cfa223YKNt1taMJIQ1/ZXH/adqsGYk4UrmsZZh3ke+b2imKCSaxvWqAq0vI+xMg==, tarball: https://registry.npmjs.org/@hyacine/plugin-mouse-firework/-/plugin-mouse-firework-0.2.0.tgz}
     engines: {node: '>=24'}
 
+  '@hyacine/plugin-nyx-player@0.1.0':
+    resolution: {integrity: sha512-7M+yCdqzoFw3kMYJakcoShI9CnH5fBtYr3TW7qNvUoQ5YzlHD82Jlad9NlZ3qJmlzJhNsdUej1hkGmQ6OrExfA==}
+    engines: {node: '>=24'}
+
   '@hyacine/plugin-site-uptime@0.2.1':
     resolution: {integrity: sha512-nbk9cRqEbpZXzvuhSRo4/9v7nHyJFdJHvmzwBJf52xvtADWUQALR/a4d5kIIVt0eN5i2FhJUpuBNsc2SVQEilQ==}
     engines: {node: '>=24'}
 
   '@hyacine/plugin-vercount@0.2.0':
     resolution: {integrity: sha512-SDtu4wLEeJ9SUVGV2ofqBCzrj7rdUfEaqad89ZYdhr5uJZnt+tIcL4vWd1wcqOO+26NW18K2GSFrHzs29oTRjQ==, tarball: https://registry.npmjs.org/@hyacine/plugin-vercount/-/plugin-vercount-0.2.0.tgz}
+    engines: {node: '>=24'}
+
+  '@hyacine/plugin-visibility-title@0.1.0':
+    resolution: {integrity: sha512-BTd7DDUT+dIJWuozj346M8MqB5Wa2XokF8p+7UPaJJkKoAZgvYZ5yaDyr13zVHm+oE3B912hiOKxCBBFErNV9g==, tarball: https://registry.npmjs.org/@hyacine/plugin-visibility-title/-/plugin-visibility-title-0.1.0.tgz}
+    engines: {node: '>=24'}
+
+  '@hyacine/plugin-waline-comments@0.1.0':
+    resolution: {integrity: sha512-onZZSAi+xt25PkYEf9GHzHH3Bzdpv/9s9zcve/8OoddESTM7+3VT/slZ7dJ69heEh0WshoyCIoPsDmUQH0fLNw==}
     engines: {node: '>=24'}
 
   '@hyacine/sdk@0.1.1':
@@ -6239,10 +6275,30 @@ snapshots:
       pinyin-pro: 3.29.3
       zod: 4.4.3
 
+  '@hyacine/plugin-ai-content@0.1.0(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+      '@hyacine/sdk': 0.1.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))
+    transitivePeerDependencies:
+      - astro
+
+  '@hyacine/plugin-analytics@0.1.0':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+
   '@hyacine/plugin-article-age-warning@0.2.1':
     dependencies:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
+
+  '@hyacine/plugin-article-statistics@0.1.0':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+      echarts: 6.1.0
+      solid-js: 1.9.15
 
   '@hyacine/plugin-astro@0.2.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))(vite@8.1.3(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:
@@ -6267,6 +6323,13 @@ snapshots:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
 
+  '@hyacine/plugin-nyx-player@0.1.0':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+      nyx-player-solid: 0.1.5
+      solid-js: 1.9.15
+
   '@hyacine/plugin-site-uptime@0.2.1':
     dependencies:
       '@hyacine/contract': 0.1.1
@@ -6276,6 +6339,19 @@ snapshots:
     dependencies:
       '@hyacine/contract': 0.1.1
       '@hyacine/plugin-core': 0.2.0
+
+  '@hyacine/plugin-visibility-title@0.1.0':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+
+  '@hyacine/plugin-waline-comments@0.1.0(typescript@6.0.3)':
+    dependencies:
+      '@hyacine/contract': 0.1.1
+      '@hyacine/plugin-core': 0.2.0
+      '@waline/client': 3.15.2(typescript@6.0.3)
+    transitivePeerDependencies:
+      - typescript
 
   '@hyacine/sdk@0.1.1(astro@7.2.4(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.2.0)(jiti@2.7.0)(yaml@2.9.0))':
     dependencies:

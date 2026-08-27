@@ -16,13 +16,12 @@ interface WidgetsConfig {
   randomPosts?: boolean;
   recentComments?: boolean;
   recentCommentsLimit?: number;
+  recentCommentsServerURL?: string;
 }
 
 interface Props {
   widgetPosts: WidgetPost[];
   widgetsConfig?: WidgetsConfig;
-  commentsEnabled?: boolean;
-  walineServerURL?: string;
   sidebarConfig?: SidebarConfig;
   navLinks?: NavItemType[];
   toc?: TocItem[];
@@ -39,8 +38,6 @@ interface Props {
 const {
   widgetPosts,
   widgetsConfig = {},
-  commentsEnabled = false,
-  walineServerURL = "",
   sidebarConfig,
   navLinks = [],
   toc = [],
@@ -61,7 +58,7 @@ const {
     {navigation}
     {siteState}
   />
-  <LayoutMainColumn posts={widgetPosts} {widgetsConfig} {commentsEnabled} {walineServerURL}>
+  <LayoutMainColumn posts={widgetPosts} {widgetsConfig}>
     <slot />
   </LayoutMainColumn>
 </div>

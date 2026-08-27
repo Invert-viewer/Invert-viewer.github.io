@@ -6,20 +6,17 @@ interface WidgetsConfig {
   randomPosts?: boolean;
   recentComments?: boolean;
   recentCommentsLimit?: number;
+  recentCommentsServerURL?: string;
 }
 
 interface Props {
   posts: WidgetPost[];
   widgetsConfig?: WidgetsConfig;
-  commentsEnabled?: boolean;
-  walineServerURL?: string;
 }
 
 const {
   posts,
   widgetsConfig = {},
-  commentsEnabled = false,
-  walineServerURL = "",
 } = Astro.props;
 ---
 
@@ -32,9 +29,9 @@ const {
       client:idle
       posts={posts}
       enableRandomPosts={widgetsConfig.randomPosts !== false}
-      enableRecentComments={widgetsConfig.recentComments && commentsEnabled}
+      enableRecentComments={widgetsConfig.recentComments === true}
       recentCommentsLimit={widgetsConfig.recentCommentsLimit || 6}
-      walineServerURL={walineServerURL}
+      walineServerURL={widgetsConfig.recentCommentsServerURL || ""}
     />
   </div>
 </div>

@@ -4,7 +4,6 @@ import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { hyacineLoader } from "@hyacine/sdk/astro";
 import { FOLDER_CATEGORY_TOKEN, withFolderCategories } from "./toolkit/posts/folderCategories";
-import themeConfig from "./theme.config";
 
 const hyacineApiUrl =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_API_URL) ||
@@ -13,7 +12,7 @@ const hyacineToken =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_READ_TOKEN) ||
   process.env.HYACINE_READ_TOKEN;
 
-// 运行模式判定：环境变量优先，其次 themeConfig.hyc.mode
+// 运行模式判定：环境变量优先，默认 "cloud"
 const envMode =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_MODE) ||
   process.env.HYACINE_MODE ||
@@ -23,7 +22,7 @@ const isAiOnlyEnv =
   (typeof import.meta !== "undefined" && import.meta.env?.HYACINE_AI_ONLY === "true") ||
   process.env.HYACINE_AI_ONLY === "true";
 
-const configuredMode = envMode || themeConfig.hyc?.mode || "cloud";
+const configuredMode = envMode || "cloud";
 const isLocalMode =
   isAiOnlyEnv ||
   configuredMode === "local" ||

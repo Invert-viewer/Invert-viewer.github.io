@@ -1,6 +1,5 @@
 ---
 import NavBar from "@/components/navbar/NavBar";
-import Analytics from "@/components/Analytics.astro";
 import Brand from "@/components/Brand.astro";
 import HeaderCover from "@/components/HeaderCover.astro";
 import Waves from "@/components/Waves.astro";
@@ -79,11 +78,7 @@ const brandConfig = themeConfig.brand || {};
 const coverConfig = themeConfig.cover || {};
 const footerConfig = themeConfig.footer || {};
 const widgetsConfig = themeConfig.widgets || {};
-const commentsConfig = themeConfig.comments || {};
-const commentsEnabled = Boolean(themeConfig.comments?.enable);
-const walineConfig = commentsConfig.waline || {};
 const tagCloudConfig = themeConfig.tagCloud || {};
-const visibilityTitleConfig = themeConfig.visibilityTitle || {};
 const layoutConfig = themeConfig.layout || {};
 const rightSidebarConfig = layoutConfig.rightSidebar || {};
 const layoutMode = layoutConfig.mode || "two-column";
@@ -182,8 +177,6 @@ import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro"
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
-    <Analytics />
-
     <script>
       import "virtual:hyacine/runtime";
     </script>
@@ -194,10 +187,7 @@ import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro"
 
     <title>{pageTitle}</title>
   </head>
-  <body
-    data-visibility-title-config={JSON.stringify(visibilityTitleConfig)}
-    data-layout-mode={layoutMode}
-  >
+  <body data-layout-mode={layoutMode}>
     <NavBar
       client:load
       name={siteName}
@@ -228,8 +218,6 @@ import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro"
         <ActiveLayout
           widgetPosts={widgetPosts}
           widgetsConfig={widgetsConfig}
-          commentsEnabled={commentsEnabled}
-          walineServerURL={walineConfig.serverURL || ""}
           sidebarConfig={sidebarConfig}
           rightSidebarConfig={rightSidebarConfig}
           rightSidebarPosts={rightSidebarPosts}
@@ -262,89 +250,11 @@ import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro"
         document.documentElement.style.setProperty("--pf-font", css.family as string);
       });
     </script>
-    <script>
-      type VisibilityTitleScriptConfig = {
-        enable: boolean;
-        leaveTitle: string;
-        returnTitle: string;
-        restoreDelay: number;
-      };
-
-      const parseVisibilityTitleConfig = () => {
-        const raw = document.body.dataset.visibilityTitleConfig;
-        if (!raw) {
-          return {} as Partial<VisibilityTitleScriptConfig>;
-        }
-
-        try {
-          const parsed = JSON.parse(raw) as unknown;
-          if (typeof parsed === "object" && parsed !== null) {
-            return parsed as Partial<VisibilityTitleScriptConfig>;
-          }
-        } catch {
-          // ignore malformed JSON and fallback to defaults
-        }
-
-        return {} as Partial<VisibilityTitleScriptConfig>;
-      };
-
-      const visibilityTitleConfigData = parseVisibilityTitleConfig();
-      const config = {
-        enable: visibilityTitleConfigData.enable ?? true,
-        leaveTitle:
-          visibilityTitleConfigData.leaveTitle ?? "(╥﹏╥) 不要走嘛...",
-        returnTitle:
-          visibilityTitleConfigData.returnTitle ?? "(๑•̀ㅂ•́)و✧ 欢迎回来！",
-        restoreDelay: visibilityTitleConfigData.restoreDelay ?? 3000,
-      };
-
-      if (config.enable) {
-        let originalTitle = document.title;
-        let restoreTimer: number | undefined;
-
-        const clearRestoreTimer = () => {
-          if (restoreTimer !== undefined) {
-            window.clearTimeout(restoreTimer);
-            restoreTimer = undefined;
-          }
-        };
-
-        const onVisibilityChange = () => {
-          clearRestoreTimer();
-
-          if (document.hidden) {
-            originalTitle = document.title;
-            document.title = config.leaveTitle;
-            const delay =
-              Number.isFinite(config.restoreDelay) && config.restoreDelay >= 0
-                ? config.restoreDelay
-                : 3000;
-
-            restoreTimer = window.setTimeout(() => {
-              document.title = originalTitle;
-            }, delay);
-            return;
-          }
-
-          document.title = config.returnTitle;
-          const delay =
-            Number.isFinite(config.restoreDelay) && config.restoreDelay >= 0
-              ? config.restoreDelay
-              : 3000;
-
-          restoreTimer = window.setTimeout(() => {
-            document.title = originalTitle;
-          }, delay);
-        };
-
-        document.addEventListener("visibilitychange", onVisibilityChange);
-      }
-    </script>
     <div class="hidden">
       <CodeBlock client:idle />
       <ImageZoom client:idle />
     </div>
-    <FloatingToolbar client:idle nyxPlayer={themeConfig.nyxPlayer} />
+    <FloatingToolbar client:idle />
     <HyacineOutlet name="layout-bottom" />
   </body>
 </html>

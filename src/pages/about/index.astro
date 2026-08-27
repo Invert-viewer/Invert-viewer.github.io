@@ -3,7 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import Breadcrumb from "@/components/post/Breadcrumb.astro";
 import PostHeader from "@/components/post/PostHeader.astro";
 import PostFooter from "@/components/post/PostFooter.astro";
-import WalineComments from "@/components/post/WalineComments";
+import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import { currentLocale } from "@/i18n";
 import AboutContent, { frontmatter as aboutFrontmatter } from "@/content/about.mdx";
 import themeConfig from "@/theme.config";
@@ -52,8 +52,6 @@ const permalink = import.meta.env.SITE
 const siteConfig = themeConfig.sidebar || {};
 const author = siteConfig.author || "Author";
 const siteName = themeConfig.siteName || "Site";
-const commentsConfig = themeConfig.comments || {};
-const walineConfig = commentsConfig.waline || {};
 ---
 
 <Layout pageTitle={title}>
@@ -92,18 +90,8 @@ const walineConfig = commentsConfig.waline || {};
     </article>
   </div>
 
-  {
-    commentsConfig.enable !== false && (
-      <div id="comments" class="comment">
-        <WalineComments
-          client:visible
-          serverURL={walineConfig.serverURL}
-          lang={walineConfig.lang || currentLocale}
-          dark={walineConfig.dark}
-          path={walineConfig.path}
-          pagePath={postPath}
-        />
-      </div>
-    )
-  }
+  <div id="comments" class="comment">
+    {/* Hyacine Plugin Outlet: Waline 评论 */}
+    <HyacineOutlet name="comment" />
+  </div>
 </Layout>
