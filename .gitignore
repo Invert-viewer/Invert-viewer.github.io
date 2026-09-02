@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env
 .env.production
 
+# 本地部署说明：仅供本机查看，绝不提交/推送到仓库
+/DEPLOY.md
+
 # macOS-specific files
 .DS_Store
 
