@@ -59,7 +59,7 @@ export default defineConfig({
   },
   friends: {
     title: "友链",
-    description: "有朋自远方来，不亦乐乎。",
+    description: "有朋自远方来，不亦乐乎~",
     links: [
       {
         url: "https://www.202909.xyz/",
