@@ -5,8 +5,9 @@ export default defineConfig({
   siteName: "a small online lab",
   locale: "zh-CN",
   brand: {
-    title: "a small online lab",
+    title: "owo",
     subtitle: "致敬想象与创造力!",
+    logo: "a small online lab",
   },
   cover: {
     enable: true,
