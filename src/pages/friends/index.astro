@@ -1,11 +1,9 @@
 ---
-import { Code } from "astro:components";
 import Layout from "../../layouts/Layout.astro";
 import FriendLinks from "@/components/friends/FriendLinks.astro";
 import FriendRules from "@/content/friends-rules.md";
 import HyacineOutlet from "@hyacine/plugin-astro/components/HyacineOutlet.astro";
 import themeConfig from "@/theme.config";
-import astroConfig from "../../../astro.config.mjs";
 
 const friendsConfig = themeConfig.friends;
 const friendLinks = friendsConfig?.links ?? [];
@@ -13,7 +11,6 @@ const pageTitle = friendsConfig?.title ?? "友链";
 const pageDescription =
   friendsConfig?.description ?? "卡片式展示，支持站点预览与主题色点缀。";
 const siteUrl = import.meta.env.SITE?.toString() ?? "";
-const codeThemes = astroConfig.markdown?.shikiConfig?.themes;
 const friendsSnippet = {
   url: siteUrl,
   title: themeConfig.brand?.title ?? themeConfig.siteName,
@@ -42,12 +39,7 @@ const friendsJson = JSON.stringify(friendsSnippet, null, 2);
       <h3>友链配置示例</h3>
       <p>添加本站时，请将下面内容追加到自己的 links 配置中。</p>
       <code-block>
-        <Code
-          code={friendsJson}
-          lang="json"
-          themes={codeThemes}
-          class="friend-code"
-        />
+        <pre class="friend-code"><code>{friendsJson}</code></pre>
       </code-block>
     </section>
     <section class="friend-section friend-links-section">

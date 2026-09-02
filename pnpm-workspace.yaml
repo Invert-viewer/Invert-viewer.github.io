@@ -5,7 +5,7 @@ allowBuilds:
   cn-font-split: true
   esbuild: true
   koffi: true
-  onnxruntime-node: set this to true or false
+  onnxruntime-node: true
   protobufjs: true
   sharp: true
   # workerd：wrangler 的核心运行时二进制（CF 部署用）。未放行时 pnpm 11 拒绝其

@@ -1,4 +1,146 @@
 // cannot use path alias here because unocss can not resolve it
 import { defineConfig } from "./toolkit/themeConfig";
 
-export default defineConfig({});
+export default defineConfig({
+  siteName: "owo",
+  locale: "zh-CN",
+  brand: {
+    title: "owo",
+    subtitle: "致敬想象与创造力!",
+    logo: "✨",
+  },
+  sidebar: {
+    author: "倒置的观察者",
+    description: "致敬想象与创造力！",
+    social: {
+      github: {
+        url: "https://github.com/Invert-viewer",
+        icon: "i-ri-github-fill",
+        color: "var(--color-grey)",
+      },
+      email: {
+        url: "mailto:invert-viewer@qq.com",
+        icon: "i-ri-mail-fill",
+        color: "var(--color-pink)",
+      },
+    },
+  },
+  footer: {
+    since: 2021,
+    powered: true,
+    icp: {
+      enable: true,
+      icpnumber: "津ICP备2022001375号",
+      icpurl: "https://beian.miit.gov.cn/",
+    },
+  },
+  home: {
+    pageSize: 10,
+  },
+  friends: {
+    title: "友链",
+    description: "有朋自远方来，不亦乐乎。",
+    links: [
+      {
+        url: "https://www.202909.xyz/",
+        title: "夜瞳の小破站",
+        author: "night-pupil",
+        desc: "点一下试试看~",
+        avatar: "https://www.202909.xyz/icon.jpg",
+        color: "#ed556a",
+      },
+      {
+        url: "https://nbv587.com",
+        title: "瑞龙同学",
+        author: "瑞龙同学",
+        desc: "瑞龙的写作地点（？",
+        avatar: "https://thirdqq.qlogo.cn/g?b=qq&nk=1312241191&s=100",
+        color: "#00FFFF",
+      },
+      {
+        url: "https://xzadudu179.github.io/",
+        title: "XME Notes Library",
+        author: "xzadudu179",
+        desc: "179的小窝",
+        avatar: "https://s2.loli.net/2024/09/03/fCO5DboFSr3cBLx.jpg",
+        color: "#00FFFF",
+      },
+      {
+        url: "https://imfurry.com",
+        title: "中二病晚期の物語",
+        author: "中二病晚期",
+        desc: "一只狐狸敲出的一个奇迹",
+        avatar: "https://cdn-imfurry.imfurry.com/avatar/zebwqFurryAvatar.png",
+        color: "#9B271D",
+      },
+      {
+        url: "https://blog.ncc1015.cn",
+        title: "NCC1015's blog",
+        author: "NCC1015",
+        desc: "NCC1015的个人博客，欢迎来访",
+        avatar: "https://ncc1015pic.oss-cn-hangzhou.aliyuncs.com/Qexo/blog_cover.jpg",
+        color: "#FFAC00",
+      },
+      {
+        url: "https://yangyanot.top/",
+        title: "杨焱の个人介绍",
+        author: "杨焱",
+        desc: "猫....实则是个鸽子（咕咕咕）欢迎找我来扩列",
+        avatar: "https://q.qlogo.cn/headimg_dl?dst_uin=1922445806&spec=640",
+        color: "#6CB0F9",
+      },
+      {
+        url: "https://blog.lin-fun.com",
+        title: "LinFun_",
+        author: "linfun",
+        desc: "遇见更好的Fun",
+        avatar: "https://images-r2.lin-fun.com/92dcd0d286189a611cf38ebe85e9df94.png",
+        color: "#F5F5DC",
+      },
+      {
+        url: "https://lnk.bio/maobing",
+        title: "MaoBing's sanctuary",
+        author: "猫冰",
+        desc: "我是小猫",
+        avatar: "https://cdn2.lnk.bi/profilepics/-2729436_20260510881.png",
+        color: "#00BFFF",
+      },
+      {
+        url: "https://zhazha120.cn",
+        title: "渣渣120",
+        author: "渣渣120",
+        desc: "渣渣的博客",
+        avatar: "https://img.linfun.top/imgapp/zz.jpg",
+        color: "#f79a00",
+      },
+      {
+        url: "https://furryr.is-a.dev",
+        title: "熊谷凌的博客",
+        author: "渣渣120",
+        desc: "何卒よろしくお願いします。",
+        avatar: "https://furryr.is-a.dev/favicon.avif",
+        color: "#dee2e6",
+      },
+      {
+        url: "https://www.xming.cloud",
+        title: "明域",
+        author: "明宇",
+        desc: "你好，我是小明！欢迎来到明域～",
+        avatar: "https://www.xming.cloud/assets/xming.ico",
+        color: "#00FFFF",
+      },
+      {
+        url: "https://blog.sevtinge.com",
+        title: "绀漓の锟斤拷",
+        author: "绀漓",
+        desc: "锟斤拷烫烫烫",
+        avatar: "https://avatars.githubusercontent.com/u/89193494?v=4",
+        color: "#C8E3F5",
+      },
+    ],
+  },
+  copyright: {
+    license: "CC-BY-NC-SA-4.0",
+    show: true,
+  },
+});

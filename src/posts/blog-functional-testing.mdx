@@ -1,0 +1,126 @@
+---
+title: 博客功能测试
+date: "2021-10-01 14:58:22"
+tags: ["测试"]
+---
+
+## 文本测试
+
+
+（小图标与背景测试）
+
++ 这是一个互联网图标。
+  ![图标](https://img.icons8.com/dotty/80/000000/internet-explorer.png)
++ 无序列表测试
+
+_这是斜体文字_
+**粗体文本**
+_**粗斜体文本**_
+
+---
+
+~~删除线~~
+带下划线文本（数学公式测试：原为 underline text 写法）
+
+带上划线文本（原为 overline text 写法）
+
+代码测试
+
+```bash
+Hello，world！
+```
+
+引用测试
+
+> ~~更多资料稍后放出~~
+> 这是引用测试
+
+```csharp 偶然间翻出来的(2021.7.1)
+//Hello,world!
+Console.WriteLine("Hello,world!");
+
+//输出的尝试ヾ(•ω•`)o
+string aFriend = "Bill";
+Console.WriteLine(aFriend);
+
+aFriend = "Maira";
+//单个变量只能赋值有效一次，第二次赋值时总是会覆盖第一次的值
+Console.WriteLine(aFriend);
+Console.WriteLine("Hello " + aFriend);
+Console.WriteLine($"Hello {aFriend}");
+//第二种输出方法（用 ““+”” 或 ““$””）
+
+string firstFriend = "Maria";
+string secondFriend = "Sage";
+Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+//俩变量(∪.∪ )...zzz(∪.∪ )...zzz
+
+Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+```
+
+## 格式测试
+
+汇总一下吧
+
+1.问题
+
++ 好像除了“post”之外的source不能用,要不然标题会炸🙄
++ 还有改变语言文件,只有标题栏会改,但是列表不会改,这就很神奇😶
++ 如果我现在切换主题,主页会不会炸？
++ 我的markdown语法是真的差页面排版都不会……
++ 新创建的那几个栏目为什么上面有个那么明显的English(´･ω･`)?
++ 数学公式、化学方程式好像不能输入。。。。。。
++ 搜索栏炸了(⊙o⊙)…
+
+2.可用
+
++ emoji,颜文字都能用。
++ 粗体,斜体,删除线,下划线啥的基本能用
++ 还有栏目也加载了。
+
+还有一件事！(。_。)
+测试失败了，标题刚刚变成了“[object,Object]”，现在变成了“未命名”……༼ つ ◕_◕ ༽つ
+![just failed.png](https://i.loli.net/2021/08/25/koueIpvSZFicYhV.png)
+~~我看不见~~(其实上面那个是张图片)
+
+~~希望不会崩溃~~
+
+## 功能测试
+
+### 可用功能
+
+1.~~设置博文内链接为蓝色~~
+
+  都换新主题了哪来的蓝色？
+测试链接:[https://invert-viewer.github.io/](https://invert-viewer.github.io/)
+
+2.显示站点文章总字数
+不过在页面底部，只有一行小字……
+
+3.为文章添加tags
+成功，不过需要点击进入文章才能看见……
+
+4.添加tags页面(标签)
+
+5.简化四级链接
+
+6.设置预览概要
+
+### 失败功能
+
+a.~~JavaScript 3D library风格功能~~
+_放弃原因:_ 改为canvas nest 风格。
+
+b.~~添加社交链接~~
+_放弃原因:_ 无意义
+
+c.~~尝试在schedule里面添加表格~~
+_放弃原因:_ 无法识别。
+
+d.~~显示文章字数和阅读时长~~
+_放弃原因:_ 崩溃原因不明。
+
+> 后续：博客因此原因3天内都打不开o_o ....
+> 直到2021-8-30 19:50:46才修复成功，可以重新访问🤣
+> 无法访问期间博客一直显示未找到主机，浏览器上面显示空白，标题栏部分只有网站的英文名称……

@@ -1,0 +1,25 @@
+---
+title: 解题犯过的错误
+date: "2023-06-20 22:49:19"
+tags: ["技术"]
+---
+
+:::info
+
+前言:
+
++ 建议本书的读者……每周不少于10题。……只有亲自动手实践，学到的东西才是自己的 ————《深入浅出程序设计竞赛》
+
+:::
+
+## B2004 [对齐输出](https://www.luogu.com.cn/problem/B2004)
+
+```cpp
+//printf("%8lld%8lld%8lld",a,b,c);      不能这么写
+printf("%8lld %8lld %8lld",a,b,c);      AC
+
+```
+
+printf()函数有多个格式符的时候，要把各个格式符用 ***空格*** 隔开。
+
+## B2005 [字符三角形](https://www.luogu.com.cn/problem/B2005)
