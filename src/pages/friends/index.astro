@@ -10,17 +10,21 @@ const friendLinks = friendsConfig?.links ?? [];
 const pageTitle = friendsConfig?.title ?? "友链";
 const pageDescription =
   friendsConfig?.description ?? "卡片式展示，支持站点预览与主题色点缀。";
-const siteUrl = import.meta.env.SITE?.toString() ?? "";
-const friendsSnippet = {
-  url: siteUrl,
-  title: themeConfig.brand?.title ?? themeConfig.siteName,
-  desc: themeConfig.sidebar?.description ?? "",
-  author: themeConfig.sidebar?.author ?? "",
-  ...(friendsConfig?.avatar ? { avatar: friendsConfig.avatar } : {}),
-  ...(friendsConfig?.color ? { color: friendsConfig.color } : {}),
-  ...(friendsConfig?.siteImage ? { siteImage: friendsConfig.siteImage } : {}),
-};
-const friendsJson = JSON.stringify(friendsSnippet, null, 2);
+const friendInfoSample = `{
+  url: https://invert-viewer.179.life,
+  title: a small online lab,
+  desc: 致敬想象与创造力！,
+  author: 凌蓝,
+  avatar: https://invert-viewer.179.life/avatar.jpg,
+}`;
+const friendFormatSample = `{
+  url: # 链接,
+  title: # 标题,
+  author: # 作者,
+  desc: # 随笔,
+  avatar: # 头像链接,
+  color: # 自选一个HEX颜色,
+}`;
 ---
 
 <Layout pageTitle={pageTitle}>
@@ -37,9 +41,13 @@ const friendsJson = JSON.stringify(friendsSnippet, null, 2);
     </section>
     <section class="friend-section friend-snippet">
       <h3>友链配置示例</h3>
-      <p>添加本站时，请将下面内容追加到自己的 links 配置中。</p>
+      <p>添加我的网站到你的友链时，下面是参考内容：</p>
       <code-block>
-        <pre class="friend-code"><code>{friendsJson}</code></pre>
+        <pre class="friend-code"><code>{friendInfoSample}</code></pre>
+      </code-block>
+      <p>想给我添加友链请参照以下格式，然后请联系我（比如邮件、社交媒体等）：</p>
+      <code-block>
+        <pre class="friend-code"><code>{friendFormatSample}</code></pre>
       </code-block>
     </section>
     <section class="friend-section friend-links-section">
