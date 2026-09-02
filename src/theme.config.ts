@@ -167,6 +167,14 @@ export default defineConfig({
         avatar: "https://avatars.githubusercontent.com/u/89193494?v=4",
         color: "#C8E3F5",
       },
+      {
+        url: "https://x1193.wikidot.com/",
+        title: "X1193的咖啡厅",
+        author: "X1193",
+        desc: "欢迎来到X1193",
+        avatar: "https://s2.loli.net/2024/11/20/O7aoY489DgKMyHP.png",
+        color: "#516BFC",
+      },
     ],
   },
   copyright: {

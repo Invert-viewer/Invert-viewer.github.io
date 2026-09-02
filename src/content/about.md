@@ -7,7 +7,8 @@ updated: 2026-09-02
 
 #### Welcome
 
-正如那句“有朋自远方来，不亦乐乎！”，你能从众多网站中找到这里来，对我来说，更是“不亦乐乎”！欢迎你！ˋ( ° ▽、° )
+正如那句“有朋自远方来，不亦乐乎！”，你能从众多网站中找到这里来，对我来说，更是“不亦乐乎”！欢迎你！
+ˋ( ° ▽、° )
 
 希望这里能成为我个人的一片创想之地，多一点个人的看法和零碎的生活片段，而不仅仅是一本科技向的笔记本。我想让这里多一点温度。
 
@@ -42,7 +43,7 @@ Github : [https://github.com/Invert-viewer](https://github.com/Invert-viewer)
 
 #### 题外话:自己的破电脑
 
-##### 第一代:2017-2024.6 的台式机
+##### 第一代:台式机 (2017-2024.6)
 
 - CPU [Intel Pentium Gold G5400 CPU @ 3.70GHz](https://www.intel.cn/content/www/cn/zh/products/sku/129951/intel-pentium-gold-g5400-processor-4m-cache-3-70-ghz/specifications.html)
 - 主板 [华硕 PRIME H310M-K R2.0](https://www.asus.com.cn/Motherboards-Components/Motherboards/PRIME/PRIME-H310M-K-R2-0/techspec/)
@@ -53,7 +54,7 @@ Github : [https://github.com/Invert-viewer](https://github.com/Invert-viewer)
 
 虽然看起来很废，但都已经用 5 年了，看起来还行。ԅ(¯﹃¯ԅ)
 
-##### 第二代:2024.6-现在的笔记本 LENOVO Legion Y7000P IRX9
+##### 第二代:笔记本 LENOVO Legion Y7000P IRX9 (2024.6-今)
 
 - CPU 英特尔 酷睿 i7-14650HX 十六核
 - 主板 联想 LNVNB161216 (英特尔 HM770 芯片组)
