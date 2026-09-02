@@ -395,6 +395,22 @@ interface CopyrightConfig {
   show?: boolean;
 }
 
+interface CommentsConfig {
+  /** 是否启用评论系统 */
+  enable?: boolean;
+  /** Waline 评论配置 */
+  waline?: {
+    /** Waline 服务端地址，例如 https://comments.example.com */
+    serverURL?: string;
+    /** 评论界面语言，例如 "zh-CN" */
+    lang?: string;
+    /** 暗黑模式：false / true / "auto" / CSS 选择器 */
+    dark?: boolean | string;
+    /** 自定义评论路径（可选） */
+    path?: string;
+  };
+}
+
 export interface ShokaXThemeConfig {
   /**
    * 网站名称。
@@ -449,6 +465,12 @@ export interface ShokaXThemeConfig {
    * - 控制随机文章、最新评论等功能模块的显示
    */
   widgets?: WidgetsConfig;
+
+  /**
+   * 评论配置。
+   * - 启用 Waline 评论系统
+   */
+  comments?: CommentsConfig;
 
   /**
    * 首页配置。

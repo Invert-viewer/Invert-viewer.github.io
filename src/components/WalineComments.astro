@@ -1,0 +1,82 @@
+---
+interface Props {
+  serverURL?: string;
+  lang?: string;
+  dark?: boolean | string;
+  path?: string;
+}
+
+const { serverURL, lang, dark, path } = Astro.props as Props;
+
+// data 属性只能承载字符串；dark 支持 boolean | string，序列化为 JSON 供客户端还原
+const serializedDark =
+  dark === undefined || dark === null ? "" : JSON.stringify(dark);
+---
+
+{
+  serverURL ? (
+    <>
+      <div
+        class="hyacine-waline"
+        data-server-url={serverURL}
+        data-lang={lang ?? ""}
+        data-dark={serializedDark}
+        data-path={path ?? ""}
+        aria-label="评论区"
+      ></div>
+      <script>
+        import { init } from "@waline/client";
+        import "@waline/client/style";
+
+        type WalineMountData = {
+          serverURL: string;
+          lang?: string;
+          dark?: boolean | string;
+          path?: string;
+        };
+
+        const mount = (): void => {
+          const el = document.querySelector<HTMLElement>(".hyacine-waline");
+          if (!el || el.getAttribute("data-waline-mounted") === "true") return;
+
+          const serverURL = el.getAttribute("data-server-url") || "";
+          if (!serverURL) return;
+
+          const data: WalineMountData = { serverURL };
+          const lang = el.getAttribute("data-lang") || "";
+          if (lang) data.lang = lang;
+
+          const darkRaw = el.getAttribute("data-dark") || "";
+          if (darkRaw) {
+            try {
+              data.dark = JSON.parse(darkRaw) as boolean | string;
+            } catch {
+              data.dark = darkRaw;
+            }
+          }
+
+          const path = el.getAttribute("data-path") || "";
+          if (path) data.path = path;
+
+          el.setAttribute("data-waline-mounted", "true");
+          try {
+            init({ el, ...data });
+          } catch (err) {
+            el.removeAttribute("data-waline-mounted");
+            console.error("[Waline] init failed", err);
+          }
+        };
+
+        // 稍作延迟，避开页面初始化阶段的 DOM 处理，确保容器稳定后再挂载
+        const start = (): void => {
+          setTimeout(mount, 200);
+        };
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", start);
+        } else {
+          start();
+        }
+      </script>
+    </>
+  ) : null
+}

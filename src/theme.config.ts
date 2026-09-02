@@ -2,12 +2,11 @@
 import { defineConfig } from "./toolkit/themeConfig";
 
 export default defineConfig({
-  siteName: "owo",
+  siteName: "a small online lab",
   locale: "zh-CN",
   brand: {
-    title: "owo",
+    title: "a small online lab",
     subtitle: "致敬想象与创造力!",
-    logo: "a small online lab",
   },
   cover: {
     enable: true,
@@ -47,6 +46,10 @@ export default defineConfig({
   },
   footer: {
     since: 2021,
+    icon: {
+      name: "i-ri-heart-fill",
+      color: "#ff6b6b",
+    },
     powered: true,
     icp: {
       enable: true,
@@ -57,18 +60,24 @@ export default defineConfig({
   home: {
     pageSize: 10,
   },
+  comments: {
+    enable: true,
+    waline: {
+      serverURL: "https://invert-viewer-comment.xzadudu179.top",
+      lang: "zh-CN",
+      dark: "auto",
+    },
+  },
+
+  widgets: {
+    recentComments: true,
+    recentCommentsLimit: 10,
+    recentCommentsServerURL: "https://invert-viewer-comment.xzadudu179.top",
+  },
   friends: {
     title: "友链",
     description: "有朋自远方来，不亦乐乎~",
     links: [
-      {
-        url: "https://www.202909.xyz/",
-        title: "夜瞳の小破站",
-        author: "night-pupil",
-        desc: "点一下试试看~",
-        avatar: "https://www.202909.xyz/icon.jpg",
-        color: "#ed556a",
-      },
       {
         url: "https://nbv587.com",
         title: "瑞龙同学",
@@ -136,7 +145,7 @@ export default defineConfig({
       {
         url: "https://furryr.is-a.dev",
         title: "熊谷凌的博客",
-        author: "渣渣120",
+        author: "熊谷凌",
         desc: "何卒よろしくお願いします。",
         avatar: "https://furryr.is-a.dev/favicon.avif",
         color: "#dee2e6",

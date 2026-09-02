@@ -1,14 +1,39 @@
-import { defineConfig } from "@hyacine/plugin-core";
+import { defineConfig, definePlugin } from "@hyacine/plugin-core";
 import siteUptime from "@hyacine/plugin-site-uptime";
 import mouseFirework from "@hyacine/plugin-mouse-firework";
 import articleAgeWarning from "@hyacine/plugin-article-age-warning";
 import vercount from "@hyacine/plugin-vercount";
 import analytics from "@hyacine/plugin-analytics";
-import walineComments from "@hyacine/plugin-waline-comments";
 import aiContent from "@hyacine/plugin-ai-content";
 import visibilityTitle from "@hyacine/plugin-visibility-title";
 import nyxPlayer from "@hyacine/plugin-nyx-player";
 import articleStatistics from "@hyacine/plugin-article-statistics";
+import themeConfig from "./src/theme.config.ts";
+
+const walineComments = () => {
+  const walineConfig = themeConfig.comments?.waline ?? {};
+  return definePlugin({
+    name: "@hyacine/plugin-waline-comments",
+    version: "0.1.0",
+    minRenderCapability: "ssr",
+    supportedPlatforms: ["astro"],
+    entry: [
+      {
+        name: "waline-comments-ssr",
+        type: "ssr",
+        platform: "astro",
+        injectPoint: "comment",
+        path: new URL("./src/components/WalineComments.astro", import.meta.url).href,
+        props: {
+          serverURL: walineConfig.serverURL ?? "",
+          lang: walineConfig.lang,
+          dark: walineConfig.dark,
+          path: walineConfig.path,
+        },
+      },
+    ],
+  });
+};
 
 export default defineConfig({
   injectPoints: {
@@ -27,7 +52,7 @@ export default defineConfig({
   },
   plugins: [
     siteUptime({
-      siteCreatedAt: "2024-01-01T00:00:00Z",
+      siteCreatedAt: "2021-08-24T09:00:00Z",
       prefixText: "本站已运行",
     }),
     mouseFirework({
@@ -47,10 +72,7 @@ export default defineConfig({
         scriptUrl: "",
       },
     }),
-    walineComments({
-      serverURL: "https://invert-viewer-comment.xzadudu179.top",
-      lang: "zh-CN",
-    }),
+    walineComments(),
     aiContent({
       enable: false,
       aiSummary: {
@@ -74,14 +96,12 @@ export default defineConfig({
       enable: true,
       urls: [
         {
-          name: "默认歌单",
-          url: "https://music.163.com/m/playlist?id=12834717281&creatorId=12676493230",
+          name: "留给自己的",
+          url: "https://music.163.com/playlist?id=18034007157&uct2=U2FsdGVkX18bFnBR4m+nKQNORdJPXPT1MWdsJLmcBxM=",
         },
       ],
       preset: "shokax",
       darkModeTarget: ":root[data-theme=dark]",
-      metingBaseURL: "https://meting.api.zkz098.cn/",
-      metingUrlSource: "outer",
     }),
     articleStatistics(),
   ],

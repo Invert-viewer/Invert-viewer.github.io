@@ -1,18 +1,20 @@
-contentDir: src/posts
-assetsDir: src/assets
-databaseDir: .hyacine
-defaultCategories:
-postExtension:
+contentDir: src/posts          # 文章存放目录
+assetsDir: src/assets          # 静态资源目录
+databaseDir: .hyacine          # 数据库文件目录
+defaultCategories: []          # 默认分类
+
+postExtension:                 # 支持的文章格式
   - .md
   - .mdx
-assetResolution: standard
 
-themeConfigPath: src/theme.config.ts
-themeConfigDefPath: src/toolkit/themeConfig.ts
-themeConfigDefType: ShokaXThemeConfig
-themeConfigTemplatePath: src/theme.config.template.txt
+assetResolution: standard      # 资源路径解析模式
 
-fonts:
+themeConfigPath: src/theme.config.ts           # 主题配置入口
+themeConfigDefPath: src/toolkit/themeConfig.ts # 主题配置类型定义
+themeConfigDefType: ShokaXThemeConfig          # 类型名称
+themeConfigTemplatePath: src/theme.config.template.txt  # 配置模板
+
+fonts:                         # 字体配置
   - path: src/assets/fonts/LXGWWenKai-Regular.ttf
     type: standard
   - path: src/assets/fonts/MapleMono-CN-Regular.ttf
@@ -26,3 +28,19 @@ images:
   - path: src/assets/images/cover-4.avif
   - path: src/assets/images/cover-5.avif
   - path: src/assets/images/cover-6.avif
+
+#   # AI 嵌入配置（可选）
+# embedding:
+#   enabled: false               # 是否启用嵌入向量生成
+#   model: ""                    # Hugging Face 模型名
+#   maxChunkChars: 512           # 最大分块字符数
+
+# # AI 摘要配置（可选）
+# summary:
+#   enabled: false               # 是否启用 AI 摘要
+#   apiBaseUrl: ""               # OpenAI 兼容 API 地址
+#   apiKey: ""                   # API 密钥
+#   model: ""                    # 模型名
+#   maxInputChars: 2000          # 最大输入字符数
+#   maxOutputTokens: 256         # 最大输出 token
+#   temperature: 0.7             # 生成温度
