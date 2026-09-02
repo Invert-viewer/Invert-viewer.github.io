@@ -7,7 +7,27 @@ export default defineConfig({
   brand: {
     title: "owo",
     subtitle: "致敬想象与创造力!",
-    logo: "✨",
+    logo: "a small online lab",
+  },
+  cover: {
+    enable: true,
+    preload: true,
+    advancedCarousel: true,
+    fixedCover: {
+      enable: false,
+      url: "",
+    },
+    coverUrls: [
+      "https://s3.bmp.ovh/imgs/2021/10/0be61709d8c38b20.jpg",
+      "https://s3.bmp.ovh/imgs/2021/10/391a1720fbf328fa.jpg",
+      "https://s3.bmp.ovh/imgs/2021/10/a78e6ad44efcf47a.png",
+      "https://s3.bmp.ovh/imgs/2021/10/a055cf2c604ea7ba.png",
+      "https://s3.bmp.ovh/imgs/2021/10/54c42c6af53bba54.jpg",
+      "https://s3.bmp.ovh/imgs/2021/10/4ea171574667f29a.jpg",
+      "https://s3.bmp.ovh/imgs/2021/10/1de54cc6d36fb7c9.jpg",
+    ],
+    gradient: false,
+    nextGradientCover: false,
   },
   sidebar: {
     author: "倒置的观察者",
