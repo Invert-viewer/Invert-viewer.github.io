@@ -50,8 +50,8 @@ export default defineConfig({
     powered: true,
     icp: {
       enable: true,
-      icpnumber: "津ICP备2022001375号",
-      icpurl: "https://beian.miit.gov.cn/",
+      icpnumber: "萌ICP备20227714号",
+      icpurl: "https://icp.gov.moe/?keyword=20227714",
     },
   },
   home: {

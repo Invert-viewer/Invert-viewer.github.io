@@ -135,7 +135,7 @@ interface FooterConfig {
   powered?: boolean;
 
   /**
-   * ICP 备案配置（中国大陆网站必需）。
+   * 备案信息配置（支持工信部 ICP 备案 / 萌ICP）。
    */
   icp?: {
     /**
@@ -150,14 +150,14 @@ interface FooterConfig {
     icon?: string;
 
     /**
-     * ICP 备案号。
-     * - 示例："津ICP备2022001375号"
+     * 备案号。
+     * - 示例："萌ICP备20227714号"
      */
     icpnumber?: string;
 
     /**
-     * ICP备案查询链接。
-     * - 填写完整 URL（如 "https://beian.miit.gov.cn/"）
+     * 备案查询链接。
+     * - 填写完整 URL（如 "https://icp.gov.moe/?keyword=20227714"）
      */
     icpurl?: string;
 
