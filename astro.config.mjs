@@ -172,7 +172,7 @@ export default defineConfig({
       Font.vite({
         scanFiles: ["src/**/*.{tsx,ts,js,jsx,md,mdx,json,astro}"],
         css: {
-          fontDisplay: "optional",
+          fontDisplay: "swap",
         },
       }),
       esToolkitPlugin(),

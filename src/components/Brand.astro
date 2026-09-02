@@ -138,12 +138,25 @@ function formatWordCount(count: number): string {
 </script>
 
 <style>
+  @font-face {
+    font-family: "Fredericka the Great";
+    src: url("/fonts/FrederickaTheGreat-Regular.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+  }
+
   #brand {
     z-index: auto;
     transition: all 0.3s ease;
     position: fixed;
     height: 50vh;
     color: var(--grey-0);
+  }
+
+  #brand .artboard {
+    font-family: "Fredericka the Great", "LXGW WenKai", serif;
+    font-weight: 400;
   }
 
   #brand.affix {
