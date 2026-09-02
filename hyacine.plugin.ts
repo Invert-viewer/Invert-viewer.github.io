@@ -48,7 +48,7 @@ export default defineConfig({
       },
     }),
     walineComments({
-      serverURL: "",
+      serverURL: "https://invert-viewer-comment.xzadudu179.top",
       lang: "zh-CN",
     }),
     aiContent({
