@@ -80,12 +80,12 @@ export default defineConfig({
     description: "有朋自远方来，不亦乐乎~",
     links: [
       {
-        url: "https://nbv587.com",
-        title: "瑞龙同学",
-        author: "瑞龙同学",
-        desc: "瑞龙的写作地点（？",
-        avatar: "https://thirdqq.qlogo.cn/g?b=qq&nk=1312241191&s=100",
-        color: "#00FFFF",
+      url: "https://blog.hanbings.io",
+      title: "寒冰是喵喵",
+      author: "寒冰",
+      desc: "🍀 这里是寒冰，很高兴认识你！",
+      avatar: "https://blog.hanbings.io/img/avatar.jpg",
+      color: "#f6c444",
       },
       {
         url: "https://xzadudu179.github.io/",
@@ -93,6 +93,14 @@ export default defineConfig({
         author: "xzadudu179",
         desc: "179的小窝",
         avatar: "https://s2.loli.net/2024/09/03/fCO5DboFSr3cBLx.jpg",
+        color: "#00FFFF",
+      },
+      {
+        url: "https://nbv587.com",
+        title: "瑞龙同学",
+        author: "瑞龙同学",
+        desc: "瑞龙的写作地点（？",
+        avatar: "https://thirdqq.qlogo.cn/g?b=qq&nk=1312241191&s=100",
         color: "#00FFFF",
       },
       {
@@ -175,6 +183,7 @@ export default defineConfig({
         avatar: "https://s2.loli.net/2024/11/20/O7aoY489DgKMyHP.png",
         color: "#516BFC",
       },
+      
     ],
   },
   copyright: {
