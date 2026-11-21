@@ -66,6 +66,58 @@ const singleImage =
 <script>
   const imgs = document.querySelector('#imgs')
 
+  const slides = Array.from(imgs?.querySelectorAll<HTMLElement>('.cover-item') ?? [])
+  const coverInterval = 6000
+
+  if (slides.length > 1) {
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+    let currentIndex = 0
+
+    const prepareNextCover = async () => {
+      for (let offset = 1; offset < slides.length; offset++) {
+        const index = (currentIndex + offset) % slides.length
+        const image = slides[index].querySelector('img')!
+        image.loading = 'eager'
+
+        try {
+          await image.decode()
+          return index
+        } catch {
+          // A failed image must never replace the cover currently on screen.
+        }
+      }
+    }
+
+    const advance = async () => {
+      const [nextIndex] = await Promise.all([
+        prepareNextCover(),
+        new Promise<void>((resolve) => window.setTimeout(resolve, coverInterval)),
+      ])
+      if (nextIndex === undefined) return
+
+      const current = slides[currentIndex]
+      const next = slides[nextIndex]
+      next.classList.add('is-incoming')
+      const fade = reducedMotion.matches
+        ? undefined
+        : next.animate([{ opacity: 0 }, { opacity: 1 }], {
+            duration: 700,
+            easing: 'ease-in-out',
+            fill: 'forwards',
+          })
+      if (fade) await fade.finished
+
+      next.classList.add('is-current')
+      current.classList.remove('is-current')
+      next.classList.remove('is-incoming')
+      fade?.cancel()
+      currentIndex = nextIndex
+      void advance()
+    }
+
+    void advance()
+  }
+
   if (imgs) {
     const toggleHoverByPointer = (event: MouseEvent) => {
       const rect = imgs.getBoundingClientRect()
@@ -133,6 +185,7 @@ const singleImage =
     height: 100%;
     width: 100%;
     position: relative;
+    isolation: isolate;
   }
 
   .imgs-overlay {
