@@ -120,8 +120,7 @@ const singleImage =
     z-index: var(--z-behind);
     height: 70vh;
     min-height: 25rem;
-    content-visibility: auto;
-    contain-intrinsic-size: 100vw 70vh;
+    overflow: clip;
     filter: blur(4px) brightness(var(--header-cover-brightness));
     transition: filter 0.35s ease;
   }
